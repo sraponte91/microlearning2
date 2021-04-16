@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main>       
     <section class="school-directors bg-white">
       <div class="container">
         <div class="text-center pg-title">
@@ -40,7 +40,8 @@
           </div>
         </div>
       </div>
-    </section>
+      <div id="nuestros-expertos-id"></div>
+    </section>    
     <section class="our-experts">
       <div class="container">
         <div class="text-center pg-title">
@@ -120,6 +121,7 @@
         </div>
       </div>
     </section>
+    <div class="b-s-for-scroll" id="pensum-id"></div>
     <section class="pensum-sec">
       <div class="container">
         <div class="points-image margin-0-auto">
@@ -158,6 +160,7 @@
         </div>
       </div>
     </section>
+    <div class="b-s-for-scroll" id="seminario-id"></div>
     <section class="structure-the-seminar bg-white">
       <div class="container">
         <div class="text-center">
@@ -198,6 +201,7 @@
           </div>
         </div>
       </div>
+     <div class="b-s-for-scroll2" id="perfil-participantes-id"></div>
     </section>
     <section class="participants-profile">
       <div class="container">
@@ -331,6 +335,7 @@
           </div>
         </div>
       </div>
+      <div class="b-s-for-scroll3" id="costos-id"></div>
     </section>
     <section class="costos-section bg-white">
       <div class="container">

@@ -1,4 +1,4 @@
-.school-directors{padding:40px 0;}
+.school-directors{padding:40px 0 65px;}
 .pg-title h1,
 .pg-title h2{color:#2f425b; font-size:52px; line-height:1; margin:0 0 30px;}
 .pg-title p{color:#ff671b; font-size:26px; margin:0 0 5px; line-height:1; font-weight:300; letter-spacing:2px;}
@@ -12,6 +12,9 @@
 .expert-img .set-to-bottom{left:0; right:0; top:auto; bottom:-28px;}
 .expert-img .btn-lear-more{background-color:#fff; color:#ff671b; font-weight:600; line-height:1; padding:20px 10px; display:inline-block; width:220px; font-size:18px;}
 .expert-img .btn-lear-more:hover{background-color:#ff671b; color:#fff;}
+.b-s-for-scroll{height:25px; display:block;}
+.b-s-for-scroll2{height:15px; display:block;}
+.b-s-for-scroll3{height:7px; display:block;}
 
 .case-method{padding:50px 0;}
 .case-method .pagination.b-pagination li:first-child,

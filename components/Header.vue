@@ -75,35 +75,35 @@
                 <li
                   class="nav-item"
                 >
-                  <NuxtLink to="/" class="nav-link"
+                  <NuxtLink to="#nuestros-expertos-id" class="nav-link" 
                     >Nuestros Expertos</NuxtLink
                   >
                 </li>
                 <li
                   class="nav-item"
                 >
-                  <NuxtLink to="/" class="nav-link"
+                  <NuxtLink to="#pensum-id" class="nav-link"
                     >Pénsum</NuxtLink
                   >
                 </li>
                 <li
                   class="nav-item"
                 >
-                  <NuxtLink to="/" class="nav-link"
+                  <NuxtLink to="#seminario-id" class="nav-link"
                     >Estructura Seminario</NuxtLink
                   >
                 </li>
                 <li
                   class="nav-item"
                 >
-                  <NuxtLink to="/" class="nav-link"
+                  <NuxtLink to="#perfil-participantes-id" class="nav-link"
                     >Perfil Participantes</NuxtLink
                   >
                 </li>
                 <li
                   class="nav-item"
                 >
-                  <NuxtLink to="/" class="nav-link">Costos</NuxtLink>
+                  <NuxtLink to="#costos-id" class="nav-link">Costos</NuxtLink>
                 </li>
               </ul>
             </div>
