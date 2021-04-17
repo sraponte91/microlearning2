@@ -146,19 +146,19 @@
           <div class="footer-menu">
             <ul class="ff-nunito">
               <li>
-                <a href="javascript:void(0)">Nuestros Expertos</a>
+                <a href="#nuestros-expertos-id">Nuestros Expertos</a>
               </li>
               <li>
-                <NuxtLink to="/">Pénsum</NuxtLink>
+                <NuxtLink to="#pensum-id">Pénsum</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/">Estructura Seminario</NuxtLink>
+                <NuxtLink to="#seminario-id">Estructura Seminario</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/">Perfil Participantes</NuxtLink>
+                <NuxtLink to="#perfil-participantes-id">Perfil Participantes</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/">Costos</NuxtLink>
+                <NuxtLink to="#costos-id">Costos</NuxtLink>
               </li>
             </ul>
           </div>
