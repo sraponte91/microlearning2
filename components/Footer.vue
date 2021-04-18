@@ -35,7 +35,7 @@
             <div class="social-m">
               <h3 class="ff-sans-b">Síguenos</h3>
               <div class="set-of-icon">
-                <a :href="$constants.fbURL" target="_blank"
+                <a href="https://www.facebook.com/fundacionbolivardavivienda/" target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
                       />
                     </g></svg
                 ></a>
-                <a :href="$constants.instaURL" target="blank"
+                <a href="https://www.instagram.com/fundacionbd/" target="blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
                       />
                     </g></svg
                 ></a>
-                <a :href="$constants.linkedInURL" target="_blank"
+                <a href="https://www.linkedin.com/company/fundaci%C3%B3n-bol%C3%ADvar-davivienda/" target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@
                       />
                     </g></svg
                 ></a>
-                <a :href="$constants.twitterURL" target="_blank"
+                <a href="https://twitter.com/FundacionBD?lang=es" target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@
                       />
                     </g></svg
                 ></a>
-                <a :href="$constants.youtubeURL" target="_blank"
+                <a href="https://www.youtube.com/channel/UCEcX3O1scgTJ9qpLwrpEb-A" target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,53 +143,93 @@
               </div>
             </div>
           </div>
-          <div class="footer-menu">
+          <div class="footer-menu">  
+               <h3>Nuestros programas</h3>
             <ul class="ff-nunito">
               <li>
-                <a href="#nuestros-expertos-id">Nuestros Expertos</a>
+                <a href="javascript:void(0)">Aflora</a>
               </li>
-              <li>
-                <NuxtLink to="#pensum-id">Pénsum</NuxtLink>
+              <li :class="{ active: $route.name === 'requisitos' }">
+                <NuxtLink to="/requisitos">Becas al talento</NuxtLink>
               </li>
-              <li>
-                <NuxtLink to="#seminario-id">Estructura Seminario</NuxtLink>
+              <li :class="{ active: $route.name === 'prepare-su-audicion' }">
+                <NuxtLink to="/prepare-su-audicion">Cultivarte</NuxtLink>
               </li>
-              <li>
-                <NuxtLink to="#perfil-participantes-id">Perfil Participantes</NuxtLink>
+              <li :class="{ active: $route.name === 'repertorios' }">
+                <NuxtLink to="/repertorios">Emprende país</NuxtLink>
               </li>
-              <li>
-                <NuxtLink to="#costos-id">Costos</NuxtLink>
+              <li :class="{ active: $route.name === 'jurados' }">
+                <NuxtLink to="/jurados">Filarmónica Joven de Colombia</NuxtLink>
+              </li>
+              <li :class="{ active: $route.name === 'jurados' }">
+                <NuxtLink to="/jurados">Voluntariado Familia Bolívar</NuxtLink>
+              </li>
+              <li :class="{ active: $route.name === 'jurados' }">
+                <NuxtLink to="/jurados">Premio Nacional de Periodismo</NuxtLink>
               </li>
             </ul>
           </div>
+          <div class="footer-menu two">
+               <div class="if-two-ul-is-there">
+                    <h3>Nuestros programas</h3>
+                    <ul class="ff-nunito">
+                         <li :class="{ active: $route.name === 'seleccionados' }">
+                              <NuxtLink to="/seleccionados">Autorización de datos personales</NuxtLink>
+                         </li>
+                         <li :class="{ active: $route.name === 'faqs' }">
+                              <NuxtLink to="/faqs">Aviso de privacidad Fundación Bolívar Davivienda</NuxtLink>
+                         </li>
+                         <li>
+                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Aviso de privacidad Cultivarte</a>
+                         </li>
+                         <li>
+                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos Fundación Bolívar Davivienda</a>
+                         </li>
+                         <li>
+                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos Cultivarte</a>
+                         </li>
+                         <li>
+                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Términos y condiciones</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="if-two-ul-is-there">
+                    <h3>Documentación</h3>      
+                    <ul class="ff-nunito">
+                         <li :class="{ active: $route.name === 'seleccionados' }">
+                              <NuxtLink to="/seleccionados">Ver documentación</NuxtLink>
+                         </li>
+                         <li :class="{ active: $route.name === 'faqs' }">
+                              <NuxtLink to="/faqs">Reglamento de inscripción a programas</NuxtLink>
+                         </li>           
+                    </ul>
+               </div>
+          </div>
           <div class="footer-menu">
-            <div class="if-two-ul-is-there">
-              <h3>Datos de contacto</h3>
-              <ul class="ff-nunito">
-                <li>
-                  <p>
-                    Calle 26 # 69-63. Piso 11. <br />
-                    Bogotá, Colombia
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div class="if-two-ul-is-there">
-              <h3>Teléfono</h3>
-              <ul class="ff-nunito">
-                <li>
-                  <p>(+57 1) 341 0077 Ext. 98981</p>
-                </li>
-              </ul>
-            </div>
-            <div class="if-two-ul-is-there">
-              <h3>Fax</h3>
-              <ul class="ff-nunito">
-                <li>
-                  <p>(+57 1) 2201578</p>
-                </li>
-              </ul>
-            </div>
+               <div class="if-two-ul-is-there">
+                    <h3>Datos de contacto</h3>
+                    <ul class="ff-nunito">            
+                         <li>
+                              <p>Calle 26 # 69-63. Piso 11. <br>  Bogotá, Colombia</p>
+                         </li>           
+                    </ul>
+               </div>
+               <div class="if-two-ul-is-there">
+                    <h3>Teléfono</h3>      
+                    <ul class="ff-nunito">
+                        <li>
+                             <p>(+57 1) 341 0077 Ext. 98981</p>                              
+                         </li>       
+                    </ul>
+               </div>
+               <div class="if-two-ul-is-there">
+                    <h3>Fax</h3>      
+                    <ul class="ff-nunito">
+                        <li>
+                              <p>(+57 1) 2201578</p>
+                         </li>       
+                    </ul>
+               </div>               
           </div>
         </div>
         <div class="copywrite text-center">
