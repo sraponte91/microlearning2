@@ -26,6 +26,132 @@
     </a>
     <div class="container">
       <div class="end-line position-relative after-po"></div>
+
+
+     <div class="d-none-n d-block-767 mobile-links-footer">
+          <div class="container">
+               <div class="">
+                    <div class="accordion" role="tablist">
+                         <b-card no-body class="">
+                              <b-card-header header-tag="header" class="" role="tab">
+                                   <b-button block v-b-toggle.accordion-4 variant="info" class="ff-sans-b">
+                                        <div class="d-flex justify-content-between">
+                                             <p>Nuestros</p>
+                                             <i class="ic-accordion position-relative"></i>
+                                        </div>
+                                   </b-button>
+                              </b-card-header>
+                              <b-collapse id="accordion-4" visible accordion="my-accordions" role="tabpanel">
+                                   <b-card-body>
+                                        <b-card-text>
+                                             <ul class="ff-sans-r">
+                                                  <li>
+                                                       <a href="javascript:void(0)">Nuestros</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Aflora</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Becas al Talento</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Cultivarte</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Filarmónica Joven de Colombia</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Inversión Social</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Voluntariado Fundación Bolivar</a>
+                                                  </li>
+                                             </ul>                                             
+                                        </b-card-text>                                             
+                                   </b-card-body>
+                              </b-collapse>
+                         </b-card>
+                         <b-card no-body class="">
+                              <b-card-header header-tag="header" class="" role="tab">
+                                   <b-button block v-b-toggle.accordion-5 variant="info" class="ff-sans-b">
+                                         <div class="d-flex justify-content-between">
+                                             <p>Legales</p>
+                                             <i class="ic-accordion position-relative"></i>
+                                        </div>
+                                   </b-button>
+                              </b-card-header>   
+                              <b-collapse id="accordion-5" accordion="my-accordions" role="tabpanel">
+                                   <b-card-body>
+                                        <b-card-text>
+                                             <ul class="ff-sans-r">
+                                                  <li>
+                                                       <a href="javascript:void(0)">Nuestros</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Aflora</a>
+                                                  </li>                                                  
+                                             </ul>
+                                        </b-card-text>
+                                   </b-card-body>
+                              </b-collapse>
+                         </b-card>
+                         <b-card no-body class="">
+                              <b-card-header header-tag="header" class="" role="tab">
+                                   <b-button block v-b-toggle.accordion-6 variant="info" class="ff-sans-b">
+                                         <div class="d-flex justify-content-between">
+                                             <p>Documentación</p>
+                                             <i class="ic-accordion position-relative"></i>
+                                        </div>
+                                   </b-button>
+                              </b-card-header>   
+                              <b-collapse id="accordion-6" accordion="my-accordions" role="tabpanel">
+                                   <b-card-body>
+                                        <b-card-text>
+                                             <ul class="ff-sans-r">
+                                                  <li>
+                                                       <a href="javascript:void(0)">Nuestros</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Aflora</a>
+                                                  </li>                                                  
+                                             </ul>
+                                        </b-card-text>
+                                   </b-card-body>
+                              </b-collapse>
+                         </b-card>
+                         <b-card no-body class="">
+                              <b-card-header header-tag="header" class="" role="tab">
+                                   <b-button block v-b-toggle.accordion-7 variant="info" class="ff-sans-b">
+                                         <div class="d-flex justify-content-between">
+                                             <p>Datos de contacto</p>
+                                             <i class="ic-accordion position-relative"></i>
+                                        </div>
+                                   </b-button>
+                              </b-card-header>   
+                              <b-collapse id="accordion-7" accordion="my-accordions" role="tabpanel">
+                                   <b-card-body>
+                                        <b-card-text>
+                                             <ul class="ff-sans-r">
+                                                  <li>
+                                                       <a href="javascript:void(0)">Nuestros</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Aflora</a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="javascript:void(0)">Becas al Talento</a>
+                                                  </li>                                                  
+                                             </ul>
+                                        </b-card-text>
+                                   </b-card-body>
+                              </b-collapse>
+                         </b-card>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
       <div class="inner-footer margin-0-auto">
         <div class="d-flex flex-wrap justify-content-between">
           <div class="logo-social-m">
@@ -143,7 +269,7 @@
               </div>
             </div>
           </div>
-          <div class="footer-menu">  
+          <div class="footer-menu d-none-767">  
                <h3>Nuestros programas</h3>
             <ul class="ff-nunito">
               <li>
@@ -169,7 +295,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer-menu two">
+          <div class="footer-menu two d-none-767">
                <div class="if-two-ul-is-there">
                     <h3>Nuestros programas</h3>
                     <ul class="ff-nunito">
@@ -193,7 +319,7 @@
                          </li>
                     </ul>
                </div>
-               <div class="if-two-ul-is-there">
+               <div class="if-two-ul-is-there d-none-767">
                     <h3>Documentación</h3>      
                     <ul class="ff-nunito">
                          <li :class="{ active: $route.name === 'seleccionados' }">
@@ -205,7 +331,7 @@
                     </ul>
                </div>
           </div>
-          <div class="footer-menu">
+          <div class="footer-menu d-none-767">
                <div class="if-two-ul-is-there">
                     <h3>Datos de contacto</h3>
                     <ul class="ff-nunito">            

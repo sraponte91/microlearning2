@@ -104,6 +104,56 @@
                               <span class="dot"></span>
                               <span class="dot"></span>
                          </div>
+                         <div class="d-flex d-none-767i">
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                         </div>
+                         <div class="d-flex d-none-767i">
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                         </div>
+                         <div class="d-flex d-none-767i">
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                         </div>
+                         <div class="d-flex d-none-767i">
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                         </div>
+                         <div class="d-flex d-none-767i">
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                         </div>
                     </div>
                     <div class="dots-div only-for-dots d-flex flex-wrap">
                          <div class="d-flex">
@@ -203,6 +253,7 @@
                     </div>
                </div>
           </section>
+
           <section class="our-program-section">
                <div class="d-flex flex-wrap">
                     <div class="sec-name fr-width-height d-flex align-items-center position-relative justify-content-center">
@@ -366,6 +417,7 @@
                     </div>
                </div>
           </section>
+
           <section class="how-we-connect bg-white">
                <div class="container">
                     <div class="d-flex justify-content-between align-items-center flex-wrap-991">
@@ -384,7 +436,8 @@
                     </div>
                </div>
           </section>
-          <section class="news-section-bolivar bg-white">
+
+          <section class="news-section-bolivar bg-white d-none-767">
                <div class="container">
                     <h2 class="ff-sans-b"> Actualidad Fundación <br /> Bolivar Davivienda </h2>
                     <div class="accordion" role="tablist">
@@ -498,5 +551,5 @@
                     </div>
                </div>
           </section>
-  </main>
+     </main>
 </template>

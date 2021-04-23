@@ -34,11 +34,11 @@
             <div class="d-flex justify-content-between w-100 flex-wrap">
                <ul class="navbar-nav align-items-center text-lg-left ff-nunito">
                     <li class="nav-item" :class="{ active: $route.name === 'requisitos' }">
-                         <NuxtLink to="/requisitos" class="nav-link">La Fundación</NuxtLink>
+                         <NuxtLink to="/la-fundacion" class="nav-link">La Fundación</NuxtLink>
                     </li>
                     <li class="nav-item">
                          <b-dropdown id="dropdown-1" text="Nuestros programas" class="dpd-menu">
-                              <b-dropdown-item>Aflora</b-dropdown-item>
+                              <b-dropdown-item href="/aflora-home">Aflora</b-dropdown-item>
                               <b-dropdown-item>Becas al Talento</b-dropdown-item>
                               <b-dropdown-item>Cultivarte</b-dropdown-item>                              
                               <b-dropdown-item>Emprende País</b-dropdown-item>
@@ -48,10 +48,10 @@
                          </b-dropdown>
                     </li>
                     <li class="nav-item" :class="{ active: $route.name === 'prepare-su-audicion' }">
-                         <NuxtLink to="/prepare-su-audicion" class="nav-link">Actualidad</NuxtLink>
+                         <NuxtLink to="/actualidad" class="nav-link">Actualidad</NuxtLink>
                     </li>
                     <li class="nav-item" :class="{ active: $route.name === 'repertorios' }">
-                         <NuxtLink to="/repertorios" class="nav-link">Eventos</NuxtLink>
+                         <NuxtLink to="/eventos" class="nav-link">Eventos</NuxtLink>
                     </li>
                     <li class="nav-item" :class="{ active: $route.name === 'jurados' }">
                          <NuxtLink to="/jurados" class="nav-link">Informe de sostenibilidad</NuxtLink>

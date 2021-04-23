@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1" data-name="Group 1" transform="translate(-273 -298)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(273 298)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="Icon" transform="translate(273.385 298.391)">
+      <path id="chevron-down" d="M20.19,9.48a.676.676,0,0,0,0-.95h0L18.47,6.81a.649.649,0,0,0-.92-.02l-.02.02L12,12.34,6.47,6.81a.649.649,0,0,0-.92-.02l-.02.02L3.81,8.53a.676.676,0,0,0,0,.95h0l7.73,7.71a.649.649,0,0,0,.92.02l.02-.02,7.73-7.71h-.02Z" fill="#77777a"/>
+    </g>
+  </g>
+</svg>

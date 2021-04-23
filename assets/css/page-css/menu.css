@@ -4,11 +4,18 @@ header{background-color:#fff; padding:31px 0;}
 header .navbar-brand{max-width:80px; padding:0;}
 header .navbar{padding:0;}
 header .navbar-nav .nav-item .dropdown-menu li + li{margin-top:10px;}
-header .navbar-nav .nav-item .dropdown-menu{border:none; top:20px !important; border-radius:0 0 4px 4px;} 
+header .navbar-nav .nav-item .dropdown-menu{border:none; top:35px !important; border-radius:0 0 4px 4px;} 
+header .fixed-this.fixed-header .dropdown-menu{top:20px !important;}
+header .navbar-nav .nav-item .dropdown-item{padding:8px 15px;}
 header .navbar-nav .nav-item .dpd-menu button{font-size:15px; line-height:1; background-color:transparent; border:none; color:#313338;}
-header .navbar-nav .nav-item .dpd-menu button:hover{color:#ff6705;}
+header .navbar-nav .nav-item .dpd-menu button:hover,
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-item:hover, .dropdown-item:focus{color:#ff6705;;}
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-item:hover, .dropdown-item:focus{background-color:#e9ecef;}
 header .navbar-nav .nav-item a{font-size:15px; line-height:1;}
 header .navbar-nav .nav-item a:hover,
+header .navbar-nav .nuxt-link-exact-active,
 header .navbar-nav .nav-item.active a{color:#ff6705 !important;}
 header .navbar-nav .nav-item + .nav-item{margin-left:25px;}
 header .navbar-nav .nav-item.btn-inscr{margin-left:40px;}

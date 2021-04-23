@@ -3,6 +3,10 @@
 @import "./page-css/menu.css";
 @import "./page-css/home-page.css";
 @import "./page-css/school-page.css";
+@import "./page-css/la-fundacion.css";
+@import "./page-css/actualidad.css";
+@import "./page-css/eventos.css";
+@import "./page-css/aflora.css";
 @import "./page-css/footer.css";
 
 @font-face {
@@ -68,9 +72,6 @@ p,h1,h2,h3,h4,h5,h6{ margin:0;}
 .a-center{height:calc(100% - 85px);}
 .d-none-n{display:none;}
 .d-none-ni{display:none !important;}
-/* .for-sprite-call,
-.for-before-sprite::before,
-.for-after-sprite::after{background:url(/images/sprite.svg) no-repeat;} */
 .for-before-sprite::before,
 .for-after-sprite::after{position:absolute; content:"";}
 .after-bg-none::after,
@@ -83,7 +84,6 @@ p,h1,h2,h3,h4,h5,h6{ margin:0;}
 .ff-sans-b-i{font-family: 'sansationbold_italic';}
 .ff-sans-i{font-family: 'sansationitalic';}
 .ff-sans-l-i{font-family: 'sansation_lightitalic';}
-.ff-lato{font-family: 'Lato', sans-serif;}
 .ff-nunito{font-family: 'Nunito', sans-serif;}
 a,i,
 a:hover,
@@ -105,6 +105,19 @@ main{flex: 1 0 auto; -webkit-box-flex:1;}
 .overflow-hidden{overflow:hidden;}
 .z-index-5{z-index:5;}
 
+.back-to-home{top:20px; left:12%; z-index:9;}
+.back-to-home .ic-back{background:url(/images/back_acon.svg) 0 0 no-repeat; width:54px; height:50px; display:inline-block;}
+.back-to-home a{font-size:18px;}
+.back-to-home.small-size{left:78px; top:50px;}
+.back-to-home.small-size .ic-back{transform:scale(0.7);}
+.back-to-home.small-size a{font-size:15px;}
+
+.breadcrumb{background-color:transparent; border:none; z-index:8; margin:0; padding:0; left:100px; top:30px; align-items:center;}
+.breadcrumb li a{color:#6fccdc; font-size:16px;}
+.breadcrumb li a:hover{text-decoration:underline;}
+.breadcrumb li,
+.breadcrumb-item.active{color:#111820}
+
 
 @media(min-width:1400px){
      .container{max-width:1280px;}
@@ -115,6 +128,8 @@ main{flex: 1 0 auto; -webkit-box-flex:1;}
 }
 @media(max-width:991px){
      .d-block-991{display:block;}
+     .d-none-991{display:none;}     
+     .d-none-991i{display:none !important;}
      .comman-contain p{font-size:16px; line-height:24px;}
      .info-section .big-box-in p{font-size:20px; text-align:center;}
      #scroll{height:45px; width:45px; bottom:20px;}
@@ -125,10 +140,21 @@ main{flex: 1 0 auto; -webkit-box-flex:1;}
 @media(max-width:767px){
      .flex-wrap-767{-ms-flex-wrap:wrap;flex-wrap:wrap}
      .justify-content-center-767{-ms-flex-pack:center !important;justify-content:center !important}
+     .justify-content-start-767{-ms-flex-pack:start!important;justify-content:flex-start!important}
+     .align-items-start-767{-ms-flex-align:start!important;align-items:flex-start!important}
      .d-block-767{display:block;}
      .d-block-767i{display:block !important;}
      .d-none-767{display:none;}
      .d-none-767i{display:none !important;}
      #scroll{display:none !important;}
      header .navbar-collapse{width:270px;}
+     .position-relative-767{position:relative !important;}     
+     .back-to-home{left:0; top:0; padding:10px;}
+     .back-to-home a{color:#474747 !important; font-size:18px;}
+     .back-to-home .ic-back{background:url(/images/back_acon2.svg) 0 0 no-repeat; width:30px; height:30px; display:inline-block;}     
+     .innerpage.container{max-width:100%;}
+     .innerpage .breadcrumb{left:12px;}
+     .back-to-home .ic-back{background:url(/images/back_acon3.svg) 0 0 no-repeat}
+     .back-to-home.small-size a{color:#fff !important;}
+     .innerpage .back-to-home.small-size{left:0; padding-left:0;}
 }
