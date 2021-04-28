@@ -153,7 +153,29 @@
      .how-we-connect .left-solid-color .inner-tx-w small{font-size:34px;}
      .how-we-connect .left-solid-color .inner-tx-w h3{font-size:35px;}
      .how-we-connect{padding:40px 0 10px;}
+     .news-section-bolivar{padding:50px 0;}
+     .news-section-bolivar .container{max-width:100%; padding:0;}
+     .news-section-bolivar .card-header{width:100%;}
+     .news-section-bolivar .tabs-contains{width:100%; padding:0;}
+     .news-section-bolivar .card-header:first-child{border:none;}
+     .news-section-bolivar .btn-info.not-collapsed::after{display:none;}
+     .news-section-bolivar .accordion > .card > .card-header{padding:0 !important;}
+     .news-section-bolivar h2{font-size:30px; margin:0 0 15px; padding:0 0 0 15px; line-height:1.2;}
+     .how-we-connect{padding-bottom:0;}
+     .news-section-bolivar .card{border-top:1px solid #8c8c8c; padding:20px 0 25px;}
+     .news-section-bolivar .card:last-child{border-bottom:1px solid #8c8c8c;}
+     .news-section-bolivar header{box-shadow:none;}
+     .news-section-bolivar .about-news{padding:0 15px;}     
+     .news-section-bolivar .tabs-contains .big-news-img::after{height:10px; width:100%; top:0; left:0; background-color:#ff9a7e;}
+     .news-section-bolivar .tabs-contains .new-titles a{font-size:26px;}
+     .news-section-bolivar .tabs-contains .big-news-img{height:420px;}
 }
 @media(max-width:575px){
      .desarrollamos-section h2{font-size:40px;}
+}
+
+@media(max-width:479px){
+     .news-section-bolivar .tabs-contains .big-news-img{height:320px;}
+     .news-section-bolivar h2{font-size:26px;}
+     .news-section-bolivar .tabs-contains .new-titles a{font-size:24px;}
 }

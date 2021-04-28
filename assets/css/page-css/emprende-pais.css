@@ -1,0 +1,32 @@
+.two-div-in-one-left{width: 630px; top: -40px; }
+.what-we-do .two-div-in-one-left .txt-bx-wht{top:0;}
+
+
+
+.ig-tx-zing-zag .two-div-in-one-left .extra-div{margin-left: 0; width: calc(100% - 220px);}
+.ig-tx-zing-zag .two-div-in-one-left .extra-div h3{font-size: 38px;}
+
+.howwedo{background:url(/images/rectangle_c.jpg) 0 0 no-repeat; width: 100%; position: relative;}
+.howwedo:after{content: ''; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.8); top:0; left: 0; z-index: 1;}
+.howwedo .container{position: relative; z-index: 2;}
+.howwedoheight{height:795px; text-align: center;}
+.howwedotext{text-align: center; width: 60%;}
+.howwedotext h2{font-size: 72px;color: #313338;line-height: 108px; margin-bottom:30px;}
+.howwedotext p{font-size: 20px;color: #77777a; line-height: 28px;}
+
+.ig-tx-zing-zag.autodiag-pg.our-methodology{padding:120px 0 80px 0}
+.ig-tx-zing-zag.autodiag-pg.our-methodology .txt-points{margin-top:-60px;}
+.ig-tx-zing-zag.autodiag-pg.our-methodology h2{font-size: 48px; color: #2f425b; line-height: 60px; margin-bottom: 20px;}
+.ig-tx-zing-zag.autodiag-pg.our-methodology p{color: #313338;}
+
+.calls{background: linear-gradient(130deg, #00233b 52%, #2c3e53 100% ); padding: 90px 20% 60px; text-align: center; color: #f7f7f7;}
+.calls h2{font-size: 48px; color: #f7f7f7; text-decoration: none solid rgb(247, 247, 247); text-align: center; margin-bottom: 30px;}
+.calls p{color: #f7f7f7; text-align: center; font-size: 18px;}
+
+
+@media(max-width:991px){
+	.two-div-in-one-left{order: 2; width: 100%;}
+	.ig-tx-zing-zag .two-div-in-one-left .extra-div{width: 95%; margin: 0 auto;}
+	.ig-tx-zing-zag.autodiag-pg.our-methodology .txt-points{margin:-80px auto 0;}
+	.ig-tx-zing-zag.autodiag-pg.our-methodology{padding: 50px 0 0;}
+}

@@ -34,7 +34,35 @@
 .misi-visi-sec .card-body .pra-sec::before{height:100%; width:100%; background:linear-gradient(130deg, #313338 52%, #2c3e53 100% ); -webkit-mix-blend-mode:multiply; -moz-mix-blend-mode:multiply; -ms-mix-blend-mode:multiply; mix-blend-mode:multiply; left:0; top:0;}
 .misi-visi-sec .card-body .pra-sec::after{top:0; left:0; background-color:#ff671b; width:275px; height:8px; display:block;}
 .misi-visi-sec .card-body .page-links{margin:15px 0 0 0;}
-.misi-visi-sec .card-body .page-links a{display:inline-block; padding:7px 10px; background-color:rgba(0,0,0,0.4); border-radius:4px; line-height:1;} 
+.misi-visi-sec .card-body .page-links a{display:inline-block; padding:7px 10px; background-color:rgba(0,0,0,0.4); border-radius:4px; line-height:1.2;} 
 .misi-visi-sec .card-body .page-links a:hover{background-color:rgba(0,0,0,0.8);}
 .misi-visi-sec .card-body .page-links a + a{margin-left:15px;}
 .misi-visi-sec .tabs-contains{width:calc(100% - 280px); padding-left:50px;}
+
+
+@media(max-width:1199px){
+     .misi-visi-sec .card-body .page-links a{text-align:center;}
+}
+
+@media(max-width:991px){
+     .la-fundacion-main-sec .txt-part-lft{padding:30px;}
+     .pg-la-main .txt-part-lft h1{font-size:48px;}
+     .pg-la-main .txt-part-lft .pra{margin:25px 0 0;}
+     .misi-visi-sec .tabs-titles{width:100%; max-width:400px; margin:0 auto;}
+     .misi-visi-sec .card-body .page-links a{border:1px solid transparent;}
+     .misi-visi-sec .card-body .page-links a:hover{border:1px solid #ff671b;}
+     .misi-visi-sec .tabs-contains{width:100%; margin:0; padding:0;}
+}
+
+@media(max-width:767px){
+     .misi-visi-sec .card-body .page-links a{width:100%; display:block; max-width:440px; margin:0 auto; padding:14px 10px; font-size:20px;}     
+     .plus-sign{top:0; right:10px;}
+     .misi-visi-sec .tabs-titles .btn-block{font-size:30px;}
+     .misi-visi-sec  .container{max-width:100%; padding:0;}
+     .misi-visi-sec .card-body{padding-left:0; padding-right:0;}
+     .misi-visi-sec .card-body .page-links a + a{margin-left:auto; margin-top:20px;}
+     .la-fundacion-main-sec .sm-wid{width:100%;}
+     .pg-la-main .txt-part-lft .in-sm-size-bx{width:100%;}
+     .pg-la-main .img-part-rght ul li img{height:180px;}
+     .la-fundacion-main-sec{background-color:#313338; padding-bottom:30px;}     
+}

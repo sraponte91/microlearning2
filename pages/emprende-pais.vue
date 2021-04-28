@@ -12,12 +12,7 @@
             <img src="/images/logo_aflora.png" alt="" class="img-fluid" />
           </div>
           <p>
-            Nuestro propósito es acompañar el crecimiento de las organizaciones
-            sociales, apalancadas en el talento de sus líderes y equipo de
-            trabajo. Buscamos que las organizaciones logren sostenerse en el
-            tiempo y encuentren nuevos rumbos y oportunidades de mejora, tanto
-            para las comunidades involucradas en cada iniciativa, como para la
-            organización en sí misma.
+            Emprende País es un programa de la Fundación Bolívar Davivienda, que acompaña a todos aquellos líderes emprendedores  que buscan multiplicar su propósito de empresa y abrir oportunidades de trabajo convirtiéndose en motores de desarrollo para el país. Las empresas que hacen parte de este programa tienen un alto potencial de crecimiento y a través de mentorías empresariales con la guía de altos ejecutivos del Grupo Bolívar y de una red de exitosos empresarios a nivel regional, les brindamos las herramientas que les permitan apalancar su desarrollo hacia la rentabilidad y sostenibilidad en el tiempo.
           </p>
         </div>
       </div>
@@ -34,180 +29,30 @@
           <NuxtLink to="/desarrollamos-talento" class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
-          <NuxtLink to="/autodiagnostico" class="linkse text-center"
-            >Autodiagnóstico</NuxtLink
-          >
-          <NuxtLink to="/inscripciones" class="linkse text-center"
-            >Inscripciones</NuxtLink
-          >
-          <NuxtLink to="/directorio" class="linkse text-center"
-            >Iniciar sesión</NuxtLink
+          <NuxtLink to="/convocatorias" class="linkse text-center"
+            >Convocatorias</NuxtLink
           >
         </div>
       </div>
     </section>
 
-    <section class="bg-white what-we-do position-relative">
-      <div
-        class="one-dot d-flex position-absolute align-items-start d-none-991i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex flex-wrap">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-        <div class="dots-div only-for-dots d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+    <section class="bg-white what-we-do position-relative ig-tx-zing-zag">
       <div class="container">
-        <div class="d-flex align-items-end flex-wrap-991">
-          <div class="txt-bx-wht position-relative order-2-991">
-            <h2 class="ff-sans-b">¿Qué hacemos?</h2>
-            <div class="pra-p ff-nunito">
-              <p>
-                En Aflora estamos comprometidos con brindarle a todas las
-                organizaciones sociales con gran potencial, una ruta de
-                formación para fortalecer sus capacidades. Buscamos apoyarlas a
-                mejorar sus áreas débiles, a través de un autodiagnóstico, por
-                medio del cual pueden evaluar sus oportunidades de mejora y
-                hacer que su impacto sea mayor.
-              </p>
-              <p>
-                Trabajamos unidos con las organizaciones, para impulsar líderes
-                apasionados y comprometidos con la construcción de un mejor
-                país, para que logren inspirar a quienes aún no conocen cómo
-                transformar su talento en nuevas oportunidades.
-              </p>
-            </div>
+        <div class="d-flex align-items-start flex-wrap-991">
+		  <div class="two-div-in-one-left position-relative">
+			  <div class="txt-bx-wht position-relative order-2-991">
+				<h2 class="ff-sans-b">El programa</h2>
+				<div class="pra-p ff-nunito">
+				  <p>
+					“Emprende País es un espacio donde se gana experiencia, se encuentra conocimiento en los mejores y se construyen relaciones que acompañan cada proceso”
+				  </p>
+				</div>
+			  </div>
+			  <div class="extra-div position-relative order-2-991">
+				<h3 class="ff-sans-b">Fortalecemos empresas con alto potencial de crecimiento</h3>
+			  </div>
           </div>
-          <div class="img-rrt-pr order-1-991">
+		  <div class="img-rrt-pr order-1-991">
             <img
               src="/images/evento_home.jpg"
               alt=""
@@ -217,7 +62,55 @@
         </div>
       </div>
     </section>
-
+	<section class="howwedo">
+      <div class="container">
+        <div class="d-flex justify-content-center howwedoheight">
+		  <div class="align-self-center howwedotext">
+			<h2>¿Cómo lo hacemos?</h2>
+			<p>Ofrecemos una ruta de formación para emprendedores, que aporta herramientas prácticas y aplicables al día a día de las empresas de acuerdo con las necesidades particulares del negocio, para que logren alcanzar su máximo potencial a través de un plan estratégico empresarial acorde a cada mercado.</p>
+		  </div>
+        </div>
+      </div>
+    </section>
+	
+	<section class="ig-tx-zing-zag autodiag-pg bg-white our-methodology">
+      <div class="container">
+        <div class="sm-siz-container margin-0-auto">
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+            <div class="img-points order-1-991">
+              <img
+                src="/images/pensum_img.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+            <div class="txt-points position-relative order-2-991">
+              <div class="pra-p for-bgcol">
+				<h2>Nuestra metodología</h2>
+                <p>El acompañamiento se basa en el desarrollo de una ruta práctica y adaptada a la realidad de la empresa y del emprendedor. Realizamos capacitaciones a profundidad en temas como estrategia, finanzas, sostenibilidad y alta gerencia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<section class="ig-tx-zing-zag autodiag-pg desarrollamos-section">
+      <div class="container">
+		<div class="d-flex justify-content-center">
+		  <div class="align-self-center calls">
+			<h2>Convocatorias 2021</h2>
+			<p>Buscamos y seleccionamos empresas en Colombia, con alto potencial de crecimiento, para acompañarlas durante 8 meses con consultorías empresariales estratégicas y aspectos financieros, para aumentar la rentabilidad y búsqueda de nuevos mercados en su ruta de crecimiento, con un plan de apalancamiento y metas.</p>
+			<div class="for-btn">
+            <a
+              :href="$constants.afloraHome.desarrollamosTalento"
+              class="btn-tell-more"
+              >Cuéntame más</a
+            >
+          </div>
+		  </div>
+        </div>
+	  </div>
+	</section>
     <section
       class="desarrollamos-section aflora-pg position-relative before-po"
     >

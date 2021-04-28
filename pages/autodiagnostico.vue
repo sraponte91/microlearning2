@@ -1,67 +1,94 @@
 <template>
-     <main>
-          <div class="breadc-bak">
-               <div class="container margin-0-auto">
-                    <b-breadcrumb class="ff-sans-r mb-2">                    
-                         <b-breadcrumb-item href="/.">Home</b-breadcrumb-item>                         
-                         <b-breadcrumb-item active>Requisitos</b-breadcrumb-item>
-                    </b-breadcrumb>
-                    <div class="back-to-home position-relative d-flex align-items-center small-size">
-                         <i class="ic-back"></i>
-                         <a class="ff-sans-b" href="javascript:void(0)">Volver</a>
-                    </div>
-               </div>
-          </div>                    
+  <main>
+    <div class="breadc-bak">
+      <div class="container margin-0-auto">
+        <b-breadcrumb class="ff-sans-r mb-2">
+          <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+          <b-breadcrumb-item to="/aflora-home">Aflora</b-breadcrumb-item>
+          <b-breadcrumb-item active>Autodiagnóstico</b-breadcrumb-item>
+        </b-breadcrumb>
+        <div
+          class="back-to-home position-relative d-flex align-items-center small-size"
+        >
+          <i class="ic-back" @click="goBack()"></i>
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()"
+            >Volver</a
+          >
+        </div>
+      </div>
+    </div>
 
-          <section class="ig-tx-zing-zag autodiag-pg bg-white">
-               <div class="container">
-                    <div class="sm-siz-container margin-0-auto">
-                         <div class="page-title-new text-center">
-                              <p class="ff-nunito">Autodiagnóstico</p>
-                              <h2 class="ff-sans-b">¿Qué es y para qué sirve el autodiagnóstico?</h2>
-                         </div>
+    <section class="ig-tx-zing-zag autodiag-pg bg-white">
+      <div class="container">
+        <div class="sm-siz-container margin-0-auto">
+          <div class="page-title-new text-center">
+            <p class="ff-nunito">Autodiagnóstico</p>
+            <h2 class="ff-sans-b">
+              ¿Qué es y para qué sirve el autodiagnóstico?
+            </h2>
+          </div>
 
-                         <div class="d-flex multiple-reapt align-items-start flex-wrap-991">                              
-                              <div class="img-points order-1-991">
-                                   <img src="/images/pensum_img.jpg" alt="" class="object-fit-cover" />
-                              </div>
-                              <div class="txt-points position-relative order-2-991">                                   
-                                   <div class="pra-p for-bgcol">
-                                        <p>Las organizaciones interesadas en aprovechar los beneficios del programa, posterior a su inscripción, diligencian un formulario de 34 preguntas necesarias para su crecimiento. Según las respuestas otorgadas, el sistema clasificará la organización en un nivel, según las áreas y aspectos que tienen por mejorar. </p>
-                                        <p>El autodiagnóstico es un requisito importante para su desarrollo, a través del cual se identifica la ruta de formación que más se ajusta a las necesidades de cada una de las organizaciones, para que la experiencia de crecimiento sea exitosa.</p>
-                                   </div>
-                              </div>                              
-                         </div>
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+            <div class="img-points order-1-991">
+              <img
+                src="/images/pensum_img.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+            <div class="txt-points position-relative order-2-991">
+              <div class="pra-p for-bgcol">
+                <p>
+                  Las organizaciones interesadas en aprovechar los beneficios
+                  del programa, posterior a su inscripción, diligencian un
+                  formulario de 34 preguntas necesarias para su crecimiento.
+                  Según las respuestas otorgadas, el sistema clasificará la
+                  organización en un nivel, según las áreas y aspectos que
+                  tienen por mejorar.
+                </p>
+                <p>
+                  El autodiagnóstico es un requisito importante para su
+                  desarrollo, a través del cual se identifica la ruta de
+                  formación que más se ajusta a las necesidades de cada una de
+                  las organizaciones, para que la experiencia de crecimiento sea
+                  exitosa.
+                </p>
+              </div>
+            </div>
+          </div>
 
-                         <div class="some-points-autod-pg margin-0-auto">
-                              <div class="text-center">
-                                   <h4 class="ff-sans-b">Información importante:</h4>
-                              </div>
-                              <div class="d-flex flex-wrap for-margin-1 align-items-start">
-                                   <div class="one-bx-grey">
-                                        <div class="info-tx position-relative after-po before-po ff-sans-r">
-                                             <p>Debe contar con 1 hora de su tiempo aproximadamente, para diligenciar todo el formulario.</p>
-                                        </div>
-                                   </div>
-                                   <div class="one-bx-grey">
-                                        <div class="info-tx position-relative after-po before-po ff-sans-r">
-                                             <p>El formulario debe ser diligenciado por el líder de la organización, junto con su equipo para clasificar en uno de los 4 niveles.</p>
-                                        </div>
-                                   </div>
-                                   <div class="one-bx-grey">
-                                        <div class="info-tx position-relative after-po before-po ff-sans-r">
-                                             <p>Es fundamental que todas las respuestas sean contestadas con absoluta sinceridad sobre el estado real de la organización, con el fin de encontrar una ruta que realmente se adecue a las necesidades</p>
-                                        </div>
-                                   </div>
-                                   <div class="one-bx-grey">
-                                        <div class="info-tx position-relative after-po before-po ff-sans-r">
-                                             <p>Una vez finalizado el formulario, el sistema automáticamente clasificará la organización con el fin de brindarles la mejor ruta de fortalecimiento.</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>                         
-                    </div>                    
-               </div>
-          </section>
-     </main>
+          <div class="some-points-autod-pg margin-0-auto">
+            <div class="text-center">
+              <h4 class="ff-sans-b">Información importante:</h4>
+            </div>
+            <div class="d-flex flex-wrap for-margin-1 align-items-start">
+              <div
+                v-for="(item, i) of $constants.autodiagnostico
+                  .importantInformations"
+                :key="i"
+                class="one-bx-grey"
+              >
+                <div
+                  class="info-tx position-relative after-po before-po ff-sans-r"
+                >
+                  <p>
+                    {{ item }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </template>
+<script>
+export default {
+  methods: {
+    goBack() {
+      window.history.back()
+    },
+  },
+}
+</script>

@@ -27,130 +27,171 @@
     <div class="container">
       <div class="end-line position-relative after-po"></div>
 
-
-     <div class="d-none-n d-block-767 mobile-links-footer">
-          <div class="container">
-               <div class="">
-                    <div class="accordion" role="tablist">
-                         <b-card no-body class="">
-                              <b-card-header header-tag="header" class="" role="tab">
-                                   <b-button block v-b-toggle.accordion-4 variant="info" class="ff-sans-b">
-                                        <div class="d-flex justify-content-between">
-                                             <p>Nuestros</p>
-                                             <i class="ic-accordion position-relative"></i>
-                                        </div>
-                                   </b-button>
-                              </b-card-header>
-                              <b-collapse id="accordion-4" visible accordion="my-accordions" role="tabpanel">
-                                   <b-card-body>
-                                        <b-card-text>
-                                             <ul class="ff-sans-r">
-                                                  <li>
-                                                       <a href="javascript:void(0)">Nuestros</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Aflora</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Becas al Talento</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Cultivarte</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Filarmónica Joven de Colombia</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Inversión Social</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Voluntariado Fundación Bolivar</a>
-                                                  </li>
-                                             </ul>                                             
-                                        </b-card-text>                                             
-                                   </b-card-body>
-                              </b-collapse>
-                         </b-card>
-                         <b-card no-body class="">
-                              <b-card-header header-tag="header" class="" role="tab">
-                                   <b-button block v-b-toggle.accordion-5 variant="info" class="ff-sans-b">
-                                         <div class="d-flex justify-content-between">
-                                             <p>Legales</p>
-                                             <i class="ic-accordion position-relative"></i>
-                                        </div>
-                                   </b-button>
-                              </b-card-header>   
-                              <b-collapse id="accordion-5" accordion="my-accordions" role="tabpanel">
-                                   <b-card-body>
-                                        <b-card-text>
-                                             <ul class="ff-sans-r">
-                                                  <li>
-                                                       <a href="javascript:void(0)">Nuestros</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Aflora</a>
-                                                  </li>                                                  
-                                             </ul>
-                                        </b-card-text>
-                                   </b-card-body>
-                              </b-collapse>
-                         </b-card>
-                         <b-card no-body class="">
-                              <b-card-header header-tag="header" class="" role="tab">
-                                   <b-button block v-b-toggle.accordion-6 variant="info" class="ff-sans-b">
-                                         <div class="d-flex justify-content-between">
-                                             <p>Documentación</p>
-                                             <i class="ic-accordion position-relative"></i>
-                                        </div>
-                                   </b-button>
-                              </b-card-header>   
-                              <b-collapse id="accordion-6" accordion="my-accordions" role="tabpanel">
-                                   <b-card-body>
-                                        <b-card-text>
-                                             <ul class="ff-sans-r">
-                                                  <li>
-                                                       <a href="javascript:void(0)">Nuestros</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Aflora</a>
-                                                  </li>                                                  
-                                             </ul>
-                                        </b-card-text>
-                                   </b-card-body>
-                              </b-collapse>
-                         </b-card>
-                         <b-card no-body class="">
-                              <b-card-header header-tag="header" class="" role="tab">
-                                   <b-button block v-b-toggle.accordion-7 variant="info" class="ff-sans-b">
-                                         <div class="d-flex justify-content-between">
-                                             <p>Datos de contacto</p>
-                                             <i class="ic-accordion position-relative"></i>
-                                        </div>
-                                   </b-button>
-                              </b-card-header>   
-                              <b-collapse id="accordion-7" accordion="my-accordions" role="tabpanel">
-                                   <b-card-body>
-                                        <b-card-text>
-                                             <ul class="ff-sans-r">
-                                                  <li>
-                                                       <a href="javascript:void(0)">Nuestros</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Aflora</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="javascript:void(0)">Becas al Talento</a>
-                                                  </li>                                                  
-                                             </ul>
-                                        </b-card-text>
-                                   </b-card-body>
-                              </b-collapse>
-                         </b-card>
-                    </div>
-               </div>
+      <div class="d-none-n d-block-767 mobile-links-footer">
+        <div class="container">
+          <div>
+            <client-only>
+              <div class="accordion" role="tablist">
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-4
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Nuestros</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-4"
+                    visible
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
+                          <li>
+                            <a href="javascript:void(0)">Nuestros</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Aflora</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Becas al Talento</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Cultivarte</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)"
+                              >Filarmónica Joven de Colombia</a
+                            >
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Inversión Social</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)"
+                              >Voluntariado Fundación Bolivar</a
+                            >
+                          </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-5
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Legales</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-5"
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
+                          <li>
+                            <a href="javascript:void(0)">Nuestros</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Aflora</a>
+                          </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-6
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Documentación</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-6"
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
+                          <li>
+                            <a href="javascript:void(0)">Nuestros</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Aflora</a>
+                          </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-7
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Datos de contacto</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-7"
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
+                          <li>
+                            <a href="javascript:void(0)">Nuestros</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Aflora</a>
+                          </li>
+                          <li>
+                            <a href="javascript:void(0)">Becas al Talento</a>
+                          </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+              </div>
+            </client-only>
           </div>
-     </div>
-
+        </div>
+      </div>
 
       <div class="inner-footer margin-0-auto">
         <div class="d-flex flex-wrap justify-content-between">
@@ -161,7 +202,9 @@
             <div class="social-m">
               <h3 class="ff-sans-b">Síguenos</h3>
               <div class="set-of-icon">
-                <a href="https://www.facebook.com/fundacionbolivardavivienda/" target="_blank"
+                <a
+                  href="https://www.facebook.com/fundacionbolivardavivienda/"
+                  target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +246,9 @@
                       />
                     </g></svg
                 ></a>
-                <a href="https://www.linkedin.com/company/fundaci%C3%B3n-bol%C3%ADvar-davivienda/" target="_blank"
+                <a
+                  href="https://www.linkedin.com/company/fundaci%C3%B3n-bol%C3%ADvar-davivienda/"
+                  target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +269,9 @@
                       />
                     </g></svg
                 ></a>
-                <a href="https://twitter.com/FundacionBD?lang=es" target="_blank"
+                <a
+                  href="https://twitter.com/FundacionBD?lang=es"
+                  target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -245,7 +292,9 @@
                       />
                     </g></svg
                 ></a>
-                <a href="https://www.youtube.com/channel/UCEcX3O1scgTJ9qpLwrpEb-A" target="_blank"
+                <a
+                  href="https://www.youtube.com/channel/UCEcX3O1scgTJ9qpLwrpEb-A"
+                  target="_blank"
                   ><svg
                     version="1.2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -269,8 +318,8 @@
               </div>
             </div>
           </div>
-          <div class="footer-menu d-none-767">  
-               <h3>Nuestros programas</h3>
+          <div class="footer-menu d-none-767">
+            <h3>Nuestros programas</h3>
             <ul class="ff-nunito">
               <li>
                 <a href="javascript:void(0)">Aflora</a>
@@ -296,66 +345,92 @@
             </ul>
           </div>
           <div class="footer-menu two d-none-767">
-               <div class="if-two-ul-is-there">
-                    <h3>Nuestros programas</h3>
-                    <ul class="ff-nunito">
-                         <li :class="{ active: $route.name === 'seleccionados' }">
-                              <NuxtLink to="/seleccionados">Autorización de datos personales</NuxtLink>
-                         </li>
-                         <li :class="{ active: $route.name === 'faqs' }">
-                              <NuxtLink to="/faqs">Aviso de privacidad Fundación Bolívar Davivienda</NuxtLink>
-                         </li>
-                         <li>
-                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Aviso de privacidad Cultivarte</a>
-                         </li>
-                         <li>
-                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos Fundación Bolívar Davivienda</a>
-                         </li>
-                         <li>
-                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos Cultivarte</a>
-                         </li>
-                         <li>
-                              <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Términos y condiciones</a>
-                         </li>
-                    </ul>
-               </div>
-               <div class="if-two-ul-is-there d-none-767">
-                    <h3>Documentación</h3>      
-                    <ul class="ff-nunito">
-                         <li :class="{ active: $route.name === 'seleccionados' }">
-                              <NuxtLink to="/seleccionados">Ver documentación</NuxtLink>
-                         </li>
-                         <li :class="{ active: $route.name === 'faqs' }">
-                              <NuxtLink to="/faqs">Reglamento de inscripción a programas</NuxtLink>
-                         </li>           
-                    </ul>
-               </div>
+            <div class="if-two-ul-is-there">
+              <h3>Nuestros programas</h3>
+              <ul class="ff-nunito">
+                <li :class="{ active: $route.name === 'seleccionados' }">
+                  <NuxtLink to="/seleccionados"
+                    >Autorización de datos personales</NuxtLink
+                  >
+                </li>
+                <li :class="{ active: $route.name === 'faqs' }">
+                  <NuxtLink to="/faqs"
+                    >Aviso de privacidad Fundación Bolívar Davivienda</NuxtLink
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="/Politica de Tratamiento de Datos.pdf"
+                    >Aviso de privacidad Cultivarte</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="/Politica de Tratamiento de Datos.pdf"
+                    >Política de tratamiento de datos Fundación Bolívar
+                    Davivienda</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="/Politica de Tratamiento de Datos.pdf"
+                    >Política de tratamiento de datos Cultivarte</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="/Politica de Tratamiento de Datos.pdf"
+                    >Términos y condiciones</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="if-two-ul-is-there d-none-767">
+              <h3>Documentación</h3>
+              <ul class="ff-nunito">
+                <li :class="{ active: $route.name === 'seleccionados' }">
+                  <NuxtLink to="/seleccionados">Ver documentación</NuxtLink>
+                </li>
+                <li :class="{ active: $route.name === 'faqs' }">
+                  <NuxtLink to="/faqs"
+                    >Reglamento de inscripción a programas</NuxtLink
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="footer-menu d-none-767">
-               <div class="if-two-ul-is-there">
-                    <h3>Datos de contacto</h3>
-                    <ul class="ff-nunito">            
-                         <li>
-                              <p>Calle 26 # 69-63. Piso 11. <br>  Bogotá, Colombia</p>
-                         </li>           
-                    </ul>
-               </div>
-               <div class="if-two-ul-is-there">
-                    <h3>Teléfono</h3>      
-                    <ul class="ff-nunito">
-                        <li>
-                             <p>(+57 1) 341 0077 Ext. 98981</p>                              
-                         </li>       
-                    </ul>
-               </div>
-               <div class="if-two-ul-is-there">
-                    <h3>Fax</h3>      
-                    <ul class="ff-nunito">
-                        <li>
-                              <p>(+57 1) 2201578</p>
-                         </li>       
-                    </ul>
-               </div>               
+            <div class="if-two-ul-is-there">
+              <h3>Datos de contacto</h3>
+              <ul class="ff-nunito">
+                <li>
+                  <p>
+                    Calle 26 # 69-63. Piso 11. <br />
+                    Bogotá, Colombia
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="if-two-ul-is-there">
+              <h3>Teléfono</h3>
+              <ul class="ff-nunito">
+                <li>
+                  <p>(+57 1) 341 0077 Ext. 98981</p>
+                </li>
+              </ul>
+            </div>
+            <div class="if-two-ul-is-there">
+              <h3>Fax</h3>
+              <ul class="ff-nunito">
+                <li>
+                  <p>(+57 1) 2201578</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="copywrite text-center">
