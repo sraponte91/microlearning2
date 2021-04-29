@@ -87,14 +87,14 @@
                     class="dpd-menu"
                   >
                     <b-dropdown-item
-                      to="/aflora-home"
-                      :class="{ active: $route.name === 'aflora-home' }"
+                      to="/aflora"
+                      :class="{ active: $route.name === 'aflora' }"
                       >Aflora</b-dropdown-item
                     >
                     <b-dropdown-item>Becas al Talento</b-dropdown-item>
                     <b-dropdown-item>Cultivarte</b-dropdown-item>
                     <b-dropdown-item>Emprende País</b-dropdown-item>
-                    <b-dropdown-item to="/filarmonica-jc-home">Filarmónica Joven de Colombia</b-dropdown-item>
+                    <b-dropdown-item to="/Filarmonica_joven_de_colombia">Filarmónica Joven de Colombia</b-dropdown-item>
                     <b-dropdown-item>Inversión Social</b-dropdown-item>
                     <b-dropdown-item
                       >Voluntariado Fundación Bolivar</b-dropdown-item

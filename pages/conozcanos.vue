@@ -3,7 +3,7 @@
     <div class="container position-relative innerpage">
       <b-breadcrumb class="position-absolute ff-sans-r">
         <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-        <b-breadcrumb-item to="/aflora-home">Aflora</b-breadcrumb-item>
+        <b-breadcrumb-item to="/aflora">Aflora</b-breadcrumb-item>
         <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
       </b-breadcrumb>
       <div

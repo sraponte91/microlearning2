@@ -31,13 +31,17 @@
 .ig-tx-zing-zag .txt-points ul li{font-size:16px; line-height:26px; padding:0 0 0 20px;}
 .ig-tx-zing-zag .txt-points ul li::after{height:8px; width:8px; border-radius:100%; background-color:#ff671b; left:0; top:9px;}
 .ig-tx-zing-zag .txt-points ul li + li{margin-top:8px;}
+.ig-tx-zing-zag .txt-points ul li ul{margin:5px 0; padding:0 0 0 10px;}
+.ig-tx-zing-zag .txt-points ul li ul li{font-size:14px;}
+.ig-tx-zing-zag .txt-points ul li ul li + li{margin-top:2px;}
+.ig-tx-zing-zag .txt-points ul li ul li::before{height:6px; width:6px; border-radius:100%; background-color:#2f425b; left:0; top:10px;}
 .ig-tx-zing-zag .txt-points h3{color:#ff671b; font-size:22px; line-height:1.2; margin:0 0 10px;}
-
+.ig-tx-zing-zag.des-filarmonic-main .txt-points h3{color:#2f425b; font-size:40px; line-height:1;}
+.ig-tx-zing-zag.des-filarmonic-main .nd-wave-of-div .txt-points{margin:-40px 0 0 -180px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .txt-points h3{color:#2f425b; font-weight:200; font-size:38px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .txt-points{top:50px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .three-bx .img-points{margin-left:0;}
 .ig-tx-zing-zag.connoz-filamr-mpg .three-bx .txt-points{top:50px; margin-left:-120px;}
-
 .ig-tx-zing-zag .img-points{ width:800px; margin-left:-120px;}
 .ig-tx-zing-zag .img-points img{height:460px;}
 .ig-tx-zing-zag .multiple-reapt + .multiple-reapt{margin-top:80px;}
@@ -47,6 +51,28 @@
 .ig-tx-zing-zag .extra-div{width:calc(100% - 140px); background-color:#ffc1b0; padding:20px; margin:20px 0 0 140px;}
 .ig-tx-zing-zag .extra-div p{font-size:26px; color:#2f425b; line-height:1.2;}
 .ig-tx-zing-zag .part-two .txt-points{width:100%; top:0; margin:0;}
+
+.ig-tx-zing-zag.des-filarmonic-main .txt-points.extra-points{margin:0 0 0 -120px;}
+.ig-tx-zing-zag.des-filarmonic-main .txt-points.extra-points h2{margin:0 0 5px 125px;}
+.desarrolla.ig-tx-zing-zag.des-filarmonic-main .txt-points .for-bgcol{padding:35px;}
+
+.btn-for{margin:50px 0 0 0;}
+.btn-follow-links{display:inline-block; border-radius:5px; border:1px solid #111820; color:#111820; font-size:18px; width:260px; padding:8px 10px;} 
+.btn-follow-links:hover{background-color:#111820; color:#fff;}
+
+
+.educational-training{margin:30px 0;}
+.educational-training::after{height:100%; width:100%; left:0; top:0; background:linear-gradient(90deg, rgba(17, 24, 32, 0.98) 0%, rgba(17, 24, 32, 0.65) 100% );}
+.educational-training .container{width:100%; left:0; top:30px; bottom:30px; right:0; z-index:4;}
+.educational-training h3{color:#ff671b; font-size:40px; line-height:1;}
+.educational-training .small-bx{max-width:600px; width:100%; padding:25px; background-color:rgba(257, 247, 247, 0.85); margin:30px 0 0 ;}
+.educational-training .small-bx .pra-p p{font-size:16px; line-height:26px;}
+.educational-training .small-bx ul{margin:14px 0 0 0; max-width:420px;}
+.educational-training .small-bx ul li{font-size:16px; line-height:26px; padding:0 0 0 20px; font-style:italic;}
+.educational-training .small-bx ul li::after{height:8px; width:8px; border-radius:100%; background-color:#ff671b; left:0; top:9px;}
+.educational-training .small-bx ul li + li{margin-top:10px;}
+.dots-three-rt{left:auto; top:10px; right:10px; z-index:5;}
+.dots-three-rt span{height:3px; width:3px; border-radius:100%; background-color:#f0f0f0; margin:5px;}
 
 .testimonios-sec{padding:50px 0; background-color:#f7f7f7;}
 .testimonios-sec .sec-title{margin:0 0 25px;}
@@ -196,6 +222,7 @@
      .four-boxes .round-bx .numbr{height:60px; width:60px;}
      .four-boxes .round-bx{border-width:5px;}
      .four-boxes .round-bx{height:195px; width:195px;}
+     .educational-training .for-hght{height:620px;}
 }
 @media(max-width:1024px){
      .testimo-slider .VueCarousel-slide{width:calc((100% / 2) - 2%);}
@@ -236,6 +263,11 @@
      .ig-tx-zing-zag.connoz-filamr-mpg .img-points{margin:-80px 0 0 0;}
      .ig-tx-zing-zag.connoz-filamr-mpg .three-bx .txt-points{margin:0 auto; width:94%;}
      .ig-tx-zing-zag .multiple-reapt + .multiple-reapt{margin-top:40px;}
+     .ig-tx-zing-zag.des-filarmonic-main .nd-wave-of-div .txt-points{max-width:94%; margin:-70px auto 0;}
+     .educational-training .small-bx{max-width:100%;}
+     .educational-training .small-bx ul{max-width:100%;}
+     .educational-training .for-hght{height:580px;}
+     .ig-tx-zing-zag.des-filarmonic-main .txt-points.extra-points{max-width:94%; margin:-70px auto 0;}
 }
 
 @media(max-width:767px){
@@ -288,6 +320,8 @@
      .testimo-slider .VueCarousel-slide{width:100%; margin:0;}
      .ig-tx-zing-zag .img-points img{height:380px;}
      .only-links-to .linkse{width:48%;}
+     .educational-training .for-hght{height:750px;}
+     .ig-tx-zing-zag.desarrolla h2.ss{font-size:32px;}
 }
 @media(max-width:379px){
      .four-boxes .one-box{width:100%; margin:0;}
