@@ -70,6 +70,7 @@ button:focus{outline:none;}
 ul,ul li{padding:0; list-style:none; margin:0;}
 p,h1,h2,h3,h4,h5,h6{ margin:0;}
 .h-100{height:100%;}
+.b-s-30{height:30px; display:block;}
 .a-center{height:calc(100% - 85px);}
 .d-none-n{display:none;}
 .d-none-ni{display:none !important;}
@@ -158,4 +159,7 @@ main{flex: 1 0 auto; -webkit-box-flex:1;}
      .back-to-home .ic-back{background:url(/images/back_acon3.svg) 0 0 no-repeat}
      .back-to-home.small-size a{color:#fff !important;}
      .innerpage .back-to-home.small-size{left:0; padding-left:0;}
+}
+@media(max-width:479px){
+     .flex-wrap-479{-ms-flex-wrap:wrap;flex-wrap:wrap}
 }

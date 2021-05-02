@@ -96,8 +96,7 @@
                     <b-dropdown-item>Emprende País</b-dropdown-item>
                     <b-dropdown-item to="/Filarmonica_joven_de_colombia">Filarmónica Joven de Colombia</b-dropdown-item>
                     <b-dropdown-item>Inversión Social</b-dropdown-item>
-                    <b-dropdown-item
-                      >Voluntariado Fundación Bolivar</b-dropdown-item
+                    <b-dropdown-item to="/voluntariado-fundacion-bolivar-davivienda">Voluntariado Fundación Bolivar</b-dropdown-item
                     >
                   </b-dropdown>
                 </li>
