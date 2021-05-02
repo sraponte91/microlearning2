@@ -3,7 +3,9 @@
     <div class="container position-relative innerpage">
       <b-breadcrumb class="position-absolute ff-sans-r">
         <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-        <b-breadcrumb-item to="/aflora">Aflora</b-breadcrumb-item>
+        <b-breadcrumb-item to="/filarmonica-joven-de-colombia"
+          >Filarmónica joven de colombia</b-breadcrumb-item
+        >
         <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
       </b-breadcrumb>
       <div
@@ -291,7 +293,8 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants.conozcanos.testimonios"
+                  v-for="(item, i) of $constants
+                    .filarmonicaJovenDeColombiaConozcanos.testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -436,6 +439,44 @@ export default {
     goBack() {
       window.history.back()
     },
+  },
+  head() {
+    return {
+      title: this.$constants.filarmonicaJovenDeColombiaConozcanos.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.filarmonicaJovenDeColombiaConozcanos.meta
+            .metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.filarmonicaJovenDeColombiaConozcanos.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.filarmonicaJovenDeColombiaConozcanos.meta
+            .ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.filarmonicaJovenDeColombiaConozcanos.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            this.$constants.baseURL +
+            this.$constants.filarmonicaJovenDeColombiaConozcanos.meta.ogImage,
+        },
+      ],
+    }
   },
 }
 </script>

@@ -123,3 +123,39 @@
     </section>
   </main>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.laFundacion.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.laFundacion.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.laFundacion.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.laFundacion.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.laFundacion.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.$constants.baseURL + this.$constants.laFundacion.meta.ogImage,
+        },
+      ],
+    }
+  },
+}
+</script>

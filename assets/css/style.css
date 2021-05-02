@@ -140,6 +140,8 @@ main{flex: 1 0 auto; -webkit-box-flex:1;}
      .order-2-991{-ms-flex-order:2;order:2}
 }
 @media(max-width:767px){
+     .order-1-767{-ms-flex-order:1;order:1}
+     .order-2-767{-ms-flex-order:2;order:2}
      .flex-wrap-767{-ms-flex-wrap:wrap;flex-wrap:wrap}
      .justify-content-center-767{-ms-flex-pack:center !important;justify-content:center !important}
      .justify-content-start-767{-ms-flex-pack:start!important;justify-content:flex-start!important}

@@ -321,8 +321,8 @@
           <div class="footer-menu d-none-767">
             <h3>Nuestros programas</h3>
             <ul class="ff-nunito">
-              <li>
-                <a href="javascript:void(0)">Aflora</a>
+              <li :class="{ active: $route.name === 'aflora' }">
+                <NuxtLink to="/aflora">Aflora</NuxtLink>
               </li>
               <li :class="{ active: $route.name === 'requisitos' }">
                 <NuxtLink to="/requisitos">Becas al talento</NuxtLink>
@@ -330,17 +330,17 @@
               <li :class="{ active: $route.name === 'prepare-su-audicion' }">
                 <NuxtLink to="/prepare-su-audicion">Cultivarte</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'repertorios' }">
-                <NuxtLink to="/repertorios">Emprende país</NuxtLink>
+              <li :class="{ active: $route.name === 'emprender-pais' }">
+                <NuxtLink to="/emprender-pais">Emprende país</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'jurados' }">
-                <NuxtLink to="/jurados">Filarmónica Joven de Colombia</NuxtLink>
+              <li :class="{ active: $route.name === 'filarmonica-joven-de-colombia' }">
+                <NuxtLink to="/filarmonica-joven-de-colombia">Filarmónica Joven de Colombia</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'jurados' }">
-                <NuxtLink to="/jurados">Voluntariado Familia Bolívar</NuxtLink>
+              <li :class="{ active: $route.name === 'voluntariado-fundacion-bolivar-davivienda' }">
+                <NuxtLink to="/voluntariado-fundacion-bolivar-davivienda">Voluntariado Familia Bolívar</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'jurados' }">
-                <NuxtLink to="/jurados">Premio Nacional de Periodismo</NuxtLink>
+              <li :class="{ active: $route.name === '' }">
+                <NuxtLink to="">Premio Nacional de Periodismo</NuxtLink>
               </li>
             </ul>
           </div>

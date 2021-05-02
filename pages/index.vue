@@ -24,8 +24,8 @@
             >
           </div>
         </div>
-      </div>  
-      <HomeDotsbottoms></HomeDotsbottoms>    
+      </div>
+      <HomeDotsbottoms></HomeDotsbottoms>
     </section>
 
     <section class="our-program-section">
@@ -90,10 +90,10 @@
             <h3>{{ item.title }}</h3>
           </div>
           <div class="d-none-n plus-sign d-block-767 position-absolute">
-            <a
-              :href="item.link"
+            <NuxtLink
+              :to="item.link"
               class="after-po before-po position-relative"
-            ></a>
+            ></NuxtLink>
           </div>
           <div
             class="on-hover-show position-absolute d-flex align-items-center"
@@ -104,11 +104,16 @@
             <p>
               {{ item.summary }}
             </p>
-            <a :href="item.link" class="btn-read-mr position-absolute ff-sans-r"
-              >Leer Más</a
+            <NuxtLink
+              :to="item.link"
+              class="btn-read-mr position-absolute ff-sans-r"
+              >Leer Más</NuxtLink
             >
           </div>
-          <a :href="item.link" class="position-absolute full-box-link"></a>
+          <NuxtLink
+            :to="item.link"
+            class="position-absolute full-box-link"
+          ></NuxtLink>
         </div>
       </div>
     </section>
@@ -300,3 +305,39 @@
     </section>
   </main>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.home.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.home.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.home.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.home.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.home.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.$constants.baseURL + this.$constants.home.meta.ogImage,
+        },
+      ],
+    }
+  },
+}
+</script>

@@ -93,10 +93,16 @@
                     >
                     <b-dropdown-item>Becas al Talento</b-dropdown-item>
                     <b-dropdown-item>Cultivarte</b-dropdown-item>
-                    <b-dropdown-item>Emprende País</b-dropdown-item>
-                    <b-dropdown-item to="/Filarmonica_joven_de_colombia">Filarmónica Joven de Colombia</b-dropdown-item>
-                    <b-dropdown-item>Inversión Social</b-dropdown-item>
-                    <b-dropdown-item to="/voluntariado-fundacion-bolivar-davivienda">Voluntariado Fundación Bolivar</b-dropdown-item
+                    <b-dropdown-item to="/emprender-pais"
+                      >Emprende País</b-dropdown-item
+                    >
+                    <b-dropdown-item to="/filarmonica-joven-de-colombia"
+                      >Filarmónica Joven de Colombia</b-dropdown-item
+                    >
+                    <b-dropdown-item to="/inversion-social">Inversión Social</b-dropdown-item>
+                    <b-dropdown-item
+                      to="/voluntariado-fundacion-bolivar-davivienda"
+                      >Voluntariado Fundación Bolivar</b-dropdown-item
                     >
                   </b-dropdown>
                 </li>
@@ -116,23 +122,23 @@
                 </li>
                 <li
                   class="nav-item"
-                  :class="{ active: $route.name === 'jurados' }"
+                  :class="{ active: $route.name === 'informe-de-sostenibilidad' }"
                 >
-                  <NuxtLink to="/jurados" class="nav-link"
+                  <NuxtLink to="/informe-de-sostenibilidad" class="nav-link"
                     >Informe de sostenibilidad</NuxtLink
                   >
                 </li>
                 <li
                   class="nav-item"
-                  :class="{ active: $route.name === 'faqs' }"
+                  :class="{ active: $route.name === 'contacto' }"
                 >
-                  <NuxtLink to="/faqs" class="nav-link">Contacto</NuxtLink>
+                  <NuxtLink to="/contacto" class="nav-link">Contacto</NuxtLink>
                 </li>
                 <li
                   class="nav-item"
-                  :class="{ active: $route.name === 'seleccionados' }"
+                  :class="{ active: $route.name === 'about-us' }"
                 >
-                  <NuxtLink to="/seleccionados" class="nav-link"
+                  <NuxtLink to="/about-us" class="nav-link"
                     >About us</NuxtLink
                   >
                 </li>

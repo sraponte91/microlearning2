@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 Vue.prototype.$constants = {
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://vue-fbd.9uylk5fy.xyz',
   fbURL: 'https://fb.com',
   instaURL: 'https://instagram.com',
   linkedInURL: 'https://linkedin.com',
@@ -53,7 +53,7 @@ Vue.prototype.$constants = {
     nuestrosProgramas: [{
       imgURL: '/images/aflora.jpg',
       title: 'Aflora',
-      link: 'javascript:void(0)',
+      link: '/aflora',
       summary: 'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.'
     }, {
       imgURL: '/images/becas_al_talento.jpg',
@@ -68,22 +68,22 @@ Vue.prototype.$constants = {
     }, {
       imgURL: '/images/emprende_pa.jpg',
       title: 'Emprende País',
-      link: 'javascript:void(0)',
+      link: '/emprender-pais',
       summary: 'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.'
     }, {
       imgURL: '/images/filarmonica_joven.jpg',
       title: 'Filarmónica Joven de Colombia',
-      link: 'javascript:void(0)',
+      link: '/filarmonica-joven-de-colombia',
       summary: 'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.'
     }, {
       imgURL: '/images/inversion_social.jpg',
       title: 'Inversión Social',
-      link: 'javascript:void(0)',
+      link: '/inversion-social',
       summary: 'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.'
     }, {
       imgURL: '/images/voluntariado_fund.jpg',
       title: 'Voluntariado Fundación Bolivar',
-      link: 'javascript:void(0)',
+      link: '/voluntariado-fundacion-bolivar-davivienda',
       summary: 'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.'
     }],
     elCambio: 'javascript:void(0)',
@@ -135,7 +135,15 @@ Vue.prototype.$constants = {
         title: '#Trabajo',
         url: 'javascript:void(0)'
       }]
-    }]
+    }],
+    meta: {
+      title: 'Home',
+      metaTitle: 'Home',
+      metaDescription: 'Home Description',
+      ogTitle: 'Home',
+      ogDescription: 'Home',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
   laFundacion: {
     tabs: [
@@ -187,12 +195,28 @@ Vue.prototype.$constants = {
           link: 'javascript:void(0)'
         }]
       }
-    ]
+    ],
+    meta: {
+      title: 'La Fundacion',
+      metaTitle: 'La Fundacion',
+      metaDescription: 'La Fundacion Description',
+      ogTitle: 'La Fundacion',
+      ogDescription: 'La Fundacion',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
-  afloraHome: {
-    desarrollamosTalento: 'javascript:void(0)'
+  aflora: {
+    desarrollamosTalento: 'javascript:void(0)',
+    meta: {
+      title: 'Aflora Home',
+      metaTitle: 'Aflora Home',
+      metaDescription: 'Aflora Home Description',
+      ogTitle: 'Aflora Home',
+      ogDescription: 'Aflora Home',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
-  conozcanos: {
+  afloraConozcanos: {
     testimonios: [{
       title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
       description: 'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.'
@@ -205,28 +229,71 @@ Vue.prototype.$constants = {
     }, {
       title: 'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
       description: 'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación'
-    }]
+    }],
+    meta: {
+      title: 'Conózcanos',
+      metaTitle: 'Conózcanos',
+      metaDescription: 'Conózcanos Description',
+      ogTitle: 'Conózcanos',
+      ogDescription: 'Conózcanos',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
-  desarrollamosTalento: {
+  afloraDesarrollamosTalento: {
     quieroConocerMas: 'javascript:void(0)',
     nivelesLink: 'javascript:void(0)',
     escuelaLink: 'javascript:void(0)',
+    meta: {
+      title: 'Desarrollamos talento',
+      metaTitle: 'Desarrollamos talento',
+      metaDescription: 'Desarrollamos talento Description',
+      ogTitle: 'Desarrollamos talento',
+      ogDescription: 'Desarrollamos talento',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
-  autodiagnostico: {
+  afloraAutodiagnostico: {
     importantInformations: [
       'Debe contar con 1 hora de su tiempo aproximadamente, para diligenciar todo el formulario.',
       'El formulario debe ser diligenciado por el líder de la organización, junto con su equipo para clasificar en uno de los 4 niveles.',
       'Es fundamental que todas las respuestas sean contestadas con absoluta sinceridad sobre el estado real de la organización, con el fin de encontrar una ruta que realmente se adecue a las necesidades',
       'Una vez finalizado el formulario, el sistema automáticamente clasificará la organización con el fin de brindarles la mejor ruta de fortalecimiento.'
-    ]
+    ],
+    meta: {
+      title: 'Autodiagnóstico',
+      metaTitle: 'Autodiagnóstico',
+      metaDescription: 'Autodiagnóstico Description',
+      ogTitle: 'Autodiagnóstico',
+      ogDescription: 'Autodiagnóstico',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
-  inscripciones: {
+  afloraInscripciones: {
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)'
+    inscribaseLink: 'javascript:void(0)',
+    meta: {
+      title: 'Inscripciones',
+      metaTitle: 'Inscripciones',
+      metaDescription: 'Inscripciones Description',
+      ogTitle: 'Inscripciones',
+      ogDescription: 'Inscripciones',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  afloraIniciarSesion: {
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
   actualidad: {
     articles: [{
       id: 1,
+      slug: 'title-of-actualidad1',
       imgURL: '/images/blog_a.jpg',
       date: '08 - Agosto - 2020',
       title: 'Continually aggregate premium',
@@ -265,6 +332,7 @@ Vue.prototype.$constants = {
       }]
     }, {
       id: 2,
+      slug: 'title-of-actualidad2',
       imgURL: '/images/blog_b.jpg',
       date: '08 - Agosto - 2020',
       title: 'Continually aggregate premium',
@@ -303,6 +371,7 @@ Vue.prototype.$constants = {
       }]
     }, {
       id: 3,
+      slug: 'title-of-actualidad3',
       imgURL: '/images/blog_c.jpg',
       date: '08 - Agosto - 2020',
       title: 'Continually aggregate premium',
@@ -339,11 +408,20 @@ Vue.prototype.$constants = {
         title: '#Trabajo',
         url: 'javascript:void(0)'
       }]
-    }]
+    }],
+    meta: {
+      title: 'Actualidad',
+      metaTitle: 'Actualidad',
+      metaDescription: 'Actualidad Description',
+      ogTitle: 'Actualidad',
+      ogDescription: 'Actualidad',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
   eventos: {
     events: [{
       id: 1,
+      slug: 'title-of-event1',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -358,6 +436,7 @@ Vue.prototype.$constants = {
       attendURL: 'javascript:void(0)'
     }, {
       id: 2,
+      slug: 'title-of-event2',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -373,6 +452,7 @@ Vue.prototype.$constants = {
       attendURL: 'javascript:void(0)'
     }, {
       id: 3,
+      slug: 'title-of-event3',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -388,6 +468,7 @@ Vue.prototype.$constants = {
       attendURL: 'javascript:void(0)'
     }, {
       id: 4,
+      slug: 'title-of-event4',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -403,6 +484,7 @@ Vue.prototype.$constants = {
       attendURL: 'javascript:void(0)'
     }, {
       id: 5,
+      slug: 'title-of-event5',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -418,6 +500,7 @@ Vue.prototype.$constants = {
       attendURL: 'javascript:void(0)'
     }, {
       id: 6,
+      slug: 'title-of-event6',
       title: 'TÍTULO DEL EVENTO',
       shortDescription: 'Lugar del evento, Objectively productize value-added care',
       description: '<p>Credibly negotiate customized portals vis-a-vis viral platforms. Progressively maximize revolutionary e-services without state of the art infomediaries. Monotonectally unleash exceptional customer service for stand-alone meta-services. Monotonectally negotiate progressive metrics with customized markets. Competently incentivize impactful opportunities after cross functional paradigms.</p>' +
@@ -431,6 +514,298 @@ Vue.prototype.$constants = {
       direction2: 'Hotel Tequendama - Salón Principal',
       direction3: 'Bogotá, Cundinamarca',
       attendURL: 'javascript:void(0)'
-    }]
+    }],
+    meta: {
+      title: 'Eventos',
+      metaTitle: 'Eventos',
+      metaDescription: 'Eventos Description',
+      ogTitle: 'Eventos',
+      ogDescription: 'Eventos',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  filarmonicaJovenDeColombia: {
+    cuentameMasLink: 'javascript:void(0)',
+    meta: {
+      title: 'Filarmónica joven de colombia',
+      metaTitle: 'Filarmónica joven de colombia',
+      metaDescription: 'Filarmónica joven de colombia',
+      ogTitle: 'Filarmónica joven de colombia',
+      ogDescription: 'Filarmónica joven de colombia',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  filarmonicaJovenDeColombiaConozcanos: {
+    testimonios: [{
+      title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+      description: 'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.'
+    }, {
+      title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+      description: 'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.'
+    }, {
+      title: 'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+      description: 'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación'
+    }, {
+      title: 'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+      description: 'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación'
+    }],
+    meta: {
+      title: 'Filarmónica joven de colombia',
+      metaTitle: 'Filarmónica joven de colombia',
+      metaDescription: 'Filarmónica joven de colombia',
+      ogTitle: 'Filarmónica joven de colombia',
+      ogDescription: 'Filarmónica joven de colombia',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  filarmonicaJovenDeColombiaDesarrollamosTalento: {
+    seguirEnlaceLink: 'javascript:void(0)',
+    meta: {
+      title: 'Filarmónica joven de colombia',
+      metaTitle: 'Filarmónica joven de colombia',
+      metaDescription: 'Filarmónica joven de colombia',
+      ogTitle: 'Filarmónica joven de colombia',
+      ogDescription: 'Filarmónica joven de colombia',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  filarmonicaJovenDeColombiaOrquesta: {
+    integrantes: {
+      tabs: [{
+        name: 'Cobres',
+        items: [{
+          title: 'Miller <br/> Muñoz',
+          subtitle: 'Miller Muñoz',
+          imgURL: '/images/member_a.png'
+        }, {
+          title: 'Daniel <br/> Moreno',
+          subtitle: 'Trompeta',
+          imgURL: '/images/member_b.jpg'
+        }, {
+          title: 'Ana <br/> Molina',
+          subtitle: 'Corno francés',
+          imgURL: '/images/member_c.jpg'
+        }, {
+          title: 'Gloria <br/> Ramirez',
+          subtitle: 'Trombon y Tuba',
+          imgURL: '/images/member_d.jpg'
+        }, {
+          title: 'Miller <br/> Muñoz',
+          subtitle: 'Miller Muñoz',
+          imgURL: '/images/member_a.png'
+        }, {
+          title: 'Daniel <br/> Moreno',
+          subtitle: 'Trompeta',
+          imgURL: '/images/member_b.jpg'
+        }, {
+          title: 'Ana <br/> Molina',
+          subtitle: 'Corno francés',
+          imgURL: '/images/member_c.jpg'
+        }, {
+          title: 'Gloria <br/> Ramirez',
+          subtitle: 'Trombon y Tuba',
+          imgURL: '/images/member_d.jpg'
+        }]
+      }, {
+        name: 'Percusión',
+        items: [{
+          title: 'Miller <br/> Muñoz',
+          subtitle: 'Miller Muñoz',
+          imgURL: '/images/member_a.png'
+        }, {
+          title: 'Daniel <br/> Moreno',
+          subtitle: 'Trompeta',
+          imgURL: '/images/member_b.jpg'
+        }, {
+          title: 'Ana <br/> Molina',
+          subtitle: 'Corno francés',
+          imgURL: '/images/member_c.jpg'
+        }, {
+          title: 'Gloria <br/> Ramirez',
+          subtitle: 'Trombon y Tuba',
+          imgURL: '/images/member_d.jpg'
+        }]
+      }, {
+        name: 'Cuerdas',
+        items: [{
+          title: 'Miller <br/> Muñoz',
+          subtitle: 'Miller Muñoz',
+          imgURL: '/images/member_a.png'
+        }, {
+          title: 'Daniel <br/> Moreno',
+          subtitle: 'Trompeta',
+          imgURL: '/images/member_b.jpg'
+        }, {
+          title: 'Ana <br/> Molina',
+          subtitle: 'Corno francés',
+          imgURL: '/images/member_c.jpg'
+        }, {
+          title: 'Gloria <br/> Ramirez',
+          subtitle: 'Trombon y Tuba',
+          imgURL: '/images/member_d.jpg'
+        }]
+      }, {
+        name: 'Maderas',
+        items: [{
+          title: 'Miller <br/> Muñoz',
+          subtitle: 'Miller Muñoz',
+          imgURL: '/images/member_a.png'
+        }, {
+          title: 'Daniel <br/> Moreno',
+          subtitle: 'Trompeta',
+          imgURL: '/images/member_b.jpg'
+        }, {
+          title: 'Ana <br/> Molina',
+          subtitle: 'Corno francés',
+          imgURL: '/images/member_c.jpg'
+        }, {
+          title: 'Gloria <br/> Ramirez',
+          subtitle: 'Trombon y Tuba',
+          imgURL: '/images/member_d.jpg'
+        }]
+      }]
+    },
+    artistasInvitados: [{
+      title: 'Johannes <br/> Moser',
+      subtitle: 'Violonchelo',
+      imgURL: '/images/member_e.png'
+    }, {
+      title: 'Gabriel <br/> Ahumada',
+      subtitle: 'Flauta',
+      imgURL: '/images/member_f.png'
+    }, {
+      title: 'Sarah <br/> Chang',
+      subtitle: 'Violín',
+      imgURL: '/images/member_g.png'
+    }, {
+      title: 'Melissa <br/> White',
+      subtitle: 'Violín',
+      imgURL: '/images/member_h.png'
+    }, {
+      title: 'Miller <br/> Muñoz',
+      subtitle: 'Miller Muñoz',
+      imgURL: '/images/member_a.png'
+    }, {
+      title: 'Daniel <br/> Moreno',
+      subtitle: 'Trompeta',
+      imgURL: '/images/member_b.jpg'
+    }, {
+      title: 'Ana <br/> Molina',
+      subtitle: 'Corno francés',
+      imgURL: '/images/member_c.jpg'
+    }, {
+      title: 'Gloria <br/> Ramirez',
+      subtitle: 'Trombon y Tuba',
+      imgURL: '/images/member_d.jpg'
+    }],
+    directores: [{
+      title: 'Andres <br/> Orozco',
+      subtitle: 'Director principal',
+      imgURL: '/images/member_i.png'
+    }, {
+      title: 'Matthew <br/> Sydney',
+      subtitle: 'Director invitado',
+      imgURL: '/images/member_j.png'
+    }, {
+      title: 'Rafael <br/> Payare',
+      subtitle: 'Director',
+      imgURL: '/images/member_k.png'
+    }, {
+      title: 'Alejandro <br/> Posada',
+      subtitle: 'Director invitado',
+      imgURL: '/images/member_l.png'
+    }, {
+      title: 'Miller <br/> Muñoz',
+      subtitle: 'Miller Muñoz',
+      imgURL: '/images/member_a.png'
+    }, {
+      title: 'Daniel <br/> Moreno',
+      subtitle: 'Trompeta',
+      imgURL: '/images/member_b.jpg'
+    }, {
+      title: 'Ana <br/> Molina',
+      subtitle: 'Corno francés',
+      imgURL: '/images/member_c.jpg'
+    }, {
+      title: 'Gloria <br/> Ramirez',
+      subtitle: 'Trombon y Tuba',
+      imgURL: '/images/member_d.jpg'
+    }],
+    meta: {
+      title: 'Filarmónica joven de colombia orquesta',
+      metaTitle: 'Filarmónica joven de colombia orquesta',
+      metaDescription: 'Filarmónica joven de colombia orquesta',
+      ogTitle: 'Filarmónica joven de colombia orquesta',
+      ogDescription: 'Filarmónica joven de colombia orquesta',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  voluntariadoFundacionBolivarDavivienda: {
+    cuentameMasLink: 'javascript:void(0)',
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  voluntariadoFundacionBolivarDaviviendaConozcanos: {
+    testimonios: [{
+      title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+      description: 'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.'
+    }, {
+      title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+      description: 'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.'
+    }, {
+      title: 'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+      description: 'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación'
+    }, {
+      title: 'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+      description: 'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación'
+    }],
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento: {
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  voluntariadoFundacionBolivarDaviviendaInscripciones: {
+    reglamentoLink: 'javascript:void(0)',
+    inscribaseLink: 'javascript:void(0)',
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  emprendePais: {
+    convocatoriasLink: 'javascript:void(0)',
+    desarrollamosTalentoLink: 'javascript:void(0)',
+    meta: {
+      title: 'Voluntariado fundación Bolivar',
+      metaTitle: 'Voluntariado fundación Bolivar',
+      metaDescription: 'Voluntariado fundación Bolivar',
+      ogTitle: 'Voluntariado fundación Bolivar',
+      ogDescription: 'Voluntariado fundación Bolivar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   }
 }
