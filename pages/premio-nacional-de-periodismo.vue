@@ -17,7 +17,7 @@
           <div class="col-md-8 offset-md-2">
             <h1>Premio Nacional de Periodismo Simón Bolívar</h1>
             <b-img
-              src="images/about-us.jpg"
+              src="images/premio-nacional-periodismo-portada.jpg"
               fluid
               alt="Responsive image"
             ></b-img>
@@ -127,38 +127,33 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="article-slider">
       <div class="container">
         <client-only
-          >Otros artículos interesantes
+          >
+          <h2>Otros artículos interesantes</h2>
           <client-only>
             <carousel
               :perPageCustom="[
                 [575, 1],
                 [1024, 2],
-                [1200, 3],
+                [1200, 4],
               ]"
               :navigationEnabled="true"
-              :paginationEnabled="true"
+              :paginationEnabled="false"
             >
-              <slide
-v-for="n in 7"
-:key="n"
+              <slide v-for="n in 8" :key="n"
               >
-                <div class="position-relative testimo-bx bg-white">
-                  <div class="text-center til ff-sans-b">
-                    <h3>
-                      Título de la noticia
-                    </h3>
-                  </div>
-                  
-                  <div
-                    class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
-                  >
-                    <p>
-                     Synergistically redefine high-quality ideas after transparent strategic theme.
-                    </p>
-                  </div>
+                <div class="position-relative box bg-white">
+                  <b-img
+                    src="images/premio-nacional-periodismo-portada.jpg"
+                    fluid
+                    alt=""
+                    ></b-img>
+                    <div class="tags">Categoría #Cultivarte #Apoyo</div>
+                    <h3 class="title">Título de la noticia</h3>
+                    <div class="date">Septiembre 16 - 2021</div>
+                    <div class="desc">Synergistically redefine high-quality ideas after transparent strategic theme.</div>
                 </div>
               </slide>
             </carousel>
@@ -255,5 +250,71 @@ export default {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+.article-slider {
+    padding: 50px 0;
+}
+.article-slider h2 {
+    font-family: 'sansationbold';
+    font-size: 50px;
+    color: #111820;
+    text-decoration: none solid rgb(17, 24, 32);
+    line-height: 52px;
+    margin-bottom: 30px;
+}
+.article-slider .box {
+    margin: 0 5px;
+}
+.article-slider .box .tags {
+    font-family: 'sansationregular';
+    font-size: 16px;
+    color: #ff671b;
+    text-decoration: none solid rgb(255, 103, 27);
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+.article-slider .box .title {
+    font-family: 'sansationbold';
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none solid rgb(51, 51, 51);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.article-slider .box .date{
+    font-family: 'sansationregular';
+    font-size: 14px;
+    font-style: italic;
+    color: #333333;
+    text-decoration: none solid rgb(51, 51, 51);
+    line-height: 27px;
+    padding-bottom: 8px;
+}
+.article-slider .box .desc{
+    font-family: 'sansationregular';
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none solid rgb(51, 51, 51);
+    line-height: 27px;
+}
+.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next, 
+.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-prev {
+    font-size: 0;
+    background: url(/images/ic_next_pe.svg) 0 0 no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    transform: inherit;
+    top: 50%;
+    margin-top: -25px;
+}
+.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next {
+    left: auto;
+    right: -50px;
+}
+.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-prev {
+    left: -50px;
+    transform: rotate(-180deg);
 }
 </style>

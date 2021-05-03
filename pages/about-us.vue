@@ -54,14 +54,14 @@
                 achieve their goals, creating high-impact in their industries in
                 a sustainable and efficient way.
               </p>
-              <NuxtLink variant="primary" to="/aflora" class="nav-link"
+              <NuxtLink to="/aflora" class="btn btn-primary"
                 >Learn More</NuxtLink
               >
             </div>
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_a.jpg"
+              src="/images/about-aflora.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -73,7 +73,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/rectangle_b.jpg"
+              src="/images/abount-emprende.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -99,7 +99,7 @@
                   achieve their goals, creating high-impact in their industries
                   in a sustainable and efficient way.
                 </p>
-                <NuxtLink variant="primary" to="/emprende-pais" class="nav-link"
+                <NuxtLink to="/emprende-pais" class="btn btn-primary"
                   >Learn More</NuxtLink
                 >
               </div>
@@ -139,16 +139,15 @@
                 participates in an exchange program agreement).
               </p>
               <NuxtLink
-                variant="primary"
                 to="/filarmonica-joven-de-colombia"
-                class="nav-link"
+                class="btn btn-primary"
                 >Learn More</NuxtLink
               >
             </div>
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_a.jpg"
+              src="/images/about-fillarmo.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -160,7 +159,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/rectangle_b.jpg"
+              src="/images/abount-volunteer.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -182,11 +181,9 @@
                   Movement. We are proud to encourage our partners to contribute
                   to the social sector both inside and outside the country.
                 </p>
-                <!-- <b-button href="#" variant="primary">Learn More</b-button> -->
                 <NuxtLink
-                  variant="primary"
                   to="/voluntariado-fundacion-bolivar-davivienda"
-                  class="nav-link"
+                  class="btn btn-primary"
                   >Learn More</NuxtLink
                 >
               </div>
@@ -211,14 +208,14 @@
                 history, not only of children and adolescents, but also of their
                 communities.
               </p>
-              <NuxtLink variant="primary" to="/cultivarte" class="nav-link">
+              <NuxtLink to="/cultivarte" class="btn btn-primary">
                 Learn More
               </NuxtLink>
             </div>
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_a.jpg"
+              src="/images/about-culture.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -230,7 +227,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/rectangle_b.jpg"
+              src="/images/about-social.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -256,7 +253,7 @@
                   adolescents and prevent teenage pregnancy, among other social
                   issues, in order to achieve transformative results.
                 </p>
-                 <NuxtLink variant="primary" to="/inversion-social" class="nav-link">
+                 <NuxtLink to="/inversion-social" class="btn btn-primary">
                 Learn More
               </NuxtLink>
               </div>
@@ -282,14 +279,14 @@
                 skilled professionals prepared to create positive change
                 and transform the face of Colombia.
               </p>
-              <NuxtLink variant="primary" to="/becas-al-talento" class="nav-link">
+              <NuxtLink to="/becas-al-talento" class="btn btn-primary">
                 Learn More
               </NuxtLink>
             </div>
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_a.jpg"
+              src="/images/about-talento.jpg"
               alt=""
               class="object-fit-cover"
             />
