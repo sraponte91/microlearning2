@@ -90,6 +90,44 @@
   </main>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.legales.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.legales.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.legales.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.legales.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.legales.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:`${this.$constants.baseURL}${this.$constants.legales.meta.ogImage}`
+        },
+      ],
+    }
+  },
+}
+</script>
+
+
 <style>
 .terms {
   padding: 50px 0;

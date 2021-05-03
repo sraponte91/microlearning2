@@ -862,4 +862,14 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png'
     }
   },
+  legales:{
+    meta: {
+      title: 'Legales',
+      metaTitle: 'Legales',
+      metaDescription: 'Legales Description',
+      ogTitle: 'Legales',
+      ogDescription: 'Legales',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
 }
