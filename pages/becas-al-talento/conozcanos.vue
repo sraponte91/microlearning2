@@ -15,11 +15,19 @@
           <div class="only-txt">
             <div class="single-txt">
               <h2>Sobre Becas</h2>
-              <p>En el programa apoyamos el talento y la excelencia de los estudiantes de nuestras universidades aliadas, con el fin de garantizar que terminen sus estudios profesionales de manera exitosa. Este beneficio se otorga como una beca-crédito para estudiantes que estén cursando entre 5to y 8vo semestre y está ligado a las políticas y procesos internos de las instituciones universitarias.</p>
+              <p>
+                En el programa apoyamos el talento y la excelencia de los
+                estudiantes de nuestras universidades aliadas, con el fin de
+                garantizar que terminen sus estudios profesionales de manera
+                exitosa. Este beneficio se otorga como una beca-crédito para
+                estudiantes que estén cursando entre 5to y 8vo semestre y está
+                ligado a las políticas y procesos internos de las instituciones
+                universitarias.
+              </p>
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/nuestro.jpg" alt="">
+            <img src="/images/nuestro.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -31,11 +39,14 @@
       <div class="container">
         <div class="hoy-img-txt">
           <div class="hoy-img">
-            <img src="/images/hoy.jpg" alt="">
+            <img src="/images/hoy.jpg" alt="" />
           </div>
           <div class="hoy-txt">
             <div class="h-txt-main">
-              <p>Hoy el programa ha beneficiado a más de 300 estudiantes, y espera seguir creciendo</p>
+              <p>
+                Hoy el programa ha beneficiado a más de 300 estudiantes, y
+                espera seguir creciendo
+              </p>
             </div>
           </div>
         </div>
@@ -53,18 +64,32 @@
         <div class="nuestro-box">
           <div class="nuestro-single">
             <h4>Con las universidades aliadas</h4>
-            <img src="/images/universidades.jpg" alt="">
-            <p>Constituir el fondo de becas crédito en alianza con cada institución educativa. Con los recaudos de capital que vaya gestionando este fondo, el programa seguirá entregando estos beneficios financieros a otros estudiantes que cumplan con el perfil definido.</p>
+            <img src="/images/universidades.jpg" alt="" />
+            <p>
+              Constituir el fondo de becas crédito en alianza con cada
+              institución educativa. Con los recaudos de capital que vaya
+              gestionando este fondo, el programa seguirá entregando estos
+              beneficios financieros a otros estudiantes que cumplan con el
+              perfil definido.
+            </p>
           </div>
           <div class="nuestro-single">
             <h4>Con los estudiantes y sus familias</h4>
-            <img src="/images/estudiantes.jpg" alt="">
-            <p>Ofrecer alternativas de financiación para que los estudiantes con alto desempeño académico logren culminar sus estudios de pregrado sin inconvenientes.</p>
+            <img src="/images/estudiantes.jpg" alt="" />
+            <p>
+              Ofrecer alternativas de financiación para que los estudiantes con
+              alto desempeño académico logren culminar sus estudios de pregrado
+              sin inconvenientes.
+            </p>
           </div>
           <div class="nuestro-single">
             <h4>Con la sociedad colombiana</h4>
-            <img src="/images/sociedad.jpg" alt="">
-            <p>Formar profesionales íntegros, con alto sentido de responsabilidad social, jóvenes líderes comprometidos con la construcción de una sociedad más justa, incluyente e innovadora.</p>
+            <img src="/images/sociedad.jpg" alt="" />
+            <p>
+              Formar profesionales íntegros, con alto sentido de responsabilidad
+              social, jóvenes líderes comprometidos con la construcción de una
+              sociedad más justa, incluyente e innovadora.
+            </p>
           </div>
         </div>
       </div>
@@ -77,32 +102,30 @@
         <h3>Testimonios</h3>
         <h4>De nuestros integrantes</h4>
       </div>
-      <div class="testi-center">
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Sara Castro - 10</h3>
-            <p>La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad</p>
-          </div>
-        </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Dilan Cabezas - 9</h3>
-            <p>Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre</p>
-          </div>
-        </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Mariangel Molina - 7</h3>
-            <p>Lo que más me gusta de Cultivarte es el Coro porque me fascina cantar y quiero ser una cantante famosa cuando sea grande</p>
-          </div>
-        </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Sara Castro - 10</h3>
-            <p>La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad</p>
-          </div>
-        </div>
-      </div>
+      <client-only>
+        <carousel
+          :perPageCustom="[
+            [575, 1],
+            [1024, 2],
+            [1200, 4],
+          ]"
+          :navigationEnabled="true"
+          :paginationEnabled="false"
+        >
+          <slide v-for="n in 7" :key="n" class="testi-center">
+            <div class="testi-single">
+              <div class="testi-txt">
+                <h3>Sara Castro - 10</h3>
+                <p>
+                  La educación financiera es como las matemáticas, solo que aquí
+                  juegas con los números y aprendes a ahorrar jugando como si
+                  fueras un banco de verdad
+                </p>
+              </div>
+            </div>
+          </slide>
+        </carousel>
+      </client-only>
     </section>
     <!-- Testimonial end -->
 
@@ -112,12 +135,21 @@
         <div class="txt-img-multi">
           <div class="only-txt">
             <div class="single-txt">
-              <p class="pb-4">En Becas al Talento estamos comprometidos con fortalecer las habilidades blandas y <b>Competencias Ciudadanas</b> de todos nuestros beneficiarios, con el propósito de convertir sus talentos en oportunidades de mejora.</p>
-              <p>Deseamos apoyar el proceso académico y personal de nuestros estudiantes, siempre desde el respeto y la disciplina, para cumplir metas y celebrar triunfos junto a ellos.</p>
+              <p class="pb-4">
+                En Becas al Talento estamos comprometidos con fortalecer las
+                habilidades blandas y <b>Competencias Ciudadanas</b> de todos
+                nuestros beneficiarios, con el propósito de convertir sus
+                talentos en oportunidades de mejora.
+              </p>
+              <p>
+                Deseamos apoyar el proceso académico y personal de nuestros
+                estudiantes, siempre desde el respeto y la disciplina, para
+                cumplir metas y celebrar triunfos junto a ellos.
+              </p>
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/img2.jpg" alt="">
+            <img src="/images/img2.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -129,11 +161,15 @@
       <div class="container">
         <div class="txt-img-multi">
           <div class="only-img">
-            <img src="/images/img3.jpg" alt="">
+            <img src="/images/img3.jpg" alt="" />
           </div>
           <div class="only-txt">
             <div class="single-txt">
-              <p class="pb-4">Creemos que las habilidades blandas son las bases del éxito, por eso hemos creado 3 ejes principales para nuestro curso de competencias ciudadanas:</p>
+              <p class="pb-4">
+                Creemos que las habilidades blandas son las bases del éxito, por
+                eso hemos creado 3 ejes principales para nuestro curso de
+                competencias ciudadanas:
+              </p>
               <ul>
                 <li>Habilidades blandas: personales y sociales.</li>
                 <li>Competencias integradoras.</li>
@@ -210,7 +246,9 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: this.$constants.baseURL + this.$constants.afloraConozcanos.meta.ogImage,
+          content:
+            this.$constants.baseURL +
+            this.$constants.afloraConozcanos.meta.ogImage,
         },
       ],
     }
