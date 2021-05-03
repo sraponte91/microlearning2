@@ -1,0 +1,474 @@
+/****************************************** 
+2-2 page - Becas Al Talento Home Page start
+******************************************/
+/* Becas banner css start */
+.becas-banner {
+	background-position: right;
+	background-size: cover;
+	height: 781px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+	background-image: linear-gradient(-90deg, rgba(46,46,46,0.1) 0%, rgba(33,33,33,1) 70%, rgba(33,33,33,1) 100%), url('/images/becas-banner.jpg');
+	padding: 50px 0;
+}
+.becas-banner .container-fluid {
+	max-width: 100%;
+	width: 90%;
+	position: relative;
+}
+.banner-content {
+	max-width: 435px; 
+}
+.b-logo {
+	margin-bottom: 35px;
+}
+.banner-content p {
+	font-family: sansationregular;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 30px;
+}
+.banner-img {
+	display: none;
+}
+/* Becas banner css end */
+/* Becas link css start */
+.becas-links {
+	padding: 45px 0;
+	border-bottom: solid 1px #e6e6e6;
+}
+.link-main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.single-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fcfcfc;
+	background-size: cover;
+	font-family: Nunito,sans-serif;
+	font-size: 18px;
+	color: #313338;
+	text-align: center;	
+	width: 226px;
+	text-align: center;
+	padding: 20px 10px;
+	border-bottom: solid 2px #ff671b;
+	margin: 0 20px;
+}
+.single-link:hover {
+	background-color: #e6e6e6;
+	color: #313338;
+}
+.single-link:focus,
+.single-link:active {
+	background-color: #ff671b;
+	color: #fff;
+}
+/* Becas link css end */
+/* image text left right css start */
+.sobre-becas,
+.txt-image {
+	padding: 59px 0;
+}
+.sobre-main,
+.txt-img-multi {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+.sobre-txt,
+.single-txt {
+	background-color: #f7f7f7;
+	padding: 56px 64px 40px 64px;
+	max-width: 710px;
+}
+.right-txt .single-txt {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+}
+.sobre-txt h2,
+.single-txt h2 {
+	font-size: 48px;
+	color: #2f425b;
+	margin-bottom: 20px;
+	font-family: sansationbold;
+}
+.sobre-txt p,
+.single-txt p {
+	font-family: Nunito,sans-serif;
+	font-size: 20px;
+	color: #313338;
+	line-height: 32px;
+}
+.sobre-img,
+.only-img {
+	width: 65%;
+}
+.sobre-content,
+.only-txt {
+	width: 33%;
+}
+.left-txt .single-txt {
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+/* image text left right css end */
+/* Call to action css start */
+.cta {
+	padding: 50px 0;
+	min-height: 672px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: #ff671b;*/
+	margin: 85px 0;
+	text-align: center;
+	background: linear-gradient(-110deg, #cc5216 3%, #ff671b 100% );
+}
+.cta h3 {
+	font-family: Nunito,sans-serif;
+	font-size: 32px;
+	color: #e6e6e6;
+	line-height: 42px;
+	letter-spacing: 10px;
+	text-align: center;
+}
+.cta h2 {
+	font-family: sansationbold;
+	font-size: 105px;
+	color: #ffffff;
+	line-height: 115px;
+	text-align: center;
+	margin: 20px 0 100px 0;
+}
+.cta a {
+	display: inline-block;
+	width: 220px;
+	padding: 19px 11px;
+	background-color: #ffffff;
+	font-family: Nunito,sans-serif;
+	font-size: 18px;
+	color: #2f425b;
+	text-align: center;
+}
+/* Call to action css end */
+/******************************************
+ 2-2 Becas Al Talento Home Page end
+******************************************/
+
+
+/****************************************** 
+2-2-1 page - Becas Al Talento conozcanos Page start
+******************************************/
+/* Common banner css start */
+.space-big {
+	padding-top: 100px;
+}
+.common-banner {
+	background-image: linear-gradient(0deg, #111820 12%, rgba(255, 103, 27, 0.1) 100% ), url('/images/banner.jpg');
+	height: 500px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.common-banner h2 {
+	font-family: sansationbold;
+	font-size: 72px;
+	color: #ff671b;
+	line-height: 86px;
+	text-align: center;
+	padding-bottom: 32px;
+}
+/* Common banner css end */
+/* Hoy css start */
+.hoy-main {
+	padding-top: 69px;
+}
+.hoy-img-txt {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.hoy-img {
+	width: 68%;
+}
+.hoy-txt {
+	width: 31%;
+}
+.h-txt-main {
+	background: #ffc1b0;
+	padding: 25px 40px;
+}
+.h-txt-main p {
+	font-family: sansationbold;
+	font-size: 38px;
+	color: #2f425b;
+	line-height: 48px;
+}
+/* Hoy css end */
+/* Nuestros css start */
+.nuestro-main {
+	padding: 133px 0 160px 0;
+}
+.nuestro-title {
+	padding-bottom: 70px;
+}
+.nuestro-title h3 {
+	font-family: Nunito,sans-serif;
+	font-size: 36px;
+	color: #ff671b;
+	line-height: 32px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.nuestro-title h2 {
+	font-family: sansationbold;
+	font-size: 60px;
+	color: #2f425b;
+	line-height: 64px;
+	letter-spacing: -1px;
+	text-align: center;
+}
+.nuestro-box {
+	display: flex;
+
+}
+.nuestro-single {
+	width: calc(33.33% - 10px);
+	box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+	padding: 30px 50px;
+	margin: 0 10px;
+}
+.nuestro-single h4 {
+	max-width: 272px;
+	margin: 0 auto;
+	font-family: sansationbold;
+	font-size: 27px;
+	color: #2f425b;
+	line-height: 38px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.nuestro-single p {
+	font-family: Nunito,sans-serif;
+	font-size: 18px;
+	color: #313338;
+	line-height: 25px;
+	margin-top: 32px;
+	max-width: 337px;
+}
+/* Nuestros css end */
+.right-top .single-txt {
+	top: 60px;
+	bottom: unset;
+}
+.single-txt ul li {
+	font-family: Nunito,sans-serif;
+	font-size: 18px;
+	color: #313338;
+	line-height: 30px;
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 25px;
+}
+.single-txt ul li:before {
+	position: absolute;
+	left: 0;
+	top: 9px;
+	width: 12px;
+	height: 12px;
+	background: #ff671b;
+	content: "";
+	border-radius: 100%;
+}
+.single-txt ul li:last-child {
+	margin-bottom: 0;
+}
+/* Con el apoyo de css start */
+.conel {
+	padding-bottom: 100px;
+}
+.con-el {
+	width: 90%;
+	margin: 0 auto;
+}
+.conel h3 {
+	font-family: sansationbold;
+	font-size: 18px;
+	color: #111820;
+	padding-bottom: 25px;
+}
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.single-service {
+	width: calc(30% - 8px);
+	margin: 8px;
+	border-radius: 10px;
+	background-color: #ededed;
+	padding: 35px;
+}
+.single-service p {
+	font-family: sansationregular;
+	font-size: 22px;
+	color: #474747;
+	line-height: 28px;
+	position: relative;
+	padding-left: 40px;
+}
+.single-service p:before,
+.single-service p:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 100%;
+}
+.single-service p:before {
+	border: solid 3px #ff671b;
+	width: 20px;
+	height: 20px;
+}
+.single-service p:after {
+	background: #ff671b;
+	width: 6px;
+    height: 6px;
+    left: 7px;
+    top: 7px;
+}
+/* Con el apoyo de css end */
+/* Testimonial css start */
+.testimonial {
+	background: #f7f7f7;
+	padding: 60px 0 60px 20px;
+}
+.testi-single {
+	border-radius: 40px;
+	background: #ffffff;
+	margin: 0 30px;
+	min-height: 410px;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.testi-title h3 {
+	font-family: Nunito,sans-serif;
+	font-size: 72px;
+	color: #2f425b;
+	line-height: 72px;
+	text-align: center;
+	padding-bottom: 33px;
+}
+.testi-title {
+	padding-bottom: 52px;
+}
+.testi-title h4 {
+	font-family: sansationbold;
+	font-size: 48px;
+	color: #ff671b;
+	line-height: 36px;
+	text-align: center;
+}
+.testi-single h3 {
+	font-family: sansationbold;
+	font-size: 35px;
+	color: #111820;
+	text-align: center;
+}
+.testi-single p {
+	position: relative;
+	font-family: sansationregular;
+	font-size: 25px;
+	color: #111820;
+	font-style: italic;
+	padding: 10px 20px 10px 45px;
+}
+.testi-txt {
+	max-width: 565px;
+	margin: 0 auto;
+}
+.testi-single p:before,
+.testi-single p:after {
+	position: absolute;
+	content: url("/images/quote-left.svg");
+}
+.testi-single p:before {
+	left: 0;
+	top: 0;
+}
+.testi-single p:after {
+	transform: rotate(180deg);
+	right: 0;
+	bottom: 0;
+}
+.slick-dots li {
+	width: 15px;
+	height: 15px;
+	margin: 0 11px 0 0;
+	background: #999999;
+	border-radius: 100%;
+}
+.slick-dots li:last-child {
+	margin-right: 0;
+}
+.slick-dots li button,
+.slick-dots li button:before {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	border-radius: 100%;
+}
+.slick-dots li.slick-active button:before {
+	opacity: 1;
+}
+.slick-dots li.slick-active {
+	background: #77777a;
+}
+.slick-next {
+	right: 50px;
+}
+.slick-prev {
+	left: 50px;
+}
+.slick-prev:before,
+.slick-next:before {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	content: url(/images/left.svg);
+}
+.slick-prev, .slick-next {
+	z-index: 9;
+    top: unset;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slick-next {
+	transform: rotate(180deg);
+	bottom: 70px;
+}
+.slick-list {
+	padding: 0 370px 53px 0 !important;
+}
+/* Testimonial css end */
+/****************************************** 
+2-2-1 page - Becas Al Talento conozcanos Page end
+******************************************/

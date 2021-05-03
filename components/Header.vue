@@ -91,7 +91,9 @@
                       :class="{ active: $route.name === 'aflora' }"
                       >Aflora</b-dropdown-item
                     >
-                    <b-dropdown-item>Becas al Talento</b-dropdown-item>
+                    <b-dropdown-item to="/becas-al-talento" :class="{ active: $route.name === 'becas-al-talento' }">
+                    Becas al Talento
+                    </b-dropdown-item>
                     <b-dropdown-item>Cultivarte</b-dropdown-item>
                     <b-dropdown-item to="/emprender-pais"
                       >Emprende País</b-dropdown-item

@@ -339,8 +339,8 @@
               <li :class="{ active: $route.name === 'voluntariado-fundacion-bolivar-davivienda' }">
                 <NuxtLink to="/voluntariado-fundacion-bolivar-davivienda">Voluntariado Familia Bolívar</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === '' }">
-                <NuxtLink to="">Premio Nacional de Periodismo</NuxtLink>
+              <li :class="{ active: $route.name === 'premio-nacional-de-periodismo' }">
+                <NuxtLink to="/premio-nacional-de-periodismo">Premio Nacional de Periodismo</NuxtLink>
               </li>
             </ul>
           </div>
