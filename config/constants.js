@@ -842,4 +842,24 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png'
     }
   },
+  aboutUs:{
+    meta: {
+      title: 'About Us',
+      metaTitle: 'About Us',
+      metaDescription: 'About Us Description',
+      ogTitle: 'About Us',
+      ogDescription: 'About Us',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
+  premioNacionalDePeriodismo:{
+    meta: {
+      title: 'Premio Nacional de Periodismo Simón Bolívar',
+      metaTitle: 'Premio Nacional de Periodismo Simón Bolívar',
+      metaDescription: 'Premio Nacional de Periodismo Simón Bolívar Description',
+      ogTitle: 'Premio Nacional de Periodismo Simón Bolívar',
+      ogDescription: 'Premio Nacional de Periodismo Simón Bolívar',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
 }
