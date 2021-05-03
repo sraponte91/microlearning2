@@ -30,12 +30,12 @@
                             <b-button href="#" variant="primary">Learn More</b-button>
                         </div>
                     </div>
-                    <div class="img-points"><img src="/images/rectangle_a.jpg" alt="" class="object-fit-cover"></div>
+                    <div class="img-points"><img src="/images/about-aflora.jpg" alt="" class="object-fit-cover"></div>
                 </div>
 
                 <div class="d-flex multiple-reapt align-items-start part-two flex-wrap-991">
                     <div class="img-points order-2-991">
-                        <img src="/images/rectangle_b.jpg" alt="" class="object-fit-cover">
+                        <img src="/images/abount-emprende.jpg" alt="" class="object-fit-cover">
                     </div>
                     <div class="two-div-in-one position-relative order-1-991">
                         <div class="txt-points position-relative">
@@ -63,12 +63,12 @@
                             <b-button href="#" variant="primary">Learn More</b-button>
                         </div>
                     </div>
-                    <div class="img-points"><img src="/images/rectangle_a.jpg" alt="" class="object-fit-cover"></div>
+                    <div class="img-points"><img src="/images/about-fillarmo.jpg" alt="" class="object-fit-cover"></div>
                 </div>
 
                 <div class="d-flex multiple-reapt align-items-start part-two flex-wrap-991">
                     <div class="img-points order-2-991">
-                        <img src="/images/rectangle_b.jpg" alt="" class="object-fit-cover">
+                        <img src="/images/abount-volunteer.jpg" alt="" class="object-fit-cover">
                     </div>
                     <div class="two-div-in-one position-relative order-1-991">
                         <div class="txt-points position-relative">
@@ -95,12 +95,12 @@
                             <b-button href="#" variant="primary">Learn More</b-button>
                         </div>
                     </div>
-                    <div class="img-points"><img src="/images/rectangle_a.jpg" alt="" class="object-fit-cover"></div>
+                    <div class="img-points"><img src="/images/about-culture.jpg" alt="" class="object-fit-cover"></div>
                 </div>
 
                 <div class="d-flex multiple-reapt align-items-start part-two flex-wrap-991">
                     <div class="img-points order-2-991">
-                        <img src="/images/rectangle_b.jpg" alt="" class="object-fit-cover">
+                        <img src="/images/about-social.jpg" alt="" class="object-fit-cover">
                     </div>
                     <div class="two-div-in-one position-relative order-1-991">
                         <div class="txt-points position-relative">
@@ -128,7 +128,7 @@
                             <b-button href="#" variant="primary">Learn More</b-button>
                         </div>
                     </div>
-                    <div class="img-points"><img src="/images/rectangle_a.jpg" alt="" class="object-fit-cover"></div>
+                    <div class="img-points"><img src="/images/about-talento.jpg" alt="" class="object-fit-cover"></div>
                 </div>
 
             </div>

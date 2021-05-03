@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <h1>Premio Nacional de Periodismo Simón Bolívar</h1>
-                        <b-img src="images/about-us.jpg" fluid alt="Responsive image"></b-img>
+                        <b-img src="images/premio-nacional-periodismo-portada.jpg" fluid alt=""></b-img>
                         <div class="description">
                             <p>Esta iniciativa del Grupo Bolívar premia al periodista por su trabajo y beneficia a todos aquellos quienes, desde el rigor y la ética, ejercen el periodismo en medios radiales, audiovisuales, impresos y digitales.</p>
                             <p>Por otra parte, el premio otorga becas anuales a periodistas que inician su carrera; además, mediante esta beca podrán acceder a importantes talleres de formación con maestros sobresalientes en el oficio.</p>
