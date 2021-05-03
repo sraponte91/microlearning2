@@ -1,0 +1,202 @@
+@media only screen and (max-width : 1200px) {
+	.big-txt {
+		padding-bottom: 200px;
+	}
+	.left-txt .outer-small-txt .single-txt, .right-txt .outer-small-txt .single-txt {
+	    top: 140px;
+	}
+}
+@media only screen and (max-width : 1024px) {
+	.h-txt-main p {
+		font-size: 24px;
+    	line-height: 34px;
+	}
+	.nuestro-main {
+		padding: 80px 0;
+	}
+	.nuestro-single {
+		padding: 30px 20px;
+	}
+	.testi-single p {
+		font-size: 18px;
+	}
+	.testi-single h3 {
+		font-size: 30px;
+	}
+	.testi-single {
+		margin: 0 20px;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.banner-img {
+		display: block;
+	}
+	.banner-content {
+		margin: 0 auto 50px auto;
+	}
+	.becas-banner {
+		background-image: linear-gradient(0deg, rgba(46,46,46,0.1) 0%, rgba(33,33,33,1) 30%, rgba(33,33,33,1) 100%);
+		padding-bottom: 0;
+		height: auto;
+	}
+	.sobre-img,
+	.sobre-content,
+	.only-img,
+	.only-txt,
+	.sobre-img img,
+	.only-img img,
+	.hoy-img,
+	.hoy-txt,
+	.hoy-img img,
+	.con-el {
+		width: 100%;
+	}
+	.sobre-txt,
+	.left-txt .single-txt,
+	.right-txt .single-txt {
+		position: unset;
+		max-width: 100%;
+		padding: 40px;
+	}
+	.sobre-main,
+	.txt-img-multi,
+	.hoy-img-txt,
+	.nuestro-box {
+		flex-wrap: wrap;
+	}
+	.cta h2 {
+		font-size: 65px;
+		line-height: 75px;
+		margin-bottom: 40px;
+	}
+	.cta {
+		min-height: auto;
+		padding: 100px 0;
+		margin: 0;
+	}
+	.nuestro-box {
+		justify-content: center;
+	}
+	.nuestro-single {
+		width: calc(48% - 10px);
+		margin: 10px;
+	}
+	.single-service {
+		width: calc(48% - 8px);
+	}
+	.conel {
+	    padding-bottom: 80px;
+	}
+	.space-big {
+	    padding-top: 80px;
+	}
+	.como {
+		min-height: auto;
+	}
+	.como h2 {
+		font-size: 48px;
+		line-height: 58px;
+		padding-bottom: 20px;
+	}
+	.b-title p {
+		padding-bottom: 20px;
+	}
+	.big-txt {
+	    padding-bottom: 0;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.cta h2 {
+		font-size: 40px;
+    	line-height: 55px;
+	}
+	.cta h3 {
+		font-size: 22px;
+    	line-height: 32px;
+	}
+	.left-txt .single-txt,
+	.right-txt .single-txt {
+		padding: 30px 20px;
+	}
+	.single-txt h2 {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.single-txt p,
+	.como p,
+	.cta-white p {
+		font-size: 18px;
+    	line-height: 30px;
+	}
+	.common-banner h2 {
+		font-size: 38px;
+    	line-height: 60px;
+	}
+	.common-banner {
+		background-position: center;
+	}
+	.nuestro-single,
+	.single-service {
+		width: calc(100% - 10px);
+		margin: 10px 0 10px 0;
+	}
+	.nuestro-title {
+	    padding-bottom: 30px;
+	}
+	.nuestro-single p {
+		max-width: 100%;
+	}
+	.testi-title h4,
+	.nuestro-title h3,
+	.pm-title h3,
+	.cta-white h3 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.testi-title h3,
+	.nuestro-title h2,
+	.pm-title h2 {
+		font-size: 42px;
+		line-height: 52px;
+		padding-bottom: 0;
+	}
+	.h-txt-main {
+		padding: 25px 30px;
+	}
+	.slick-list {
+	    padding: 0 0px 53px 0 !important;
+	}
+	.testimonial {
+		padding-left: 0px;
+	}
+	.testi-single p {
+		padding: 10px 20px;
+		margin-top: 20px;
+	}
+	.space-big {
+		padding-bottom: 0;
+	}
+	.como {
+		margin: 0;
+	}
+	.como h2,
+	.b-title h2 {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
+	.requi-detail p.sub {
+		padding: 35px 0;
+	}
+	.pm-services {
+		flex-wrap: wrap;
+	}
+	.pms-single {
+		width: 100%;
+	}
+	.cta-white {
+		padding: 50px 0;
+	}
+	.pm-services {
+		padding-bottom: 50px;
+	}
+}
