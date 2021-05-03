@@ -205,7 +205,7 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png'
     }
   },
-  afloraHome: {
+  aflora: {
     desarrollamosTalento: 'javascript:void(0)',
     meta: {
       title: 'Aflora Home',
