@@ -872,4 +872,14 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png'
     }
   },
+  mapaDelSitio: {
+    meta: {
+      title: 'Mapa Del Sitio',
+      metaTitle: 'Mapa Del Sitio',
+      metaDescription: 'Mapa Del Sitio Description',
+      ogTitle: 'Mapa Del Sitio',
+      ogDescription: 'Mapa Del Sitio',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  }
 }
