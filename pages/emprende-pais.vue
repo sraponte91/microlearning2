@@ -102,7 +102,7 @@
 			<p>Buscamos y seleccionamos empresas en Colombia, con alto potencial de crecimiento, para acompañarlas durante 8 meses con consultorías empresariales estratégicas y aspectos financieros, para aumentar la rentabilidad y búsqueda de nuevos mercados en su ruta de crecimiento, con un plan de apalancamiento y metas.</p>
 			<div class="for-btn">
             <a
-              :href="$constants.afloraHome.desarrollamosTalento"
+              :href="$constants.aflora.desarrollamosTalento"
               class="btn-tell-more"
               >Cuéntame más</a
             >
@@ -263,7 +263,7 @@
           </p>
           <div class="for-btn">
             <a
-              :href="$constants.afloraHome.desarrollamosTalento"
+              :href="$constants.aflora.desarrollamosTalento"
               class="btn-tell-more"
               >Cuéntame más</a
             >

@@ -82,7 +82,7 @@
           </p>
           <div class="for-btn">
             <a
-              :href="$constants.afloraHome.desarrollamosTalento"
+              :href="$constants.aflora.desarrollamosTalento"
               class="btn-tell-more"
               >Cuéntame más</a
             >
