@@ -97,7 +97,11 @@
                     >
                       Becas al Talento
                     </b-dropdown-item>
-                    <b-dropdown-item>Cultivarte</b-dropdown-item>
+                    <b-dropdown-item
+                      to="/cultivarte"
+                      :class="{ active: $route.name === 'cultivarte' }"
+                      >Cultivarte</b-dropdown-item
+                    >
                     <b-dropdown-item to="/emprender-pais"
                       >Emprende País</b-dropdown-item
                     >
