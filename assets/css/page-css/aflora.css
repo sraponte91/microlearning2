@@ -40,11 +40,19 @@
 .ig-tx-zing-zag .txt-points ul li ul li::before{height:6px; width:6px; border-radius:100%; background-color:#2f425b; left:0; top:10px;}
 .ig-tx-zing-zag .txt-points h3{color:#ff671b; font-size:22px; line-height:1.2; margin:0 0 10px;}
 .ig-tx-zing-zag.des-filarmonic-main .txt-points h3{color:#2f425b; font-size:40px; line-height:1;}
+.ig-tx-zing-zag.des-filarmonic-main.desarroll-te-empre .txt-points h3.abc{font-size:20px; color:#313338;}
+.ig-tx-zing-zag.des-filarmonic-main.desarroll-te-empre .extr-tx{color:#ff671b; font-size:30px; font-weight:200; margin:10px 0;}
+.ig-tx-zing-zag.des-filarmonic-main.desarroll-te-empre .txt-points h3{color:#ff671b; font-size:20px;}
 .ig-tx-zing-zag.des-filarmonic-main .nd-wave-of-div .txt-points{margin:-40px 0 0 -180px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .txt-points h3{color:#2f425b; font-weight:200; font-size:38px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .txt-points{top:50px;}
+.ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.up-steap-a{margin-top:100px;}
+.ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.up-steap-a .txt-points{margin:-40px 0 0 0;}
+.ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.up-steap-a .txt-points h3{color:#313338; font-size:18px;}
+.ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.text-points-sie .txt-points{margin:40px 0 0 -180px;}
 .ig-tx-zing-zag.connoz-filamr-mpg .three-bx .img-points{margin-left:0;}
 .ig-tx-zing-zag.connoz-filamr-mpg .three-bx .txt-points{top:50px; margin-left:-120px;}
+.ig-tx-zing-zag.connoz-filamr-mpg.conozca-empreder-parde .three-bx .txt-points{top:-40px; margin:0 0 0 -120px;}
 .ig-tx-zing-zag.connoz-filamr-mpg.insocia-co .three-bx .txt-points{top:0; margin:-50px 0 0 -120px;}
 .ig-tx-zing-zag.connoz-filamr-mpg.insocia-co .multiple-reapt + .multiple-reapt{margin-top:130px;}
 .ig-tx-zing-zag .img-points{ width:800px; margin-left:-120px;}
@@ -128,9 +136,15 @@
 .desarrolla.ig-tx-zing-zag .oly-tx-bx{width:calc(100% - 660px); padding-left:15px;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx .inn-bx-bg{padding:15px 20px; background-color:#ffc1b0;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx p{color:#2f425b; font-size:25px; line-height:1.2;}
-.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r{margin:40px 0 0 0;}
-.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r a{font-size:16px; color:#030303;}
-.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r a:hover{text-decoration:underline;}
+.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r,
+.linkto-re{margin:30px 0 0 0;}
+.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r a,
+.linkto-re a{font-size:16px; color:#030303;}
+.desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r a:hover,
+.linkto-re a:hover{text-decoration:underline; color:#030303;}
+.desarrolla.ig-tx-zing-zag .txt-points h2.dif-title{margin:0 0 15px;}
+.dif-title span{color:#2f425b; font-size:30px;}
+.ig-tx-zing-zag.des-filarmonic-main .txt-points .for-bgcol .ses{color:#ff671b; font-size:24px;}
 
 .levels-nd-benef{padding:80px 0 20px;}
 .levels-nd-benef h2{color:#2f425b; font-size:48px;}
@@ -181,6 +195,7 @@
 .six-statetic-box-e .nd-three-bex-sm{max-width:1000px; width:100%; margin-top:50px;}
 .six-statetic-box-e .com-stu .sigl-bx{width:calc(100% / 3); padding:10px 15px;}
 .six-statetic-box-e.full-wid .com-stu .sigl-bx{width:calc(100% / 4); padding:10px 15px;}
+.six-statetic-box-e.conozca-empreder-par .com-stu .sigl-bx{width:calc(100% / 4); padding:10px 15px;}
 .six-statetic-box-e .com-stu .icon{width:62px;}
 .six-statetic-box-e .com-stu .tx-i{width:calc(100% - 62px); padding-left:14px;}
 .six-statetic-box-e .com-stu .tx-i h4{color:#ff671b; font-size:24px; line-height:1;}
@@ -208,6 +223,9 @@
 .cundinamarca-s .inside-box p{color:#ff671b; font-size:22px; margin:0 0 5px;}
 .cundinamarca-s .inside-box small{color:#77777a; font-size:18px;}
 .cundinamarca-s .three-sm-bx{max-width:90%; margin-top:50px;}
+.cundinamarca-s.presencia-en .three-sm-bx{margin-top:20px;}
+.cundinamarca-s.presencia-en .three-sm-bx .onew a svg{margin-right:15px;}
+.cundinamarca-s.presencia-en .txt-par-info{padding-left:130px;}
 .cundinamarca-s .three-sm-bx .onew{width:calc(100% / 3); padding:0 15px;}
 .cundinamarca-s .three-sm-bx .onew h4{color:#111820; font-size:22px; margin:0 0 25px;}
 .cundinamarca-s .three-sm-bx .onew p{color:#77777a; font-size:20px;}
@@ -260,7 +278,11 @@
 .link-to-r-opg{margin:20px 0 0 0;}
 .link-to-r-opg a{color:#030303; font-size:16px;}
 .link-to-r-opg a:hover{text-decoration:underline; color:#030303;}
-
+.multi-bxese-se{padding:45px 0; max-width:90%; width:100%;;}
+.multi-bxese-se .for-m-left{margin:0 -1%;}
+.multi-bxese-se .in-bxeses{padding:10px 15px 25px; box-shadow: 0px 4px 5px rgba(0,0,0,0.2); border-radius:10px; background-color:#fff; width:calc((100% / 6) - 2%); margin:10px 1%; color:#2f425b; font-size:15px;}
+.solid-color-bx{max-width:90%; width:100%; background-color:#ffc1b0; padding:25px 60px 25px 100px;}
+.solid-color-bx p{color:#2f425b; font-size:17px; line-height:1.5;}
 
 
 @media(max-width:1199px){
@@ -268,6 +290,7 @@
      .four-boxes .round-bx{border-width:5px;}
      .four-boxes .round-bx{height:195px; width:195px;}
      .educational-training .for-hght{height:620px;}
+     .multi-bxese-se .in-bxeses{width:calc((100% / 5) - 2%);}
 }
 @media(max-width:1024px){
      .testimo-slider .VueCarousel-slide{width:calc((100% / 2) - 2%);}
@@ -322,6 +345,12 @@
      .ig-tx-zing-zag.connoz-filamr-mpg.insocia-co .multiple-reapt + .multiple-reapt{margin-top:40px;}
      .ig-tx-zing-zag.incoc-convoc .three-bx .txt-points{margin:-40px auto 0;}
      .ig-tx-zing-zag.incoc-convoc .ades{padding:0 15px;}
+     .cundinamarca-s.presencia-en .txt-par-info{padding-left:30px;}
+     .ig-tx-zing-zag.connoz-filamr-mpg.conozca-empreder-parde .three-bx .txt-points{margin:auto; top:0;}
+     .ig-tx-zing-zag.des-filarmonic-main.desarroll-te-empre .extr-tx{padding:0 0 0 15px; margin:0 0 15px;}
+     .ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.up-steap-a .txt-points{margin:-40px auto 0;}
+     .ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.text-points-sie .txt-points{margin:-40px auto 0;}
+     .multi-bxese-se .in-bxeses{width:calc((100% / 4) - 2%);}
 }
 
 @media(max-width:767px){
@@ -371,7 +400,10 @@
      .ig-tx-zing-zag.incoc-convoc .ades .img-points{width:100%; padding:0;}
      .ig-tx-zing-zag.incoc-convoc .ades .txt-points{width:100%;}
      .mob-tt{padding:0 15px 10px; color:#2f425b; font-size:30px;}
-
+     .cundinamarca-s.presencia-en .txt-par-info{padding:0;}
+     .pg-tit-inner h1{font-size:30px;}
+     .solid-color-bx{padding:25px;}
+     .multi-bxese-se .in-bxeses{width:calc((100% / 3) - 2%);}
 }
 @media(max-width:575px){
      .desarrollamos-section.aflora-pg h2{font-size:35px;}
@@ -385,6 +417,7 @@
      .only-links-to .linkse{width:48%;}
      .educational-training .for-hght{height:750px;}
      .ig-tx-zing-zag.desarrolla h2.ss{font-size:32px;}
+     .multi-bxese-se .in-bxeses{width:calc((100% / 2) - 2%);}
 }
 
 @media(max-width:479px){
@@ -402,4 +435,6 @@
 @media(max-width:360px){
      .aflora-bnr-se .some-txt-logo{max-width:300px;}
      .wid-support-of .lgoes-bx{width:calc((100% / 2) - 2%);}
+     /* .multi-bxese-se .in-bxeses{width:100%; margin:0;}
+     .multi-bxese-se .in-bxeses + .in-bxeses{margin-top:18px;} */
 }

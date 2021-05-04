@@ -38,7 +38,7 @@
               <a href="javascript:void(0)" class="clear-all">Limpiar</a>
             </div>
             <h4 class="ff-sans-b">Filtros</h4>
-            <div class="d-nond-n d-block-767">
+            <div class="d-none-n d-block-767">
               <div>
                 <div class="selec-bx">
                   <h5 class="ff-sans-r">Departamento</h5>

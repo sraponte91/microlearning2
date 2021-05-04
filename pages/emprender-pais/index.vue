@@ -2,7 +2,11 @@
   <main>
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
-        <img src="/images/aflora_home.png" alt="" class="object-fit-cover" />
+        <img
+          src="/images/header_ep_e_2604_4f0c84e.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
@@ -32,20 +36,31 @@
         <div
           class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
         >
-          <NuxtLink to="/conozcanos" class="linkse text-center"
+          <NuxtLink to="/emprender-pais/conozcanos" class="linkse text-center"
             >Conózcanos</NuxtLink
           >
-          <NuxtLink to="/desarrollamos-talento" class="linkse text-center"
+          <NuxtLink
+            to="/emprender-pais/desarrollamos-talento"
+            class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
-          <NuxtLink to="/convocatorias" class="linkse text-center"
+          <NuxtLink
+            to="/emprender-pais/convocatorias"
+            class="linkse text-center"
             >Convocatorias</NuxtLink
+          >
+          <NuxtLink
+            to="/emprender-pais/presencia-en-el-pais"
+            class="linkse text-center"
+            >Precencia en el Pais</NuxtLink
           >
         </div>
       </div>
     </section>
 
-    <section class="bg-white what-we-do position-relative ig-tx-zing-zag">
+    <section
+      class="bg-white what-we-do position-relative ig-tx-zing-zag emp-pais"
+    >
       <div class="container">
         <div class="d-flex align-items-start flex-wrap-991">
           <div class="two-div-in-one-left position-relative">
@@ -67,7 +82,7 @@
           </div>
           <div class="img-rrt-pr order-1-991">
             <img
-              src="/images/evento_home.jpg"
+              src="/images/rectangle_ac.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -98,14 +113,14 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <div class="img-points order-1-991">
               <img
-                src="/images/pensum_img.jpg"
+                src="/images/rectangle_ab.jpg"
                 alt=""
                 class="object-fit-cover"
               />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
-                <h2>Nuestra metodología</h2>
+                <h2 class="ff-sans-b">Nuestra metodología</h2>
                 <p>
                   El acompañamiento se basa en el desarrollo de una ruta
                   práctica y adaptada a la realidad de la empresa y del
@@ -144,144 +159,7 @@
     <section
       class="desarrollamos-section aflora-pg position-relative before-po"
     >
-      <div
-        class="one-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex flex-wrap">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-        <div class="dots-div only-for-dots d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDots></HomeDots>
       <div class="inner-section margin-0-auto position-relative z-index-5">
         <div class="text-center text-white">
           <small class="ff-nunito">Sobre nosotros</small>
@@ -292,70 +170,11 @@
             chains without standardized.
           </p>
           <div class="for-btn">
-            <a
-              :href="$constants.emprendePais.desarrollamosTalentoLink"
-              class="btn-tell-more"
-              >Cuéntame más</a
-            >
+            <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
           </div>
         </div>
       </div>
-      <div
-        class="two-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDotsbottoms></HomeDotsbottoms>
     </section>
   </main>
 </template>

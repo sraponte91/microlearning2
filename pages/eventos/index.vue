@@ -31,7 +31,7 @@
             class="d-flex align-items-center justify-content-between flex-wrap-767"
           >
             <p class="ff-nunito text-white">¿Qué estas buscando?</p>
-            <b-form-input placeholder="Eventos"></b-form-input>
+            <b-form-input placeholder="Eventos" v-model="search"></b-form-input>
           </div>
         </div>
       </div>
@@ -40,55 +40,63 @@
     <section class="only-boxes-section">
       <div class="container">
         <div class="d-flex flex-wrap for-mar-setmet">
-          <div
-            class="only-one-bx"
-            v-for="(ev, i) of $constants.eventos.events"
-            :key="i"
-          >
-            <h3 class="ff-sans-b text-uppercase">{{ ev.title }}</h3>
-            <div class="im-bxe">
-              <img :src="ev.imgURL" :alt="ev.title" class="object-fit-cover" />
-            </div>
-            <div class="dt-tx-info position-relative after-po ff-nunito">
-              <div class="d-flex">
-                <div class="dat-bx position-relative after-po">
-                  <p>{{ ev.date }}</p>
-                  <p>{{ ev.time }}</p>
-                </div>
-                <div class="bx-nam">
-                  <div class="d-flex justify-content-between">
-                    <div class="lft">
-                      <h4>Lugar del evento</h4>
-                      <p>Nombre del encargado</p>
+          <template v-if="events.length">
+            <div class="only-one-bx" v-for="(ev, i) of events" :key="i">
+              <h3 class="ff-sans-b text-uppercase">{{ ev.title }}</h3>
+              <div class="im-bxe">
+                <img
+                  :src="ev.imgURL"
+                  :alt="ev.title"
+                  class="object-fit-cover"
+                />
+              </div>
+              <div class="dt-tx-info position-relative after-po ff-nunito">
+                <div class="d-flex">
+                  <div class="dat-bx position-relative after-po">
+                    <p>{{ ev.date }}</p>
+                    <p>{{ ev.time }}</p>
+                  </div>
+                  <div class="bx-nam">
+                    <div class="d-flex justify-content-between">
+                      <div class="lft">
+                        <h4>Lugar del evento</h4>
+                        <p>Nombre del encargado</p>
+                      </div>
+                      <p>{{ ev.place }}</p>
                     </div>
-                    <p>{{ ev.place }}</p>
                   </div>
                 </div>
               </div>
+              <div class="for-btn">
+                <NuxtLink
+                  :to="'/eventos/' + ev.slug"
+                  class="btn-ver-evento ff-nunito position-relative"
+                >
+                  Ver Evento
+                </NuxtLink>
+              </div>
             </div>
-            <div class="for-btn">
-              <NuxtLink
-                :to="'/eventos/' + ev.slug"
-                class="btn-ver-evento ff-nunito position-relative"
-              >
-                Ver Evento
-              </NuxtLink>
-            </div>
-          </div>
+          </template>
+          <h4 style="margin-left: 2%;" v-else>No data found</h4>
         </div>
-        <!-- <div class="text-center">
-          <div class="btn-redrect">
-            <a href="javascript:void(0)" class="btn-carge-mars ff-nunito"
-              >Cargar Más</a
-            >
-          </div>
-        </div> -->
       </div>
     </section>
   </main>
 </template>
 <script>
 export default {
+  computed: {
+    events() {
+      return this.$constants.eventos.events.filter((i) => {
+        return i.title.toLowerCase().includes(this.search.toLowerCase())
+      })
+    },
+  },
+  data() {
+    return {
+      search: '',
+    }
+  },
   head() {
     return {
       title: this.$constants.eventos.meta.title,
@@ -116,7 +124,8 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: this.$constants.baseURL + this.$constants.eventos.meta.ogImage,
+          content:
+            this.$constants.baseURL + this.$constants.eventos.meta.ogImage,
         },
       ],
     }

@@ -32,7 +32,8 @@
           >
             <p class="ff-nunito text-white">¿Qué estas buscando?</p>
             <b-form-input
-              placeholder="Aflora, avances, nuevos programas"
+              v-model="search"
+              placeholder="Actualidad"
             ></b-form-input>
           </div>
         </div>
@@ -40,40 +41,61 @@
     </section>
 
     <section class="list-of-blog-actu">
-      <div
-        v-for="(item, i) of $constants.actualidad.articles"
-        :key="i"
-        class="main-slider-at-top actualidad-pg"
-      >
-        <div class="img-prt position-relative">
-          <img :src="item.imgURL" :alt="item.title" class="object-fit-cover" />
-          <div class="container position-absolute set-to-bottom">
-            <div class="banner-txt text-white">
-              <div class="line-he-1">
-                <span class="date-p ff-nunito text-white">{{ item.date }}</span>
-              </div>
-              <div class="orange-bg">
-                <h1 class="ff-sans-b">{{ item.title }}</h1>
-              </div>
-              <div class="black-bg">
-                <p class="ff-nunito">
-                  {{ item.shortDescription }}
-                </p>
+      <template v-if="articles.length">
+        <div
+          v-for="(item, i) of articles"
+          :key="i"
+          class="main-slider-at-top actualidad-pg"
+        >
+          <div class="img-prt position-relative">
+            <img
+              :src="item.imgURL"
+              :alt="item.title"
+              class="object-fit-cover"
+            />
+            <div class="container position-absolute set-to-bottom">
+              <div class="banner-txt text-white">
+                <div class="line-he-1">
+                  <span class="date-p ff-nunito text-white">{{
+                    item.date
+                  }}</span>
+                </div>
+                <div class="orange-bg">
+                  <h1 class="ff-sans-b">{{ item.title }}</h1>
+                </div>
+                <div class="black-bg">
+                  <p class="ff-nunito">
+                    {{ item.shortDescription }}
+                  </p>
+                </div>
               </div>
             </div>
+            <NuxtLink
+              :to="'/actualidad/' + item.slug"
+              class="position-absolute full-box-link"
+            >
+            </NuxtLink>
           </div>
-          <NuxtLink
-            :to="'/actualidad/' + item.slug"
-            class="position-absolute full-box-link"
-          >
-          </NuxtLink>
         </div>
-      </div>
+      </template>
+      <h4 style="margin: 15px 0 0 40px;" v-else>No data found</h4>
     </section>
   </main>
 </template>
 <script>
 export default {
+  computed: {
+    articles() {
+      return this.$constants.actualidad.articles.filter((i) => {
+        return i.title.toLowerCase().includes(this.search.toLowerCase())
+      })
+    },
+  },
+  data() {
+    return {
+      search: '',
+    }
+  },
   head() {
     return {
       title: this.$constants.actualidad.meta.title,
