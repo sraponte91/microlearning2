@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import "./responsive.css";
 @import "./page-css/menu.css";
 @import "./page-css/home-page.css";
 @import "./page-css/school-page.css";
@@ -8,6 +9,7 @@
 @import "./page-css/eventos.css";
 @import "./page-css/emprende-pais.css";
 @import "./page-css/aflora.css";
+@import "./page-css/becas-talento.css";
 @import "./page-css/footer.css";
 
 @font-face {
