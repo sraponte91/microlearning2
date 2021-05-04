@@ -1,6 +1,26 @@
 <template>
   <main>
     <!-- Banner start -->
+    <div class="container position-relative innerpage">
+      <b-breadcrumb class="position-absolute ff-sans-r">
+        <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+        <b-breadcrumb-item to="/becas-al-talento"
+          >Becas al Talento</b-breadcrumb-item
+        >
+        <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
+      </b-breadcrumb>
+      <div
+        class="back-to-home position-absolute d-flex align-items-center small-size"
+      >
+        <i class="ic-back" @click="goBack()"></i>
+        <a
+          class="ff-sans-b text-white"
+          href="javascript:void(0)"
+          @click="goBack()"
+          >Volver</a
+        >
+      </div>
+    </div>
     <section class="common-banner">
       <div class="container">
         <h2>Becas al talento</h2>
@@ -64,7 +84,7 @@
         <div class="nuestro-box">
           <div class="nuestro-single">
             <h4>Con las universidades aliadas</h4>
-            <img src="/images/universidades.jpg" alt="" />
+            <img src="/images/universidades.jpg" alt="" class="img-fluid" />
             <p>
               Constituir el fondo de becas crédito en alianza con cada
               institución educativa. Con los recaudos de capital que vaya
@@ -75,7 +95,7 @@
           </div>
           <div class="nuestro-single">
             <h4>Con los estudiantes y sus familias</h4>
-            <img src="/images/estudiantes.jpg" alt="" />
+            <img src="/images/estudiantes.jpg" alt="" class="img-fluid" />
             <p>
               Ofrecer alternativas de financiación para que los estudiantes con
               alto desempeño académico logren culminar sus estudios de pregrado
@@ -84,7 +104,7 @@
           </div>
           <div class="nuestro-single">
             <h4>Con la sociedad colombiana</h4>
-            <img src="/images/sociedad.jpg" alt="" />
+            <img src="/images/sociedad.jpg" alt="" class="img-fluid" />
             <p>
               Formar profesionales íntegros, con alto sentido de responsabilidad
               social, jóvenes líderes comprometidos con la construcción de una
@@ -107,9 +127,9 @@
           :perPageCustom="[
             [575, 1],
             [1024, 2],
-            [1200, 4],
+            [1200, 3],
           ]"
-          :navigationEnabled="true"          
+          :navigationEnabled="true"
         >
           <slide v-for="n in 7" :key="n" class="testi-center">
             <div class="testi-single">
@@ -254,3 +274,24 @@ export default {
   },
 }
 </script>
+<style>
+.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-next,
+.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-prev {
+  font-size: 0;
+  background: url(/images/ic_next_pe.svg) 0 0 no-repeat;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  transform: inherit;
+  top: 50%;
+  margin-top: -25px;
+}
+.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-next {
+  left: auto;
+  right: 50px;
+}
+.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-prev {
+  left: 50px;
+  transform: rotate(-180deg);
+}
+</style>
