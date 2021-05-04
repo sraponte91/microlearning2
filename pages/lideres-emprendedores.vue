@@ -105,16 +105,45 @@
               [1200, 1],
             ]"
             :navigationEnabled="false"
-            :paginationEnabled="false"
+            :paginationEnabled="true"
           >
             <slide v-for="n in 7" :key="n">
               <div class="position-relative box bg-white">
-                hello
+                <div class="main-slider-at-top actualidad-pg">
+                  <div class="img-prt position-relative">
+                    <b-img src="images/blog_a.jpg" fluid alt=""></b-img>
+                    <div class="container position-absolute set-to-bottom">
+                      <div class="banner-txt text-white">
+                        <div class="orange-bg">
+                          <h3 class="ff-sans-b">Unidad 1</h3>
+                        </div>
+                        <div class="black-bg">
+                          <p class="ff-nunito">
+                            Empoderamiento y mentalidad reflexiva
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <a
+                      href="/actualidad/title-of-actualidad1"
+                      class="position-absolute full-box-link"
+                    ></a> -->
+                  </div>
+                </div>
                 <!-- <b-img :src="item.image" fluid alt=""></b-img> -->
               </div>
             </slide>
           </carousel>
         </client-only>
+
+        <div class="sec3-info">
+          <p>
+            Explora cómo los desafíos sociales locales pueden transformarse en
+            oportunidades para nuevos emprendimientos, cultivando una mentalidad
+            de acción y posibilidad.
+          </p>
+          <b-btn variant="secondary">Ver Mas</b-btn>
+        </div>
 
         <div class="block-text">
           <h3 class="ff-sans-b">Metodología</h3>
@@ -500,6 +529,108 @@
   text-decoration: none solid rgb(47, 66, 91);
   line-height: 64px;
   margin-bottom: 20px;
+}
+.leader-section-3 .main-slider-at-top .container {
+  max-width: 100%;
+  padding: 0;
+}
+.leader-section-3 .main-slider-at-top .set-to-bottom {
+  bottom: 0;
+}
+.leader-section-3 .main-slider-at-top .orange-bg {
+  width: 100%;
+  max-width: 280px;
+}
+.leader-section-3 .main-slider-at-top h3 {
+  padding: 10px;
+  font-family: Nunito;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.leader-section-3 .main-slider-at-top p {
+  font-family: 'sansationregular';
+  font-size: 32px;
+  color: #ffffff;
+  text-decoration: none solid rgb(255, 255, 255);
+  line-height: 40px;
+}
+.leader-section-3 .VueCarousel {
+  padding-top: 100px;
+}
+.leader-section-3 .VueCarousel-pagination {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+.leader-section-3 {
+  counter-reset: my-sec-counter;
+}
+.leader-section-3 .VueCarousel-dot-container button:before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter);
+}
+.leader-section-3 .VueCarousel-dot-container {
+  margin: 0 !important;
+}
+.leader-section-3 .VueCarousel-dot-container button {
+  margin: 0 5px !important;
+  padding: 0 !important;
+  width: 60px !important;
+  height: 55px !important;
+  border-radius: 5px;
+  background: #2f425b !important;
+  font-family: sansationbold;
+  font-size: 26px;
+  color: #f7f7f7;
+  text-decoration: none solid rgb(247, 247, 247);
+  text-transform: uppercase;
+  text-align: center;
+  outline: none !important;
+}
+.leader-section-3 .VueCarousel-dot-container .VueCarousel-dot--active {
+  background: #ff671b !important;
+  color: #fff;
+}
+
+.leader-section-3 .sec3-info {
+  padding: 50px 0 0;
+}
+.leader-section-3 .sec3-info p {
+  font-family: Nunito;
+  font-size: 18px;
+  color: #77777a;
+  text-decoration: none solid rgb(119, 119, 122);
+  line-height: 32px;
+}
+.leader-section-3 .sec3-info .btn-secondary {
+  display: block;
+  margin: 25px auto 0;
+  width: 250px;
+  height: 54px;
+  padding: 0px 11px 0px 16px;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #111820;
+  font-family: Nunito;
+  font-size: 18px;
+  text-align: left;
+  color: #111820;
+  border-radius: 0;
+  position: relative;
+}
+.leader-section-3 .sec3-info .btn-secondary:before {
+  content: '+';
+  font-family: Nunito;
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .leader-section-4 {
