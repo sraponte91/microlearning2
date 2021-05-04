@@ -1557,4 +1557,24 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
+  becasDesarrollamosTalento: {
+    meta: {
+      title: 'Becas Desarrollamos Talento',
+      metaTitle: 'Desarrollamos Talento',
+      metaDescription: 'Desarrollamos Talento Description',
+      ogTitle: 'Desarrollamos Talento',
+      ogDescription: 'Desarrollamos Talento',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
+  becasRequisitos: {
+    meta: {
+      title: 'Requisitos',
+      metaTitle: 'Requisitos',
+      metaDescription: 'Requisitos Description',
+      ogTitle: 'Requisitos',
+      ogDescription: 'Requisitos',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
 }

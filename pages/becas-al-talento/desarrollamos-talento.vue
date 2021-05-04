@@ -83,6 +83,45 @@
   </main>
 </template>
 
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.becasDesarrollamosTalento.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.becasDesarrollamosTalento.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.becasDesarrollamosTalento.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.becasDesarrollamosTalento.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.becasDesarrollamosTalento.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.becasDesarrollamosTalento.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
+
 <style>
 /* Breadcrumb css start */
 .breadcrumb {

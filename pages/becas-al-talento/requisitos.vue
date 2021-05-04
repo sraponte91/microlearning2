@@ -5,7 +5,7 @@
       <div class="container margin-0-auto">
         <ol class="breadcrumb ff-sans-r mb-2">
           <li class="breadcrumb-item">
-            <a href="/." target="_self" class="">Home</a>
+            <a href="/" target="_self" class="">Home</a>
           </li>
           <li class="breadcrumb-item active">
             <span aria-current="location">Requisitos</span>
@@ -149,7 +149,45 @@
     <!-- call to action white end -->
   </main>
 </template>
-<style >
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.becasRequisitos.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.becasRequisitos.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.becasRequisitos.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.becasRequisitos.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.becasRequisitos.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.becasRequisitos.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
+<style>
 /* requisitos css start */
 .pm-title {
   padding-bottom: 40px;
