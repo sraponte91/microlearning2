@@ -109,8 +109,7 @@
             [1024, 2],
             [1200, 4],
           ]"
-          :navigationEnabled="true"
-          :paginationEnabled="false"
+          :navigationEnabled="true"          
         >
           <slide v-for="n in 7" :key="n" class="testi-center">
             <div class="testi-single">

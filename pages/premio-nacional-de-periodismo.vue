@@ -129,8 +129,7 @@
     </section>
     <section class="article-slider">
       <div class="container">
-        <client-only
-          >
+        <client-only>
           <h2>Otros artículos interesantes</h2>
           <client-only>
             <carousel
@@ -142,18 +141,19 @@
               :navigationEnabled="true"
               :paginationEnabled="false"
             >
-              <slide v-for="n in 8" :key="n"
+              <slide
+                v-for="(item, i) of $constants.premioNacionalDePeriodismo
+                  .otrosInteresantes"
+                :key="i"
               >
                 <div class="position-relative box bg-white">
-                  <b-img
-                    src="images/premio-nacional-periodismo-portada.jpg"
-                    fluid
-                    alt=""
-                    ></b-img>
-                    <div class="tags">Categoría #Cultivarte #Apoyo</div>
-                    <h3 class="title">Título de la noticia</h3>
-                    <div class="date">Septiembre 16 - 2021</div>
-                    <div class="desc">Synergistically redefine high-quality ideas after transparent strategic theme.</div>
+                  <b-img :src="item.image" fluid alt=""></b-img>
+                  <div class="tags">{{ item.tags }}</div>
+                  <h3 class="title">{{ item.title }}</h3>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="desc">
+                    {{ item.description }}
+                  </div>
                 </div>
               </slide>
             </carousel>
@@ -178,7 +178,8 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.premioNacionalDePeriodismo.meta.metaDescription,
+          content: this.$constants.premioNacionalDePeriodismo.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
@@ -188,19 +189,19 @@ export default {
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.premioNacionalDePeriodismo.meta.ogDescription,
+          content: this.$constants.premioNacionalDePeriodismo.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content:`${this.$constants.baseURL}${this.$constants.premioNacionalDePeriodismo.meta.ogImage}`
+          content: `${this.$constants.baseURL}${this.$constants.premioNacionalDePeriodismo.meta.ogImage}`,
         },
       ],
     }
   },
 }
 </script>
-
 
 <style>
 .article {
@@ -252,69 +253,69 @@ export default {
   bottom: 0;
 }
 .article-slider {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 .article-slider h2 {
-    font-family: 'sansationbold';
-    font-size: 50px;
-    color: #111820;
-    text-decoration: none solid rgb(17, 24, 32);
-    line-height: 52px;
-    margin-bottom: 30px;
+  font-family: 'sansationbold';
+  font-size: 50px;
+  color: #111820;
+  text-decoration: none solid rgb(17, 24, 32);
+  line-height: 52px;
+  margin-bottom: 30px;
 }
 .article-slider .box {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 .article-slider .box .tags {
-    font-family: 'sansationregular';
-    font-size: 16px;
-    color: #ff671b;
-    text-decoration: none solid rgb(255, 103, 27);
-    line-height: 30px;
-    padding-bottom: 8px;
+  font-family: 'sansationregular';
+  font-size: 16px;
+  color: #ff671b;
+  text-decoration: none solid rgb(255, 103, 27);
+  line-height: 30px;
+  padding-bottom: 8px;
 }
 .article-slider .box .title {
-    font-family: 'sansationbold';
-    font-size: 20px;
-    color: #333333;
-    text-decoration: none solid rgb(51, 51, 51);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  font-family: 'sansationbold';
+  font-size: 20px;
+  color: #333333;
+  text-decoration: none solid rgb(51, 51, 51);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.article-slider .box .date{
-    font-family: 'sansationregular';
-    font-size: 14px;
-    font-style: italic;
-    color: #333333;
-    text-decoration: none solid rgb(51, 51, 51);
-    line-height: 27px;
-    padding-bottom: 8px;
+.article-slider .box .date {
+  font-family: 'sansationregular';
+  font-size: 14px;
+  font-style: italic;
+  color: #333333;
+  text-decoration: none solid rgb(51, 51, 51);
+  line-height: 27px;
+  padding-bottom: 8px;
 }
-.article-slider .box .desc{
-    font-family: 'sansationregular';
-    font-size: 16px;
-    color: #333333;
-    text-decoration: none solid rgb(51, 51, 51);
-    line-height: 27px;
+.article-slider .box .desc {
+  font-family: 'sansationregular';
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none solid rgb(51, 51, 51);
+  line-height: 27px;
 }
-.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next, 
+.article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next,
 .article-slider .VueCarousel-navigation-button.VueCarousel-navigation-prev {
-    font-size: 0;
-    background: url(/images/ic_next_pe.svg) 0 0 no-repeat;
-    height: 50px;
-    width: 50px;
-    background-size: 50px;
-    transform: inherit;
-    top: 50%;
-    margin-top: -25px;
+  font-size: 0;
+  background: url(/images/ic_next_pe.svg) 0 0 no-repeat;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  transform: inherit;
+  top: 50%;
+  margin-top: -25px;
 }
 .article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next {
-    left: auto;
-    right: -50px;
+  left: auto;
+  right: -50px;
 }
 .article-slider .VueCarousel-navigation-button.VueCarousel-navigation-prev {
-    left: -50px;
-    transform: rotate(-180deg);
+  left: -50px;
+  transform: rotate(-180deg);
 }
 </style>

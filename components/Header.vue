@@ -91,17 +91,26 @@
                       :class="{ active: $route.name === 'aflora' }"
                       >Aflora</b-dropdown-item
                     >
-                    <b-dropdown-item to="/becas-al-talento" :class="{ active: $route.name === 'becas-al-talento' }">
-                    Becas al Talento
+                    <b-dropdown-item
+                      to="/becas-al-talento"
+                      :class="{ active: $route.name === 'becas-al-talento' }"
+                    >
+                      Becas al Talento
                     </b-dropdown-item>
-                    <b-dropdown-item>Cultivarte</b-dropdown-item>
+                    <b-dropdown-item
+                      to="/cultivarte"
+                      :class="{ active: $route.name === 'cultivarte' }"
+                      >Cultivarte</b-dropdown-item
+                    >
                     <b-dropdown-item to="/emprender-pais"
                       >Emprende País</b-dropdown-item
                     >
                     <b-dropdown-item to="/filarmonica-joven-de-colombia"
                       >Filarmónica Joven de Colombia</b-dropdown-item
                     >
-                    <b-dropdown-item to="/inversion-social">Inversión Social</b-dropdown-item>
+                    <b-dropdown-item to="/inversion-social"
+                      >Inversión Social</b-dropdown-item
+                    >
                     <b-dropdown-item
                       to="/voluntariado-fundacion-bolivar-davivienda"
                       >Voluntariado Fundación Bolivar</b-dropdown-item
@@ -124,7 +133,9 @@
                 </li>
                 <li
                   class="nav-item"
-                  :class="{ active: $route.name === 'informe-de-sostenibilidad' }"
+                  :class="{
+                    active: $route.name === 'informe-de-sostenibilidad',
+                  }"
                 >
                   <NuxtLink to="/informe-de-sostenibilidad" class="nav-link"
                     >Informe de sostenibilidad</NuxtLink
@@ -134,15 +145,20 @@
                   class="nav-item"
                   :class="{ active: $route.name === 'contacto' }"
                 >
-                  <NuxtLink to="/contacto" class="nav-link">Contacto</NuxtLink>
+                  <a
+                    target="_blank"
+                    class="nav-link text-center"
+                    :href="$constants.contactoLink"
+                    title=""
+                  >
+                    Contacto
+                  </a>
                 </li>
                 <li
                   class="nav-item"
                   :class="{ active: $route.name === 'about-us' }"
                 >
-                  <NuxtLink to="/about-us" class="nav-link"
-                    >About us</NuxtLink
-                  >
+                  <NuxtLink to="/about-us" class="nav-link">About us</NuxtLink>
                 </li>
               </ul>
               <ul class="navbar-nav align-items-center text-lg-left ff-nunito">
