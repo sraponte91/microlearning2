@@ -133,6 +133,7 @@
                 >Lee el reglamento de inscripción</a
               >
               <a
+                target="_blank"
                 :href="$constants.afloraInscripciones.inscribaseLink"
                 class="btn-sm btn-solid-btn text-center"
                 >Inscribase aquí</a

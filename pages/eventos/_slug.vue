@@ -39,8 +39,15 @@
                   {{ evt.shortDescription }}
                 </h4>
                 <div>
-                  <div class="lbl-evnt evnt-active">Evento Activo</div>
-                  <div class="lbl-evnt evnt-finalized">Evento Activo</div>
+                  <div
+                    class="lbl-evnt"
+                    :class="{
+                      'evnt-active': isToday(evt.date),
+                      'evnt-finalized': !isToday(evt.date),
+                    }"
+                  >
+                    Evento Activo
+                  </div>
                 </div>
               </div>
               <div class="tw-p ff-nunito">
@@ -146,8 +153,15 @@
             </div>
             <div class="evnt-dta ff-nunito d-none-767">
               <div class="d-flex">
-                <div class="lbl-evnt evnt-active">Evento Activo</div>
-                <div class="lbl-evnt evnt-finalized">Evento Activo</div>
+                <div
+                  class="lbl-evnt"
+                  :class="{
+                    'evnt-active': isToday(evt.date),
+                    'evnt-finalized': !isToday(evt.date),
+                  }"
+                >
+                  Evento Activo
+                </div>
               </div>
               <div class="iner-evt-dta">
                 <h3>Datos del evento</h3>
@@ -303,6 +317,15 @@ export default {
   methods: {
     goBack() {
       window.history.back()
+    },
+    isToday(dateStr) {
+      const today = new Date()
+      const date = new Date(dateStr)
+      return (
+        date.getDate() === today.getDate() &&
+        date.getMonth() === today.getMonth() &&
+        date.getFullYear() === today.getFullYear()
+      )
     },
   },
 }

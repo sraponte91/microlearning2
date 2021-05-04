@@ -31,7 +31,9 @@
           <NuxtLink to="/aflora/conozcanos" class="linkse text-center"
             >Conózcanos</NuxtLink
           >
-          <NuxtLink to="/aflora/desarrollamos" class="linkse text-center"
+          <NuxtLink
+            to="/aflora/desarrollamos-talento"
+            class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
           <NuxtLink to="/aflora/autodiagnostico" class="linkse text-center"
@@ -40,8 +42,16 @@
           <NuxtLink to="/aflora/inscripciones" class="linkse text-center"
             >Inscripciones</NuxtLink
           >
-          <NuxtLink to="/aflora/iniciar-sesion" class="linkse text-center"
-            >Iniciar sesión</NuxtLink
+          <NuxtLink
+            to="/aflora/nuestras-organizaciones"
+            class="linkse text-center"
+            >Nuestras organizaciones</NuxtLink
+          >
+          <a
+            target="_blank"
+            href="https://formamostalento.fundacionbd.org/login/index.php"
+            class="linkse text-center"
+            >Iniciar sesión</a
           >
         </div>
       </div>
@@ -465,7 +475,8 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: this.$constants.baseURL + this.$constants.aflora.meta.ogImage,
+          content:
+            this.$constants.baseURL + this.$constants.aflora.meta.ogImage,
         },
       ],
     }

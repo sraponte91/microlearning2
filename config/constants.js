@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$constants = {
   baseURL: 'https://vue-fbd.9uylk5fy.xyz',
+  headerBtnLink: 'https://www.zonapagos.com/t_fundacionbolivar',
   fbURL: 'https://fb.com',
   instaURL: 'https://instagram.com',
   linkedInURL: 'https://linkedin.com',
@@ -332,6 +333,16 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
+  afloraDesarrollamosTalentoCiclosDeFormacion: {
+    meta: {
+      title: 'Desarrollamos talento',
+      metaTitle: 'Desarrollamos talento',
+      metaDescription: 'Desarrollamos talento Description',
+      ogTitle: 'Desarrollamos talento',
+      ogDescription: 'Desarrollamos talento',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
+  },
   afloraAutodiagnostico: {
     importantInformations: [
       'Debe contar con 1 hora de su tiempo aproximadamente, para diligenciar todo el formulario.',
@@ -350,7 +361,7 @@ Vue.prototype.$constants = {
   },
   afloraInscripciones: {
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)',
+    inscribaseLink: 'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
     meta: {
       title: 'Inscripciones',
       metaTitle: 'Inscripciones',
@@ -360,15 +371,15 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
-  afloraIniciarSesion: {
+  afloraNuestrasOrganizaciones: {
     meta: {
-      title: 'Voluntariado fundación Bolivar',
-      metaTitle: 'Voluntariado fundación Bolivar',
-      metaDescription: 'Voluntariado fundación Bolivar',
-      ogTitle: 'Voluntariado fundación Bolivar',
-      ogDescription: 'Voluntariado fundación Bolivar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
-    },
+      title: 'Nuestras organizaciones',
+      metaTitle: 'Nuestras organizaciones',
+      metaDescription: 'Nuestras organizaciones',
+      ogTitle: 'Nuestras organizaciones',
+      ogDescription: 'Nuestras organizaciones',
+      ogImage: '/images/fundacion_bolivar_davivenda.png'
+    }
   },
   actualidad: {
     articles: [

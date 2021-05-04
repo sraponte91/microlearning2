@@ -4,7 +4,7 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/aflora-home">Aflora</b-breadcrumb-item>
+          <b-breadcrumb-item to="/aflora">Aflora</b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
         <div
@@ -73,8 +73,9 @@
                   gratuita con prestigiosas universidades.
                 </p>
                 <div class="links-to-r text-right">
-                  <a :href="$constants.desarrollamosTalento.quieroConocerMas"
-                    >Quiero conocer más ></a
+                  <NuxtLink
+                    to="/aflora/desarrollamos-talento/ciclos-de-formacion"
+                    >Quiero conocer más ></NuxtLink
                   >
                 </div>
               </div>
@@ -95,7 +96,7 @@
             </div>
             <div class="btn-g">
               <a
-                :href="$constants.desarrollamosTalento.nivelesLink"
+                :href="$constants.afloraDesarrollamosTalento.nivelesLink"
                 class="btn-know-leave ff-sans-b"
                 >Conocer Niveles</a
               >
@@ -139,7 +140,7 @@
               </div>
               <div class="btn-g text-center">
                 <a
-                  :href="$constants.desarrollamosTalento.escuelaLink"
+                  :href="$constants.afloraDesarrollamosTalento.escuelaLink"
                   class="btn-know-leave ff-sans-b"
                   >Conocer Niveles</a
                 >
@@ -157,6 +158,42 @@ export default {
     goBack() {
       window.history.back()
     },
+  },
+  head() {
+    return {
+      title: this.$constants.afloraDesarrollamosTalento.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.afloraDesarrollamosTalento.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.afloraDesarrollamosTalento.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.afloraDesarrollamosTalento.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.afloraDesarrollamosTalento.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            this.$constants.baseURL +
+            this.$constants.afloraDesarrollamosTalento.meta.ogImage,
+        },
+      ],
+    }
   },
 }
 </script>

@@ -102,7 +102,9 @@
                     <b-dropdown-item to="/filarmonica-joven-de-colombia"
                       >Filarmónica Joven de Colombia</b-dropdown-item
                     >
-                    <b-dropdown-item to="/inversion-social">Inversión Social</b-dropdown-item>
+                    <b-dropdown-item to="/inversion-social"
+                      >Inversión Social</b-dropdown-item
+                    >
                     <b-dropdown-item
                       to="/voluntariado-fundacion-bolivar-davivienda"
                       >Voluntariado Fundación Bolivar</b-dropdown-item
@@ -123,24 +125,21 @@
                 >
                   <NuxtLink to="/eventos" class="nav-link">Eventos</NuxtLink>
                 </li>
-                <li
-                  class="nav-item"
-                  :class="{ active: $route.name === 'informe-de-sostenibilidad' }"
-                >
-                  <NuxtLink to="/informe-de-sostenibilidad" class="nav-link"
-                    >Informe de sostenibilidad</NuxtLink
+                <li class="nav-item">
+                  <a
+                    target="_blank"
+                    href="https://www.fundacionbolivardavivienda.org/sostenibilidad/"
+                    class="nav-link"
+                    >Informe de sostenibilidad</a
                   >
                 </li>
-                <li
-                  class="nav-item"
-                >
-                <a
+                <li class="nav-item">
+                  <a
                     target="_blank"
-                    class="nav-link text-center"
-                    :href="$constants.contactoLink"
-                    title=""
-                    >Contacto </a>
-                  <!-- <NuxtLink to="/contacto" class="nav-link">Contacto</NuxtLink> -->
+                    href="https://fundacionbolivardavivienda.secure.force.com/fbdcontactenos/fbd_FormularioContactenos"
+                    class="nav-link"
+                    >Contacto</a
+                  >
                 </li>
                 <li
                   class="nav-item"

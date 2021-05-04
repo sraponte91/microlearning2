@@ -38,7 +38,7 @@
               <a href="javascript:void(0)" class="clear-all">Limpiar</a>
             </div>
             <h4 class="ff-sans-b">Filtros</h4>
-            <div class="d-nond-n d-block-767">
+            <div class="d-none-n d-block-767">
               <div>
                 <div class="selec-bx">
                   <h5 class="ff-sans-r">Departamento</h5>
@@ -391,6 +391,42 @@ export default {
     goBack() {
       window.history.back()
     },
+  },
+  head() {
+    return {
+      title: this.$constants.afloraNuestrasOrganizaciones.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.afloraNuestrasOrganizaciones.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.afloraNuestrasOrganizaciones.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.afloraNuestrasOrganizaciones.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.afloraNuestrasOrganizaciones.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            this.$constants.baseURL +
+            this.$constants.afloraNuestrasOrganizaciones.meta.ogImage,
+        },
+      ],
+    }
   },
 }
 </script>
