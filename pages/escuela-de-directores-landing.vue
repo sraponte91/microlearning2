@@ -35,7 +35,28 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <h2 class="ff-sans-b">Método del caso</h2>
-                        dsadasdsa
+                        <!-- dsadasdsa -->
+                        <client-only>
+            <carousel
+              :perPageCustom="[
+                [575, 1],
+                [1024, 1],
+                [1200, 1],
+              ]"
+              :navigationEnabled="false"
+              :paginationEnabled="false"
+            >
+              <slide
+                v-for="n in 7"
+                :key="n"
+              >
+                <div class="position-relative box bg-white">
+                    hello
+                  <!-- <b-img :src="item.image" fluid alt=""></b-img> -->
+                </div>
+              </slide>
+            </carousel>
+          </client-only>
                     </div>
                 </div>
             </div>

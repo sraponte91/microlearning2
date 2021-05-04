@@ -51,6 +51,28 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <h2 class="ff-sans-b">Requisitos para aplicar a la red como emprendendor</h2>
+                        <client-only>
+            <carousel
+              :perPageCustom="[
+                [575, 1],
+                [1024, 1],
+                [1200, 1],
+              ]"
+              :navigationEnabled="false"
+              :paginationEnabled="false"
+            >
+              <slide
+                v-for="n in 7"
+                :key="n"
+              >
+                <div class="position-relative box bg-white">
+                    hello
+                  <!-- <b-img :src="item.image" fluid alt=""></b-img> -->
+                </div>
+              </slide>
+            </carousel>
+          </client-only>
+
                         <div class="sec3-boxes">
                             <div class="row align-items-center">
                                 <div class="col-md-4">
@@ -70,7 +92,7 @@
                 <div class="sec-title text-center">
                     <h2 class="ff-sans-b">Testimonios</h2>
                 </div>
-                <!-- <div class="testimo-slider">
+                <div class="testimo-slider">
                 <div class="for-marg-1">
                     <client-only>
                     <carousel
@@ -83,7 +105,7 @@
                         :paginationEnabled="true"
                     >
                         <slide
-                        v-for="(item, i) of $constants.conozcanos.testimonios"
+                        v-for="(item, i) of $constants.afloraConozcanos.testimonios"
                         :key="i"
                         >
                         <div class="position-relative testimo-bx bg-white">
@@ -104,7 +126,7 @@
                     </carousel>
                     </client-only>
                 </div>
-                </div> -->
+                </div>
             </div>
             </section>
         <section class="invester-section-5">
