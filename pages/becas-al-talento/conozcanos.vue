@@ -131,7 +131,7 @@
           ]"
           :navigationEnabled="true"
         >
-          <slide v-for="(item, i) of $constants.becasAlTalentoConozcanos.testimonios" :key="i" class="testi-center">
+          <slide v-for="(item, i) of $constants.becasConozcanos.testimonios" :key="i" class="testi-center">
             <div class="testi-single">
               <div class="testi-txt">
                 <h3>{{item.title}}</h3>
@@ -231,41 +231,36 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
-      title: this.$constants.afloraConozcanos.meta.title,
+      title: this.$constants.becasConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraConozcanos.meta.metaTitle,
+          content: this.$constants.becasConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraConozcanos.meta.metaDescription,
+          content: this.$constants.becasConozcanos.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraConozcanos.meta.ogTitle,
+          content: this.$constants.becasConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraConozcanos.meta.ogDescription,
+          content: this.$constants.becasConozcanos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.afloraConozcanos.meta.ogImage,
+            this.$constants.becasConozcanos.meta.ogImage,
         },
       ],
     }

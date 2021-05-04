@@ -387,11 +387,6 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.afloraNuestrasOrganizaciones.meta.title,

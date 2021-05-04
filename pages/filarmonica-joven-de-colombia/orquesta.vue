@@ -280,9 +280,6 @@ export default {
         this.$refs.integrantes.goToPage(0)
       })
     },
-    goBack() {
-      window.history.back()
-    },
     goNext(ref) {
       this.$refs[ref].goToPage(
         this.$refs[ref].currentPage === this.activeTabItems.length - 1

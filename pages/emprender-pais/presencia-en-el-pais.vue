@@ -189,11 +189,6 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.emprendePaisPresenciaEnElPais.meta.title,

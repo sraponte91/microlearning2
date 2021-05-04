@@ -1523,4 +1523,38 @@ Vue.prototype.$constants = {
       },
     ],
   },
+  becasConozcanos: {
+    testimonios: [
+      {
+        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        description:
+          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+      },
+      {
+        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        description:
+          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+    ],
+    meta: {
+      title: 'Becas Conózcanos',
+      metaTitle: 'Becas Conózcanos',
+      metaDescription: 'Becas Conózcanos Description',
+      ogTitle: 'Becas Conózcanos',
+      ogDescription: 'Becas Conózcanos',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
 }

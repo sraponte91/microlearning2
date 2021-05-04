@@ -118,11 +118,6 @@ export default {
       selected: null,
     }
   },
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.emprenderPaisDesarrollamosTalentoMentores.meta

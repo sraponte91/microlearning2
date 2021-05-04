@@ -315,9 +315,6 @@ export default {
     }
   },
   methods: {
-    goBack() {
-      window.history.back()
-    },
     isToday(dateStr) {
       const today = new Date()
       const date = new Date(dateStr)

@@ -85,11 +85,6 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.afloraAutodiagnostico.meta.title,

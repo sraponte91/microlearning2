@@ -236,11 +236,7 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
+
   head() {
     return {
       title: this.$constants.afloraConozcanos.meta.title,

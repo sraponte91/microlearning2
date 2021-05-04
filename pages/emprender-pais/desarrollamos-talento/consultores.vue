@@ -63,11 +63,6 @@
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.emprenderPaisDesarrollamosTalentoConsultores.meta
