@@ -63,18 +63,28 @@
                 :navigationEnabled="false"
                 :paginationEnabled="true"
               >
-                <slide v-for="n in 4" :key="n">
+                <slide
+                  v-for="(metodoDelCaso, i) in $constants
+                    .escuelaDeDirectoresLanding.metodoDelCasos"
+                  :key="i"
+                >
                   <div class="position-relative box bg-white">
                     <div class="main-slider-at-top actualidad-pg">
                       <div class="img-prt position-relative">
-                        <b-img src="images/blog_a.jpg" fluid alt=""></b-img>
+                        <b-img :src="metodoDelCaso.image" fluid alt=""></b-img>
                         <div class="container position-absolute set-to-bottom">
                           <div class="banner-txt text-white">
                             <div class="orange-bg">
-                              <h3 class="ff-sans-b">Unidad 1</h3>
+                              <h3
+                                class="ff-sans-b"
+                                v-text="metodoDelCaso.title"
+                              />
                             </div>
                             <div class="black-bg">
-                              <p class="ff-nunito">Método del caso</p>
+                              <p
+                                class="ff-nunito"
+                                v-text="metodoDelCaso.description"
+                              />
                             </div>
                           </div>
                         </div>
@@ -264,6 +274,45 @@
     </section>
   </main>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.escuelaDeDirectoresLanding.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.escuelaDeDirectoresLanding.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.escuelaDeDirectoresLanding.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.escuelaDeDirectoresLanding.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.escuelaDeDirectoresLanding.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.escuelaDeDirectoresLanding.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 .bg-grey {
   background: #f7f7f7;

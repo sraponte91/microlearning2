@@ -54,9 +54,12 @@
                 achieve their goals, creating high-impact in their industries in
                 a sustainable and efficient way.
               </p>
-              <NuxtLink to="/aflora" class="btn btn-primary"
-                >Learn More</NuxtLink
+              <NuxtLink
+                :to="$constants.aboutUs.afloraUrl"
+                class="btn btn-primary"
               >
+                Learn More
+              </NuxtLink>
             </div>
           </div>
           <div class="img-points">
@@ -99,9 +102,12 @@
                   achieve their goals, creating high-impact in their industries
                   in a sustainable and efficient way.
                 </p>
-                <NuxtLink to="/emprende-pais" class="btn btn-primary"
-                  >Learn More</NuxtLink
+                <NuxtLink
+                  :to="$constants.aboutUs.emprendePaisUrl"
+                  class="btn btn-primary"
                 >
+                  Learn More
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -139,7 +145,7 @@
                 participates in an exchange program agreement).
               </p>
               <NuxtLink
-                to="/filarmonica-joven-de-colombia"
+                :to="$constants.aboutUs.filarmonicaJovendeColombiaUrl"
                 class="btn btn-primary"
                 >Learn More</NuxtLink
               >
@@ -182,7 +188,7 @@
                   to the social sector both inside and outside the country.
                 </p>
                 <NuxtLink
-                  to="/voluntariado-fundacion-bolivar-davivienda"
+                  :to="$constants.aboutUs.voluntariadoFamiliaBolívarUrl"
                   class="btn btn-primary"
                   >Learn More</NuxtLink
                 >
@@ -208,7 +214,10 @@
                 history, not only of children and adolescents, but also of their
                 communities.
               </p>
-              <NuxtLink to="/cultivarte" class="btn btn-primary">
+              <NuxtLink
+                :to="$constants.aboutUs.cultivarteUrl"
+                class="btn btn-primary"
+              >
                 Learn More
               </NuxtLink>
             </div>
@@ -253,9 +262,12 @@
                   adolescents and prevent teenage pregnancy, among other social
                   issues, in order to achieve transformative results.
                 </p>
-                 <NuxtLink to="/inversion-social" class="btn btn-primary">
-                Learn More
-              </NuxtLink>
+                <NuxtLink
+                  :to="$constants.aboutUs.inversionSocialUrl"
+                  class="btn btn-primary"
+                >
+                  Learn More
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -279,7 +291,10 @@
                 skilled professionals prepared to create positive change
                 and transform the face of Colombia.
               </p>
-              <NuxtLink to="/becas-al-talento" class="btn btn-primary">
+              <NuxtLink
+                :to="$constants.aboutUs.becasAlTalento"
+                class="btn btn-primary"
+              >
                 Learn More
               </NuxtLink>
             </div>
@@ -339,8 +354,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content:
-            this.$constants.baseURL + this.$constants.aboutUs.meta.ogImage,
+          content: `${this.$constants.baseURL}${this.$constants.aboutUs.meta.ogImage}`,
         },
       ],
     }

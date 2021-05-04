@@ -49,7 +49,7 @@
                   cada participante.
                 </p>
                 <div class="text-center">
-                  <b-button variant="primary">Inscribase aquí</b-button>
+                  <b-button variant="primary" :href="$constants.redDeAngeles.perfilesEmpresasUrl" >Inscribase aquí</b-button>
                 </div>
               </div>
               <div class="sec2-inner-box">
@@ -65,7 +65,7 @@
                   en una etapa temprana.
                 </p>
                 <div class="text-center">
-                  <b-button variant="primary">Inscribase aquí</b-button>
+                  <b-button variant="primary" :href="$constants.redDeAngeles.perfilesInversionistaUrl">Inscribase aquí</b-button>
                 </div>
               </div>
             </div>
@@ -90,19 +90,19 @@
                 :navigationEnabled="false"
                 :paginationEnabled="true"
               >
-                <slide v-for="n in 7" :key="n">
+                <slide v-for="requisitos, i in $constants.redDeAngeles.requisitos" :key="i">
                   <div class="sec3-boxes">
                     <div class="row align-items-center">
                       <div class="col-md-4">
                         <b-img
-                          src="images/icon-user-group.png"
+                          :src="requisitos.image"
                           fluid
                           alt=""
-                        ></b-img>
+                        />
                       </div>
                       <div class="col-md-8">
                         <p>
-                          Su emprendimiento no destruye valor social o ambiental
+                          {{requisitos.description}}
                         </p>
                       </div>
                     </div>
@@ -132,7 +132,7 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants.afloraConozcanos.testimonios"
+                  v-for="(item, i) of $constants.redDeAngeles.testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -214,6 +214,44 @@
     </section>
   </main>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.redDeAngeles.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.redDeAngeles.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.redDeAngeles.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.redDeAngeles.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.redDeAngeles.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:`${this.$constants.baseURL}${this.$constants.redDeAngeles.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
+
 
 <style>
 .bg-grey {

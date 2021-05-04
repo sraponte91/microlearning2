@@ -340,8 +340,8 @@ Vue.prototype.$constants = {
       metaDescription: 'Desarrollamos talento Description',
       ogTitle: 'Desarrollamos talento',
       ogDescription: 'Desarrollamos talento',
-      ogImage: '/images/fundacion_bolivar_davivenda.png'
-    }
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
   },
   afloraAutodiagnostico: {
     importantInformations: [
@@ -361,7 +361,8 @@ Vue.prototype.$constants = {
   },
   afloraInscripciones: {
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
+    inscribaseLink:
+      'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
     meta: {
       title: 'Inscripciones',
       metaTitle: 'Inscripciones',
@@ -378,8 +379,8 @@ Vue.prototype.$constants = {
       metaDescription: 'Nuestras organizaciones',
       ogTitle: 'Nuestras organizaciones',
       ogDescription: 'Nuestras organizaciones',
-      ogImage: '/images/fundacion_bolivar_davivenda.png'
-    }
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
   },
   actualidad: {
     articles: [
@@ -1275,6 +1276,13 @@ Vue.prototype.$constants = {
       ogDescription: 'About Us',
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
+    afloraUrl: '/aflora',
+    emprendePaisUrl: '/emprender-pais',
+    filarmonicaJovendeColombiaUrl: '/filarmonica-joven-de-colombia',
+    voluntariadoFamiliaBolívarUrl: '/voluntariado-fundacion-bolivar-davivienda',
+    cultivarteUrl: '/cultivarte',
+    inversionSocialUrl: '/inversion-social',
+    becasAlTalento: '/becas-al-talento',
   },
   premioNacionalDePeriodismo: {
     meta: {
@@ -1347,5 +1355,172 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
-  contactoLink: '#',
+  lideresEmprendedores: {
+    meta: {
+      title: 'Lideres Emprendedores',
+      metaTitle: 'Lideres Emprendedores',
+      metaDescription: 'Lideres Emprendedores Description',
+      ogTitle: 'Lideres Emprendedores',
+      ogDescription: 'Lideres Emprendedores',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+    jovenesMusicosUrl: '#',
+    gestoresCulturalesUrl: '#',
+    costosUrl1: '#',
+    costosUrl2: '#',
+    mallaCurriculars: [
+      {
+        title: 'Unidad 1',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 2',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 3',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 4',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 5',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 6',
+        description: 'Empoderamiento y mentalidad reflexiva',
+        image: 'images/blog_a.jpg',
+      },
+    ],
+  },
+  redDeAngeles: {
+    meta: {
+      title: 'Red De Angeles',
+      metaTitle: 'Red De Angeles',
+      metaDescription: 'Red De Angeles Description',
+      ogTitle: 'Red De Angeles',
+      ogDescription: 'Red De Angeles',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+    perfilesEmpresasUrl: '#',
+    perfilesInversionistaUrl: '#',
+    requisitos: [
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+      {
+        image: 'images/icon-user-group.png',
+        description: 'Su emprendimiento no destruye valor social o ambiental',
+      },
+    ],
+    testimonios: [
+      {
+        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        description:
+          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+      },
+      {
+        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        description:
+          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+      {
+        title:
+          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+        description:
+          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+      },
+    ],
+  },
+  escuelaDeDirectoresLanding: {
+    meta: {
+      title: 'Escuela De Directores Landing',
+      metaTitle: 'Escuela De Directores Landing',
+      metaDescription: 'Escuela De Directores Landing Description',
+      ogTitle: 'Escuela De Directores Landing',
+      ogDescription: 'Escuela De Directores Landing',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+    metodoDelCasos: [
+      {
+        title: 'Unidad 1',
+        description: 'Método del caso',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 2',
+        description: 'Método del caso',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 3',
+        description: 'Método del caso',
+        image: 'images/blog_a.jpg',
+      },
+      {
+        title: 'Unidad 3',
+        description: 'Método del caso',
+        image: 'images/blog_a.jpg',
+      },
+    ],
+  },
 }

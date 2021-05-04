@@ -66,7 +66,11 @@
                 destinarán 25 cupos.
               </p>
               <div class="text-center">
-                <b-button href="#" variant="primary">Inscríbase aquí</b-button>
+                <b-button
+                  :href="$constants.lideresEmprendedores.jovenesMusicosUrl"
+                  variant="primary"
+                  >Inscríbase aquí</b-button
+                >
               </div>
             </div>
           </div>
@@ -85,7 +89,11 @@
                 destinarán 5 cupos.
               </p>
               <div class="text-center">
-                <b-button href="#" variant="primary">Inscríbase aquí</b-button>
+                <b-button
+                  :href="$constants.lideresEmprendedores.gestoresCulturalesUrl"
+                  variant="primary"
+                  >Inscríbase aquí</b-button
+                >
               </div>
             </div>
           </div>
@@ -107,19 +115,23 @@
             :navigationEnabled="false"
             :paginationEnabled="true"
           >
-            <slide v-for="n in 7" :key="n">
+            <slide
+              v-for="(mallaCurricular, i) in $constants.lideresEmprendedores
+                .mallaCurriculars"
+              :key="i"
+            >
               <div class="position-relative box bg-white">
                 <div class="main-slider-at-top actualidad-pg">
                   <div class="img-prt position-relative">
-                    <b-img src="images/blog_a.jpg" fluid alt=""></b-img>
+                    <b-img :src="mallaCurricular.image" fluid alt=""></b-img>
                     <div class="container position-absolute set-to-bottom">
                       <div class="banner-txt text-white">
                         <div class="orange-bg">
-                          <h3 class="ff-sans-b">Unidad 1</h3>
+                          <h3 class="ff-sans-b">{{ mallaCurricular.title }}</h3>
                         </div>
                         <div class="black-bg">
                           <p class="ff-nunito">
-                            Empoderamiento y mentalidad reflexiva
+                            {{ mallaCurricular.description }}
                           </p>
                         </div>
                       </div>
@@ -290,7 +302,11 @@
                     Ahora <strong><span>$</span>103<span>USD</span></strong>
                   </p>
                   <div class="text-center">
-                    <b-button variant="primary">Inscribase aquí</b-button>
+                    <b-button
+                      variant="primary"
+                      :href="$constants.lideresEmprendedores.costosUrl1"
+                      >Inscribase aquí</b-button
+                    >
                   </div>
                 </div>
               </div>
@@ -306,7 +322,11 @@
                     Ahora <strong><span>$</span>103<span>USD</span></strong>
                   </p>
                   <div class="text-center">
-                    <b-button variant="primary">Inscribase aquí</b-button>
+                    <b-button
+                      variant="primary"
+                      :href="$constants.lideresEmprendedores.costosUrl2"
+                      >Inscribase aquí</b-button
+                    >
                   </div>
                 </div>
               </div>
@@ -376,6 +396,44 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.lideresEmprendedores.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.lideresEmprendedores.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.lideresEmprendedores.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.lideresEmprendedores.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.lideresEmprendedores.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.lideresEmprendedores.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 .bg-grey {
   background: #f7f7f7;
