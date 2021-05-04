@@ -1170,4 +1170,5 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
+  contactoLink: '#',
 }
