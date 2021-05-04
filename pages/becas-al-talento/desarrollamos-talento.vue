@@ -83,3 +83,103 @@
   </main>
 </template>
 
+<style>
+/* Breadcrumb css start */
+.breadcrumb {
+    background-color: transparent;
+    border: none;
+    z-index: 8;
+    margin: 0;
+    padding: 0;
+    left: 100px;
+    top: 30px;
+    align-items: center;
+    font-family: sansationregular;
+}
+.breadcrumb-item.active, .breadcrumb li {
+    color: #111820;
+}
+.breadcrumb li a {
+    color: #6fccdc;
+    font-size: 16px;
+}
+.breadcrumb-item+.breadcrumb-item:before {
+    float: left;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "/";
+}
+.breadc-bak .back-to-home.small-size {
+    left: -12px;
+    top: 0;
+}
+.breadc-bak .back-to-home .ic-back {
+    background: url(/images/back_acon2.svg) 0 0 no-repeat;
+    height: 30px;
+    width: 30px;
+}
+.back-to-home.small-size .ic-back {
+    transform: scale(.7);
+}
+.breadc-bak .back-to-home a {
+    color: #77777a;
+}
+.back-to-home.small-size a {
+    font-size: 15px;
+}
+/* Breadcrumb css end */
+.b-title h2 {
+	font-family: sansationbold;
+	font-size: 65px;
+	color: #2f425b;
+	line-height: 62.5px;
+}
+.b-title p {
+	font-family: sansationbold;
+	font-size: 21px;
+	color: #313338;
+	line-height: 30px;
+}
+.right-top .single-txt.top-small {
+	top: 40px;
+}
+.left-txt .outer-txt .single-txt,
+.right-txt .outer-txt .single-txt {
+	top: 150px;
+}
+.left-txt .outer-small-txt .single-txt,
+.right-txt .outer-small-txt .single-txt {
+	top: 80px;
+}
+/* como css start */
+.como {
+	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 16%, rgba(255, 255, 255, 0.7) 100% ), url('/images/home-fondobloque.jpg'); 
+	min-height: 796px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0;
+	padding: 50px 0;
+}
+.como h2 {
+	font-family: sansationbold;
+	font-size: 72px;
+	color: #313338;
+	line-height: 108px;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.como p {
+	max-width: 692px;
+	font-family: Nunito,sans-serif;
+	font-size: 24px;
+	color: #77777a;
+	line-height: 32px;
+	text-align: center;
+	margin: 0 auto;
+}
+.cultivarte-banner {
+	background-image: linear-gradient(-90deg, rgba(46,46,46,0.1) 0%, rgba(33,33,33,1) 70%, rgba(33,33,33,1) 100%), url(/images/cultivarte-banner.png);
+}
+/* como css end */
+</style>

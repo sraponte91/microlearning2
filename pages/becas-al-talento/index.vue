@@ -22,10 +22,10 @@
           <NuxtLink to="/becas-al-talento/conozcanos" class="single-link"
             >Conózcanos</NuxtLink
           >
-          <NuxtLink to="/becas-al-talento/conozcanos" class="single-link"
-            >Desarrollamos talento</NuxtLink
+          <NuxtLink to="/becas-al-talento/desarrollamos-talento" class="single-link"
+            > Desarrollamos talento </NuxtLink
           >
-          <NuxtLink to="/becas-al-talento/conozcanos" class="single-link"
+          <NuxtLink to="/becas-al-talento/requisitos" class="single-link"
             >Requisitos</NuxtLink
           >
         </div>
