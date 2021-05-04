@@ -153,8 +153,17 @@
         <h3>Testimonios</h3>
         <h4>De nuestros integrantes</h4>
       </div>
-      <div class="testi-center">
-        <div class="testi-single">
+            <client-only>
+        <carousel
+          :perPageCustom="[
+            [575, 1],
+            [1024, 2],
+            [1200, 4],
+          ]"
+          :navigationEnabled="true"
+        >
+          <slide v-for="i in 15" :key="i" class="testi-center">
+            <div class="testi-single">
           <div class="testi-txt">
             <h3>Sara Castro - 10</h3>
             <p>
@@ -164,36 +173,11 @@
             </p>
           </div>
         </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Dilan Cabezas - 9</h3>
-            <p>
-              Los procesos de lectura, como ‘viajes de papel’, son la forma en
-              la que puedes vivir el libro con juegos, sentirlo y que lo puedas
-              recordar siempre
-            </p>
-          </div>
-        </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Mariangel Molina - 7</h3>
-            <p>
-              Lo que más me gusta de Cultivarte es el Coro porque me fascina
-              cantar y quiero ser una cantante famosa cuando sea grande
-            </p>
-          </div>
-        </div>
-        <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Sara Castro - 10</h3>
-            <p>
-              La educación financiera es como las matemáticas, solo que aquí
-              juegas con los números y aprendes a ahorrar jugando como si fueras
-              un banco de verdad
-            </p>
-          </div>
-        </div>
-      </div>
+        
+          </slide>
+        </carousel>
+            </client-only>
+      
     </section>
     <!-- Testimonial end -->
 
