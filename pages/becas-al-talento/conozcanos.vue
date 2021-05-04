@@ -109,16 +109,14 @@
             [1024, 2],
             [1200, 4],
           ]"
-          :navigationEnabled="true"          
+          :navigationEnabled="true"
         >
-          <slide v-for="n in 7" :key="n" class="testi-center">
+          <slide v-for="(item, i) of $constants.becasAlTalentoConozcanos.testimonios" :key="i" class="testi-center">
             <div class="testi-single">
               <div class="testi-txt">
-                <h3>Sara Castro - 10</h3>
+                <h3>{{item.title}}</h3>
                 <p>
-                  La educación financiera es como las matemáticas, solo que aquí
-                  juegas con los números y aprendes a ahorrar jugando como si
-                  fueras un banco de verdad
+                 {{item.description}}
                 </p>
               </div>
             </div>
