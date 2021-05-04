@@ -27,7 +27,7 @@
         <div class="txt-img-multi">
           <div class="only-txt outer-txt">
             <div class="b-title">
-              <h2>Desarrollamos talento</h2>
+              <h2 class="ff-sans-b f-65">Desarrollamos talento</h2>
             </div>
             <div class="single-txt">
               <p class="pb-4">
@@ -312,5 +312,13 @@
 }
 .o-content p:last-child {
   padding-top: 22px;
+}
+.only-txt {
+  z-index: 1;
+}
+@media (min-width: 1281px) {
+  .f-65 {
+    font-size: 65px;
+  }
 }
 </style>

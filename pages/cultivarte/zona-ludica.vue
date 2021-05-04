@@ -8,7 +8,7 @@
             <a href="/." target="_self" class="">Home</a>
           </li>
           <li class="breadcrumb-item active">
-            <span aria-current="location">Requisitos</span>
+            <span aria-current="location">Zona Lúdica</span>
           </li>
         </ol>
         <div
@@ -23,7 +23,7 @@
 
     <!-- requisitos start -->
     <section class="requisitos">
-      <div class="container">
+      <div class="container margin-0-auto">
         <div class="pm-title border-orange">
           <h2>Zona Lúdica</h2>
           <h3>Plataformas educativas</h3>
@@ -117,6 +117,34 @@
   border-color: #ff671b;
 }
 /* zona css start */
+.requisitos .container {
+  padding: 30px 0;
+  border-bottom: 1px solid #ff671b;
+}
+.requisitos h2 {
+  font-family: Nunito;
+  font-size: 72px;
+  color: #2f425b;
+  text-decoration: none solid rgb(47, 66, 91);
+  line-height: 72px;
+  text-align: center;
+}
+.requisitos h3 {
+  font-family: 'sansationbold';
+  font-size: 48px;
+  color: #2f425b;
+  text-decoration: none solid rgb(47, 66, 91);
+  line-height: 100px;
+  text-align: center;
+}
+.requisitos p {
+  font-family: Nunito;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none solid rgb(0, 0, 0);
+  line-height: 30px;
+  text-align: center;
+}
 .all-zona {
   display: flex;
   flex-wrap: wrap;

@@ -9,7 +9,7 @@
               <a href="/." target="_self" class="text-dark">Home</a>
             </li>
             <li class="breadcrumb-item active">
-              <span aria-current="location">Requisitos</span>
+              <span aria-current="location">Directorio</span>
             </li>
           </ol>
           <div
@@ -207,126 +207,132 @@
 </template>
 <style >
 .common-banner.ndb {
-	background-image: linear-gradient(0deg, #111820 12%, rgba(255, 103, 27, 0.1) 100% ), url(/images/header-desktop.jpg);
+  background-image: linear-gradient(
+      0deg,
+      #111820 12%,
+      rgba(255, 103, 27, 0.1) 100%
+    ),
+    url(/images/header-desktop.jpg);
 }
 .donde-esta {
-	position: relative;
+  position: relative;
 }
 .donde-esta .breadc-bak {
-	position: absolute;
-	top: 0;
-	width: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .page-details {
-	padding: 40px 0;
+  padding: 40px 0;
 }
 .page-details p {
-	max-width: 693px;
-	margin: 0 auto;
-	font-family: sansationregular;
-	font-size: 18px;
-	color: #111820;
-	line-height: 30px;
-	text-align: center;
+  max-width: 693px;
+  margin: 0 auto;
+  font-family: sansationregular;
+  font-size: 18px;
+  color: #111820;
+  line-height: 30px;
+  text-align: center;
 }
 .all-tab ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: none;
 }
 .all-tab ul li {
-	width: 161px;
-	margin: 7px;
+  width: 161px;
+  margin: 7px;
 }
 .all-tab ul li a.nav-link {
-	border: 1px solid #77777a;
-	border-radius: 4px;
-	background-size: cover;
-	font-family: Nunito,sans-serif;
-	font-size: 16px;
-	color: #77777a;
-	text-align: center;
-	padding: 10px;
-	display: block;
+  border: 1px solid #77777a;
+  border-radius: 4px;
+  background-size: cover;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  color: #77777a;
+  text-align: center;
+  padding: 10px;
+  display: block;
 }
 .all-tab ul li a.nav-link.active,
 .all-tab ul li a.nav-link:hover {
-	background-color: #ff671b;
-	color: #f7f7f7;
+  background-color: #ff671b;
+  color: #f7f7f7;
 }
 .all-tab .tab-content {
-	padding: 100px 0;
+  padding: 100px 0;
 }
 .tab-main {
-	display: flex;
+  display: flex;
 }
 .tab-drop,
 .contact-details {
-	width: calc(48% - 15px);
-	margin: 15px;
+  width: calc(48% - 15px);
+  margin: 15px;
 }
 .drop-sub {
-	border: solid 1px #77777a;
-	max-width: 420px;
-	padding: 50px 40px;
+  border: solid 1px #77777a;
+  max-width: 420px;
+  padding: 50px 40px;
 }
 .drop-sub h2 {
-	font-family: sansationbold;
-	font-size: 26px;
-	color: #111820;
-	line-height: 21px;
-	letter-spacing: -0.5px;
-	margin-bottom: 25px;
+  font-family: sansationbold;
+  font-size: 26px;
+  color: #111820;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  margin-bottom: 25px;
 }
 .drop-sub h3 {
-	font-family: sansationregular;
-	font-size: 26px;
-	color: #111820;
-	line-height: 21px;
-	letter-spacing: -0.5px;
-	margin-bottom: 35px;
+  font-family: sansationregular;
+  font-size: 26px;
+  color: #111820;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  margin-bottom: 35px;
 }
 .drop-sub select {
-	width: 100%;
-	padding: 10px;
-	border: 1px solid #8c8c8c;
-	border-radius: 4px;
-	font-family: sansationbold;
-	font-size: 20px;
-	color: #77777a;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  font-family: sansationbold;
+  font-size: 20px;
+  color: #77777a;
 }
 .contact-details {
-	border-radius: 10px;
-	background: #f7f7f7;
-	box-shadow: 0px 12px 25px rgba(17,24,32,0.1);
-	padding: 50px;
-	text-align: center;
+  border-radius: 10px;
+  background: #f7f7f7;
+  box-shadow: 0px 12px 25px rgba(17, 24, 32, 0.1);
+  padding: 50px;
+  text-align: center;
 }
 .contact-details h2 {
-	font-family: sansationbold;
-	font-size: 26px;
-	color: #111820;
-	line-height: 21px;
-	letter-spacing: -0.5px;
-	text-align: center;
-	padding-bottom: 20px;
+  font-family: sansationbold;
+  font-size: 26px;
+  color: #111820;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .contact-details h3 {
-	font-family: Nunito,sans-serif;
-	font-size: 36px;
-	color: #ff671b;
-	line-height: 30px;
-	text-align: center;
-	padding-bottom: 30px;
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  color: #ff671b;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 30px;
 }
-.contact-details a img  {
-	margin-right: 15px;
+.contact-details a img {
+  margin-right: 15px;
 }
 .contact-details a {
-	font-family: Nunito,sans-serif;
-	font-size: 20px;
-	color: #77777a;
-	line-height: 1px;
-	text-align: center;
-}</style>
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  color: #77777a;
+  line-height: 1px;
+  text-align: center;
+}
+</style>

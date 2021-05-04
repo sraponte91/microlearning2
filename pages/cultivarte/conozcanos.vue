@@ -1,6 +1,24 @@
 <template>
   <main>
     <!-- Banner start -->
+    <div class="container position-relative innerpage">
+      <b-breadcrumb class="position-absolute ff-sans-r">
+        <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+        <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
+        <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
+      </b-breadcrumb>
+      <div
+        class="back-to-home position-absolute d-flex align-items-center small-size"
+      >
+        <i class="ic-back" @click="goBack()"></i>
+        <a
+          class="ff-sans-b text-white"
+          href="javascript:void(0)"
+          @click="goBack()"
+          >Volver</a
+        >
+      </div>
+    </div>
     <section class="common-banner nc">
       <div class="container">
         <h2>Cultivarte</h2>
@@ -67,7 +85,7 @@
           </div>
           <div class="single-areas">
             <div class="areas-img">
-              <img src="/images/icon.png" alt="" />
+              <img src="/images/ciencia-y-tecnologia.png" alt="" />
             </div>
             <p>Ciencia y tecnología</p>
           </div>
@@ -153,31 +171,29 @@
         <h3>Testimonios</h3>
         <h4>De nuestros integrantes</h4>
       </div>
-            <client-only>
+      <client-only>
         <carousel
           :perPageCustom="[
             [575, 1],
             [1024, 2],
-            [1200, 4],
+            [1200, 3],
           ]"
           :navigationEnabled="true"
         >
           <slide v-for="i in 15" :key="i" class="testi-center">
             <div class="testi-single">
-          <div class="testi-txt">
-            <h3>Sara Castro - 10</h3>
-            <p>
-              La educación financiera es como las matemáticas, solo que aquí
-              juegas con los números y aprendes a ahorrar jugando como si fueras
-              un banco de verdad
-            </p>
-          </div>
-        </div>
-        
+              <div class="testi-txt">
+                <h3>Sara Castro - 10</h3>
+                <p>
+                  La educación financiera es como las matemáticas, solo que aquí
+                  juegas con los números y aprendes a ahorrar jugando como si
+                  fueras un banco de verdad
+                </p>
+              </div>
+            </div>
           </slide>
         </carousel>
-            </client-only>
-      
+      </client-only>
     </section>
     <!-- Testimonial end -->
 
@@ -289,25 +305,25 @@
           <h3>Con el apoyo de:</h3>
           <div class="logos">
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
             <div class="s-logo">
-              <img src="/images/Combined Shape.svg" alt="" />
+              <img src="/images/Combined Shape.svg" alt="" class="img-fluid" />
             </div>
           </div>
         </div>

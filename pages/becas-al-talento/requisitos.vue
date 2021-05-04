@@ -152,90 +152,93 @@
 <style >
 /* requisitos css start */
 .pm-title {
-	padding-bottom: 40px;
-	border-bottom: solid 1px #666666;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #666666;
 }
 .pm-title h2 {
-	font-family: Nunito,sans-serif;
-	font-size: 72px;
-	color: #2f425b;
-	line-height: 72px;
-	text-align: center;
+  font-family: Nunito, sans-serif;
+  font-size: 72px;
+  color: #2f425b;
+  line-height: 72px;
+  text-align: center;
 }
 .pm-title h3 {
-	font-family: sansationbold;
-	font-size: 48px;
-	color: #2f425b;
-	line-height: 100px;
-	text-align: center;
+  font-family: sansationbold;
+  font-size: 48px;
+  color: #2f425b;
+  line-height: 100px;
+  text-align: center;
 }
 .requi-detail p.sub {
-	max-width: 576px;
-	font-family: sansationbold;
-	font-size: 21px;
-	color: #313338;
-	line-height: 30px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 58px 0 39px 0;
+  max-width: 576px;
+  font-family: sansationbold;
+  font-size: 21px;
+  color: #313338;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 58px 0 39px 0;
 }
 .pm-services {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 80px;
-	max-width: 1043px;
-	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  max-width: 1043px;
+  margin: 0 auto;
 }
 .pms-single {
-	width: 49%;
+  width: 49%;
 }
 .pms-single .single-service {
-	width: 100%;
-	margin: 0 0 10px 0;
+  width: 100%;
+  margin: 0 0 10px 0;
 }
 /* requisitos css end */
 /* call to action white start */
 .cta-white {
-	padding: 100px 0;
-	text-align: center;
+  padding: 100px 0;
+  text-align: center;
 }
 .cta-white h3 {
-	font-family: sansationbold;
-	font-size: 50px;
-	color: #ff671b;
-	line-height: 52px;
-	text-align: center;
+  font-family: sansationbold;
+  font-size: 50px;
+  color: #ff671b;
+  line-height: 52px;
+  text-align: center;
 }
 .cta-white p {
-	max-width: 821px;
-	margin: 0 auto;
-	font-family: sansationregular;
-	font-size: 20px;
-	color: #313338;
-	line-height: 30px;
-	text-align: center;
-	padding: 32px 0;
+  max-width: 821px;
+  margin: 0 auto;
+  font-family: sansationregular;
+  font-size: 20px;
+  color: #313338;
+  line-height: 30px;
+  text-align: center;
+  padding: 32px 0;
 }
 .cta-white a {
-	display: inline-block;
-	padding: 10px;
-	max-width: 327px;
-	border: 1px solid #77777a;
-	border-radius: 6px;
-	background-size: cover;
-	font-family: sansationbold;
-	font-size: 16px;
-	color: #111820;
-	text-align: center;
-	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
-	width: 100%;
+  display: inline-block;
+  padding: 10px;
+  max-width: 327px;
+  border: 1px solid #77777a;
+  border-radius: 6px;
+  background-size: cover;
+  font-family: sansationbold;
+  font-size: 16px;
+  color: #111820;
+  text-align: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 .cta-white a:hover,
 .cta-white a:active,
 .cta-white a:focus {
-	background: #ff671b;
-	border-color: #ff671b;
-	color: #fff;
+  background: #ff671b;
+  border-color: #ff671b;
+  color: #fff;
 }
 /* call to action white end */
+.left-txt .outer-small-txt .single-txt {
+  top: 130px;
+}
 </style>
