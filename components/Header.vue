@@ -91,8 +91,11 @@
                       :class="{ active: $route.name === 'aflora' }"
                       >Aflora</b-dropdown-item
                     >
-                    <b-dropdown-item>Becas al Talento</b-dropdown-item>
-                    <b-dropdown-item>Cultivarte</b-dropdown-item>
+                    <b-dropdown-item to="/becas-al-talento"
+                      :class="{ active: $route.name === 'becas-al-talento' }"
+                      >Becas al Talento</b-dropdown-item>
+                    <b-dropdown-item to="/cultivarte"
+                      :class="{ active: $route.name === 'cultivarte' }">Cultivarte</b-dropdown-item>
                     <b-dropdown-item to="/emprender-pais"
                       >Emprende País</b-dropdown-item
                     >
@@ -130,9 +133,14 @@
                 </li>
                 <li
                   class="nav-item"
-                  :class="{ active: $route.name === 'contacto' }"
                 >
-                  <NuxtLink to="/contacto" class="nav-link">Contacto</NuxtLink>
+                <a
+                    target="_blank"
+                    class="nav-link text-center"
+                    :href="$constants.contactoLink"
+                    title=""
+                    >Contacto </a>
+                  <!-- <NuxtLink to="/contacto" class="nav-link">Contacto</NuxtLink> -->
                 </li>
                 <li
                   class="nav-item"
