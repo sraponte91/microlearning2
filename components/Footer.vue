@@ -41,7 +41,7 @@
                       class="ff-sans-b"
                     >
                       <div class="d-flex justify-content-between">
-                        <p>Nuestros</p>
+                        <p>Nuestros programas</p>
                         <i class="ic-accordion position-relative"></i>
                       </div>
                     </b-button>
@@ -72,21 +72,21 @@
                           </li>
                           <li
                             :class="{
+                              active: $route.name === 'emprender-pais',
+                            }"
+                          >
+                            <NuxtLink to="/emprender-pais"
+                              >Emprende país</NuxtLink
+                            >
+                          </li>
+                          <li
+                            :class="{
                               active:
                                 $route.name === 'filarmonica-joven-de-colombia',
                             }"
                           >
                             <NuxtLink to="/filarmonica-joven-de-colombia"
                               >Filarmónica Joven de Colombia</NuxtLink
-                            >
-                          </li>
-                          <li
-                            :class="{
-                              active: $route.name === 'inversion-social',
-                            }"
-                          >
-                            <NuxtLink to="/inversion-social"
-                              >Inversión Social</NuxtLink
                             >
                           </li>
                           <li
@@ -98,7 +98,17 @@
                           >
                             <NuxtLink
                               to="/voluntariado-fundacion-bolivar-davivienda"
-                              >Voluntariado Fundación Bolivar</NuxtLink
+                              >Voluntariado Familia Bolívar</NuxtLink
+                            >
+                          </li>
+                          <li
+                            :class="{
+                              active:
+                                $route.name === 'premio-nacional-de-periodismo',
+                            }"
+                          >
+                            <NuxtLink to="/premio-nacional-de-periodismo"
+                              >Premio Nacional de Periodismo</NuxtLink
                             >
                           </li>
                         </ul>
@@ -128,11 +138,45 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li>
-                            <a href="javascript:void(0)">Nuestros</a>
+                          <li :class="{ active: $route.name === '' }">
+                            <NuxtLink to="/"
+                              >Autorización de datos personales</NuxtLink
+                            >
+                          </li>
+                          <li :class="{ active: $route.name === '' }">
+                            <NuxtLink to="/"
+                              >Aviso de privacidad Fundación Bolívar
+                              Davivienda</NuxtLink
+                            >
                           </li>
                           <li>
-                            <NuxtLink to="/aflora">Aflora</NuxtLink>
+                            <a
+                              target="_blank"
+                              href="/Politica de Tratamiento de Datos.pdf"
+                              >Aviso de privacidad Cultivarte</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="/Politica de Tratamiento de Datos.pdf"
+                              >Política de tratamiento de datos Fundación
+                              Bolívar Davivienda</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="/Politica de Tratamiento de Datos.pdf"
+                              >Política de tratamiento de datos Cultivarte</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="/Politica de Tratamiento de Datos.pdf"
+                              >Términos y condiciones</a
+                            >
                           </li>
                         </ul>
                       </b-card-text>
@@ -161,11 +205,17 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li>
-                            <a href="javascript:void(0)">Nuestros</a>
+                          <li
+                            :class="{ active: $route.name === 'seleccionados' }"
+                          >
+                            <NuxtLink to="/seleccionados"
+                              >Ver documentación</NuxtLink
+                            >
                           </li>
-                          <li>
-                            <NuxtLink to="/aflora">Aflora</NuxtLink>
+                          <li :class="{ active: $route.name === 'faqs' }">
+                            <NuxtLink to="/faqs"
+                              >Reglamento de inscripción a programas</NuxtLink
+                            >
                           </li>
                         </ul>
                       </b-card-text>
@@ -195,15 +245,70 @@
                       <b-card-text>
                         <ul class="ff-sans-r">
                           <li>
-                            <a href="javascript:void(0)">Nuestros</a>
+                            <p>
+                              Calle 26 # 69-63. Piso 11. <br />
+                              Bogotá, Colombia
+                            </p>
                           </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-8
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Teléfono</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-8"
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
                           <li>
-                            <NuxtLink to="/aflora">Aflora</NuxtLink>
+                            <p>(+57 1) 341 0077 Ext. 98981</p>
                           </li>
+                        </ul>
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+                <b-card no-body>
+                  <b-card-header header-tag="header" role="tab">
+                    <b-button
+                      block
+                      v-b-toggle.accordion-9
+                      variant="info"
+                      class="ff-sans-b"
+                    >
+                      <div class="d-flex justify-content-between">
+                        <p>Fax</p>
+                        <i class="ic-accordion position-relative"></i>
+                      </div>
+                    </b-button>
+                  </b-card-header>
+                  <b-collapse
+                    id="accordion-9"
+                    accordion="my-accordions"
+                    role="tabpanel"
+                  >
+                    <b-card-body>
+                      <b-card-text>
+                        <ul class="ff-sans-r">
                           <li>
-                            <NuxtLink to="/becas-al-talento"
-                              >Becas al talento</NuxtLink
-                            >
+                            <p>(+57 1) 2201578</p>
                           </li>
                         </ul>
                       </b-card-text>
@@ -388,15 +493,13 @@
           </div>
           <div class="footer-menu two d-none-767">
             <div class="if-two-ul-is-there">
-              <h3>Nuestros programas</h3>
+              <h3>Legales</h3>
               <ul class="ff-nunito">
-                <li :class="{ active: $route.name === 'seleccionados' }">
-                  <NuxtLink to="/seleccionados"
-                    >Autorización de datos personales</NuxtLink
-                  >
+                <li :class="{ active: $route.name === '' }">
+                  <NuxtLink to="/">Autorización de datos personales</NuxtLink>
                 </li>
-                <li :class="{ active: $route.name === 'faqs' }">
-                  <NuxtLink to="/faqs"
+                <li :class="{ active: $route.name === '' }">
+                  <NuxtLink to="/"
                     >Aviso de privacidad Fundación Bolívar Davivienda</NuxtLink
                   >
                 </li>
