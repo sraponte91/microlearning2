@@ -4,9 +4,9 @@
     <div class="container position-relative innerpage">
       <b-breadcrumb class="position-absolute ff-sans-r">
         <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-        <b-breadcrumb-item to="/becas-al-talento"
-          >Becas al Talento</b-breadcrumb-item
-        >
+        <b-breadcrumb-item to="/becas-al-talento">
+          Becas al Talento
+        </b-breadcrumb-item>
         <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
       </b-breadcrumb>
       <div
@@ -131,12 +131,16 @@
           ]"
           :navigationEnabled="true"
         >
-          <slide v-for="(item, i) of $constants.becasConozcanos.testimonios" :key="i" class="testi-center">
+          <slide
+            v-for="(item, i) of $constants.becasConozcanos.testimonios"
+            :key="i"
+            class="testi-center"
+          >
             <div class="testi-single">
               <div class="testi-txt">
-                <h3>{{item.title}}</h3>
+                <h3>{{ item.title }}</h3>
                 <p>
-                 {{item.description}}
+                  {{ item.description }}
                 </p>
               </div>
             </div>

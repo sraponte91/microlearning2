@@ -5,7 +5,7 @@
       <div class="container margin-0-auto">
         <ol class="breadcrumb ff-sans-r mb-2">
           <li class="breadcrumb-item">
-            <a href="/." target="_self" class="">Home</a>
+            <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           </li>
           <li class="breadcrumb-item active">
             <span aria-current="location">Zona Lúdica</span>
@@ -15,7 +15,9 @@
           class="back-to-home position-relative d-flex align-items-center small-size"
         >
           <i class="ic-back"></i>
-          <a href="javascript:void(0)" class="ff-sans-b">Volver</a>
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">
+            Volver
+          </a>
         </div>
       </div>
     </div>
@@ -40,8 +42,12 @@
     <section>
       <div class="container">
         <div class="all-zona">
-          <div class="single-zona" v-for="item,index in $constants.cultivarteZonaLudica.plataformas" :key="index">
-            <h3 v-text="item.title" /> 
+          <div
+            class="single-zona"
+            v-for="(item, index) in $constants.cultivarteZonaLudica.plataformas"
+            :key="index"
+          >
+            <h3 v-text="item.title" />
             <div class="zona-img">
               <img :src="item.image" alt="" />
             </div>
@@ -56,7 +62,6 @@
     <!-- zona end -->
   </main>
 </template>
-
 
 <script>
 export default {
@@ -94,7 +99,6 @@ export default {
   },
 }
 </script>
-
 
 <style>
 .pm-title p {

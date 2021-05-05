@@ -5,7 +5,7 @@
       <div class="container margin-0-auto">
         <ol class="breadcrumb ff-sans-r mb-2">
           <li class="breadcrumb-item">
-            <a href="/." target="_self" class="">Home</a>
+            <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           </li>
           <li class="breadcrumb-item active">
             <span aria-current="location">Desarrollamos talento</span>
@@ -15,7 +15,9 @@
           class="back-to-home position-relative d-flex align-items-center small-size"
         >
           <i class="ic-back"></i>
-          <a href="javascript:void(0)" class="ff-sans-b">Volver</a>
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">
+            Volver
+          </a>
         </div>
       </div>
     </div>
@@ -241,12 +243,14 @@ export default {
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta.metaTitle,
+          content: this.$constants.cultivarteDesarrollamosTalento.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta.metaDescription,
+          content: this.$constants.cultivarteDesarrollamosTalento.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
@@ -256,7 +260,8 @@ export default {
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta.ogDescription,
+          content: this.$constants.cultivarteDesarrollamosTalento.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',

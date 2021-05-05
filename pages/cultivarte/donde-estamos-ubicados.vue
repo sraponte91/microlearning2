@@ -6,7 +6,7 @@
         <div class="container margin-0-auto">
           <ol class="breadcrumb ff-sans-r mb-2">
             <li class="breadcrumb-item">
-              <a href="/." target="_self" class="text-dark">Home</a>
+              <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
             </li>
             <li class="breadcrumb-item active">
               <span aria-current="location">Directorio</span>
@@ -16,7 +16,9 @@
             class="back-to-home position-relative d-flex align-items-center small-size"
           >
             <i class="ic-back"></i>
-            <a href="javascript:void(0)" class="ff-sans-b text-white">Volver</a>
+            <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">
+              Volver
+            </a>
           </div>
         </div>
       </div>
@@ -215,12 +217,14 @@ export default {
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta.metaTitle,
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta.metaDescription,
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
@@ -230,7 +234,8 @@ export default {
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta.ogDescription,
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
@@ -243,9 +248,7 @@ export default {
 }
 </script>
 
-
-
-<style >
+<style>
 .common-banner.ndb {
   background-image: linear-gradient(
       0deg,
