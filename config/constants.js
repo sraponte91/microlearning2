@@ -381,7 +381,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Antioquia'
+        departamento: 'Antioquia',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -390,7 +390,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Antioquia'
+        departamento: 'Antioquia',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -399,7 +399,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Antioquia'
+        departamento: 'Antioquia',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -408,7 +408,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Antioquia'
+        departamento: 'Antioquia',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -417,7 +417,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Antioquia'
+        departamento: 'Antioquia',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -426,7 +426,7 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Nariño'
+        departamento: 'Nariño',
       },
       {
         title: 'Fundación Amigos de Amagá',
@@ -435,8 +435,8 @@ Vue.prototype.$constants = {
         nivel: 'formalización',
         contactoEMail: 'email@gmail.com',
         contactoWebsite: 'https://google.com',
-        departamento: 'Cundinamarca'
-      }
+        departamento: 'Cundinamarca',
+      },
     ],
     meta: {
       title: 'Nuestras organizaciones',
@@ -1149,7 +1149,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Marketing y comunicación'
+        topic: 'Marketing y comunicación',
       },
       {
         id: 2,
@@ -1157,7 +1157,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Marketing y comunicación'
+        topic: 'Marketing y comunicación',
       },
       {
         id: 3,
@@ -1165,7 +1165,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Talento Humano'
+        topic: 'Talento Humano',
       },
       {
         id: 4,
@@ -1173,7 +1173,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Talento Humano'
+        topic: 'Talento Humano',
       },
       {
         id: 5,
@@ -1181,7 +1181,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Talento Humano'
+        topic: 'Talento Humano',
       },
       {
         id: 6,
@@ -1189,7 +1189,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
-        topic: 'Talento Humano'
+        topic: 'Talento Humano',
       },
     ],
     meta: {
@@ -1214,31 +1214,36 @@ Vue.prototype.$constants = {
     },
   },
   emprendePaisPresenciaEnElPais: {
-    municipio: [{
-      title: 'CUNDINAMARCA',
-      city: 'Bogota',
-      coordinator: 'Coordinator',
-      name: 'Juan Manuel Platín',
-      email: 'jplatin@fundacionbd.org'
-    }, {
-      title: 'CUNDINAMARCA',
-      city: 'Cali',
-      coordinator: 'Coordinator',
-      name: 'Juan Manuel Platín',
-      email: 'jplatin@fundacionbd.org'
-    }, {
-      title: 'CUNDINAMARCA',
-      city: 'Santa Marta',
-      coordinator: 'Coordinator',
-      name: 'Juan Manuel Platín',
-      email: 'test@gmail.com'
-    }, {
-      title: 'CUNDINAMARCA',
-      city: 'Bogota',
-      coordinator: 'Coordinator',
-      name: 'Juan Manuel Platín',
-      email: 'test@gmail.com'
-    }],
+    municipio: [
+      {
+        title: 'CUNDINAMARCA',
+        city: 'Bogota',
+        coordinator: 'Coordinator',
+        name: 'Juan Manuel Platín',
+        email: 'jplatin@fundacionbd.org',
+      },
+      {
+        title: 'CUNDINAMARCA',
+        city: 'Cali',
+        coordinator: 'Coordinator',
+        name: 'Juan Manuel Platín',
+        email: 'jplatin@fundacionbd.org',
+      },
+      {
+        title: 'CUNDINAMARCA',
+        city: 'Santa Marta',
+        coordinator: 'Coordinator',
+        name: 'Juan Manuel Platín',
+        email: 'test@gmail.com',
+      },
+      {
+        title: 'CUNDINAMARCA',
+        city: 'Bogota',
+        coordinator: 'Coordinator',
+        name: 'Juan Manuel Platín',
+        email: 'test@gmail.com',
+      },
+    ],
     meta: {
       title: 'Emprender país',
       metaTitle: 'Emprender país',
@@ -1395,7 +1400,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
       {
         title: 'Título de la noticia',
@@ -1403,7 +1408,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
       {
         title: 'Título de la noticia',
@@ -1411,7 +1416,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
       {
         title: 'Título de la noticia',
@@ -1419,7 +1424,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
       {
         title: 'Título de la noticia',
@@ -1427,7 +1432,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
       {
         title: 'Título de la noticia',
@@ -1435,7 +1440,7 @@ Vue.prototype.$constants = {
         date: 'Septiembre 16 - 2021',
         description:
           'Synergistically redefine high-quality ideas after transparent strategic theme.',
-        image: 'images/otros-interesantes.jpeg',
+        image: '/images/otros-interesantes.jpeg',
       },
     ],
   },
@@ -1466,32 +1471,32 @@ Vue.prototype.$constants = {
       {
         title: 'Unidad 1',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 2',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 3',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 4',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 5',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 6',
         description: 'Empoderamiento y mentalidad reflexiva',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
     ],
   },
@@ -1508,31 +1513,31 @@ Vue.prototype.$constants = {
     perfilesInversionistaUrl: '#',
     requisitos: [
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
       {
-        image: 'images/icon-user-group.png',
+        image: '/images/icon-user-group.png',
         description: 'Su emprendimiento no destruye valor social o ambiental',
       },
     ],
@@ -1598,22 +1603,22 @@ Vue.prototype.$constants = {
       {
         title: 'Unidad 1',
         description: 'Método del caso',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 2',
         description: 'Método del caso',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 3',
         description: 'Método del caso',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
       {
         title: 'Unidad 3',
         description: 'Método del caso',
-        image: 'images/blog_a.jpg',
+        image: '/images/blog_a.jpg',
       },
     ],
   },

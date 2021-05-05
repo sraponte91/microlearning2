@@ -11,7 +11,7 @@
           </div>
           <div class="col-md-12">
             <div class="sec1-boxes">
-              <b-img src="images/invester-about.jpg" fluid alt=""></b-img>
+              <b-img src="/images/invester-about.jpg" fluid alt=""></b-img>
               <div class="sec1-description">
                 <h3 class="ff-sans-b">¿Quiénes Somos?</h3>
                 <p>
@@ -39,7 +39,7 @@
             <div class="sec2-boxes">
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Empresas</h4>
-                <b-img src="images/invester-profile-1.jpg" fluid alt=""></b-img>
+                <b-img src="/images/invester-profile-1.jpg" fluid alt=""></b-img>
                 <p>
                   Una vez cursados los seis módulos del plan de estudios, los
                   miembros de la cohorte aplican el conocimiento y las
@@ -54,7 +54,7 @@
               </div>
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Inversionista</h4>
-                <b-img src="images/invester-profile-2.jpg" fluid alt=""></b-img>
+                <b-img src="/images/invester-profile-2.jpg" fluid alt=""></b-img>
                 <p>
                   Los inversionistas que participan en la Red de Ángeles
                   Inversionistas han impactado al país con su liderazgo y

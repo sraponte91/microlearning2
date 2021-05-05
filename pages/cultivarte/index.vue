@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="banner-content">
           <div class="b-logo">
-            <img src="images/cultivarte.png" alt="" class="img-fluid" />
+            <img src="/images/cultivarte.png" alt="" class="img-fluid" />
           </div>
           <p>
             Cultivarte está generando importantes transformaciones en la vida de
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="banner-img">
-        <img src="images/cultivarte-banner-mobile.jpg" alt="" />
+        <img src="/images/cultivarte-banner-mobile.jpg" alt="" />
       </div>
     </section>
     <!-- Banner end -->
@@ -47,11 +47,11 @@
       <div class="container">
         <div class="sobre-main txt-img-multi">
           <div class="sobre-img only-img">
-            <img src="images/img4.jpg" alt="" />
+            <img src="/images/img4.jpg" alt="" />
           </div>
           <div class="sobre-content only-txt">
             <div>
-              <img src="images/oval-1.png" alt="" />
+              <img src="/images/oval-1.png" alt="" />
             </div>
             <div class="sobre-txt single-txt">
               <h2>Sobre Cultivarte</h2>
@@ -103,7 +103,7 @@
             </div>
           </div>
           <div class="sobre-img only-img">
-            <img src="images/img5.jpg" alt="" />
+            <img src="/images/img5.jpg" alt="" />
           </div>
         </div>
       </div>

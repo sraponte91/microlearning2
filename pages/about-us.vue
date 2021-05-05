@@ -3,7 +3,7 @@
     <section class="full-image">
       <div class="position-absolute">
         <img
-          src="images/about-us.jpg"
+          src="/images/about-us.jpg"
           alt="About Us"
           class="object-fit-cover"
         />

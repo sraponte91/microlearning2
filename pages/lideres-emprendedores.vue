@@ -7,7 +7,7 @@
             <h1 class="ff-sans-b">Líderes emprendedores</h1>
             <div class="label">#LaJoven</div>
             <p>Transformando el talento cultural en oportunidades</p>
-            <b-img src="images/leader-image.jpg" fluid alt=""></b-img>
+            <b-img src="/images/leader-image.jpg" fluid alt=""></b-img>
           </div>
           <div class="col-md-12">
             <h2 class="ff-sans-b">El Programa</h2>
@@ -43,7 +43,7 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <b-img src="images/ei-program.jpg" fluid alt=""></b-img>
+            <b-img src="/images/ei-program.jpg" fluid alt=""></b-img>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="sec2-inner-box">
-              <b-img src="images/candidate-image-1.jpg" fluid alt=""></b-img>
+              <b-img src="/images/candidate-image-1.jpg" fluid alt=""></b-img>
               <h3 class="ff-sans-b">Jóvenes Músicos</h3>
               <p>
                 Deben tener interés en la gestión cultural desde cualquier campo
@@ -76,7 +76,7 @@
           </div>
           <div class="col-md-6">
             <div class="sec2-inner-box">
-              <b-img src="images/candidate-image-2.jpg" fluid alt=""></b-img>
+              <b-img src="/images/candidate-image-2.jpg" fluid alt=""></b-img>
               <h3 class="ff-sans-b">Gestores Culturales</h3>
               <p>
                 Deben contar con trayectoria en cualquier campo relacionado con
@@ -182,7 +182,7 @@
           <div class="col-md-4">
             <div class="sec4-inner-box">
               <h4 class="ff-sans-b">¿En que consiste?</h4>
-              <b-img src="images/emp-image-1.jpg" fluid alt=""></b-img>
+              <b-img src="/images/emp-image-1.jpg" fluid alt=""></b-img>
               <p>
                 Una vez cursados los seis módulos del plan de estudios, los
                 miembros de la cohorte aplican el conocimiento y las habilidades
@@ -195,7 +195,7 @@
           <div class="col-md-4">
             <div class="sec4-inner-box">
               <h4 class="ff-sans-b">¿En que consiste?</h4>
-              <b-img src="images/emp-image-2.jpg" fluid alt=""></b-img>
+              <b-img src="/images/emp-image-2.jpg" fluid alt=""></b-img>
               <p>
                 Una vez cursados los seis módulos del plan de estudios, los
                 miembros de la cohorte aplican el conocimiento y las habilidades
@@ -208,7 +208,7 @@
           <div class="col-md-4">
             <div class="sec4-inner-box">
               <h4 class="ff-sans-b">¿En que consiste?</h4>
-              <b-img src="images/emp-image-3.jpg" fluid alt=""></b-img>
+              <b-img src="/images/emp-image-3.jpg" fluid alt=""></b-img>
               <p>
                 Una vez cursados los seis módulos del plan de estudios, los
                 miembros de la cohorte aplican el conocimiento y las habilidades
@@ -386,7 +386,7 @@
     </section>
     <section class="leader-section-7">
       <div class="container margin-0-auto text-center">
-        <b-img src="images/leader-info.jpg" fluid alt=""></b-img>
+        <b-img src="/images/leader-info.jpg" fluid alt=""></b-img>
         <p>
           Para mayor información contacte a <br /><a href="#"
             >filarmonica@fundacionbd.org</a

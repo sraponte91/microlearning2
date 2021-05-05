@@ -8,7 +8,7 @@
           </div>
           <div class="col-md-12">
             <div class="sec1-boxes">
-              <b-img src="images/director-about.jpg" fluid alt=""></b-img>
+              <b-img src="/images/director-about.jpg" fluid alt=""></b-img>
               <div class="sec1-description">
                 <p>
                   Escuela de Directores Aflora, es un proyecto de la Fundación
@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <h2 class="ff-sans-b">Nuestros expertos</h2>
-            <b-img src="images/director-expert.jpg" fluid alt=""></b-img>
+            <b-img src="/images/director-expert.jpg" fluid alt=""></b-img>
             <b-btn variant="primary">Conozca más</b-btn>
           </div>
         </div>
@@ -128,7 +128,7 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <b-img src="images/director-pensum.jpg" fluid alt=""></b-img>
+            <b-img src="/images/director-pensum.jpg" fluid alt=""></b-img>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@
             <div class="sec6-inner-box">
               <h4 class="ff-sans-b">1. Experiencia Mínima</h4>
               <b-img
-                src="images/director-participate-1.jpg"
+                src="/images/director-participate-1.jpg"
                 fluid
                 alt=""
               ></b-img>
@@ -203,7 +203,7 @@
             <div class="sec6-inner-box">
               <h4 class="ff-sans-b">2. Disponibilidad de tiempo</h4>
               <b-img
-                src="images/director-participate-2.jpg"
+                src="/images/director-participate-2.jpg"
                 fluid
                 alt=""
               ></b-img>
@@ -217,7 +217,7 @@
             <div class="sec6-inner-box">
               <h4 class="ff-sans-b">3. Formulario Completo</h4>
               <b-img
-                src="images/director-participate-3.jpg"
+                src="/images/director-participate-3.jpg"
                 fluid
                 alt=""
               ></b-img>
@@ -240,7 +240,7 @@
           <div class="col-md-5">
             <div class="sec6-inner-box">
               <h4 class="ff-sans-b text-center">Por persona</h4>
-              <b-img src="images/director-costos-1.jpg" fluid alt=""></b-img>
+              <b-img src="/images/director-costos-1.jpg" fluid alt=""></b-img>
               <p>
                 El costo por persona será de <strong>$1.800.000</strong> y está
                 dirigido a colaboradores que hagan parte de las organizaciones
@@ -256,7 +256,7 @@
           <div class="col-md-5">
             <div class="sec6-inner-box">
               <h4 class="ff-sans-b text-center">3. Formulario Completo</h4>
-              <b-img src="images/director-costos-2.jpg" fluid alt=""></b-img>
+              <b-img src="/images/director-costos-2.jpg" fluid alt=""></b-img>
               <p>
                 El pago se debe realizar directamente a una cuenta bancaria de
                 EDIME. La Fundación Bolívar Davivienda informará el número de
