@@ -85,10 +85,11 @@
 .educational-training::after{height:100%; width:100%; left:0; top:0; background:linear-gradient(90deg, rgba(17, 24, 32, 0.98) 0%, rgba(17, 24, 32, 0.65) 100% );}
 .educational-training .container{width:100%; left:0; top:30px; bottom:30px; right:0; z-index:4;}
 .educational-training h3{color:#ff671b; font-size:40px; line-height:1;}
-.educational-training .small-bx{max-width:600px; width:100%; padding:25px; background-color:rgba(257, 247, 247, 0.85); margin:30px 0 0 ;}
+.educational-training .small-bx{max-width:680px; width:100%; padding:25px; background-color:rgba(257, 247, 247, 0.85); margin:30px 0 0 ;}
 .educational-training .small-bx .pra-p p{font-size:16px; line-height:26px;}
 .educational-training .small-bx ul{margin:14px 0 0 0; max-width:420px;}
 .educational-training .small-bx ul li{font-size:16px; line-height:26px; padding:0 0 0 20px; font-style:italic;}
+.educational-training .small-bx ul.noi li{font-style:normal;}
 .educational-training .small-bx ul li::after{height:8px; width:8px; border-radius:100%; background-color:#ff671b; left:0; top:9px;}
 .educational-training .small-bx ul li + li{margin-top:10px;}
 .dots-three-rt{left:auto; top:10px; right:10px; z-index:5;}
@@ -134,6 +135,7 @@
 .desarrolla.ig-tx-zing-zag .txt-points .pra-p p + p{margin-top:15px;}
 .desarrolla.ig-tx-zing-zag .oly-img-bx{width:660px; height:420px;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx{width:calc(100% - 660px); padding-left:15px;}
+.desarrolla.ig-tx-zing-zag .oly-tx-bx .ss{color:#ff671b; font-weight:200; font-size:28px; margin:0 0 8px;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx .inn-bx-bg{padding:15px 20px; background-color:#ffc1b0;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx p{color:#2f425b; font-size:25px; line-height:1.2;}
 .desarrolla.ig-tx-zing-zag .oly-tx-bx .links-to-r,
@@ -284,6 +286,20 @@
 .solid-color-bx{max-width:90%; width:100%; background-color:#ffc1b0; padding:25px 60px 25px 100px;}
 .solid-color-bx p{color:#2f425b; font-size:17px; line-height:1.5;}
 
+.indesarro-inve-so.ig-tx-zing-zag .four-boxes{max-width:870px; width:100%;}
+.indesarro-inve-so.ig-tx-zing-zag .four-boxes .round-bx{height:200px; width:200px; border:5px solid #ff671b; margin:18px 0;}
+.indesarro-inve-so.ig-tx-zing-zag .four-boxes h4{margin:0 0 15px;}
+.indesarro-inve-so.ig-tx-zing-zag .four-boxes .round-bx .numbr{height:50px; width:50px; top:0; left:0;}
+
+.fours-points-eise{padding:0;}
+.fours-points-eise .inner-part{max-width:900px; width:100%;}
+.fours-points-eise .inner-part h4{margin-left:50px;}
+.fours-points-eise .point-bxeses{margin:0 -1%;}
+.fours-points-eise .point-bxeses .one-bx{margin:10px 1%;}
+.fours-points-eise .point-bxeses .one-bx .number{background-color:#43464a; border-radius:4px 0 0 4px; color:#ff671b; font-size:30px; line-height:1; padding:12px 16px;}
+.fours-points-eise .point-bxeses .one-bx .text{background-color:#dadada; border-radius:0 4px 4px 0; color:#111820; padding:12px;}
+.italic{font-style:italic;}
+
 
 @media(max-width:1199px){
      .four-boxes .round-bx .numbr{height:60px; width:60px;}
@@ -351,6 +367,10 @@
      .ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.up-steap-a .txt-points{margin:-40px auto 0;}
      .ig-tx-zing-zag.desarroll-te-empre .multiple-reapt.text-points-sie .txt-points{margin:-40px auto 0;}
      .multi-bxese-se .in-bxeses{width:calc((100% / 4) - 2%);}
+     .some-points-autod-pg{padding:0 15px;}
+     .indesarro-inve-so.ig-tx-zing-zag .four-boxes{padding:0 15px;}
+     .indesarro-inve-so.ig-tx-zing-zag .four-boxes .round-bx{height:170px; width:170px;}
+     .educational-training.ades .for-hght{height:700px;}
 }
 
 @media(max-width:767px){
@@ -404,6 +424,7 @@
      .pg-tit-inner h1{font-size:30px;}
      .solid-color-bx{padding:25px;}
      .multi-bxese-se .in-bxeses{width:calc((100% / 3) - 2%);}
+     .educational-training.ades .for-hght{height:800px;}
 }
 @media(max-width:575px){
      .desarrollamos-section.aflora-pg h2{font-size:35px;}
@@ -422,6 +443,7 @@
 
 @media(max-width:479px){
      .some-link-here .btn-links{width:46%; margin:10px 2%;}
+     .educational-training.ades .for-hght{height:980px;}
 }
 
 @media(max-width:379px){

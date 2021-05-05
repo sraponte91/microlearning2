@@ -46,7 +46,7 @@
             >Conózcanos</NuxtLink
           >
           <NuxtLink
-            to="/inversion-social/convocatorias"
+            to="/inversion-social/desarrollamos-talento"
             class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
