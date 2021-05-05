@@ -55,29 +55,50 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li>
-                            <a href="javascript:void(0)">Nuestros</a>
+                          <li :class="{ active: $route.name === 'aflora' }">
+                            <NuxtLink to="/aflora">Aflora</NuxtLink>
                           </li>
-                          <li>
-                            <a href="javascript:void(0)">Aflora</a>
-                          </li>
-                          <li>
-                            <a href="javascript:void(0)">Becas al Talento</a>
-                          </li>
-                          <li>
-                            <a href="javascript:void(0)">Cultivarte</a>
-                          </li>
-                          <li>
-                            <a href="javascript:void(0)"
-                              >Filarmónica Joven de Colombia</a
+                          <li
+                            :class="{
+                              active: $route.name === 'becas-al-talento',
+                            }"
+                          >
+                            <NuxtLink to="/becas-al-talento"
+                              >Becas al talento</NuxtLink
                             >
                           </li>
-                          <li>
-                            <a href="javascript:void(0)">Inversión Social</a>
+                          <li :class="{ active: $route.name === 'cultivarte' }">
+                            <NuxtLink to="/cultivarte">Cultivarte</NuxtLink>
                           </li>
-                          <li>
-                            <a href="javascript:void(0)"
-                              >Voluntariado Fundación Bolivar</a
+                          <li
+                            :class="{
+                              active:
+                                $route.name === 'filarmonica-joven-de-colombia',
+                            }"
+                          >
+                            <NuxtLink to="/filarmonica-joven-de-colombia"
+                              >Filarmónica Joven de Colombia</NuxtLink
+                            >
+                          </li>
+                          <li
+                            :class="{
+                              active: $route.name === 'inversion-social',
+                            }"
+                          >
+                            <NuxtLink to="/inversion-social"
+                              >Inversión Social</NuxtLink
+                            >
+                          </li>
+                          <li
+                            :class="{
+                              active:
+                                $route.name ===
+                                'voluntariado-fundacion-bolivar-davivienda',
+                            }"
+                          >
+                            <NuxtLink
+                              to="/voluntariado-fundacion-bolivar-davivienda"
+                              >Voluntariado Fundación Bolivar</NuxtLink
                             >
                           </li>
                         </ul>
@@ -111,7 +132,7 @@
                             <a href="javascript:void(0)">Nuestros</a>
                           </li>
                           <li>
-                            <a href="javascript:void(0)">Aflora</a>
+                            <NuxtLink to="/aflora">Aflora</NuxtLink>
                           </li>
                         </ul>
                       </b-card-text>
@@ -144,7 +165,7 @@
                             <a href="javascript:void(0)">Nuestros</a>
                           </li>
                           <li>
-                            <a href="javascript:void(0)">Aflora</a>
+                            <NuxtLink to="/aflora">Aflora</NuxtLink>
                           </li>
                         </ul>
                       </b-card-text>
@@ -177,10 +198,12 @@
                             <a href="javascript:void(0)">Nuestros</a>
                           </li>
                           <li>
-                            <a href="javascript:void(0)">Aflora</a>
+                            <NuxtLink to="/aflora">Aflora</NuxtLink>
                           </li>
                           <li>
-                            <a href="javascript:void(0)">Becas al Talento</a>
+                            <NuxtLink to="/becas-al-talento"
+                              >Becas al talento</NuxtLink
+                            >
                           </li>
                         </ul>
                       </b-card-text>
@@ -324,23 +347,42 @@
               <li :class="{ active: $route.name === 'aflora' }">
                 <NuxtLink to="/aflora">Aflora</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'requisitos' }">
-                <NuxtLink to="/requisitos">Becas al talento</NuxtLink>
+              <li :class="{ active: $route.name === 'becas-al-talento' }">
+                <NuxtLink to="/becas-al-talento">Becas al talento</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'prepare-su-audicion' }">
-                <NuxtLink to="/prepare-su-audicion">Cultivarte</NuxtLink>
+              <li :class="{ active: $route.name === 'cultivarte' }">
+                <NuxtLink to="/cultivarte">Cultivarte</NuxtLink>
               </li>
               <li :class="{ active: $route.name === 'emprender-pais' }">
                 <NuxtLink to="/emprender-pais">Emprende país</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'filarmonica-joven-de-colombia' }">
-                <NuxtLink to="/filarmonica-joven-de-colombia">Filarmónica Joven de Colombia</NuxtLink>
+              <li
+                :class="{
+                  active: $route.name === 'filarmonica-joven-de-colombia',
+                }"
+              >
+                <NuxtLink to="/filarmonica-joven-de-colombia"
+                  >Filarmónica Joven de Colombia</NuxtLink
+                >
               </li>
-              <li :class="{ active: $route.name === 'voluntariado-fundacion-bolivar-davivienda' }">
-                <NuxtLink to="/voluntariado-fundacion-bolivar-davivienda">Voluntariado Familia Bolívar</NuxtLink>
+              <li
+                :class="{
+                  active:
+                    $route.name === 'voluntariado-fundacion-bolivar-davivienda',
+                }"
+              >
+                <NuxtLink to="/voluntariado-fundacion-bolivar-davivienda"
+                  >Voluntariado Familia Bolívar</NuxtLink
+                >
               </li>
-              <li :class="{ active: $route.name === 'premio-nacional-de-periodismo' }">
-                <NuxtLink to="/premio-nacional-de-periodismo">Premio Nacional de Periodismo</NuxtLink>
+              <li
+                :class="{
+                  active: $route.name === 'premio-nacional-de-periodismo',
+                }"
+              >
+                <NuxtLink to="/premio-nacional-de-periodismo"
+                  >Premio Nacional de Periodismo</NuxtLink
+                >
               </li>
             </ul>
           </div>
