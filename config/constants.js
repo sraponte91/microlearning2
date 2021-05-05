@@ -373,6 +373,71 @@ Vue.prototype.$constants = {
     },
   },
   afloraNuestrasOrganizaciones: {
+    foundations: [
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cultura y recreación',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Antioquia'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cultura y recreación',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Antioquia'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cultura y recreación',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Antioquia'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cultura y recreación',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Antioquia'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Antioquia',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Antioquia'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cultura y recreación',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Nariño'
+      },
+      {
+        title: 'Fundación Amigos de Amagá',
+        address: 'Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia',
+        lineaDeGestion: 'Cundinamarca',
+        nivel: 'formalización',
+        contactoEMail: 'email@gmail.com',
+        contactoWebsite: 'https://google.com',
+        departamento: 'Cundinamarca'
+      }
+    ],
     meta: {
       title: 'Nuestras organizaciones',
       metaTitle: 'Nuestras organizaciones',
@@ -1084,6 +1149,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Marketing y comunicación'
       },
       {
         id: 2,
@@ -1091,6 +1157,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Marketing y comunicación'
       },
       {
         id: 3,
@@ -1098,6 +1165,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Talento Humano'
       },
       {
         id: 4,
@@ -1105,6 +1173,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Talento Humano'
       },
       {
         id: 5,
@@ -1112,6 +1181,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Talento Humano'
       },
       {
         id: 6,
@@ -1119,6 +1189,7 @@ Vue.prototype.$constants = {
         title: 'Camilo Alban',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
+        topic: 'Talento Humano'
       },
     ],
     meta: {
@@ -1143,8 +1214,31 @@ Vue.prototype.$constants = {
     },
   },
   emprendePaisPresenciaEnElPais: {
-    reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)',
+    municipio: [{
+      title: 'CUNDINAMARCA',
+      city: 'Bogota',
+      coordinator: 'Coordinator',
+      name: 'Juan Manuel Platín',
+      email: 'jplatin@fundacionbd.org'
+    }, {
+      title: 'CUNDINAMARCA',
+      city: 'Cali',
+      coordinator: 'Coordinator',
+      name: 'Juan Manuel Platín',
+      email: 'jplatin@fundacionbd.org'
+    }, {
+      title: 'CUNDINAMARCA',
+      city: 'Santa Marta',
+      coordinator: 'Coordinator',
+      name: 'Juan Manuel Platín',
+      email: 'test@gmail.com'
+    }, {
+      title: 'CUNDINAMARCA',
+      city: 'Bogota',
+      coordinator: 'Coordinator',
+      name: 'Juan Manuel Platín',
+      email: 'test@gmail.com'
+    }],
     meta: {
       title: 'Emprender país',
       metaTitle: 'Emprender país',

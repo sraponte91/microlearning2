@@ -4,6 +4,9 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+          <b-breadcrumb-item to="/emprender-pais"
+            >Emprender país
+          </b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
         <div
@@ -82,7 +85,9 @@
                   acompañamiento a sus empresas.
                 </p>
                 <div class="linkto-re text-right">
-                  <a href="javascript:void(0)">Quiero conocer más ></a>
+                  <NuxtLink to="/emprender-pais/desarrollamos-talento/mentores"
+                    >Quiero conocer más ></NuxtLink
+                  >
                 </div>
               </div>
             </div>
@@ -134,7 +139,10 @@
                   ruta de formación para los emprendedores.
                 </p>
                 <div class="linkto-re text-right">
-                  <a href="javascript:void(0)">Quiero conocer más ></a>
+                  <NuxtLink
+                    to="/emprender-pais/desarrollamos-talento/consultores"
+                    >Quiero conocer más ></NuxtLink
+                  >
                 </div>
               </div>
             </div>
@@ -210,7 +218,7 @@
     </section>
 
     <section class="que-about-ytube">
-      <div class="container">        
+      <div class="container">
         <div class="zig-zag-se margin-0-auto">
           <div class="inr-zig-zag">
             <div class="d-flex">
@@ -222,10 +230,17 @@
               <div
                 class="txt-prt d-flex align-items-center position-relative after-po"
               >
-              <div class="position-relative z-index-5">
-                   <h2 class="ff-sans-b">Convocatoria y selección de empresas</h2>
-                <p>Buscamos y seleccionamos empresas en Colombia, con alto potencial de crecimiento para acompañarlas durante 1 año con consultorías empresariales a través de una ruta de crecimiento.</p>
-              </div>
+                <div class="position-relative z-index-5">
+                  <h2 class="ff-sans-b">
+                    Convocatoria y selección de empresas
+                  </h2>
+                  <p>
+                    Buscamos y seleccionamos empresas en Colombia, con alto
+                    potencial de crecimiento para acompañarlas durante 1 año con
+                    consultorías empresariales a través de una ruta de
+                    crecimiento.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -237,35 +252,72 @@
                 2
               </div>
               <div class="txt-prt position-relative after-po">
-                   <div class="position-relative z-index-5">
-                        <h2 class="ff-sans-b">Diagnóstico (formación)</h2>
-                        <h3 class="ff-sans-b">Paso 1: definición de la propuesta de valor</h3>
-                        <p><b>Propuesta de valor:</b> En esta etapa el emprendedor evalúa el motivo y el propósito por el cual fue creado su negocio. Luego, identifica los productos y clientes más rentables con el fin de reconocer alternativas y aumentar el crecimiento de su empresa. Al final de esta etapa, el emprendedor valida la propuesta de valor del negocio de cara al mercado actual.</p>
-                   </div>                
-              </div>              
+                <div class="position-relative z-index-5">
+                  <h2 class="ff-sans-b">Diagnóstico (formación)</h2>
+                  <h3 class="ff-sans-b">
+                    Paso 1: definición de la propuesta de valor
+                  </h3>
+                  <p>
+                    <b>Propuesta de valor:</b> En esta etapa el emprendedor
+                    evalúa el motivo y el propósito por el cual fue creado su
+                    negocio. Luego, identifica los productos y clientes más
+                    rentables con el fin de reconocer alternativas y aumentar el
+                    crecimiento de su empresa. Al final de esta etapa, el
+                    emprendedor valida la propuesta de valor del negocio de cara
+                    al mercado actual.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="d-flex one-one">              
+            <div class="d-flex one-one">
               <div class="txt-prt position-relative after-po">
-                   <div class="position-relative z-index-5">                        
-                        <h3 class="ff-sans-b">Paso 2: identificación de oportunidades de mercado</h3>
-                        <p><b>Análisis del mercado:</b> En esta fase identificamos los retos y oportunidades del negocio, a través de estudios de la industria, de mercado y de competencia. Luego se une con la información adquirida en el análisis de rentabilidad de los productos y/o servicios y clientes. Y finalmente, se trabaja en conjunto con el empresario un portafolio de productos o servicios, integrando la evaluación interna y externa del negocio.</p>
-                   </div>                
-              </div>              
+                <div class="position-relative z-index-5">
+                  <h3 class="ff-sans-b">
+                    Paso 2: identificación de oportunidades de mercado
+                  </h3>
+                  <p>
+                    <b>Análisis del mercado:</b> En esta fase identificamos los
+                    retos y oportunidades del negocio, a través de estudios de
+                    la industria, de mercado y de competencia. Luego se une con
+                    la información adquirida en el análisis de rentabilidad de
+                    los productos y/o servicios y clientes. Y finalmente, se
+                    trabaja en conjunto con el empresario un portafolio de
+                    productos o servicios, integrando la evaluación interna y
+                    externa del negocio.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="d-flex one-one">              
+            <div class="d-flex one-one">
               <div class="txt-prt position-relative after-po">
-                   <div class="position-relative z-index-5">                        
-                        <h3 class="ff-sans-b">Paso 3: construcción de la estrategia de crecimiento</h3>
-                        <p><b>Estrategia de Crecimiento:</b> En este proceso se establece y define los horizontes de crecimiento a corto, mediano y largo plazo, teniendo en cuenta los análisis que ya se han realizado en fases anteriores. Asimismo, se lleva a cabo una evaluación de los equipos de trabajo, estructuras, procesos y herramientas a nivel interno, con el fin de determinar los puntos claves a mejorar para ser sostenibles en el tiempo.</p>
-                   </div>                
-              </div>              
+                <div class="position-relative z-index-5">
+                  <h3 class="ff-sans-b">
+                    Paso 3: construcción de la estrategia de crecimiento
+                  </h3>
+                  <p>
+                    <b>Estrategia de Crecimiento:</b> En este proceso se
+                    establece y define los horizontes de crecimiento a corto,
+                    mediano y largo plazo, teniendo en cuenta los análisis que
+                    ya se han realizado en fases anteriores. Asimismo, se lleva
+                    a cabo una evaluación de los equipos de trabajo,
+                    estructuras, procesos y herramientas a nivel interno, con el
+                    fin de determinar los puntos claves a mejorar para ser
+                    sostenibles en el tiempo.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="d-flex one-one">              
+            <div class="d-flex one-one">
               <div class="txt-prt position-relative after-po">
-                   <div class="position-relative z-index-5">                                                
-                        <p><b>Plan de trabajo:</b> En la construcción del plan de trabajo, los emprendedores priorizan 1 ó 2 proyectos que llevarán a cabo durante 5 meses, con el objetivo de enfocarse en su crecimiento rentable y sostenible.</p>
-                   </div>                
-              </div>              
+                <div class="position-relative z-index-5">
+                  <p>
+                    <b>Plan de trabajo:</b> En la construcción del plan de
+                    trabajo, los emprendedores priorizan 1 ó 2 proyectos que
+                    llevarán a cabo durante 5 meses, con el objetivo de
+                    enfocarse en su crecimiento rentable y sostenible.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="inr-zig-zag">
@@ -277,8 +329,16 @@
               </div>
               <div class="txt-prt position-relative after-po">
                 <div class="position-relative z-index-5">
-                     <h2 class="ff-sans-b">Mentorías</h2>
-                     <p>Los mentores padrinos y expertos acompañan y les brindan una asesoría trabajando los proyectos identificados en la etapa de formación. Durante las mentorías empresariales, el emprendedor tiene la oportunidad de obtener un diagnóstico de expertos sobre su proyecto, y el conocimiento y asesoría para desarrollar un plan estratégico empresarial, para llevar a su empresa hacia el éxito.</p>
+                  <h2 class="ff-sans-b">Mentorías</h2>
+                  <p>
+                    Los mentores padrinos y expertos acompañan y les brindan una
+                    asesoría trabajando los proyectos identificados en la etapa
+                    de formación. Durante las mentorías empresariales, el
+                    emprendedor tiene la oportunidad de obtener un diagnóstico
+                    de expertos sobre su proyecto, y el conocimiento y asesoría
+                    para desarrollar un plan estratégico empresarial, para
+                    llevar a su empresa hacia el éxito.
+                  </p>
                 </div>
               </div>
             </div>
@@ -292,41 +352,38 @@
 export default {
   head() {
     return {
-      title: this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
-        .title,
+      title: this.$constants.emprenderPaisDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.metaTitle,
+          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta
+          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogTitle,
+          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogDescription,
+          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
-              .ogImage,
+            this.$constants.emprenderPaisDesarrollamosTalento.meta.ogImage,
         },
       ],
     }

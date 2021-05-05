@@ -48,16 +48,16 @@
               <div>
                 <div class="selec-bx">
                   <h5 class="ff-sans-r">Municipio</h5>
-                  <b-form-select class="mb-3">
-                    <b-form-select-option value="a"
-                      >Bogotá</b-form-select-option
-                    >
-                    <b-form-select-option value="b">Cali</b-form-select-option>
-                    <b-form-select-option value="c"
-                      >Santa Marta</b-form-select-option
-                    >
-                    <b-form-select-option value="c"
-                      >Santander</b-form-select-option
+                  <b-form-select
+                    class="mb-3"
+                    v-model="selectedCity"
+                    @change="setCity()"
+                  >
+                    <b-form-select-option
+                      v-for="(city, i) of cities"
+                      :key="i"
+                      :value="city"
+                      >{{ city }}</b-form-select-option
                     >
                   </b-form-select>
                 </div>
@@ -88,52 +88,19 @@
                     >
                       <b-card-body>
                         <b-card-text>
-                          <ul class="ff-sans-r">
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-1"
-                                  name="checkbox-1"
-                                  class="ff-nunito"
-                                >
-                                  Bogotá
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-2"
-                                  name="checkbox-2"
-                                  class="ff-nunito"
-                                >
-                                  Cali
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-3"
-                                  name="checkbox-3"
-                                  class="ff-nunito"
-                                >
-                                  Santa Marta
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-3"
-                                  name="checkbox-3"
-                                  class="ff-nunito"
-                                >
-                                  Santa Marta
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                          </ul>
+                          <b-form-checkbox-group v-model="selectedCities">
+                            <ul class="ff-sans-r">
+                              <li v-for="(city, i) of cities" :key="i">
+                                <div>
+                                  <b-form-checkbox
+                                    class="ff-nunito"
+                                    :value="city"
+                                    >{{ city }}
+                                  </b-form-checkbox>
+                                </div>
+                              </li>
+                            </ul>
+                          </b-form-checkbox-group>
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
@@ -143,19 +110,19 @@
             </div>
           </div>
           <div class="txt-par-info">
-            <div class="inside-box">
+            <div class="inside-box" v-for="(item, i) of municipio" :key="i">
               <div class="text-center">
-                <h4 class="ff-sans-b">CUNDINAMARCA</h4>
-                <p class="ff-nunito">Bogotá</p>
+                <h4 class="ff-sans-b">{{ item.title }}</h4>
+                <p class="ff-nunito">{{ item.city }}</p>
                 <div
                   class="three-sm-bx margin-0-auto flex-wrap-767 text-center w-100"
                 >
                   <div class="onew text-center w-100">
-                    <h4 class="ff-sans-b">Coordinador</h4>
-                    <p class="ff-nunito">Juan Manuel Platín</p>
+                    <h4 class="ff-sans-b">{{ item.coordinator }}</h4>
+                    <p class="ff-nunito">{{ item.name }}</p>
                   </div>
                   <div class="onew text-center w-100">
-                    <a href="javasript:void(0)">
+                    <a :href="'mailto:' + item.email">
                       <svg
                         version="1.2"
                         xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +142,7 @@
                           />
                         </g>
                       </svg>
-                      jplatin@fundacionbd.org
+                      {{ item.email }}
                     </a>
                   </div>
                 </div>
@@ -189,6 +156,35 @@
 </template>
 <script>
 export default {
+  computed: {
+    cities() {
+      return this.$constants.emprendePaisPresenciaEnElPais.municipio
+        .map((d) => d.city)
+        .filter((v, i, a) => a.indexOf(v) === i)
+    },
+    municipio() {
+      return this.$constants.emprendePaisPresenciaEnElPais.municipio.filter(
+        (i) => {
+          if (this.selectedCities.length) {
+            return this.selectedCities.includes(i.city)
+          } else {
+            return true
+          }
+        }
+      )
+    },
+  },
+  data() {
+    return {
+      selectedCities: [],
+      selectedCity: null,
+    }
+  },
+  methods: {
+    setCity() {
+      this.selectedCities = [this.selectedCity]
+    },
+  },
   head() {
     return {
       title: this.$constants.emprendePaisPresenciaEnElPais.meta.title,

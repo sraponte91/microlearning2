@@ -61,22 +61,20 @@
         <div class="text-center">
           <h3 class="ff-sans-b">Selecciona el tema</h3>
           <div class="select-here margin-0-auto">
-            <b-form-select v-model="selected" class="">
-              <template #first>
-                <b-form-select-option :value="null"
-                  >Marketing y comunicación</b-form-select-option
-                >
-              </template>
-              <b-form-select-option value="C"
-                >Talento Humano</b-form-select-option
+            <b-form-select v-model="selectedTopic">
+              <b-form-select-option value="">Select</b-form-select-option>
+              <b-form-select-option
+                v-for="(t, i) of topics"
+                :key="i"
+                :value="t"
+                >{{ t }}</b-form-select-option
               >
             </b-form-select>
           </div>
           <div class="select-over-here">
             <div class="d-flex flex-wrap">
               <div
-                v-for="(item, i) of $constants
-                  .emprenderPaisDesarrollamosTalentoMentores.items"
+                v-for="(item, i) of topicItems"
                 :key="i"
                 class="indiv-slect d-flex flex-wrap-767"
               >
@@ -101,11 +99,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="text-center d-none-n d-block-767">
-            <a href="javascript:void(0)" class="btn-load-more ff-sans-b"
-              >Cargar más</a
-            >
-          </div> -->
         </div>
       </div>
     </section>
@@ -113,9 +106,27 @@
 </template>
 <script>
 export default {
+  computed: {
+    topics() {
+      return this.$constants.emprenderPaisDesarrollamosTalentoMentores.items
+        .map((i) => i.topic)
+        .filter((v, i, a) => a.indexOf(v) === i)
+    },
+    topicItems() {
+      return this.$constants.emprenderPaisDesarrollamosTalentoMentores.items.filter(
+        (i) => {
+          if (this.selectedTopic.length) {
+            return this.selectedTopic === i.topic
+          } else {
+            return true
+          }
+        }
+      )
+    },
+  },
   data() {
     return {
-      selected: null,
+      selectedTopic: '',
     }
   },
   head() {

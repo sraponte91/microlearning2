@@ -377,11 +377,10 @@
       </div>
     </div>
 
-    <section class="ig-tx-zing-zag  bg-white pt-0 indesarro-inve-so d-none-767">
+    <section class="ig-tx-zing-zag bg-white pt-0 indesarro-inve-so d-none-767">
       <div class="container">
-           
         <div class="four-boxes pt-2 margin-0-auto">
-             <h4 class="text-uppercase">¿QUÉ ACTIVIDADES NO APOYAMOS?</h4>
+          <h4 class="text-uppercase">¿QUÉ ACTIVIDADES NO APOYAMOS?</h4>
           <div class="d-flex flex-wrap">
             <div class="one-box text-center position-relative">
               <div
@@ -392,9 +391,7 @@
                 >
                   1
                 </div>
-                <p class="ff-sans-sb">
-                  Objetivos políticos o religiosos.
-                </p>
+                <p class="ff-sans-sb">Objetivos políticos o religiosos.</p>
               </div>
             </div>
             <div class="one-box text-center position-relative">
@@ -406,9 +403,7 @@
                 >
                   2
                 </div>
-                <p class="ff-sans-sb">
-                  Instituciones públicas.
-                </p>
+                <p class="ff-sans-sb">Instituciones públicas.</p>
               </div>
             </div>
             <div class="one-box text-center position-relative">
@@ -440,7 +435,7 @@
               </div>
             </div>
 
-     <div class="one-box text-center position-relative">
+            <div class="one-box text-center position-relative">
               <div
                 class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
               >
@@ -450,7 +445,8 @@
                   5
                 </div>
                 <p class="ff-sans-sb">
-                  Diseño y realización de publicaciones, videos, películas, exhibiciones.
+                  Diseño y realización de publicaciones, videos, películas,
+                  exhibiciones.
                 </p>
               </div>
             </div>
@@ -462,11 +458,9 @@
                 <div
                   class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
                 >
-                 6
+                  6
                 </div>
-                <p class="ff-sans-sb">
-                  Compra de bienes.
-                </p>
+                <p class="ff-sans-sb">Compra de bienes.</p>
               </div>
             </div>
 
@@ -479,9 +473,7 @@
                 >
                   7
                 </div>
-                <p class="ff-sans-sb">
-                  Gastos retroactivos.
-                </p>
+                <p class="ff-sans-sb">Gastos retroactivos.</p>
               </div>
             </div>
 
@@ -499,47 +491,48 @@
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </section>
 
     <section class="fours-points-eise d-none-767 bg-white">
-         <div class="container">
-              <div class="inner-part margin-0-auto">
-                   <h4 class="ff-sans-b">DOCUMENTACIÓN REQUERIDA</h4>
-                   <div class="d-flex point-bxeses">
-                        <div class="one-bx d-flex one">
-                             <div class="number d-flex align-items-center ff-sans-b">1</div>
-                             <div class="text align-items-center d-flex">Formato de presentación de proyecto o estrategia de fundraising.</div>
-                        </div>
-                        <div class="one-bx d-flex two">
-                             <div class="number d-flex align-items-center ff-sans-b">2</div>
-                             <div class="text align-items-center d-flex">Formato de presupuesto.</div>
-                        </div>
-                        <div class="one-bx d-flex three">
-                             <div class="number d-flex align-items-center ff-sans-b">3</div>
-                             <div class="text align-items-center d-flex">Fotocopia de cédula del representante legal de la organización.</div>
-                        </div>
-                        <div class="one-bx d-flex four">
-                             <div class="number d-flex align-items-center ff-sans-b">4</div>
-                             <div class="text align-items-center d-flex">Formato F115.</div>
-                        </div>
-                   </div>
+      <div class="container">
+        <div class="inner-part margin-0-auto">
+          <h4 class="ff-sans-b">DOCUMENTACIÓN REQUERIDA</h4>
+          <div class="d-flex point-bxeses">
+            <div class="one-bx d-flex one">
+              <div class="number d-flex align-items-center ff-sans-b">1</div>
+              <div class="text align-items-center d-flex">
+                Formato de presentación de proyecto o estrategia de fundraising.
               </div>
-         </div>
+            </div>
+            <div class="one-bx d-flex two">
+              <div class="number d-flex align-items-center ff-sans-b">2</div>
+              <div class="text align-items-center d-flex">
+                Formato de presupuesto.
+              </div>
+            </div>
+            <div class="one-bx d-flex three">
+              <div class="number d-flex align-items-center ff-sans-b">3</div>
+              <div class="text align-items-center d-flex">
+                Fotocopia de cédula del representante legal de la organización.
+              </div>
+            </div>
+            <div class="one-bx d-flex four">
+              <div class="number d-flex align-items-center ff-sans-b">4</div>
+              <div class="text align-items-center d-flex">Formato F115.</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-
-
 
     <section
       class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre d-none-n d-block-767"
     >
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
-          
           <div
             class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
           >
@@ -558,23 +551,30 @@
                     Tener mínimo tres años de constitución.
                   </li>
                   <li class="position-relative after-po">
-                    La organización debe estar inscrita y clasificada en un nivel de nuestro programa AFLORA.
+                    La organización debe estar inscrita y clasificada en un
+                    nivel de nuestro programa AFLORA.
                   </li>
                   <li class="position-relative after-po">
                     No ser de carácter público.
                   </li>
                   <li class="position-relative after-po">
-                    Estar constituidas como organizaciones con personería jurídica.
+                    Estar constituidas como organizaciones con personería
+                    jurídica.
                   </li>
                   <li class="position-relative after-po">
-                    Tener capacidad de expedir un certificado oficial de donación, de acuerdo con el numeral 2o del artículo 1.2.1.4.3 del Decreto 1625 de 2016.
-                  </li>                  
-                  <li class="position-relative after-po">
-                    Contar con un patrimonio mínimo, de acuerdo con el establecido por el tipo de solicitud.
+                    Tener capacidad de expedir un certificado oficial de
+                    donación, de acuerdo con el numeral 2o del artículo
+                    1.2.1.4.3 del Decreto 1625 de 2016.
                   </li>
                   <li class="position-relative after-po">
-                    Tener Registro único tributario RUT con la responsabilidad No. 4 “Régimen Tributario Especial”actualizado en el año de presentación del proyecto.
-                  </li>                  
+                    Contar con un patrimonio mínimo, de acuerdo con el
+                    establecido por el tipo de solicitud.
+                  </li>
+                  <li class="position-relative after-po">
+                    Tener Registro único tributario RUT con la responsabilidad
+                    No. 4 “Régimen Tributario Especial”actualizado en el año de
+                    presentación del proyecto.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -607,16 +607,15 @@
                     Proyectos de infraestructura o adquisición de inmuebles.
                   </li>
                   <li class="position-relative after-po">
-                    Diseño y realización de publicaciones, videos, películas, exhibiciones.
-                  </li>                  
-                  <li class="position-relative after-po">
-                    Compra de bienes.
+                    Diseño y realización de publicaciones, videos, películas,
+                    exhibiciones.
                   </li>
+                  <li class="position-relative after-po">Compra de bienes.</li>
                   <li class="position-relative after-po">
                     Gastos retroactivos.
-                  </li>                  
+                  </li>
                   <li class="position-relative after-po">
-                       No apoyamos el 100% del costo de la iniciativa presentada.
+                    No apoyamos el 100% del costo de la iniciativa presentada.
                   </li>
                 </ul>
               </div>
@@ -638,35 +637,32 @@
                 <p class="text-uppercase">DOCUMENTACIÓN REQUERIDA</p>
                 <ul>
                   <li class="position-relative after-po">
-                    Formato de presentación de proyecto o estrategia de fundraising.
+                    Formato de presentación de proyecto o estrategia de
+                    fundraising.
                   </li>
                   <li class="position-relative after-po">
                     Formato de presupuesto.
                   </li>
                   <li class="position-relative after-po">
-                    Fotocopia de cédula del representante legal de la organización.
+                    Fotocopia de cédula del representante legal de la
+                    organización.
                   </li>
-                  <li class="position-relative after-po">
-                    Formato F115.
-                  </li>                  
+                  <li class="position-relative after-po">Formato F115.</li>
                 </ul>
-                <p class="italic">*El diligenciamiento y envío de los formatos solicitados, no es garantía de aprobación.</p>
+                <p class="italic">
+                  *El diligenciamiento y envío de los formatos solicitados, no
+                  es garantía de aprobación.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 </template>
 <script>
 export default {
-  methods: {
-    goBack() {
-      window.history.back()
-    },
-  },
   head() {
     return {
       title: this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta

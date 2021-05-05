@@ -42,29 +42,31 @@
               <div>
                 <div class="selec-bx">
                   <h5 class="ff-sans-r">Departamento</h5>
-                  <b-form-select class="mb-3">
-                    <b-form-select-option value="a"
-                      >Antioquia</b-form-select-option
-                    >
-                    <b-form-select-option value="b"
-                      >Cundinamarca</b-form-select-option
-                    >
-                    <b-form-select-option value="c"
-                      >Nariño</b-form-select-option
+                  <b-form-select
+                    class="mb-3"
+                    v-model="selectedDept"
+                    @change="setDept()"
+                  >
+                    <b-form-select-option
+                      v-for="(d, i) of departamento"
+                      :key="i"
+                      :value="d"
+                      >{{ d }}</b-form-select-option
                     >
                   </b-form-select>
                 </div>
                 <div class="selec-bx">
                   <h5 class="ff-sans-r">Linea de gestión</h5>
-                  <b-form-select class="mb-3">
-                    <b-form-select-option value="a"
-                      >Option 1</b-form-select-option
-                    >
-                    <b-form-select-option value="b"
-                      >Option 2</b-form-select-option
-                    >
-                    <b-form-select-option value="c"
-                      >Option 3</b-form-select-option
+                  <b-form-select
+                    class="mb-3"
+                    v-model="selectedLineaD"
+                    @change="setLineaD()"
+                  >
+                    <b-form-select-option
+                      v-for="(l, i) of lineaDeGestion"
+                      :key="i"
+                      :value="l"
+                      >{{ l }}</b-form-select-option
                     >
                   </b-form-select>
                 </div>
@@ -95,41 +97,17 @@
                     >
                       <b-card-body>
                         <b-card-text>
-                          <ul class="ff-sans-r">
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-1"
-                                  name="checkbox-1"
-                                  class="ff-nunito"
-                                >
-                                  Antioquia
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-2"
-                                  name="checkbox-2"
-                                  class="ff-nunito"
-                                >
-                                  Cundinamarca
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-3"
-                                  name="checkbox-3"
-                                  class="ff-nunito"
-                                >
-                                  Nariño
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                          </ul>
+                          <b-form-checkbox-group v-model="selectedDepts">
+                            <ul class="ff-sans-r">
+                              <li v-for="(d, i) of departamento" :key="i">
+                                <div>
+                                  <b-form-checkbox class="ff-nunito" :value="d"
+                                    >{{ d }}
+                                  </b-form-checkbox>
+                                </div>
+                              </li>
+                            </ul>
+                          </b-form-checkbox-group>
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
@@ -155,41 +133,19 @@
                     >
                       <b-card-body>
                         <b-card-text>
-                          <ul class="ff-sans-r">
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-4"
-                                  name="checkbox-4"
-                                  class="ff-nunito"
-                                >
-                                  Antioquia
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-5"
-                                  name="checkbox-5"
-                                  class="ff-nunito"
-                                >
-                                  Cundinamarca
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <b-form-checkbox
-                                  id="checkbox-6"
-                                  name="checkbox-6"
-                                  class="ff-nunito"
-                                >
-                                  Nariño
-                                </b-form-checkbox>
-                              </div>
-                            </li>
-                          </ul>
+                          <b-form-checkbox-group
+                            v-model="selectedLineaDeGestion"
+                          >
+                            <ul class="ff-sans-r">
+                              <li v-for="(l, i) of lineaDeGestion" :key="i">
+                                <div>
+                                  <b-form-checkbox class="ff-nunito" :value="l"
+                                    >{{ l }}
+                                  </b-form-checkbox>
+                                </div>
+                              </li>
+                            </ul>
+                          </b-form-checkbox-group>
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
@@ -199,24 +155,23 @@
             </div>
           </div>
           <div class="txt-par-info">
-            <div class="inside-box">
+            <div class="inside-box" v-for="(item, i) of foundations" :key="i">
               <div class="text-center">
                 <h4 class="ff-sans-b">Fundación</h4>
-                <p class="ff-nunito">Fundación Amigos de Amagá</p>
-                <small class="ff-nunito"
-                  >Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia</small
-                >
+                <p class="ff-nunito">{{ item.title }}</p>
+                <small class="ff-nunito">{{ item.address }}</small>
                 <div class="d-flex three-sm-bx margin-0-auto flex-wrap-767">
                   <div class="onew text-center">
                     <h4 class="ff-sans-b">Línea de gestión</h4>
-                    <p class="ff-nunito">Cultura y recreación</p>
+                    <p class="ff-nunito">{{ item.lineaDeGestion }}</p>
                   </div>
                   <div class="onew text-center">
                     <h4 class="ff-sans-b">Nivel</h4>
+                    <p>{{ item.nivel }}</p>
                   </div>
                   <div class="onew text-center">
                     <h4 class="ff-sans-b">Contactos</h4>
-                    <a href="javasript:void(0)">
+                    <a :href="'mailto:' + item.contactoEMail">
                       <svg
                         version="1.2"
                         xmlns="http://www.w3.org/2000/svg"
@@ -237,143 +192,12 @@
                         </g>
                       </svg>
                     </a>
-                    <a href="javascript:void(0)">
-                      <img src="/images/somes.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="inside-box">
-              <div class="text-center">
-                <h4 class="ff-sans-b">Fundación</h4>
-                <p class="ff-nunito">Fundación Amigos de Amagá</p>
-                <small class="ff-nunito"
-                  >Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia</small
-                >
-                <div class="d-flex three-sm-bx margin-0-auto flex-wrap-767">
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Línea de gestión</h4>
-                    <p class="ff-nunito">Cultura y recreación</p>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Nivel</h4>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Contactos</h4>
-                    <a href="javasript:void(0)">
-                      <svg
-                        version="1.2"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        overflow="visible"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        width="46"
-                        height="46"
-                      >
-                        <g>
-                          <path
-                            xmlns:default="http://www.w3.org/2000/svg"
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                            style="fill: rgb(255, 103, 27)"
-                            vector-effect="non-scaling-stroke"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                    <a href="javascript:void(0)">
-                      <img src="/images/somes.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="inside-box">
-              <div class="text-center">
-                <h4 class="ff-sans-b">Fundación</h4>
-                <p class="ff-nunito">Fundación Amigos de Amagá</p>
-                <small class="ff-nunito"
-                  >Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia</small
-                >
-                <div class="d-flex three-sm-bx margin-0-auto flex-wrap-767">
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Línea de gestión</h4>
-                    <p class="ff-nunito">Cultura y recreación</p>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Nivel</h4>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Contactos</h4>
-                    <a href="javasript:void(0)">
-                      <svg
-                        version="1.2"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        overflow="visible"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        width="46"
-                        height="46"
-                      >
-                        <g>
-                          <path
-                            xmlns:default="http://www.w3.org/2000/svg"
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                            style="fill: rgb(255, 103, 27)"
-                            vector-effect="non-scaling-stroke"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                    <a href="javascript:void(0)">
-                      <img src="/images/somes.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="inside-box">
-              <div class="text-center">
-                <h4 class="ff-sans-b">Fundación</h4>
-                <p class="ff-nunito">Fundación Amigos de Amagá</p>
-                <small class="ff-nunito"
-                  >Carrera 43A Calle 18 Sur 13 Amagá, Antioquia, Colombia</small
-                >
-                <div class="d-flex three-sm-bx margin-0-auto flex-wrap-767">
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Línea de gestión</h4>
-                    <p class="ff-nunito">Cultura y recreación</p>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Nivel</h4>
-                  </div>
-                  <div class="onew text-center">
-                    <h4 class="ff-sans-b">Contactos</h4>
-                    <a href="javasript:void(0)">
-                      <svg
-                        version="1.2"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        overflow="visible"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        width="46"
-                        height="46"
-                      >
-                        <g>
-                          <path
-                            xmlns:default="http://www.w3.org/2000/svg"
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                            style="fill: rgb(255, 103, 27)"
-                            vector-effect="non-scaling-stroke"
-                          />
-                        </g>
-                      </svg>
-                    </a>
-                    <a href="javascript:void(0)">
-                      <img src="/images/somes.png" alt="" />
+                    <a
+                      target="_blank"
+                      :href="item.contactoWebsite"
+                      class="weblink"
+                    >
+                      www
                     </a>
                   </div>
                 </div>
@@ -387,6 +211,52 @@
 </template>
 <script>
 export default {
+  computed: {
+    departamento() {
+      return this.$constants.afloraNuestrasOrganizaciones.foundations
+        .map((d) => d.departamento)
+        .filter((v, i, a) => a.indexOf(v) === i)
+    },
+    lineaDeGestion() {
+      return this.$constants.afloraNuestrasOrganizaciones.foundations
+        .map((l) => l.lineaDeGestion)
+        .filter((v, i, a) => a.indexOf(v) === i)
+    },
+    foundations() {
+      return this.$constants.afloraNuestrasOrganizaciones.foundations.filter(
+        (i) => {
+          if (this.selectedDepts.length && this.selectedLineaDeGestion.length) {
+            return (
+              this.selectedDepts.includes(i.departamento) &&
+              this.selectedLineaDeGestion.includes(i.lineaDeGestion)
+            )
+          } else if (this.selectedDepts.length) {
+            return this.selectedDepts.includes(i.departamento)
+          } else if (this.selectedLineaDeGestion.length) {
+            return this.selectedLineaDeGestion.includes(i.lineaDeGestion)
+          } else {
+            return true
+          }
+        }
+      )
+    },
+  },
+  data() {
+    return {
+      selectedDepts: [],
+      selectedDept: null,
+      selectedLineaD: null,
+      selectedLineaDeGestion: [],
+    }
+  },
+  methods: {
+    setDept() {
+      this.selectedDepts = [this.selectedDept]
+    },
+    setLineaD() {
+      this.selectedLineaDeGestion = [this.selectedLineaD]
+    },
+  },
   head() {
     return {
       title: this.$constants.afloraNuestrasOrganizaciones.meta.title,
@@ -425,3 +295,10 @@ export default {
   },
 }
 </script>
+<style scoped>
+.weblink {
+  color: #ff671b;
+  font-weight: 300;
+  margin-left: 10px;
+}
+</style>
