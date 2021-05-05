@@ -1577,4 +1577,144 @@ Vue.prototype.$constants = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
+  cultivarteHome: {
+    desarrollamosTalento: 'javascript:void(0)',
+    meta: {
+      title: 'Cultivarte Home',
+      metaTitle: 'Cultivarte Home',
+      metaDescription: 'Cultivarte Home Description',
+      ogTitle: 'Cultivarte Home',
+      ogDescription: 'Cultivarte Home',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
+  cultivarteConozcanos: {
+    meta: {
+      title: 'Cultivarte Conozcanos',
+      metaTitle: 'Cultivarte Conozcanos',
+      metaDescription: 'Cultivarte Conozcanos Description',
+      ogTitle: 'Cultivarte Conozcanos',
+      ogDescription: 'Cultivarte Conozcanos',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+    testimonios: [
+      {
+        title: 'Sara Castro - 10',
+        description:
+          'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
+      },
+      {
+        title: 'Dilan Cabezas - 9',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Mariangel Molina - 7',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Sara Castro - 11',
+        description:
+          'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
+      },
+      {
+        title: 'Dilan Cabezas - 10',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Mariangel Molina - 8',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Sara Castro - 12',
+        description:
+          'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
+      },
+      {
+        title: 'Dilan Cabezas - 11',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Mariangel Molina - 9',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+    ],
+  },
+  cultivarteDesarrollamosTalento: {
+    meta: {
+      title: 'Cultivarte Desarrollamos Talento',
+      metaTitle: 'Cultivarte Desarrollamos Talento',
+      metaDescription: 'Cultivarte Desarrollamos Talento Description',
+      ogTitle: 'Cultivarte Desarrollamos Talento',
+      ogDescription: 'Cultivarte Desarrollamos Talento',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
+  cultivarteDondeEstamosUbicados: {
+    meta: {
+      title: 'Cultivarte Donde Estamos Ubicados',
+      metaTitle: 'Cultivarte Donde Estamos Ubicados',
+      metaDescription: 'Cultivarte Donde Estamos Ubicados Description',
+      ogTitle: 'Cultivarte Donde Estamos Ubicados',
+      ogDescription: 'Cultivarte Donde Estamos Ubicados',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
+  cultivarteZonaLudica: {
+    meta: {
+      title: 'Cultivarte Zona Ludica',
+      metaTitle: 'Cultivarte Zona Ludica',
+      metaDescription: 'Cultivarte Zona Ludica Description',
+      ogTitle: 'Cultivarte Zona Ludica',
+      ogDescription: 'Cultivarte Zona Ludica',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+    plataformas: [
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-los.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-code-combat.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-biblioteca.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-segur-polis.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logos-ae-f-monetarium.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-casita-de-artistas.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-discovery-en-la-escuela.png',
+        detailUrl: 'javascript:void(0)',
+      },
+      {
+        title: 'LOS ZÚPER',
+        image: '/images/logo-guardianes-de-la-musica.png',
+        detailUrl: 'javascript:void(0)',
+      },
+    ],
+  },
 }

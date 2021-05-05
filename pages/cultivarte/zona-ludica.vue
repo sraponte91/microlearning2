@@ -40,71 +40,62 @@
     <section>
       <div class="container">
         <div class="all-zona">
-          <div class="single-zona">
-            <h3>Los zúper</h3>
+          <div class="single-zona" v-for="item,index in $constants.cultivarteZonaLudica.plataformas" :key="index">
+            <h3 v-text="item.title" /> 
             <div class="zona-img">
-              <img src="/images/logo-los.png" alt="" />
+              <img :src="item.image" alt="" />
             </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-code-combat.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-biblioteca.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-segur-polis.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logos-ae-f-monetarium.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-casita-de-artistas.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-discovery-en-la-escuela.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
-          </div>
-          <div class="single-zona">
-            <h3>Los zúper</h3>
-            <div class="zona-img">
-              <img src="/images/logo-guardianes-de-la-musica.png" alt="" />
-            </div>
-            <a href="#">Ver más</a>
+            <a :href="item.detailUrl">Ver más</a>
           </div>
         </div>
-        <div class="page-btn">
+        <!-- <div class="page-btn">
           <a href="#">Cargar Más</a>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- zona end -->
   </main>
 </template>
+
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.cultivarteZonaLudica.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.cultivarteZonaLudica.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.cultivarteZonaLudica.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.cultivarteZonaLudica.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.cultivarteZonaLudica.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.cultivarteZonaLudica.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
+
 <style>
 .pm-title p {
   font-family: Nunito, sans-serif;

@@ -231,6 +231,44 @@
     <!-- text on image end -->
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.cultivarteDesarrollamosTalento.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.cultivarteDesarrollamosTalento.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.cultivarteDesarrollamosTalento.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.cultivarteDesarrollamosTalento.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.cultivarteDesarrollamosTalento.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.cultivarteDesarrollamosTalento.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 .head-text-inner,
 .txt-img-inner {

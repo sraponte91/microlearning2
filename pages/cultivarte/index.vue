@@ -258,10 +258,11 @@
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
           <div class="for-btn">
             <a
-              :href="$constants.aflora.desarrollamosTalento"
+              :href="$constants.cultivarteHome.desarrollamosTalento"
               class="btn-tell-more"
-              >Cuéntame más</a
             >
+              Cuéntame más
+            </a>
           </div>
         </div>
       </div>
@@ -325,3 +326,40 @@
     <!-- call to action end -->
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.cultivarteHome.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.cultivarteHome.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.cultivarteHome.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.cultivarteHome.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.cultivarteHome.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.cultivarteHome.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>

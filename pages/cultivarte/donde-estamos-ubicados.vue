@@ -205,6 +205,46 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.cultivarteDondeEstamosUbicados.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.cultivarteDondeEstamosUbicados.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.cultivarteDondeEstamosUbicados.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
+
+
 <style >
 .common-banner.ndb {
   background-image: linear-gradient(

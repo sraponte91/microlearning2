@@ -180,15 +180,15 @@
           ]"
           :navigationEnabled="true"
         >
-          <slide v-for="i in 15" :key="i" class="testi-center">
+          <slide
+            v-for="(item, i) in $constants.cultivarteConozcanos.testimonios"
+            :key="i"
+            class="testi-center"
+          >
             <div class="testi-single">
               <div class="testi-txt">
-                <h3>Sara Castro - 10</h3>
-                <p>
-                  La educación financiera es como las matemáticas, solo que aquí
-                  juegas con los números y aprendes a ahorrar jugando como si
-                  fueras un banco de verdad
-                </p>
+                <h3 v-text="item.title" />
+                <p v-text="item.description" />
               </div>
             </div>
           </slide>
@@ -332,6 +332,44 @@
     <!-- Con el apoyo de end -->
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$constants.cultivarteConozcanos.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.cultivarteConozcanos.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.cultivarteConozcanos.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.cultivarteConozcanos.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.cultivarteConozcanos.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$constants.cultivarteConozcanos.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 .common-banner.nc {
   background-image: linear-gradient(
