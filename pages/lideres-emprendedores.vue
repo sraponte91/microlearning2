@@ -234,7 +234,7 @@
               desarrollo.
             </p>
           </div>
-          <div class="col-md-8 offset-2">
+          <div class="col-md-8 offset-md-2">
             <div class="sec5-inner-list">
               <div class="sec5-inner-left">1</div>
               <div class="sec5-inner-right">
@@ -965,5 +965,66 @@ export default {
 }
 .leader-section-7 p a {
   font-size: 23px;
+}
+@media (max-width: 767px) {
+  .leader-section-1 h1 {
+    font-size: 48px;
+    line-height: normal;
+  }
+  .leader-section-1 h2,
+  .leader-section-2 h2,
+  .leader-section-3 .block-text h3,
+  .leader-section-4 h2,
+  .leader-section-5 h2 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .leader-section-1 p {
+    font-size: 14px;
+  }
+  .leader-section-3 .main-slider-at-top .orange-bg {
+    padding: 5px;
+  }
+  .leader-section-3 .main-slider-at-top h3 {
+    padding: 5px;
+  }
+  .leader-section-3 .sec3-info {
+    padding-top: 25px;
+  }
+  .VueCarousel .box {
+    min-width: 360px;
+  }
+  .leader-section-3 .block-text {
+    padding: 25px;
+    margin-bottom: 0;
+  }
+  .leader-section-3 {
+    padding-bottom: 15px;
+  }
+  .leader-section-4 {
+    padding: 25px 0;
+  }
+  .leader-section-4 h2 {
+    margin-bottom: 25px;
+  }
+  .sec5-inner-list.reverse .sec5-inner-right {
+    padding-left: 30px;
+  }
+  .leader-section-5 h2 {
+    text-align: center;
+  }
+  .leader-section-5 p {
+    line-height: normal;
+  }
+  .lc-lists {
+    margin-top: 0;
+  }
+  .lc-lists .lc-items {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .leader-section-7 {
+    padding: 25px;
+  }
 }
 </style>

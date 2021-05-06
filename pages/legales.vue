@@ -119,7 +119,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content:`${this.$constants.baseURL}${this.$constants.legales.meta.ogImage}`
+          content: `${this.$constants.baseURL}${this.$constants.legales.meta.ogImage}`,
         },
       ],
     }
@@ -180,5 +180,21 @@ export default {
   margin: 30px 0;
   border: none;
   border-bottom: 3px solid #ff671b;
+}
+@media (max-width: 767px) {
+  .terms h1 {
+    font-size: 48px;
+    line-height: normal;
+    text-align: left !important;
+  }
+  .terms h3 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .terms .columns {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 }
 </style>

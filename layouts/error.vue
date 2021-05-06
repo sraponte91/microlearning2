@@ -58,4 +58,14 @@ export default {
   border-radius: 0;
   margin-top: 50px;
 }
+@media (max-width: 767px) {
+  .error-section-1 .text-orange {
+    padding-top: 30px;
+    line-height: 92px;
+  }
+  .error-section-1 h1 {
+    font-size: 58px;
+    line-height: normal;
+  }
+}
 </style>

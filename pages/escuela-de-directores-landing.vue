@@ -666,8 +666,61 @@ export default {
 .sec6-inner-box p a {
   color: #313338;
   font-weight: bold;
+  word-break: break-all;
 }
 .sec6-inner-box .img-fluid {
   margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .director-section-1 h1 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .sec1-boxes .img-fluid {
+    position: relative;
+  }
+  .sec1-boxes .sec1-description {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 25px;
+  }
+  .sec1-boxes h3 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .sec1-boxes p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .director-section-2 h2 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .VueCarousel .box {
+    min-width: 360px;
+  }
+  .director-section-3 .main-slider-at-top .orange-bg {
+    padding: 5px;
+  }
+  .director-section-3 .main-slider-at-top h3 {
+    padding: 5px;
+  }
+  .director-section-3 .sec3-info {
+    padding-top: 25px;
+  }
+  .director-section-3 .main-slider-at-top.actualidad-pg .img-prt {
+    height: 310px;
+  }
+  .director-section-6 {
+    padding: 30px 0px;
+  }
+  .director-section-6 h2 {
+    font-size: 42px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .sec6-inner-box {
+    margin: 10px 0;
+  }
 }
 </style>
