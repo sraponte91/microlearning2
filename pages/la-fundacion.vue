@@ -9,14 +9,10 @@
             <h1 class="ff-sans-b">La Fundación</h1>
             <div class="pra ff-nunito">
               <p>
-                Somos el brazo social del Grupo Empresarial Bolívar, con más de
-                75 años de trayectoria, construyendo confianza y una sólida
-                reputación en diversos sectores del mercado colombiano.
+                Somos el brazo social del Grupo Empresarial Bolívar, con más de 75 años de trayectoria, construyendo confianza y una sólida reputación en diversos sectores del mercado colombiano.
               </p>
               <p>
-                Desde el año 2009, dedicamos esfuerzos a las transformaciones
-                estructurales, sostenibles y de impacto en la sociedad, nuestro
-                propósito es desarrollar talento para construir país.
+                Desde el año 2009, dedicamos esfuerzos a las transformaciones estructurales, sostenibles y de impacto en la sociedad, nuestro propósito es desarrollar talento para construir país.
               </p>
             </div>
           </div>
@@ -26,29 +22,35 @@
             <li>
               <img
                 class="object-fit-cover"
-                src="/images/cultivarte.jpg"
+                src="/images/seccion-la-fundacion/lafundacion_slider1.jpg"
                 alt=""
               />
             </li>
             <li>
               <img
                 class="object-fit-cover"
-                src="/images/inversion_social.jpg"
+                src="/images/seccion-la-fundacion/lafundacion_slider2.jpg"
                 alt=""
               />
             </li>
             <li>
-              <img class="object-fit-cover" src="/images/com_tbl.jpg" alt="" />
+              <img 
+                class="object-fit-cover"
+                src="/images/seccion-la-fundacion/lafundacion_slider3.jpg"
+                alt="" />
             </li>
             <li>
               <img
                 class="object-fit-cover"
-                src="/images/filarmonica_joven.jpg"
+                src="/images/seccion-la-fundacion/lafundacion_slider4.jpg"
                 alt=""
               />
             </li>
             <li>
-              <img class="object-fit-cover" src="/images/workers.jpg" alt="" />
+              <img 
+                class="object-fit-cover"
+                src="/images/seccion-la-fundacion/lafundacion_slider5.jpg"
+                alt="" />
             </li>
           </ul>
         </div>

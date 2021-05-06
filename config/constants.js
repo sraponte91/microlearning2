@@ -203,11 +203,9 @@ Vue.prototype.$constants = {
   laFundacion: {
     tabs: [
       {
-        title: 'Misión',
+        title: 'Nuestra Misión',
         description:
-          '<p>En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.</p>' +
-          '<p>Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.</p>' +
-          '<p>miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
+          '<p>Como expresión del compromiso social del Grupo Bolívar, apoyamos y potenciamos proyectos transformadores y de alto impacto que generan capacidades en personas, comunidades y organizaciones, para construir una sociedad más justa, equitativa e innovadora.</p>',
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
@@ -224,11 +222,9 @@ Vue.prototype.$constants = {
         ],
       },
       {
-        title: 'Visión',
+        title: 'Nuestra Visión',
         description:
-          '<p>En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.</p>' +
-          '<p>Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.</p>' +
-          '<p>miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
+          '<p>La Fundación Bolívar Davivienda será reconocida como una fundación líder en los lugares donde está presente el grupo, por el impacto de sus programas en el logro de transformaciones sociales efectivas y sostenibles.</p>',
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
@@ -249,7 +245,7 @@ Vue.prototype.$constants = {
         description:
           '<p>En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.</p>' +
           '<p>Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.</p>' +
-          '<p>miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
+          '<p>Los miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
@@ -267,23 +263,23 @@ Vue.prototype.$constants = {
       },
     ],
     meta: {
-      title: 'La Fundacion',
-      metaTitle: 'La Fundacion',
-      metaDescription: 'La Fundacion Description',
-      ogTitle: 'La Fundacion',
-      ogDescription: 'La Fundacion',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      title: 'La Fundación',
+      metaTitle: 'La Fundación',
+      metaDescription: 'Somos el brazo social del Grupo Empresarial Bolívar, con más de 75 años de trayectoria, construyendo confianza y una sólida reputación en diversos sectores del mercado colombiano.',
+      ogTitle: 'La Fundación',
+      ogDescription: 'Somos el brazo social del Grupo Empresarial Bolívar, con más de 75 años de trayectoria, construyendo confianza y una sólida reputación en diversos sectores del mercado colombiano.',
+      ogImage: '/images/seccion-la-fundacion/lafundacion_og.jpg',
     },
   },
   aflora: {
     desarrollamosTalento: 'javascript:void(0)',
     meta: {
-      title: 'Aflora Home',
-      metaTitle: 'Aflora Home',
+      title: 'Aflora',
+      metaTitle: 'Aflora',
       metaDescription: 'Aflora Home Description',
       ogTitle: 'Aflora Home',
       ogDescription: 'Aflora Home',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/1-home-aflora/homeaflora_og.jpg',
     },
   },
   afloraConozcanos: {
