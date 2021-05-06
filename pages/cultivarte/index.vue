@@ -50,7 +50,7 @@
             <img src="/images/img4.jpg" alt="" />
           </div>
           <div class="sobre-content only-txt">
-            <div>
+            <div class="dot">
               <img src="/images/oval-1.png" alt="" />
             </div>
             <div class="sobre-txt single-txt">
@@ -363,3 +363,50 @@ export default {
   },
 }
 </script>
+<style>
+.como {
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.95) 16%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url('/images/home-fondobloque.jpg');
+  min-height: 796px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+.como h2 {
+  font-family: sansationbold;
+  font-size: 72px;
+  color: #313338;
+  line-height: 108px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.como p {
+  max-width: 692px;
+  font-family: Nunito, sans-serif;
+  font-size: 24px;
+  color: #77777a;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+.cultivarte-banner {
+  background-image: linear-gradient(
+      -90deg,
+      rgba(46, 46, 46, 0.1) 0%,
+      rgba(33, 33, 33, 1) 70%,
+      rgba(33, 33, 33, 1) 100%
+    ),
+    url(/images/cultivarte-banner.png);
+}
+@media (max-width: 767px) {
+  .como {
+    margin: 15px 0;
+  }
+}
+</style>

@@ -378,4 +378,19 @@ export default {
   line-height: 1px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .all-tab ul li {
+    width: 150px;
+  }
+  .all-tab .tab-content {
+    padding: 25px 0;
+  }
+  .tab-main {
+    flex-direction: column;
+  }
+  .tab-drop,
+  .contact-details {
+    width: calc(100% - 30px);
+  }
+}
 </style>

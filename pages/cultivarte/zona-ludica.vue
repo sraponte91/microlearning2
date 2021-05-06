@@ -206,4 +206,26 @@ export default {
   margin: 0 auto;
 }
 /* zona css end */
+@media (max-width: 767px) {
+  .requisitos h2 {
+    font-size: 42px;
+    line-height: normal;
+    padding: 0 15px;
+  }
+  .requisitos h3 {
+    font-size: 28px;
+    line-height: normal;
+    padding: 0 15px 15px;
+  }
+  .requisitos p {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  .all-zona {
+    padding-top: 25px;
+  }
+  .single-zona {
+    width: calc(100% - 24px);
+  }
+}
 </style>

@@ -492,4 +492,34 @@ export default {
   text-align: center;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
+@media (max-width: 767px) {
+  .about-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about-content h1 {
+    font-size: 60px;
+  }
+  .about-content .caption {
+    font-size: 24px;
+  }
+  .about-lists,
+  .about-download {
+    padding-bottom: 25px;
+  }
+  .about-lists h3 {
+    font-size: 42px;
+  }
+  .about-lists p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .about-download ul li {
+    padding: 10px;
+    flex: 0 0 50%;
+  }
+  .about-download ul li a {
+    font-size: 24px;
+  }
+}
 </style>

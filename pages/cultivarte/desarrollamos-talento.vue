@@ -282,14 +282,16 @@ export default {
 }
 .head-title h2 {
   position: relative;
-  font-family: Nunito, sans-serif;
+  font-family: 'sansationbold';
   font-size: 50px;
   color: #ff671b;
   line-height: 52px;
   padding-bottom: 43px;
 }
-.space-bottom {
-  padding-bottom: 172px;
+@media (min-width: 768px) {
+  .space-bottom {
+    padding-bottom: 172px;
+  }
 }
 .head-title h2:after {
   content: '';
@@ -362,6 +364,20 @@ export default {
 @media (min-width: 1281px) {
   .f-65 {
     font-size: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .txt-on-img .txt-img-inner {
+    padding-top: 15px;
+  }
+  .txt-on-img .overlay-content h2 {
+    font-size: 30px;
+    line-height: normal;
+    display: block;
+  }
+  .txt-on-img .o-content p {
+    font-size: 14px;
+    line-height: normal;
   }
 }
 </style>

@@ -31,7 +31,7 @@
       <div class="container">
         <div class="txt-img-multi">
           <div class="only-txt">
-            <div>
+            <div class="dot">
               <img src="/images/oval-1.png" alt="" />
             </div>
             <div class="single-txt">
@@ -120,7 +120,7 @@
                 >Quiero conocer más <img src="/images/back_acon2.svg"
               /></a>
             </div>
-            <div>
+            <div class="dot">
               <img src="/images/oval-1.png" alt="" />
             </div>
           </div>
@@ -202,7 +202,7 @@
       <div class="container">
         <div class="txt-img-multi align-items-end">
           <div class="only-txt">
-            <div>
+            <div class="dot">
               <img src="/images/oval-1.png" alt="" />
             </div>
             <div class="single-txt">
@@ -379,30 +379,32 @@ export default {
     ),
     url(/images/n-cultivarte.jpg);
 }
-.sobre-txt a,
-.single-txt a {
-  font-family: sansationbold;
-  font-size: 16px;
-  color: #030303;
-  display: inline-block;
-  margin-top: 25px;
-}
-.sobre-txt a img,
-.single-txt a img {
-  width: 17px;
-  transform: rotate(180deg);
-}
-.right-txt .no-pos-right .single-txt {
-  position: unset;
-  margin: 0 0 0 -297px;
-}
-.left-txt .no-pos-left .single-txt {
-  position: relative;
-  margin: 0 -300px 0 0;
-  top: 0;
-}
-.no-pos-right .only-img {
-  padding-top: 100px;
+@media (min-width: 768px) {
+  .sobre-txt a,
+  .single-txt a {
+    font-family: sansationbold;
+    font-size: 16px;
+    color: #030303;
+    display: inline-block;
+    margin-top: 25px;
+  }
+  .sobre-txt a img,
+  .single-txt a img {
+    width: 17px;
+    transform: rotate(180deg);
+  }
+  .right-txt .no-pos-right .single-txt {
+    position: unset;
+    margin: 0 0 0 -297px;
+  }
+  .left-txt .no-pos-left .single-txt {
+    position: relative;
+    margin: 0 -300px 0 0;
+    top: 0;
+  }
+  .no-pos-right .only-img {
+    padding-top: 100px;
+  }
 }
 .bs-txt p {
   font-family: Nunito, sans-serif;
@@ -412,22 +414,25 @@ export default {
   padding: 13px 0;
   max-width: 380px;
 }
-.left-txt .no-pos-left .bs-txt p {
-  max-width: 328px;
-  margin: 0 0 0 auto;
-}
+
 .single-txt h2.title-thin {
   font-weight: normal;
 }
-.left-bottom .only-img {
-  padding-bottom: 50px;
-}
-.left-bottom .single-txt {
-  top: unset;
-  bottom: 0;
-}
-.donde {
-  padding: 100px 0;
+@media (min-width: 768px) {
+  .left-txt .no-pos-left .bs-txt p {
+    max-width: 328px;
+    margin: 0 0 0 auto;
+  }
+  .left-bottom .only-img {
+    padding-bottom: 50px;
+  }
+  .left-bottom .single-txt {
+    top: unset;
+    bottom: 0;
+  }
+  .donde {
+    padding: 100px 0;
+  }
 }
 /* Areas css start */
 .areas {
@@ -522,5 +527,68 @@ export default {
 .s-logo {
   margin: 10px 14px;
   width: calc(14% - 14px);
+}
+@media (max-width: 767px) {
+  .areas {
+    padding: 25px 0;
+  }
+  .areas h2 {
+    font-size: 42px;
+    padding-bottom: 15px;
+  }
+  .areas-container {
+    max-width: 100%;
+  }
+  .areas-img {
+    height: 75px;
+  }
+  .all-areas .single-areas {
+    width: calc(46% - 5px);
+    margin: 5px;
+    padding: 20px 15px;
+  }
+  .all-areas .single-areas p {
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .achive {
+    padding: 0 0 15px;
+  }
+  .all-achive {
+  }
+  .single-achive {
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background: #dadada;
+    width: 100%;
+  }
+  .achive-img {
+    width: 60px;
+  }
+  .achive-img img {
+    max-width: 100%;
+  }
+  .single-achive:nth-child(2n + 2) {
+    background: #f7f7f7;
+  }
+  .achive-txt h3 {
+    margin: 0;
+    font-size: 28px;
+    line-height: normal;
+    color: #ff671b;
+  }
+  .achive-txt p {
+    font-size: 21px;
+    line-height: normal;
+    color: #111820;
+  }
+  .conel {
+    padding-bottom: 0px;
+  }
+  .conel .s-logo {
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
 }
 </style>

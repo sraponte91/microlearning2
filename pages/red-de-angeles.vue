@@ -517,4 +517,53 @@ export default {
   margin: 0 auto;
   max-height: 100%;
 }
+@media (max-width: 767px) {
+  .invester-section-1 h1 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .invester-section-1 .text-orange {
+    font-size: 22px;
+    line-height: normal;
+  }
+  .invester-section-1 {
+    padding-bottom: 15px;
+  }
+  .sec1-boxes .img-fluid {
+    position: relative;
+  }
+  .sec1-boxes .sec1-description {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 25px;
+  }
+  .sec1-boxes h3 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .sec1-boxes p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .invester-section-2 {
+    padding-bottom: 25px;
+  }
+  .sec2-boxes {
+    flex-direction: column;
+  }
+  .sec2-boxes .sec2-inner-box {
+    flex: 0 0 100%;
+    margin: 0 0 15px;
+  }
+  .invester-section-3 h2 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .invester-section-5 {
+    padding-bottom: 25px;
+  }
+  .invester-section-5 .lgoes-bx {
+    width: calc(50% - 2%);
+  }
+}
 </style>

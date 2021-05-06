@@ -106,4 +106,11 @@ export default {
 .sitemap ul a:hover {
   color: #ff671b;
 }
+@media (max-width: 767px) {
+  .sitemap h1 {
+    font-size: 48px;
+    line-height: normal;
+    text-align: left !important;
+  }
+}
 </style>

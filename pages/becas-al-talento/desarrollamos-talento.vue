@@ -25,13 +25,13 @@
     <!-- Breadcrums end -->
 
     <!-- image text left right start -->
-    <section class="txt-image left-txt space-big">
+    <section class="talentosec-1 txt-image left-txt space-big">
       <div class="container">
+        <div class="b-title">
+          <h2>Desarrollamos talento</h2>
+        </div>
         <div class="txt-img-multi">
           <div class="only-txt outer-txt">
-            <div class="b-title">
-              <h2>Desarrollamos talento</h2>
-            </div>
             <div class="single-txt">
               <p>
                 Desarrollamos en nuestros beneficiarios la capacidad de resolver
@@ -39,7 +39,7 @@
                 lleven a cumplir sus objetivos y metas.
               </p>
             </div>
-            <div>
+            <div class="dot">
               <img src="/images/oval-1.png" alt="" />
             </div>
           </div>
@@ -175,6 +175,7 @@ export default {
   font-size: 65px;
   color: #2f425b;
   line-height: 62.5px;
+  padding-bottom: 25px;
 }
 .b-title p {
   font-family: sansationbold;
@@ -182,16 +183,18 @@ export default {
   color: #313338;
   line-height: 30px;
 }
-.right-top .single-txt.top-small {
-  top: 40px;
-}
-.left-txt .outer-txt .single-txt,
-.right-txt .outer-txt .single-txt {
-  top: 150px;
-}
-.left-txt .outer-small-txt .single-txt,
-.right-txt .outer-small-txt .single-txt {
-  top: 80px;
+@media (min-width: 768px) {
+  .right-top .single-txt.top-small {
+    top: 40px;
+  }
+  .left-txt .outer-txt .single-txt,
+  .right-txt .outer-txt .single-txt {
+    top: 150px;
+  }
+  .left-txt .outer-small-txt .single-txt,
+  .right-txt .outer-small-txt .single-txt {
+    top: 80px;
+  }
 }
 /* como css start */
 .como {
@@ -237,5 +240,17 @@ export default {
 /* como css end */
 .only-txt {
   z-index: 1;
+}
+@media (max-width: 767px) {
+  .b-title h2 {
+    font-size: 48px;
+    line-height: normal;
+  }
+  .talentosec-1 {
+    padding-top: 0;
+  }
+  .talentosec-1 .dot {
+    display: none;
+  }
 }
 </style>

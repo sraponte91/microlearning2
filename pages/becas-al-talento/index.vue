@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="banner-content">
           <div class="b-logo">
-            <img src="/images/becas-banner-logo.png" alt="" />
+            <img src="/images/becas-banner-logo.png" alt="" class="img-fluid" />
           </div>
           <p>
             Becas al Talento es un programa de la Fundación Bolívar Davivienda,
@@ -320,3 +320,19 @@ export default {
   },
 }
 </script>
+<style>
+@media (max-width: 767px) {
+  .becas-banner {
+    align-items: flex-start;
+  }
+  .desarrollamos-section.aflora-pg h2 {
+    margin-bottom: 15px;
+  }
+  .desarrollamos-section .for-btn {
+    margin-top: 0px;
+  }
+  .desarrollamos-section .two-dot {
+    display: block !important;
+  }
+}
+</style>
