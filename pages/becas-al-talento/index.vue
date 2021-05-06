@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="banner-img">
-        <img src="/images/becas-banner-mobile.jpg" alt="" />
+        <img src="/images/programa-becas-al-talento/1-home-becas/encabezado_becas_al_talento.jpg" alt="" />
       </div>
     </section>
     <!-- Banner end -->
@@ -46,7 +46,7 @@
       <div class="container">
         <div class="sobre-main txt-img-multi">
           <div class="sobre-img only-img">
-            <img src="/images/sobre.jpg" alt="" />
+            <img src="/images/programa-becas-al-talento/1-home-becas/home_bloque1.jpg" alt="" />
           </div>
           <div class="sobre-content only-txt">
             <div></div>
