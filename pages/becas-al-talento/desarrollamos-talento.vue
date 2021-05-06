@@ -40,11 +40,11 @@
               </p>
             </div>
             <div class="dot">
-              <img src="/images/oval-1.png" alt="" />
+              <img src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt="" />
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/nuestro.jpg" alt="" />
+            <img src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg" alt="" />
           </div>
         </div>
       </div>

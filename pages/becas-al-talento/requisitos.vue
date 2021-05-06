@@ -126,7 +126,7 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/img6.jpg" alt="" />
+            <img src="/images/programa-becas-al-talento/4-requisitos/requisitos_bloque1.jpg" alt="" />
           </div>
         </div>
       </div>
