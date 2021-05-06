@@ -50,7 +50,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_b.jpg"
+                src="/images/Aflora/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

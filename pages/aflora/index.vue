@@ -2,7 +2,7 @@
   <main>
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
-        <img src="/images/aflora_home.png" alt="" class="object-fit-cover" />
+        <img src="/images/programa-aflora/1-home-afloraa/encabezado_aflora.jpg" alt="" class="object-fit-cover" />
       </div>
       <div
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
@@ -219,7 +219,7 @@
           </div>
           <div class="img-rrt-pr order-1-991">
             <img
-              src="/images/evento_home.jpg"
+              src="/images/programa-aflora/1-home-aflora/homeaflora_quehacemos.jpg"
               alt=""
               class="object-fit-cover"
             />

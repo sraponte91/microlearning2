@@ -20,7 +20,7 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/aflora.png" alt="" class="object-fit-cover" />
+        <img src="/images/programa-aflora/2-conozcanos/header_desktop.jpg" alt="" class="object-fit-cover" />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Conózcanos</h1>
@@ -60,7 +60,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_a.jpg"
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -123,7 +123,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_b.jpg"
+              src="/images//programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -181,49 +181,91 @@
         <h4 class="ff-sans-b">Con el apoyo de:</h4>
         <div class="d-flex flex-wrap for-marg-1">
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0000_wingu.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0001_javeriana.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0002_tecnologico_monterrey.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aaliados-aflora_0000s_0003_escuela_superior_de_guerra.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0004_edime.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0005_eafit.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0006_cesa.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0007_creo.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+           <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0008_compartamosconcolombia.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+           <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0009_ursario.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+           <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0010_uninorte.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+           <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0011_uniandes.png" alt="" />
+            <a
+              href="javascript:void(0)"
+              class="position-absolute full-box-link"
+            ></a>
+          </div>
+           <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0012_ventures.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
