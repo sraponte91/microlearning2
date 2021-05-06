@@ -32,7 +32,7 @@
         <div class="txt-img-multi">
           <div class="only-txt">
             <div class="dot">
-              <img src="/images/oval-1.png" alt="" />
+              <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg" alt="" />
             </div>
             <div class="single-txt">
               <h2 class="title-thin">Nuestro Impacto</h2>
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/rectangle.jpg" alt="" />
+            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
       <div class="container">
         <div class="txt-img-multi no-pos-right align-items-end">
           <div class="only-img">
-            <img src="/images/img10.jpg" alt="" />
+            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_2dondeestamos.jpg" alt="" />
           </div>
           <div class="only-txt">
             <div class="single-txt">
@@ -218,7 +218,7 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/img7.jpg" alt="" />
+            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_3tiempo.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -230,7 +230,7 @@
       <div class="container">
         <div class="txt-img-multi no-pos-right">
           <div class="only-img">
-            <img src="/images/img8.jpg" alt="" />
+            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_4inicio.jpg" alt="" />
           </div>
           <div class="only-txt">
             <div class="single-txt">
@@ -291,7 +291,7 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/img9.jpg" alt="" />
+            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_5cultivartehoy.jpg" alt="" />
           </div>
         </div>
       </div>

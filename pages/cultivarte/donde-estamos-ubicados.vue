@@ -255,7 +255,7 @@ export default {
       #111820 12%,
       rgba(255, 103, 27, 0.1) 100%
     ),
-    url(/images/header-desktop.jpg);
+    url(/images/programa-cultivarte/5-ubicacion/header_desktop.jpg);
 }
 .donde-esta {
   position: relative;

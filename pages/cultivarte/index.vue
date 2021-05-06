@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="banner-img">
-        <img src="/images/cultivarte-banner-mobile.jpg" alt="" />
+        <img src="/images/programa-cultivarte/1-home-cultivarte/encabezado_cultivarte.jpg" alt="" />
       </div>
     </section>
     <!-- Banner end -->
@@ -47,11 +47,11 @@
       <div class="container">
         <div class="sobre-main txt-img-multi">
           <div class="sobre-img only-img">
-            <img src="/images/img4.jpg" alt="" />
+            <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg" alt="" />
           </div>
           <div class="sobre-content only-txt">
             <div class="dot">
-              <img src="/images/oval-1.png" alt="" />
+              <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg" alt="" />
             </div>
             <div class="sobre-txt single-txt">
               <h2>Sobre Cultivarte</h2>
@@ -103,7 +103,7 @@
             </div>
           </div>
           <div class="sobre-img only-img">
-            <img src="/images/img5.jpg" alt="" />
+            <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque3.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -370,7 +370,7 @@ export default {
       rgba(255, 255, 255, 0.95) 16%,
       rgba(255, 255, 255, 0.7) 100%
     ),
-    url('/images/home-fondobloque.jpg');
+    url('/images/programa-cultivarte/1-home-cultivarte/home_fondobloque2.jpg');
   min-height: 796px;
   display: flex;
   align-items: center;

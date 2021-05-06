@@ -448,18 +448,18 @@ Vue.prototype.$constants = {
       {
         id: 1,
         slug: 'title-of-actualidad1',
-        imgURL: '/images/blog_a.jpg',
-        date: '08 - Agosto - 2020',
-        title: 'Continually aggregate premium',
+        imgURL: '/images/seccion-actualidad/articulos/consagracion_primavera.jpg',
+        date: '27 - Julio - 2018',
+        title: 'La Consagración de la Primavera',
         shortDescription:
-          'Uniquely harness backward-compatible networks without turnkey core competencies.',
+          'La Orquesta Filarmónica Joven de Colombia, dirigida por Andrés Orozco Estrada, logra una mágica interpretación coreográfica de La Consagración de la Primavera de Igor Stravinsky.',
         description: [
           {
             title: '¿Quién ayuda a los que ayudan <br/> en Colombia?',
             text:
               'Desde Aflora, un programa de la Fundación Bolívar Davivienda, realizamos un sondeo digital a más de 4000 usuarios de redes sociales, para conocer en cifras concretas, la disposición de los colombianos a apoyar las causas sociales en el último año. Los resultados fueron tan impactantes como que cerca del 90% de los encuestados no está vinculado a una causa social o que más de la mitad de los colombianos no han hecho nunca una donación. Conozca los resultados:',
             images: [],
-            video: 'https://www.youtube.com/embed/SUx3VxonZi8',
+            video: 'https://youtu.be/joer2oBpsjs',
           },
           {
             title: 'Holisticly reinvent long-term <br/> miracles that are',
@@ -626,7 +626,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Actualidad Description',
       ogTitle: 'Actualidad',
       ogDescription: 'Actualidad',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/seccion-actualidad/actualidad_og.jpg',
     },
   },
   eventos: {
@@ -751,7 +751,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Eventos Description',
       ogTitle: 'Eventos',
       ogDescription: 'Eventos',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/seccion-eventos/eventos_og.jpg',
     },
   },
   filarmonicaJovenDeColombia: {
@@ -1315,26 +1315,26 @@ Vue.prototype.$constants = {
       metaDescription: 'Becas Al Talento Home Description',
       ogTitle: 'Becas Al Talento Home',
       ogDescription: 'Becas Al Talento Home',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-becas-al-talento/1-home-becas/becas_al_talento_og.jpg',
     },
   },
   becasAlTalentoConozcanos: {
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Ana María Núñez - Estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia.',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'Siento que Becas al Talento ha sido un salvavidas que llegó justo en el momento que más lo necesitaba.',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Laura Valdivieso - Encargada del Área de Alianzas Estratégicas Universidad del Rosario.',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
+          'Me sorprende que una beca también incluya la formación interna de las personas. Cultivar también habilidades del interior y no sólo ofrecer el apoyo económico. Me parece que están en el camino más justo y más necesario.”',
       },
       {
         title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+          'Juan Sebastián Fernández - Facilitador Programa Mindfulness ',
         description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Considero que es diferente porque los demás programas solo se basan en la parte académica y dejan la parte humana de lado. En cambio en este proyecto buscan que uno sea un ser completo y tenga ambos componentes como eje principal para seguir con el proceso',
       },
       {
         title:
@@ -1659,7 +1659,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Desarrollamos Talento Description',
       ogTitle: 'Desarrollamos Talento',
       ogDescription: 'Desarrollamos Talento',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamos-talento_og.jpg',
     },
   },
   becasRequisitos: {
@@ -1669,7 +1669,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Requisitos Description',
       ogTitle: 'Requisitos',
       ogDescription: 'Requisitos',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-becas-al-talento/4-requisitos/requisitos_og.jpg',
     },
   },
   cultivarteHome: {
@@ -1680,17 +1680,17 @@ Vue.prototype.$constants = {
       metaDescription: 'Cultivarte Home Description',
       ogTitle: 'Cultivarte Home',
       ogDescription: 'Cultivarte Home',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-cultivarte/1-home-cultivarte/cultivarte_home_og.jpg',
     },
   },
   cultivarteConozcanos: {
     meta: {
-      title: 'Cultivarte Conozcanos',
-      metaTitle: 'Cultivarte Conozcanos',
+      title: 'Cultivarte - Conozcanos',
+      metaTitle: 'Cultivarte - Conozcanos',
       metaDescription: 'Cultivarte Conozcanos Description',
       ogTitle: 'Cultivarte Conozcanos',
       ogDescription: 'Cultivarte Conozcanos',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-cultivarte/2-conozcanos/conozcanos_og.jpg',
     },
     testimonios: [
       {
@@ -1747,7 +1747,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Cultivarte Desarrollamos Talento Description',
       ogTitle: 'Cultivarte Desarrollamos Talento',
       ogDescription: 'Cultivarte Desarrollamos Talento',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-cultivarte73-desarrollamos-talento/desarrollamostalento_og.jpg',
     },
   },
   cultivarteDondeEstamosUbicados: {
@@ -1757,57 +1757,57 @@ Vue.prototype.$constants = {
       metaDescription: 'Cultivarte Donde Estamos Ubicados Description',
       ogTitle: 'Cultivarte Donde Estamos Ubicados',
       ogDescription: 'Cultivarte Donde Estamos Ubicados',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-cultivarte/5-ubicacion/dondeestamos_og.jpg',
     },
   },
   cultivarteZonaLudica: {
     meta: {
-      title: 'Cultivarte Zona Ludica',
-      metaTitle: 'Cultivarte Zona Ludica',
+      title: 'Cultivarte - Zona Ludica',
+      metaTitle: 'Cultivarte - Zona Ludica',
       metaDescription: 'Cultivarte Zona Ludica Description',
       ogTitle: 'Cultivarte Zona Ludica',
       ogDescription: 'Cultivarte Zona Ludica',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-cultivarte/4-zona-ludica/zonaludica_og.jpg',
     },
     plataformas: [
       {
         title: 'LOS ZÚPER',
-        image: '/images/logo-los.png',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Los_Zuper_Logo.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-code-combat.png',
+        title: 'CODE COMBAT',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_CodeCombat.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-biblioteca.png',
+        title: 'BIBLIOTECA VIVA',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_BibliotecaViva.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-segur-polis.png',
+        title: 'SEGURÓPOLIS KIDS',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_Seguropolis.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logos-ae-f-monetarium.png',
+        title: 'MONETARIUM EL UNIVERSO DE LOS NIÑOS',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logos-AeF-Monetarium.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-casita-de-artistas.png',
+        title: 'CASITA DE ARTISTAS',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_Casita_de_Artistas.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-discovery-en-la-escuela.png',
+        title: 'DISCOVERY EN LA ESCUELA',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_Discovery.png',
         detailUrl: 'javascript:void(0)',
       },
       {
-        title: 'LOS ZÚPER',
-        image: '/images/logo-guardianes-de-la-musica.png',
+        title: 'GUARDIANES DE LA MÚSICA',
+        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_Guardianes_de_la_musica.png',
         detailUrl: 'javascript:void(0)',
       },
     ],

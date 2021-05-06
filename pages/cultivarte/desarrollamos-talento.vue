@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/nuestro.jpg" alt="" />
+            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/desarrollamostalento-2-valores-b-95-b-94770221-a-9-e-2-ec-6-c-22208610-c-5-d-6-jpg.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
               alt=""
             />
           </div>
@@ -112,7 +112,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/desarrollamostalento-3-lectura-c-7-df-9-fd-30-fe-4-ef-308-b-5-e-7569958-d-917-c-jpg.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_2valores.jpg"
               alt=""
             />
           </div>
@@ -143,7 +143,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/desarrollamostalento-4-artecultura-f-9-eae-09-da-8-d-68-a-735-b-248536-d-16-e-10-c-1-jpg.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_3lectura.jpg"
               alt=""
             />
           </div>
@@ -172,7 +172,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/desarrollamostalento-5-cienciatecnologia-93545-af-4-dc-278-b-635-fa-109-a-961-c-34-f-65-jpg.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_4_artecultura.jpg"
               alt=""
             />
           </div>
@@ -202,7 +202,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/desarrollamostalento-6-financiera-06875-f-179-e-11-c-4-d-3517012-ccbf-7-bea-38-jpg.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_5cienciatecnologia.jpg"
               alt=""
             />
           </div>
