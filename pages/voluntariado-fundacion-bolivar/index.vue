@@ -37,17 +37,17 @@
           class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
         >
           <NuxtLink
-            to="/voluntariado-fundacion-bolivar-davivienda/conozcanos"
+            to="/voluntariado-fundacion-bolivar/conozcanos"
             class="linkse text-center"
             >Conózcanos</NuxtLink
           >
           <NuxtLink
-            to="/voluntariado-fundacion-bolivar-davivienda/desarrollamos-talento"
+            to="/voluntariado-fundacion-bolivar/desarrollamos-talento"
             class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
           <NuxtLink
-            to="/voluntariado-fundacion-bolivar-davivienda/inscripciones"
+            to="/voluntariado-fundacion-bolivar/inscripciones"
             class="linkse text-center"
             >Inscripciones</NuxtLink
           >

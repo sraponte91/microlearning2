@@ -36,21 +36,19 @@
         <div
           class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
         >
-          <NuxtLink to="/emprender-pais/conozcanos" class="linkse text-center"
+          <NuxtLink to="/emprende-pais/conozcanos" class="linkse text-center"
             >Conózcanos</NuxtLink
           >
           <NuxtLink
-            to="/emprender-pais/desarrollamos-talento"
+            to="/emprende-pais/desarrollamos-talento"
             class="linkse text-center"
             >Desarrollamos talento</NuxtLink
           >
-          <NuxtLink
-            to="/emprender-pais/convocatorias"
-            class="linkse text-center"
+          <NuxtLink to="/emprende-pais/convocatorias" class="linkse text-center"
             >Convocatorias</NuxtLink
           >
           <NuxtLink
-            to="/emprender-pais/presencia-en-el-pais"
+            to="/emprende-pais/presencia-en-el-pais"
             class="linkse text-center"
             >Precencia en el Pais</NuxtLink
           >

@@ -4,10 +4,10 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/emprender-pais"
-            >Emprender país
+          <b-breadcrumb-item to="/emprende-pais"
+            >Emprende país
           </b-breadcrumb-item>
-          <b-breadcrumb-item to="/emprender-pais/desarrollamos-talento"
+          <b-breadcrumb-item to="/emprende-pais/desarrollamos-talento"
             >Desarrollamos talento
           </b-breadcrumb-item>
           <b-breadcrumb-item active>Consultores</b-breadcrumb-item>

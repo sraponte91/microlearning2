@@ -3,9 +3,9 @@
     <div class="container position-relative innerpage">
       <b-breadcrumb class="position-absolute ff-sans-r">
         <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-        <b-breadcrumb-item to="/voluntariado-fundacion-bolivar-davivienda"
-          >Voluntariado fundación Bolivar</b-breadcrumb-item
-        >
+        <b-breadcrumb-item to="/emprende-pais"
+          >Emprende país
+        </b-breadcrumb-item>
         <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
       </b-breadcrumb>
       <div
@@ -22,19 +22,15 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img
-          src="/images/conozcanos_header.jpg"
-          alt=""
-          class="object-fit-cover"
-        />
+        <img src="/images/emprende_pa_bg.jpg" alt="" class="object-fit-cover" />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Voluntariado Familia Bolivar</h1>
+        <h1 class="ff-sans-b">Emprende país</h1>
       </div>
     </section>
 
     <section
-      class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg"
+      class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde"
     >
       <HomeDots></HomeDots>
       <div class="container">
@@ -43,16 +39,18 @@
             <h3 class="ff-nunito">Nuestro Impacto</h3>
             <div class="pra-p">
               <p>
-                En Voluntariado Familia Bolívar buscamos empoderar a aquellos
-                que quieren asumir el reto de convertirse en agentes de cambio
-                dentro de sus comunidades aportando su tiempo y conocimiento
-                desde diferentes áreas y disciplinas.
+                Emprende País desde su nacimiento en 2011, cree que Colombia es
+                un país en el que hay espacio para buenas ideas. El programa
+                impulsa el desarrollo económico del país a través de la
+                generación de competencias en empresas con altas tasas de
+                crecimiento. Esto lo logramos apoyados en la experiencia de
+                ejecutivos del Grupo Bolívar y expertos en diferentes regiones.
               </p>
             </div>
           </div>
           <div class="img-points">
             <img
-              src="/images/conozcanos_bloque_1.jpg"
+              src="/images/conozcanos_bloque_1_impacto.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -60,11 +58,11 @@
         </div>
 
         <div
-          class="d-flex multiple-reapt align-items-start flex-wrap-991 three-bx"
+          class="d-flex multiple-reapt align-items-end flex-wrap-991 three-bx"
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/conozcanos_bloque_2.jpg"
+              src="/images/conozcanos_bloque_2_fb_caa2f4e.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -72,31 +70,21 @@
           <div class="txt-points position-relative order-1-991">
             <div class="pra-p">
               <p>
-                Actualmente, el programa trabaja con más de 9.200 voluntarios en
-                5 países: Colombia, Costa Rica, El Salvador, Panamá y Honduras..
-                El objetivo del programa es continuar expandiéndose y seguir
-                llegando a los rincones del mundo donde nadie llega, para
-                sembrar una semilla de cambio y transformación, donde sea que se
-                necesite.
+                El programa selecciona empresas, para que alcancen su máximo
+                potencial, aseguren su rentabilidad financiera y sean
+                sostenibles a corto, mediano y largo plazo. Somos actores
+                activos del ecosistema de emprendimiento en Colombia apoyando,
+                no sólo empresarios, sino iniciativas individuales como Fondo
+                Inversor, Climate LaunchPad y Climate Kic, Valle Impacta,
+                Rockstart Impact, Oxelerator y Social Skin.
               </p>
-              <p>
-                Voluntariado Familia Bolívar trabajamos diferentes líneas de
-                voluntariado:
-              </p>
-              <ul>
-                <li class="position-relative after-po">
-                  Capacitación y herramientas para trabajar con emprendedores,
-                  finanzas personales, convivencia saludable, o apoyo a la
-                  formación educativa de niños y niñas.
-                </li>
-              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="six-statetic-box-e full-wid">
+    <section class="six-statetic-box-e conozca-empreder-par full-wid">
       <div class="container">
         <div class="st-three-bex-sm margin-0-auto com-stu d-flex flex-wrap-767">
           <div class="sigl-bx">
@@ -121,8 +109,8 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
-                <p class="ff-nunito">Quickly repurpose</p>
+                <h4 class="ff-sans-b">+340</h4>
+                <p class="ff-nunito">Empresas</p>
               </div>
             </div>
           </div>
@@ -148,8 +136,11 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
-                <p class="ff-nunito">Quickly repurpose</p>
+                <h4 class="ff-sans-b">4</h4>
+                <p class="ff-nunito">
+                  Ciudades <br />
+                  principales
+                </p>
               </div>
             </div>
           </div>
@@ -175,8 +166,8 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
-                <p class="ff-nunito">Quickly repurpose</p>
+                <h4 class="ff-sans-b">10 h</h4>
+                <p class="ff-nunito">Mentorias</p>
               </div>
             </div>
           </div>
@@ -202,10 +193,49 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
-                <p class="ff-nunito">Quickly repurpose</p>
+                <h4 class="ff-sans-b">158 h</h4>
+                <p class="ff-nunito">
+                  Consultores <br />
+                  expertos
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde pt-2"
+    >
+      <div class="container">
+        <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+          <div class="txt-points position-relative">
+            <h3 class="ff-nunito">
+              Presencia en <br />
+              el país
+            </h3>
+            <div class="pra-p">
+              <p>
+                Hacemos parte del ecosistema de emprendimiento en Colombia, por
+                lo que Emprende País tiene el interés de fortalecer las
+                capacidades de los actores en cada región para que puedan gestar
+                sus propios ecosistemas de emprendimiento, aportando a la
+                generación de empleo.
+              </p>
+              <div class="linkto-re">
+                <a href="javascript:void(0)" class="ff-sans-b"
+                  >Quiero conocer más >
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="img-points">
+            <img
+              src="/images/conozcanos_bloque_3_presenciapai.jpg"
+              alt=""
+              class="object-fit-cover"
+            />
           </div>
         </div>
       </div>
@@ -231,8 +261,7 @@
               >
                 <slide
                   v-for="(item, i) of $constants
-                    .voluntariadoFundacionBolivarDaviviendaConozcanos
-                    .testimonios"
+                    .filarmonicaJovenDeColombiaConozcanos.testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -257,46 +286,92 @@
       </div>
     </section>
 
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main">
+      <div class="container">
+        <div class="sm-siz-container margin-0-auto">
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+            <h2 class="d-block-991 d-none-n dif-title">
+              <span class="d-block ff-nunito">Nosotros</span>
+              <span class="d-block ff-sans-b">Proyectos de alianza</span>
+            </h2>
+            <div class="txt-points position-relative order-2-991">
+              <h2 class="d-none-991 dif-title">
+                <span class="d-block ff-nunito">Nosotros</span>
+                <span class="d-block ff-sans-b">Proyectos de alianza</span>
+              </h2>
+              <div class="pra-p for-bgcol">
+                <h3 class="ff-sans-b ses">Alianzas estratégicas</h3>
+                <p>
+                  La Fundación Bolívar Davivienda, a través del programa
+                  Emprende País, busca fortalecer el ecosistema de
+                  emprendimiento, identificando a los actores claves en el
+                  sector que promuevan estrategias para fomentar el crecimiento
+                  y la adopción de mejores prácticas en los negocios. Para eso,
+                  se plantean proyectos innovadores y estrategias para Pymes,
+                  con el fin de brindarle diferentes oportunidades a todos los
+                  tipos de emprendimiento.
+                </p>
+              </div>
+            </div>
+            <div class="img-points order-1-991">
+              <img
+                src="/images/rectangle_h.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="some-tabs-here bg-white">
+      <div class="container">
+        <div class="d-flex flex-wrap multi-btn justify-content-center">
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Oxelerator</a
+          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Angel Ventures</a
+          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Social Skin</a
+          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Valle Impacta</a
+          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Climate Kic</a
+          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
+            >Rockstart Impact</a
+          >
+        </div>
+        <div class="box-info-full">
+          <div class="inner-bx margin-0-auto">
+            <div class="d-flex align-itmes-center flex-wrap-767">
+              <div class="img-prt d-flex align-items-center">
+                <img src="/images/oxelerator_lg.png" alt="" />
+              </div>
+              <div class="txt-part">
+                <p>
+                  Promueve la inversión en proyectos de investigación de base
+                  científica y tecnológica, con el interés de apoyar los
+                  emprendimientos de esa categoría. El programa trabaja en ambos
+                  frentes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
           <h4 class="ff-sans-b">Con el apoyo de:</h4>
           <div class="d-flex flex-wrap for-marg-1">
-            <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
-            </div>
-            <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
-            </div>
-            <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
-            </div>
-            <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
-            </div>
-            <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
-            </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
               <img src="/images/gell_logo.svg" alt="" />
               <a
@@ -321,42 +396,34 @@
 export default {
   head() {
     return {
-      title: this.$constants.voluntariadoFundacionBolivarDaviviendaConozcanos
-        .meta.title,
+      title: this.$constants.emprendePaisConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle,
+          content: this.$constants.emprendePaisConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta
-            .metaDescription,
+          content: this.$constants.emprendePaisConozcanos.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle,
+          content: this.$constants.emprendePaisConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta
-            .ogDescription,
+          content: this.$constants.emprendePaisConozcanos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.voluntariadoFundacionBolivarDaviviendaConozcanos
-              .meta.ogImage,
+            this.$constants.emprendePaisConozcanos.meta.ogImage,
         },
       ],
     }

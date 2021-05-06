@@ -39,7 +39,11 @@
             <div class="sec2-boxes">
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Empresas</h4>
-                <b-img src="/images/invester-profile-1.jpg" fluid alt=""></b-img>
+                <b-img
+                  src="/images/invester-profile-1.jpg"
+                  fluid
+                  alt=""
+                ></b-img>
                 <p>
                   Una vez cursados los seis módulos del plan de estudios, los
                   miembros de la cohorte aplican el conocimiento y las
@@ -49,12 +53,21 @@
                   cada participante.
                 </p>
                 <div class="text-center">
-                  <b-button variant="primary" :href="$constants.redDeAngeles.perfilesEmpresasUrl" >Inscribase aquí</b-button>
+                  <b-button
+                    variant="primary"
+                    target="_blank"
+                    :href="$constants.redDeAngeles.perfilesEmpresasUrl"
+                    >Inscribase aquí</b-button
+                  >
                 </div>
               </div>
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Inversionista</h4>
-                <b-img src="/images/invester-profile-2.jpg" fluid alt=""></b-img>
+                <b-img
+                  src="/images/invester-profile-2.jpg"
+                  fluid
+                  alt=""
+                ></b-img>
                 <p>
                   Los inversionistas que participan en la Red de Ángeles
                   Inversionistas han impactado al país con su liderazgo y
@@ -65,7 +78,12 @@
                   en una etapa temprana.
                 </p>
                 <div class="text-center">
-                  <b-button variant="primary" :href="$constants.redDeAngeles.perfilesInversionistaUrl">Inscribase aquí</b-button>
+                  <b-button
+                    variant="primary"
+                    target="_blank"
+                    :href="$constants.redDeAngeles.perfilesInversionistaUrl"
+                    >Inscribase aquí</b-button
+                  >
                 </div>
               </div>
             </div>
@@ -90,19 +108,18 @@
                 :navigationEnabled="false"
                 :paginationEnabled="true"
               >
-                <slide v-for="requisitos, i in $constants.redDeAngeles.requisitos" :key="i">
+                <slide
+                  v-for="(requisitos, i) in $constants.redDeAngeles.requisitos"
+                  :key="i"
+                >
                   <div class="sec3-boxes">
                     <div class="row align-items-center">
                       <div class="col-md-4">
-                        <b-img
-                          :src="requisitos.image"
-                          fluid
-                          alt=""
-                        />
+                        <b-img :src="requisitos.image" fluid alt="" />
                       </div>
                       <div class="col-md-8">
                         <p>
-                          {{requisitos.description}}
+                          {{ requisitos.description }}
                         </p>
                       </div>
                     </div>
@@ -243,7 +260,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content:`${this.$constants.baseURL}${this.$constants.redDeAngeles.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$constants.redDeAngeles.meta.ogImage}`,
         },
       ],
     }

@@ -72,10 +72,10 @@
                           </li>
                           <li
                             :class="{
-                              active: $route.name === 'emprender-pais',
+                              active: $route.name === 'emprende-pais',
                             }"
                           >
-                            <NuxtLink to="/emprender-pais"
+                            <NuxtLink to="/emprende-pais"
                               >Emprende país</NuxtLink
                             >
                           </li>
@@ -93,11 +93,10 @@
                             :class="{
                               active:
                                 $route.name ===
-                                'voluntariado-fundacion-bolivar-davivienda',
+                                'voluntariado-fundacion-bolivar',
                             }"
                           >
-                            <NuxtLink
-                              to="/voluntariado-fundacion-bolivar-davivienda"
+                            <NuxtLink to="/voluntariado-fundacion-bolivar"
                               >Voluntariado Familia Bolívar</NuxtLink
                             >
                           </li>
@@ -458,8 +457,8 @@
               <li :class="{ active: $route.name === 'cultivarte' }">
                 <NuxtLink to="/cultivarte">Cultivarte</NuxtLink>
               </li>
-              <li :class="{ active: $route.name === 'emprender-pais' }">
-                <NuxtLink to="/emprender-pais">Emprende país</NuxtLink>
+              <li :class="{ active: $route.name === 'emprende-pais' }">
+                <NuxtLink to="/emprende-pais">Emprende país</NuxtLink>
               </li>
               <li
                 :class="{
@@ -472,11 +471,10 @@
               </li>
               <li
                 :class="{
-                  active:
-                    $route.name === 'voluntariado-fundacion-bolivar-davivienda',
+                  active: $route.name === 'voluntariado-fundacion-bolivar',
                 }"
               >
-                <NuxtLink to="/voluntariado-fundacion-bolivar-davivienda"
+                <NuxtLink to="/voluntariado-fundacion-bolivar"
                   >Voluntariado Familia Bolívar</NuxtLink
                 >
               </li>
