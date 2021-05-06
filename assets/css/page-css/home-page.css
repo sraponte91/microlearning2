@@ -1,181 +1,663 @@
-.main-slider-at-top .img-prt{height:700px; width:100%;}
-.main-slider-at-top .set-to-bottom{width:100%; left:0; right:0; bottom:35px;}
-.main-slider-at-top .set-to-bottom2{width:100%; left:0; right:0; bottom:10px;}
-.main-slider-at-top .banner-txt{margin-bottom:30px;}
-.main-slider-at-top .banner-txt .orange-bg{background-color:#ff671b; display:inline-block;}
-.main-slider-at-top .banner-txt h1{ padding:15px 25px; font-size:56px;}
-.main-slider-at-top .banner-txt .black-bg{background-color:rgba(49,51,56,0.9); padding:15px 25px; max-width:480px; width:100%;}
-.main-slider-at-top .banner-txt p{font-size:14px; line-height:24px;}
-.main-slider-at-top .ic-arrow{height:44px; width:44px; background-color:#313338; display:inline-block;}
-.main-slider-at-top .ic-arrow + .ic-arrow{margin-left:10px;}
-.main-slider-at-top .VueCarousel-pagination{display:none;}
-.main-slider-at-top .ic-arrow:hover{background-color:rgb(12 158 243);}
-.main-slider-at-top .arrow-rit{-webkit-transform:rotate(-180deg); -moz-transform:rotate(-180deg); -ms-transform:rotate(-180deg); transform:rotate(-180deg);}
-.main-slider-at-top .four-line{left:auto; right:20px; margin:auto;}
-.main-slider-at-top .four-line .sign-line{width:51px; height:4px; background-color:rgba(49,51,56,0.9); display:block;}
-.main-slider-at-top .four-line .sign-line:hover{background-color:#fff;}
-.main-slider-at-top .four-line .sign-line + .sign-line{margin-top:5px;}
+.main-slider-at-top .img-prt {
+  height: 700px;
+  width: 100%;
+}
+.main-slider-at-top .set-to-bottom {
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+}
+.main-slider-at-top .set-to-bottom2 {
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+.main-slider-at-top .banner-txt {
+  margin-bottom: 30px;
+}
+.main-slider-at-top .banner-txt .orange-bg {
+  background-color: #ff671b;
+  display: inline-block;
+}
+.main-slider-at-top .banner-txt h1 {
+  padding: 15px 25px;
+  font-size: 56px;
+}
+.main-slider-at-top .banner-txt .black-bg {
+  background-color: rgba(49, 51, 56, 0.9);
+  padding: 15px 25px;
+  max-width: 480px;
+  width: 100%;
+}
+.main-slider-at-top .banner-txt p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-slider-at-top .ic-arrow {
+  height: 44px;
+  width: 44px;
+  background-color: #313338;
+  display: inline-block;
+}
+.main-slider-at-top .ic-arrow + .ic-arrow {
+  margin-left: 10px;
+}
+.main-slider-at-top .VueCarousel-pagination {
+  display: none;
+}
+.main-slider-at-top .ic-arrow:hover {
+  background-color: rgb(12 158 243);
+}
+.main-slider-at-top .arrow-rit {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+.main-slider-at-top .four-line {
+  left: auto;
+  right: 20px;
+  margin: auto;
+}
+.main-slider-at-top .four-line .sign-line {
+  width: 51px;
+  height: 4px;
+  background-color: rgba(49, 51, 56, 0.9);
+  display: block;
+}
+.main-slider-at-top .four-line .sign-line:hover {
+  background-color: #fff;
+}
+.main-slider-at-top .four-line .sign-line + .sign-line {
+  margin-top: 5px;
+}
 
-.desarrollamos-section{padding:140px 0;}
-.desarrollamos-section .inner-section{max-width:1000px; width:100%; padding:0 15px;}
-.desarrollamos-section::before{background:url(/images/desarrollamos_shape-w.svg) 0 0 no-repeat; background-position:center center; background-size:cover; top:0; width:100%; height:100%; left:0; }
-.desarrollamos-section small{ letter-spacing:10px; font-size:20px;}
-.desarrollamos-section h2{font-size:90px; font-weight:700; margin:15px 0 35px; line-height:1;}
-.desarrollamos-section p{max-width:660px; font-size:17px;}
-.desarrollamos-section .for-btn{margin:70px 0 0 0;}
-.desarrollamos-section .btn-tell-more{background-color:#fff; color:#2f425b; line-height:1; padding:20px 15px; width:220px; display:inline-block;}
-.desarrollamos-section .btn-tell-more:hover{background-color:#2f425b; color:#fff;}
-.dots-div{width:192px;}
-.dots-div.only-for-dots{width:100px;}
-.dots-div .dot{height:4px; width:4px; border-radius:100%; background-color:#fff; margin:8px 10px;}
-.one-dot{top:8px; left:0;}
-.two-dot{top:auto; left:auto; bottom:8px; right:0;}
-.our-program-section .fr-width-height{width:calc(100% / 4); padding:15px; height:32vw;}
-.our-program-section .sec-name{background-color:#2f425b;}
-.our-program-section .sec-name .dots-div .dot{margin:6px 8px; height:3px; width:3px;}
-.our-program-section .sec-name .two-dot{right:2px;}
-.our-program-section .sec-name .dots-div{width:80px;}
-.our-program-section .sec-name p{font-size:40px; line-height:1;}
-.program-box .on-hover-show{opacity:0; background:linear-gradient(0deg, #313338 15%, #ff671b 52%, #313338 100% ); -webkit-mix-blend-mode:multiply; -moz-mix-blend-mode:multiply; -ms-mix-blend-mode:multiply; mix-blend-mode:multiply; left:0; top:0; height:100%; width:100%; z-index:-1;}
-.program-box .on-hover-2div{opacity:0; left:0; top:0; height:100%; width:100%; z-index:-1;}
-.program-box .btn-read-mr{bottom:20px; left:auto; right:20px; bottom:20px; display:inline-block; border:1px solid #fff; color:#fff; padding:6px 25px;}
-.program-box .btn-read-mr:hover{background-color:#fff; color:#000;}
-.program-box .for-img{height:100%; width:100%; left:0; top:0; right:20px;}
-.program-box .on-hover-2div p{position:relative; z-index:9; color:#fff; padding:15px;}
-.program-box{cursor:pointer;}
-.program-box .title-tx{left:20px; top:20px;}
-.program-box .title-tx h3{font-size:40px; line-height:1;}
+.desarrollamos-section {
+  padding: 140px 0;
+}
+.desarrollamos-section .inner-section {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 15px;
+}
+.desarrollamos-section::before {
+  background: url(/images/desarrollamos_shape-w.svg) 0 0 no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.desarrollamos-section small {
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.desarrollamos-section h2 {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 15px 0 35px;
+  line-height: 1;
+}
+.desarrollamos-section p {
+  max-width: 660px;
+  font-size: 17px;
+}
+.desarrollamos-section .for-btn {
+  margin: 70px 0 0 0;
+}
+.desarrollamos-section .btn-tell-more {
+  background-color: #fff;
+  color: #2f425b;
+  line-height: 1;
+  padding: 20px 15px;
+  width: 220px;
+  display: inline-block;
+}
+.desarrollamos-section .btn-tell-more:hover {
+  background-color: #2f425b;
+  color: #fff;
+}
+.dots-div {
+  width: 192px;
+}
+.dots-div.only-for-dots {
+  width: 100px;
+}
+.dots-div .dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: 8px 10px;
+}
+.one-dot {
+  top: 8px;
+  left: 0;
+}
+.two-dot {
+  top: auto;
+  left: auto;
+  bottom: 8px;
+  right: 0;
+}
+.our-program-section .fr-width-height {
+  width: calc(100% / 4);
+  padding: 15px;
+  height: 32vw;
+}
+.our-program-section .sec-name {
+  background-color: #2f425b;
+}
+.our-program-section .sec-name .dots-div .dot {
+  margin: 6px 8px;
+  height: 3px;
+  width: 3px;
+}
+.our-program-section .sec-name .two-dot {
+  right: 2px;
+}
+.our-program-section .sec-name .dots-div {
+  width: 80px;
+}
+.our-program-section .sec-name p {
+  font-size: 40px;
+  line-height: 1;
+}
+.program-box .on-hover-show {
+  opacity: 0;
+  background: linear-gradient(0deg, #313338 15%, #ff671b 52%, #313338 100%);
+  -webkit-mix-blend-mode: multiply;
+  -moz-mix-blend-mode: multiply;
+  -ms-mix-blend-mode: multiply;
+  mix-blend-mode: multiply;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.program-box .on-hover-2div {
+  opacity: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.program-box .btn-read-mr {
+  bottom: 20px;
+  left: auto;
+  right: 20px;
+  bottom: 20px;
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 6px 25px;
+}
+.program-box .btn-read-mr:hover {
+  background-color: #fff;
+  color: #000;
+}
+.program-box .for-img {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 20px;
+}
+.program-box .on-hover-2div p {
+  position: relative;
+  z-index: 9;
+  color: #fff;
+  padding: 15px;
+}
+.program-box {
+  cursor: pointer;
+}
+.program-box .title-tx {
+  left: 20px;
+  top: 20px;
+}
+.program-box .title-tx h3 {
+  font-size: 40px;
+  line-height: 1;
+}
 
-.how-we-connect{padding:60px 0;}
-.how-we-connect .left-solid-color{background:linear-gradient(0deg, #ff9a7e 0%, rgba(230, 139, 113, 0.84) 100% ); width:700px; height:440px;}
-.how-we-connect .left-solid-color .inner-tx-w{width:375px;}
-.how-we-connect .left-solid-color .inner-tx-w small{font-size:44px; line-height:1;}
-.how-we-connect .left-solid-color .inner-tx-w h3{font-size:45px; line-height:1; margin:8px 0 18px;}
-.how-we-connect .left-solid-color .for-btn{margin:40px 0 0 0;}
-.how-we-connect .left-solid-color .btn-tell-more{background-color:#fff; color:#ff671b; line-height:1; padding:20px 15px; width:220px; display:inline-block;}
-.how-we-connect .left-solid-color .btn-tell-more:hover{background-color:#ff671b; color:#fff;}
-.how-we-connect .right-img{width:800px; height:415px; margin-left:-270px;}
+.how-we-connect {
+  padding: 60px 0;
+}
+.how-we-connect .left-solid-color {
+  background: linear-gradient(0deg, #ff9a7e 0%, rgba(230, 139, 113, 0.84) 100%);
+  width: 700px;
+  height: 440px;
+}
+.how-we-connect .left-solid-color .inner-tx-w {
+  width: 375px;
+}
+.how-we-connect .left-solid-color .inner-tx-w small {
+  font-size: 44px;
+  line-height: 1;
+}
+.how-we-connect .left-solid-color .inner-tx-w h3 {
+  font-size: 45px;
+  line-height: 1;
+  margin: 8px 0 18px;
+}
+.how-we-connect .left-solid-color .for-btn {
+  margin: 40px 0 0 0;
+}
+.how-we-connect .left-solid-color .btn-tell-more {
+  background-color: #fff;
+  color: #ff671b;
+  line-height: 1;
+  padding: 20px 15px;
+  width: 220px;
+  display: inline-block;
+}
+.how-we-connect .left-solid-color .btn-tell-more:hover {
+  background-color: #ff671b;
+  color: #fff;
+}
+.how-we-connect .right-img {
+  width: 800px;
+  height: 415px;
+  margin-left: -270px;
+}
 
-.news-section-bolivar{padding:50px 0;}
-.news-section-bolivar .card{border-radius:0;}
-.news-section-bolivar h2{font-size:50px; font-weight:700; line-height:1; margin:0 0 50px;}
-.news-section-bolivar .card-header{background-color:transparent; border:none; width:500px; padding:0; border-bottom:1px solid #8c8c8c;}
-.news-section-bolivar .card-header:first-child{border-top:1px solid #8c8c8c;}
+.news-section-bolivar {
+  padding: 50px 0;
+}
+.news-section-bolivar .card {
+  border-radius: 0;
+}
+.news-section-bolivar h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 50px;
+}
+.news-section-bolivar .card-header {
+  background-color: transparent;
+  border: none;
+  width: 500px;
+  padding: 0;
+  border-bottom: 1px solid #8c8c8c;
+}
+.news-section-bolivar .card-header:first-child {
+  border-top: 1px solid #8c8c8c;
+}
 .news-section-bolivar .btn-info:not(:disabled):not(.disabled):active,
 .news-section-bolivar .btn-info:not(:disabled):not(.disabled).active,
-.news-section-bolivar .show > .btn-info.dropdown-toggle{background-color:transparent; border:none; box-shadow:none; color:#313338;}
-.news-section-bolivar .accordion > .card > .card-header{margin-bottom:0;}
-.news-section-bolivar .btn-info.not-collapsed{background-color:transparent; border:none; border-radius:0; position:relative;}
-.news-section-bolivar .btn-info.not-collapsed::after{position:absolute; left:0; top:0; height:100%; width:16px; background-color:#ff9a7e; content:"";}
-.news-section-bolivar .card-header .sm-img{width:184px; height:136px;}
-.news-section-bolivar .card-header .tx-info{width:calc(100% - 184px); padding-left:30px; text-align:left;}
-.news-section-bolivar .card-header .tx-info h4{ font-size:16px; margin:0 0 10px;}
-.news-section-bolivar .card-header .tx-info p{font-size:16px; line-height:20px;}
-.news-section-bolivar .btn-info{background-color:transparent; border:none; color:#313338; border-radius:0; padding:24px 10px 24px 30px;}
-.news-section-bolivar .card-header:first-child{border-radius:0;}
-.news-section-bolivar .card-body{padding:0;}
-.news-section-bolivar .card{border:none;}
-.news-section-bolivar .tabs-contains{width:calc(100% - 500px); padding-left:50px;}
-.news-section-bolivar .tabs-contains .big-news-img{width:100%; height:480px;}
-.news-section-bolivar .tabs-contains .tags{margin:10px 0 2px;}
-.news-section-bolivar .tabs-contains .tags a{color:#ff671b; font-size:14px;}
-.news-section-bolivar .tabs-contains .tags a:hover{text-decoration:underline;}
-.news-section-bolivar .tabs-contains .tags a + a{margin-left:5px;}
-.news-section-bolivar .tabs-contains .date{color:#949494; font-size:12px; margin:0 0 10px;}
-.news-section-bolivar .tabs-contains .new-titles a{font-size:34px; line-height:1;}
-.news-section-bolivar .tabs-contains .new-titles a:hover{color:rgb(12,158,243);}
-
-@media(min-width:1500px){
-     .program-box .title-tx h3{font-size:60px;}
-     .our-program-section .sec-name p{font-size:60px;}
+.news-section-bolivar .show > .btn-info.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #313338;
 }
-@media(min-width:1400px){
-     .left-solid-color .inner-tx-w{width:450px;}
-     .left-solid-color .inner-tx-w small{font-size:57px;}
-     .left-solid-color .inner-tx-w h3{font-size:63px;}
+.news-section-bolivar .accordion > .card > .card-header {
+  margin-bottom: 0;
 }
-
-@media(max-width:1240px){
-     .how-we-connect .right-img{width:730px;}
+.news-section-bolivar .btn-info.not-collapsed {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  position: relative;
 }
-
-@media(max-width:1199px){
-     .program-box .title-tx h3{font-size:30px;}     
-     .our-program-section .fr-width-height{height:40vw}
-     .how-we-connect .right-img{width:490px;}
-     .news-section-bolivar{padding:0 0 50px;}
-     .news-section-bolivar h2{font-size:40px;}
-     .news-section-bolivar .card-header{width:380px;}
-     .news-section-bolivar .tabs-contains{width:calc(100% - 380px); padding-left:20px;}
-     .news-section-bolivar .btn-info{padding:15px 0 15px 20px;}     
-     .news-section-bolivar .btn-info.not-collapsed::after{width:8px;}
-     .news-section-bolivar .card-header .sm-img{width:130px; height:86px;}
-     .news-section-bolivar .card-header .tx-info{width:calc(100% - 130px);}
+.news-section-bolivar .btn-info.not-collapsed::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 16px;
+  background-color: #ff9a7e;
+  content: '';
 }
-@media(max-width:991px){
-     .our-program-section .fr-width-height{width:calc(100% / 2);}     
-     .how-we-connect .left-solid-color{width:90%; height:auto; padding:40px 0; margin:0 auto; z-index:4;}
-     .how-we-connect .right-img{width:100%; margin:-40px 0 0; z-index:3;}
-     .how-we-connect .left-solid-color .inner-tx-w{width:100%;}
-     .main-slider-at-top .banner-txt h1{font-size:44px;}
+.news-section-bolivar .card-header .sm-img {
+  width: 184px;
+  height: 136px;
 }
-
-@media(min-width:768px){
-     .news-section-bolivar .card{flex-direction:inherit;}     
-     .program-box:hover .on-hover-show{opacity:1; z-index:1;}
-     .program-box:hover .on-hover-2div{opacity:1; z-index:2;}
-     .program-box:hover .title-tx{z-index:2;}
+.news-section-bolivar .card-header .tx-info {
+  width: calc(100% - 184px);
+  padding-left: 30px;
+  text-align: left;
 }
-@media(max-width:767px){
-     .main-slider-at-top .set-to-bottom{bottom:20px;}
-     .main-slider-at-top .banner-txt{margin:0;}
-     .main-slider-at-top .banner-txt h1{font-size:36px;}
-     .main-slider-at-top .banner-txt .orange-bg{display:block;}
-     .main-slider-at-top .banner-txt .black-bg{max-width:100%;}
-     .main-slider-at-top .img-prt{height:400px;}
-     .one-dot{left:auto; right:0;}
-     .desarrollamos-section h2{font-size:60px;}
-     .dots-div .dot{height:3px; width:3px; margin:4px 6px;}
-     .dots-div.only-for-dots{width:65px;}
-     .desarrollamos-section{padding:100px 0;}
-     .dots-div{width:80px;}
-     .two-dot{left:8px;}
-     .our-program-section .fr-width-height{width:100%;}
-     .our-program-section .sec-name{height:auto; padding:40px 10px;}
-     .plus-sign{left:auto; right:20px; top:20px;}
-     .plus-sign a{background-color:#fff; height:40px; width:40px; display:inline-block;}
-     .plus-sign a::after,
-     .plus-sign a::before{background-color:#ff671b; top:0; bottom:0; left:0; right:0; margin:auto; border-radius:4px;}
-     .plus-sign a::after{height:3px; width:15px;}
-     .plus-sign a::before{width:3px; height:15px;}
-     .how-we-connect .container{max-width:100%; padding:0;}
-     .how-we-connect .left-solid-color{padding:40px 15px; background-color:#ff671b;}
-     .how-we-connect .left-solid-color .inner-tx-w small{font-size:34px;}
-     .how-we-connect .left-solid-color .inner-tx-w h3{font-size:35px;}
-     .how-we-connect{padding:40px 0 10px;}
-     .news-section-bolivar{padding:50px 0;}
-     .news-section-bolivar .container{max-width:100%; padding:0;}
-     .news-section-bolivar .card-header{width:100%;}
-     .news-section-bolivar .tabs-contains{width:100%; padding:0;}
-     .news-section-bolivar .card-header:first-child{border:none;}
-     .news-section-bolivar .btn-info.not-collapsed::after{display:none;}
-     .news-section-bolivar .accordion > .card > .card-header{padding:0 !important;}
-     .news-section-bolivar h2{font-size:30px; margin:0 0 15px; padding:0 0 0 15px; line-height:1.2;}
-     .how-we-connect{padding-bottom:0;}
-     .news-section-bolivar .card{border-top:1px solid #8c8c8c; padding:20px 0 25px;}
-     .news-section-bolivar .card:last-child{border-bottom:1px solid #8c8c8c;}
-     .news-section-bolivar header{box-shadow:none;}
-     .news-section-bolivar .about-news{padding:0 15px;}     
-     .news-section-bolivar .tabs-contains .big-news-img::after{height:10px; width:100%; top:0; left:0; background-color:#ff9a7e;}
-     .news-section-bolivar .tabs-contains .new-titles a{font-size:26px;}
-     .news-section-bolivar .tabs-contains .big-news-img{height:420px;}
+.news-section-bolivar .card-header .tx-info h4 {
+  font-size: 16px;
+  margin: 0 0 10px;
 }
-@media(max-width:575px){
-     .desarrollamos-section h2{font-size:40px;}
+.news-section-bolivar .card-header .tx-info p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.news-section-bolivar .btn-info {
+  background-color: transparent;
+  border: none;
+  color: #313338;
+  border-radius: 0;
+  padding: 24px 10px 24px 30px;
+}
+.news-section-bolivar .card-header:first-child {
+  border-radius: 0;
+}
+.news-section-bolivar .card-body {
+  padding: 0;
+}
+.news-section-bolivar .card {
+  border: none;
+}
+.news-section-bolivar .tabs-contains {
+  width: calc(100% - 500px);
+  padding-left: 50px;
+}
+.news-section-bolivar .tabs-contains .big-news-img {
+  width: 100%;
+  height: 480px;
+}
+.news-section-bolivar .tabs-contains .tags {
+  margin: 10px 0 2px;
+}
+.news-section-bolivar .tabs-contains .tags a {
+  color: #ff671b;
+  font-size: 14px;
+}
+.news-section-bolivar .tabs-contains .tags a:hover {
+  text-decoration: underline;
+}
+.news-section-bolivar .tabs-contains .tags a + a {
+  margin-left: 5px;
+}
+.news-section-bolivar .tabs-contains .date {
+  color: #949494;
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+.news-section-bolivar .tabs-contains .new-titles a {
+  font-size: 34px;
+  line-height: 1;
+}
+.news-section-bolivar .tabs-contains .new-titles a:hover {
+  color: rgb(12, 158, 243);
 }
 
-@media(max-width:479px){
-     .news-section-bolivar .tabs-contains .big-news-img{height:320px;}
-     .news-section-bolivar h2{font-size:26px;}
-     .news-section-bolivar .tabs-contains .new-titles a{font-size:24px;}
+@media (min-width: 1500px) {
+  .program-box .title-tx h3 {
+    font-size: 60px;
+  }
+  .our-program-section .sec-name p {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .left-solid-color .inner-tx-w {
+    width: 450px;
+  }
+  .left-solid-color .inner-tx-w small {
+    font-size: 57px;
+  }
+  .left-solid-color .inner-tx-w h3 {
+    font-size: 63px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .how-we-connect .right-img {
+    width: 730px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .program-box .title-tx h3 {
+    font-size: 30px;
+  }
+  .our-program-section .fr-width-height {
+    height: 40vw;
+  }
+  .how-we-connect .right-img {
+    width: 490px;
+  }
+  .news-section-bolivar {
+    padding: 0 0 50px;
+  }
+  .news-section-bolivar h2 {
+    font-size: 40px;
+  }
+  .news-section-bolivar .card-header {
+    width: 380px;
+  }
+  .news-section-bolivar .tabs-contains {
+    width: calc(100% - 380px);
+    padding-left: 20px;
+  }
+  .news-section-bolivar .btn-info {
+    padding: 15px 0 15px 20px;
+  }
+  .news-section-bolivar .btn-info.not-collapsed::after {
+    width: 8px;
+  }
+  .news-section-bolivar .card-header .sm-img {
+    width: 130px;
+    height: 86px;
+  }
+  .news-section-bolivar .card-header .tx-info {
+    width: calc(100% - 130px);
+  }
+}
+@media (max-width: 991px) {
+  .our-program-section .fr-width-height {
+    width: calc(100% / 2);
+  }
+  .how-we-connect .left-solid-color {
+    width: 90%;
+    height: auto;
+    padding: 40px 0;
+    margin: 0 auto;
+    z-index: 4;
+  }
+  .how-we-connect .right-img {
+    width: 100%;
+    margin: -40px 0 0;
+    z-index: 3;
+  }
+  .how-we-connect .left-solid-color .inner-tx-w {
+    width: 100%;
+  }
+  .main-slider-at-top .banner-txt h1 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 768px) {
+  .news-section-bolivar .card {
+    flex-direction: inherit;
+  }
+  .program-box:hover .on-hover-show {
+    opacity: 1;
+    z-index: 1;
+  }
+  .program-box:hover .on-hover-2div {
+    opacity: 1;
+    z-index: 2;
+  }
+  .program-box:hover .title-tx {
+    z-index: 2;
+  }
+}
+@media (max-width: 767px) {
+  .main-slider-at-top .set-to-bottom {
+    bottom: 20px;
+  }
+  .main-slider-at-top .banner-txt {
+    margin: 0;
+  }
+  .main-slider-at-top .banner-txt h1 {
+    font-size: 30px;
+  }
+  .main-slider-at-top .banner-txt .orange-bg {
+    display: block;
+  }
+  .main-slider-at-top .banner-txt .black-bg {
+    max-width: 100%;
+  }
+  .main-slider-at-top .img-prt {
+    height: 400px;
+  }
+  .one-dot {
+    left: auto;
+    right: 0;
+  }
+  .desarrollamos-section h2 {
+    font-size: 60px;
+  }
+  .dots-div .dot {
+    height: 3px;
+    width: 3px;
+    margin: 4px 6px;
+  }
+  .dots-div.only-for-dots {
+    width: 65px;
+  }
+  .desarrollamos-section {
+    padding: 100px 0;
+  }
+  .dots-div {
+    width: 80px;
+  }
+  .two-dot {
+    left: 8px;
+  }
+  .our-program-section .fr-width-height {
+    width: 100%;
+  }
+  .our-program-section .sec-name {
+    height: auto;
+    padding: 40px 10px;
+  }
+  .plus-sign {
+    left: auto;
+    right: 20px;
+    top: 20px;
+  }
+  .plus-sign a {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+  }
+  .plus-sign a::after,
+  .plus-sign a::before {
+    background-color: #ff671b;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 4px;
+  }
+  .plus-sign a::after {
+    height: 3px;
+    width: 15px;
+  }
+  .plus-sign a::before {
+    width: 3px;
+    height: 15px;
+  }
+  .how-we-connect .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .how-we-connect .left-solid-color {
+    padding: 40px 15px;
+    background-color: #ff671b;
+  }
+  .how-we-connect .left-solid-color .inner-tx-w small {
+    font-size: 34px;
+  }
+  .how-we-connect .left-solid-color .inner-tx-w h3 {
+    font-size: 35px;
+  }
+  .how-we-connect {
+    padding: 40px 0 10px;
+  }
+  .news-section-bolivar {
+    padding: 50px 0;
+  }
+  .news-section-bolivar .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .news-section-bolivar .card-header {
+    width: 100%;
+  }
+  .news-section-bolivar .tabs-contains {
+    width: 100%;
+    padding: 0;
+  }
+  .news-section-bolivar .card-header:first-child {
+    border: none;
+  }
+  .news-section-bolivar .btn-info.not-collapsed::after {
+    display: none;
+  }
+  .news-section-bolivar .accordion > .card > .card-header {
+    padding: 0 !important;
+  }
+  .news-section-bolivar h2 {
+    font-size: 30px;
+    margin: 0 0 15px;
+    padding: 0 0 0 15px;
+    line-height: 1.2;
+  }
+  .how-we-connect {
+    padding-bottom: 0;
+  }
+  .news-section-bolivar .card {
+    border-top: 1px solid #8c8c8c;
+    padding: 20px 0 25px;
+  }
+  .news-section-bolivar .card:last-child {
+    border-bottom: 1px solid #8c8c8c;
+  }
+  .news-section-bolivar header {
+    box-shadow: none;
+  }
+  .news-section-bolivar .about-news {
+    padding: 0 15px;
+  }
+  .news-section-bolivar .tabs-contains .big-news-img::after {
+    height: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff9a7e;
+  }
+  .news-section-bolivar .tabs-contains .new-titles a {
+    font-size: 26px;
+  }
+  .news-section-bolivar .tabs-contains .big-news-img {
+    height: 420px;
+  }
+}
+@media (max-width: 575px) {
+  .desarrollamos-section h2 {
+    font-size: 25px;
+  }
+  .main-slider-at-top .banner-txt h1 {
+    font-size: 25px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .news-section-bolivar .tabs-contains .big-news-img {
+    height: 320px;
+  }
+  .news-section-bolivar h2 {
+    font-size: 26px;
+  }
+  .news-section-bolivar .tabs-contains .new-titles a {
+    font-size: 24px;
+  }
 }
