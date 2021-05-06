@@ -272,23 +272,59 @@ export default {
 }
 </script>
 <style>
-.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-next,
-.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-prev {
-  font-size: 0;
-  background: url(/images/ic_next_pe.svg) 0 0 no-repeat;
-  height: 50px;
-  width: 50px;
-  background-size: 50px;
-  transform: inherit;
-  top: 50%;
-  margin-top: -25px;
-}
-.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-next {
-  left: auto;
-  right: 50px;
-}
-.testimonial .VueCarousel-navigation-button.VueCarousel-navigation-prev {
-  left: 50px;
-  transform: rotate(-180deg);
+@media (max-width: 767px) {
+  .common-banner h2 {
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .hoy-main {
+    padding: 0;
+    position: relative;
+  }
+  .hoy-img-txt {
+    flex-direction: column;
+  }
+  .hoy-img-txt .hoy-img,
+  .hoy-img-txt .hoy-txt {
+    width: 100%;
+  }
+  .hoy-img-txt .hoy-img {
+    order: 1;
+  }
+  .hoy-main .container {
+    padding: 0;
+  }
+  .nuestro-main {
+    padding: 25px 0;
+  }
+  .nuestro-title {
+    padding-bottom: 20px;
+  }
+  .nuestro-title h3 {
+    font-size: 30px;
+    padding-bottom: 0;
+  }
+  .nuestro-title h2 {
+    font-size: 42px;
+  }
+  .nuestro-box {
+    flex-direction: column;
+  }
+  .nuestro-single {
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: none;
+    background: #f7f7f7;
+  }
+  .conel {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .single-service {
+    width: 100%;
+  }
 }
 </style>

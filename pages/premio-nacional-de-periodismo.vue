@@ -318,4 +318,25 @@ export default {
   left: -50px;
   transform: rotate(-180deg);
 }
+@media (max-width: 767px) {
+  .article h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .article-slider {
+    padding: 25px 0;
+  }
+  .article-slider h2 {
+    font-size: 30px;
+    line-height: normal;
+    color: #ff671b;
+    text-align: center;
+  }
+  .article-slider .VueCarousel-navigation-button.VueCarousel-navigation-next {
+    right: 0px;
+  }
+  .article-slider .VueCarousel-navigation-button.VueCarousel-navigation-prev {
+    left: 0px;
+  }
+}
 </style>

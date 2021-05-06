@@ -74,7 +74,7 @@
                 </p>
               </div>
               <div class="single-service">
-                <p>Demostrar estar en dificultad socioeconómica./p></p>
+                <p>Demostrar estar en dificultad socioeconómica.</p>
               </div>
             </div>
           </div>
@@ -278,7 +278,32 @@ export default {
   color: #fff;
 }
 /* call to action white end */
-.left-txt .outer-small-txt .single-txt {
-  top: 130px;
+@media (min-width: 768px) {
+  .left-txt .outer-small-txt .single-txt {
+    top: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .requisitos h2 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .requisitos h3 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .pm-services {
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .pms-single {
+    width: 100%;
+  }
+  .txt-image.big-txt .b-title {
+    display: none;
+  }
+  .cta-white {
+    padding: 25px 0;
+  }
 }
 </style>
