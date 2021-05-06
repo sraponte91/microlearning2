@@ -8,7 +8,7 @@
     </div>
     <section class="main-slider-at-top actualidad-pg">
       <div class="img-prt position-relative">
-        <img src="/images/main_slide_a.png" alt="" class="object-fit-cover" />
+        <img src="/images/seccion-actualidad/encabezado_actualidad.jpg" alt="" class="object-fit-cover" />
         <div class="container position-absolute set-to-bottom">
           <div class="banner-txt text-white">
             <div class="orange-bg">
