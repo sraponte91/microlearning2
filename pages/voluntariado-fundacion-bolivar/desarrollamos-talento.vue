@@ -4,7 +4,7 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/voluntariado-fundacion-bolivar-davivienda"
+          <b-breadcrumb-item to="/voluntariado-fundacion-bolivar"
             >Voluntariado fundación Bolivar</b-breadcrumb-item
           >
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>

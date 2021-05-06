@@ -24,7 +24,20 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: '260015767',
+      debug: {
+        enabled: false,
+        sendHitTask: false
+      }
+    }]
+  ],
+
+  gtm: {
+    id: 'GTM-P2SN3XB',
+    debug: false,
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -36,6 +49,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://www.npmjs.com/package/@nuxtjs/gtm
+    '@nuxtjs/gtm',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

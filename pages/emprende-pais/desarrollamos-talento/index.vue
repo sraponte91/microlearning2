@@ -4,8 +4,8 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/emprender-pais"
-            >Emprender país
+          <b-breadcrumb-item to="/emprende-pais"
+            >Emprende país
           </b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
@@ -85,7 +85,7 @@
                   acompañamiento a sus empresas.
                 </p>
                 <div class="linkto-re text-right">
-                  <NuxtLink to="/emprender-pais/desarrollamos-talento/mentores"
+                  <NuxtLink to="/emprende-pais/desarrollamos-talento/mentores"
                     >Quiero conocer más ></NuxtLink
                   >
                 </div>
@@ -140,7 +140,7 @@
                 </p>
                 <div class="linkto-re text-right">
                   <NuxtLink
-                    to="/emprender-pais/desarrollamos-talento/consultores"
+                    to="/emprende-pais/desarrollamos-talento/consultores"
                     >Quiero conocer más ></NuxtLink
                   >
                 </div>

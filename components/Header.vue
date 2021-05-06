@@ -91,12 +91,17 @@
                       :class="{ active: $route.name === 'aflora' }"
                       >Aflora</b-dropdown-item
                     >
-                    <b-dropdown-item to="/becas-al-talento"
+                    <b-dropdown-item
+                      to="/becas-al-talento"
                       :class="{ active: $route.name === 'becas-al-talento' }"
-                      >Becas al Talento</b-dropdown-item>
-                    <b-dropdown-item to="/cultivarte"
-                      :class="{ active: $route.name === 'cultivarte' }">Cultivarte</b-dropdown-item>
-                    <b-dropdown-item to="/emprender-pais"
+                      >Becas al Talento</b-dropdown-item
+                    >
+                    <b-dropdown-item
+                      to="/cultivarte"
+                      :class="{ active: $route.name === 'cultivarte' }"
+                      >Cultivarte</b-dropdown-item
+                    >
+                    <b-dropdown-item to="/emprende-pais"
                       >Emprende País</b-dropdown-item
                     >
                     <b-dropdown-item to="/filarmonica-joven-de-colombia"
@@ -105,8 +110,7 @@
                     <b-dropdown-item to="/inversion-social"
                       >Inversión Social</b-dropdown-item
                     >
-                    <b-dropdown-item
-                      to="/voluntariado-fundacion-bolivar-davivienda"
+                    <b-dropdown-item to="/voluntariado-fundacion-bolivar"
                       >Voluntariado Fundación Bolivar</b-dropdown-item
                     >
                   </b-dropdown>
@@ -145,9 +149,7 @@
                   class="nav-item"
                   :class="{ active: $route.name === 'about-us' }"
                 >
-                  <NuxtLink to="/about-us" class="nav-link"
-                    >About us</NuxtLink
-                  >
+                  <NuxtLink to="/about-us" class="nav-link">About us</NuxtLink>
                 </li>
               </ul>
               <ul class="navbar-nav align-items-center text-lg-left ff-nunito">

@@ -55,6 +55,7 @@
                 <div class="text-center">
                   <b-button
                     variant="primary"
+                    target="_blank"
                     :href="$constants.redDeAngeles.perfilesEmpresasUrl"
                     >Inscribase aquí</b-button
                   >
@@ -79,6 +80,7 @@
                 <div class="text-center">
                   <b-button
                     variant="primary"
+                    target="_blank"
                     :href="$constants.redDeAngeles.perfilesInversionistaUrl"
                     >Inscribase aquí</b-button
                   >
