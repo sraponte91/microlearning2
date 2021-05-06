@@ -44,7 +44,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_b.jpg"
+                src="/images/programa-aflora/6-inscripciones/inscripciones_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

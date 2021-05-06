@@ -20,7 +20,7 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/nuestras_bg.jpg" alt="" class="object-fit-cover" />
+        <img src="/images/programa-aflora/7-nuestras-organizaciones/header_desktop.jpg" alt="" class="object-fit-cover" />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Nuestras organizaciones</h1>

@@ -31,7 +31,7 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <div class="img-points order-1-991">
               <img
-                src="/images/pensum_img.jpg"
+                src="/images/programa-aflora/4-autodiagnostico/autodiagnostico_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

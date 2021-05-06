@@ -274,12 +274,12 @@ Vue.prototype.$constants = {
   aflora: {
     desarrollamosTalento: 'javascript:void(0)',
     meta: {
-      title: 'Aflora',
-      metaTitle: 'Aflora',
+      title: 'Aflora - Desarrollamos-talento',
+      metaTitle: 'Aflora - Desarrollamos-talento',
       metaDescription: 'Aflora Home Description',
       ogTitle: 'Aflora Home',
       ogDescription: 'Aflora Home',
-      ogImage: '/images/programa-aflora/1-home-aflora/homeaflora_og.jpg',
+      ogImage: '/images/programa-aflora/3-desarrollamos-talento/aflora_desarrollamostalento_og.jpg',
     },
   },
   afloraConozcanos: {
@@ -347,12 +347,12 @@ Vue.prototype.$constants = {
       'Una vez finalizado el formulario, el sistema automáticamente clasificará la organización con el fin de brindarles la mejor ruta de fortalecimiento.',
     ],
     meta: {
-      title: 'Autodiagnóstico',
-      metaTitle: 'Autodiagnóstico',
+      title: 'Aflora - Autodiagnóstico',
+      metaTitle: 'Aflora - Autodiagnóstico',
       metaDescription: 'Autodiagnóstico Description',
       ogTitle: 'Autodiagnóstico',
       ogDescription: 'Autodiagnóstico',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/4-autodiagnostico/aflora_autodiagnostico_og.jpg',
     },
   },
   afloraInscripciones: {
@@ -360,12 +360,12 @@ Vue.prototype.$constants = {
     inscribaseLink:
       'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
     meta: {
-      title: 'Inscripciones',
-      metaTitle: 'Inscripciones',
+      title: 'Aflora - Inscripciones',
+      metaTitle: 'Afora - Inscripciones',
       metaDescription: 'Inscripciones Description',
       ogTitle: 'Inscripciones',
       ogDescription: 'Inscripciones',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/6-inscripciones/aflora_inscripciones_og.jpg',
     },
   },
   afloraNuestrasOrganizaciones: {
@@ -435,12 +435,12 @@ Vue.prototype.$constants = {
       },
     ],
     meta: {
-      title: 'Nuestras organizaciones',
-      metaTitle: 'Nuestras organizaciones',
+      title: 'Aflora - Nuestras organizaciones',
+      metaTitle: 'Aflora - Nuestras organizaciones',
       metaDescription: 'Nuestras organizaciones',
       ogTitle: 'Nuestras organizaciones',
       ogDescription: 'Nuestras organizaciones',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/7-nuestras-organizaciones/aflora_nuestras_organizaciones_og.jpg',
     },
   },
   actualidad: {

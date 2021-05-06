@@ -50,7 +50,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/Aflora/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+                src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -61,7 +61,7 @@
           >
             <div class="oly-img-bx">
               <img
-                src="/images/rectangle_c.jpg"
+                src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque2_destacado.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -112,7 +112,7 @@
           <div class="position-relative for-mt-mins">
             <div class="im-prt">
               <img
-                src="/images/rectangle_d.png"
+                src="/images/programa-aflora/3-desarrollamos-talento/escuela_de_directores_desktop.jpg"
                 alt=""
                 class="object-fit-cover"
               />
