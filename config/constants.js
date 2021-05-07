@@ -2148,8 +2148,8 @@ Vue.prototype.$constants = {
     events: [
       {
         id: 1,
-        slug: 'title-of-event1',
-        title: 'TÍTULO DEL EVENTO',
+        slug: 'un-ejemplo-de-evento',
+        title: 'Un ejemplo de evento',
         shortDescription:
           'Lugar del evento, Objectively productize value-added care',
         description:
@@ -2166,8 +2166,8 @@ Vue.prototype.$constants = {
       },
       {
         id: 2,
-        slug: 'title-of-event2',
-        title: 'TÍTULO DEL EVENTO',
+        slug: 'otro-en-cualquier-lugar',
+        title: 'Otro en cualquier lugar',
         shortDescription:
           'Lugar del evento, Objectively productize value-added care',
         description:
@@ -2185,8 +2185,8 @@ Vue.prototype.$constants = {
       },
       {
         id: 3,
-        slug: 'title-of-event3',
-        title: 'TÍTULO DEL EVENTO',
+        slug: 'invitando-a-todos',
+        title: 'Invitando a todos',
         shortDescription:
           'Lugar del evento, Objectively productize value-added care',
         description:
