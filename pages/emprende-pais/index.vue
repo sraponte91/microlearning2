@@ -13,7 +13,7 @@
       >
         <div>
           <div class="log-prt">
-            <img src="/images/logo_aflora.png" alt="" class="img-fluid" />
+            <img src="/images/logos/Logo-Emprede-País_Blanco.png" alt="" class="img-fluid" />
           </div>
           <p>
             Emprende País es un programa de la Fundación Bolívar Davivienda, que

@@ -14,7 +14,7 @@
         <div>
           <div class="log-prt">
             <img
-              src="/images/logo_joven_de_colombia.svg"
+              src="/images/logos/Logo-Voluntariado_Blanco.png"
               alt=""
               class="img-fluid"
             />
