@@ -2328,7 +2328,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Filarmónica joven de colombia',
       ogTitle: 'Filarmónica joven de colombia',
       ogDescription: 'Filarmónica joven de colombia',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_og.jpg',
     },
   },
   filarmonicaJovenDeColombiaOrquesta: {
@@ -2546,7 +2546,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Filarmónica joven de colombia orquesta',
       ogTitle: 'Filarmónica joven de colombia orquesta',
       ogDescription: 'Filarmónica joven de colombia orquesta',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-filarmonica-joven/4-orquesta/orquesta_og.jpg',
     },
   },
   voluntariadoFundacionBolivarDavivienda: {
