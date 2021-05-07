@@ -17,7 +17,7 @@
           <div class="col-md-8 offset-md-2">
             <h1>Premio Nacional de Periodismo Simón Bolívar</h1>
             <b-img
-              src="/images/premio-nacional-periodismo-portada.jpg"
+              src="/images/seccion-premio/premioNacionalPeriodismo_portada.jpg"
               fluid
               alt="Responsive image"
             ></b-img>

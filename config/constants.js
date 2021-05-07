@@ -2902,7 +2902,7 @@ Vue.prototype.$constants = {
         'Premio Nacional de Periodismo Simón Bolívar Description',
       ogTitle: 'Premio Nacional de Periodismo Simón Bolívar',
       ogDescription: 'Premio Nacional de Periodismo Simón Bolívar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/seccion-premio/premioNacionalPeriodismo_og.jpg',
     },
     otrosInteresantes: [
       {
