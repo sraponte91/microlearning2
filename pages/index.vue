@@ -12,9 +12,8 @@
             Talento
           </h2>
           <p class="ff-nunito margin-0-auto">
-            Dynamically simplify fully tested internal or "organic" sources via
-            open-source innovation. Progressively productize ubiquitous supply
-            chains without standardized.
+            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
+talento con el cambio
           </p>
           <div class="for-btn">
             <a
@@ -138,7 +137,7 @@
           </div>
           <div class="right-img position-relative">
             <img
-              src="/images/asi_conectamos.jpg"
+              src="/images/seccion-inicio/microlearning.jpg"
               alt=""
               class="object-fit-cover"
             />

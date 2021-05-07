@@ -52,74 +52,68 @@ Vue.prototype.$constants = {
   home: {
     slides: [
       {
-        imgURL: '/images/main_slide_a.png',
-        title: 'Assertively redefinein',
+        imgURL: '/images/seccion-inicio/carrusel1.jpg',
+        title: 'FBD',
         description:
-          'Intrinsicly evisculate bricks-and-clicks materials after progressive e- commerce.Intrinsicly reintermediate quality niche markets with real - time platforms.Uniquely synergize turnkey total linkage through future- proof "outside the box" thinking.Progressively initiate web- enabled schemas without high - payoff e - commerce.',
+          'En la Fundación Bolívar Davivienda impulsamos historias de transformación. Somos la representación social del Grupo Bolívar. Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
       },
       {
-        imgURL: '/images/main_slide_a.png',
-        title: 'Assertively redefinein',
+        imgURL: '/images/seccion-inicio/carrusel2.jpg',
+        title: 'FBD',
         description:
-          'Intrinsicly evisculate bricks-and-clicks materials after progressive e- commerce.Intrinsicly reintermediate quality niche markets with real - time platforms.Uniquely synergize turnkey total linkage through future- proof "outside the box" thinking.Progressively initiate web- enabled schemas without high - payoff e - commerce.',
-      },
-      {
-        imgURL: '/images/main_slide_a.png',
-        title: 'Assertively redefinein',
-        description:
-          'Intrinsicly evisculate bricks-and-clicks materials after progressive e- commerce.Intrinsicly reintermediate quality niche markets with real - time platforms.Uniquely synergize turnkey total linkage through future- proof "outside the box" thinking.Progressively initiate web- enabled schemas without high - payoff e - commerce.',
+          'En la Fundación Bolívar Davivienda impulsamos historias de transformación. Somos la representación social del Grupo Bolívar. Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
       },
     ],
     desarrollamosTalento: 'javascript:void(0)',
     nuestrosProgramas: [
       {
-        imgURL: '/images/aflora.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0006_aflora.jpg',
         title: 'Aflora',
         link: '/aflora',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'En Aflora impulsamos a las organizaciones sociales que quieren multiplicar su capacidad de servir, que buscan crecer para tener un mayor impacto, para que sean agentes de cambio sostenibles en el tiempo.',
       },
       {
-        imgURL: '/images/becas_al_talento.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0005_becas.jpg',
         title: 'Becas al Talento',
         link: '/becas-al-talento',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'En Becas al Talento respaldamos el sueño de estudiantes destacados que tienen dificultades económicas para continuar sus carreras profesionales.<br>Apoyamos a aquellos que inspiran a otros a transformar su talento en oportunidades.',
       },
       {
-        imgURL: '/images/cultivarte.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0004_cultivarte.jpg',
         title: 'Cultivarte',
         link: '/cultivarte',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'Cultivarte, un espacio donde niños, niñas y adolescentes descubren su talento y aprenden a usarlo pensando en su futuro. Los talentos de Cultivarte transforman sus realidades, las de sus familias e inspiran a otros en su entorno.',
       },
       {
-        imgURL: '/images/emprende_pa.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0003_emprende_pais.jpg',
         title: 'Emprende País',
         link: '/emprende-pais',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'Emprende País apoya el talento de líderes comprometidos con el desarrollo económico del país, brindando capacitaciones y herramientas para sus empresas.',
       },
       {
-        imgURL: '/images/filarmonica_joven.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0002_filarmonica.jpg',
         title: 'Filarmónica Joven de Colombia',
         link: '/filarmonica-joven-de-colombia',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'Filarmónica Joven de Colombia es una apuesta que promueve el talento musical de nuestro país para construir un proyecto de vida desde la pasión. Nuestros músicos llegan al mundo entero e inspiran a otros en Colombia a creer en el ritmo de sus sueños.',
       },
       {
-        imgURL: '/images/inversion_social.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0001_inversion social.jpg',
         title: 'Inversión Social',
         link: '/inversion-social',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'En Inversión Social trabajamos por la transformación de historias de niños, niñas, adolescentes y mujeres que desde su rol como agentes de cambios en sus comunidades buscan soluciones sostenibles.',
       },
       {
-        imgURL: '/images/voluntariado_fund.jpg',
+        imgURL: '/images/seccion-inicio/home_programas_0000_voluntariado.jpg',
         title: 'Voluntariado Fundación Bolivar',
         link: '/voluntariado-fundacion-bolivar',
         summary:
-          'Synergistically redefine high-quality ideas after transparent strategic theme areas. Professionally optimize transparent services rather than revolutionary growth strategies.',
+          'En Voluntariado Familiar Bolívar unimos esfuerzos para que colaboradores, familiares y pensionados del Grupo sean una fuerza multiplicadora de solidaridad compartiendo conocimiento para transformar a otros porque ayudar, inspira.',
       },
     ],
     elCambio: 'javascript:void(0)',
