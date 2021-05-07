@@ -3659,49 +3659,24 @@ Vue.prototype.$constants = {
     },
     testimonios: [
       {
-        title: 'Sara Castro - 10',
+        title: 'Dilan Cabezas, 9 años. Sede Subachoque.',
+        description:
+          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+      },
+      {
+        title: 'Mariangel Molina Londoño, 7 años. Sede Támesis.',
+        description:
+          'Lo que más me gusta de Cultivarte es el Coro porque me fascina cantar y quiero ser una cantante famosa cuando sea grandee',
+      },
+      {
+        title: 'Sara Castro, 10 años. Sede Subachoque.',
         description:
           'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
       },
       {
-        title: 'Dilan Cabezas - 9',
+        title: 'Mauricio Laiton, 13 años. Sede la Virginia.',
         description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
-      },
-      {
-        title: 'Mariangel Molina - 7',
-        description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
-      },
-      {
-        title: 'Sara Castro - 11',
-        description:
-          'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
-      },
-      {
-        title: 'Dilan Cabezas - 10',
-        description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
-      },
-      {
-        title: 'Mariangel Molina - 8',
-        description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
-      },
-      {
-        title: 'Sara Castro - 12',
-        description:
-          'La educación financiera es como las matemáticas, solo que aquí juegas con los números y aprendes a ahorrar jugando como si fueras un banco de verdad',
-      },
-      {
-        title: 'Dilan Cabezas - 11',
-        description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
-      },
-      {
-        title: 'Mariangel Molina - 9',
-        description:
-          'Los procesos de lectura, como ‘viajes de papel’, son la forma en la que puedes vivir el libro con juegos, sentirlo y que lo puedas recordar siempre',
+          'En el proceso de lectura descubrí que hay muchas formas de comprender lo que dice los libros y en ciencia y tecnología he aprendido muchos experimentos y palabras nuevas de una manera más divertida que en mi colegio',
       },
     ],
   },
