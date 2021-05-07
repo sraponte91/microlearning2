@@ -100,7 +100,7 @@ talento con el cambio.
           <div
             class="on-hover-2div position-absolute d-flex align-items-center"
           >
-            <p>
+            <p v-html="item.summary">
               {{ item.summary }}
             </p>
             <NuxtLink
