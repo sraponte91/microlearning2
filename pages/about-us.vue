@@ -3,7 +3,7 @@
     <section class="full-image">
       <div class="position-absolute">
         <img
-          src="/images/about-us.jpg"
+          src="/images/seccion-about/portada.jpg"
           alt="About Us"
           class="object-fit-cover"
         />
@@ -64,7 +64,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/about-aflora.jpg"
+              src="/images/seccion-about/aboutusimg_0006_aflora.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -76,7 +76,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/abount-emprende.jpg"
+              src="/images/seccion-about/aboutusimg_0003_emprende_pais.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -153,7 +153,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/about-fillarmo.jpg"
+              src="/images/seccion-about/aboutusimg_0002_filarmonica.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -165,7 +165,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/abount-volunteer.jpg"
+              src="/images/seccion-about/aboutusimg_0000_voluntariado.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -224,7 +224,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/about-culture.jpg"
+              src="/images/seccion-about/aboutusimg_0004_cultivarte.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -236,7 +236,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/about-social.jpg"
+              src="/images/seccion-about/aboutusimg_0001_inversion social.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -301,7 +301,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/about-talento.jpg"
+              src="/images/seccion-about/aboutusimg_0005_becas.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -313,12 +313,13 @@
       <div class="container">
         <h3>Downloads</h3>
         <ul class="d-flex">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
+          <li><a href="pdf/About_Us_Privacy_Policy_of_La_Fundacion.pdf">Privacy Policy of La Fundación</a></li>
+          <li><a href="pdf/About_Us_Privacy_Policy_of_Cultivarte.pdf">Privacy Policy of Cultivarte</a></li>
+          <li><a href="pdf/About_Us_Notice_of_Privacy_of_La_Fundacion.pdf">Notice of Privacy of La Fundación</a></li>
+          <li><a href="pdf/About_Us_Notice_of_Privacy_of_Cultivarte.pdf">Notice of Privacy of Cultivarte</a></li>
+          <li><a href="pdf/About_Us_Autorization_for_data protection_FBD_FCult.pdf">Autorization for data protection</a></li>
+          <li><a href="pdf/About_Us_Specific_regulations_per_project_FBD_FCult.pdf">Specific regulations per project</a></li>
+          <li><a href="pdf/About_Us_Terms_and_Conditions_FBD_Fcult.pdf">Terms and Conditions</a></li>
         </ul>
       </div>
     </section>
