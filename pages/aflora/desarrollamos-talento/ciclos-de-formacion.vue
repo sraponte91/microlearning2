@@ -52,7 +52,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/ciclosformacion_bloque_15_ae.jpg"
+                src="/images/programa-aflora/5-ciclos-formacion/ciclosformacion_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
