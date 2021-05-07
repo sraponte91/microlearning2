@@ -13,7 +13,7 @@
           </h2>
           <p class="ff-nunito margin-0-auto">
             Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio
+talento con el cambio.
           </p>
           <div class="for-btn">
             <a
