@@ -52,7 +52,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamostalento_bloque_1_eebda.jpg"
+                src="/images/programa-voluntariado/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

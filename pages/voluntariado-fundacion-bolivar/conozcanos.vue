@@ -23,7 +23,7 @@
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
         <img
-          src="/images/conozcanos_header.jpg"
+          src="/images/programa-voluntariado/2-conozcanos/conozcanos_header_desktop.jpg"
           alt=""
           class="object-fit-cover"
         />
@@ -52,7 +52,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/conozcanos_bloque_1.jpg"
+              src="/images/programa-voluntariado/2-conozcanos/conozcanos_bloque1_impacto.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -64,7 +64,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/conozcanos_bloque_2.jpg"
+              src="/images/programa-voluntariado/2-conozcanos/conozcanos_bloque2.jpg"
               alt=""
               class="object-fit-cover"
             />

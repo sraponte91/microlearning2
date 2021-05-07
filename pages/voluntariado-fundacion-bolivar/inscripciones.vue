@@ -58,7 +58,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/inscripciones_bloque_15_d_f.jpg"
+                src="/images/programa-voluntariado/4-inscripciones/inscripciones_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

@@ -2552,12 +2552,12 @@ Vue.prototype.$constants = {
   voluntariadoFundacionBolivarDavivienda: {
     cuentameMasLink: 'javascript:void(0)',
     meta: {
-      title: 'Voluntariado fundación Bolivar',
+      title: 'Voluntariado-fundación-Bolivar',
       metaTitle: 'Voluntariado fundación Bolivar',
       metaDescription: 'Voluntariado fundación Bolivar',
       ogTitle: 'Voluntariado fundación Bolivar',
       ogDescription: 'Voluntariado fundación Bolivar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-voluntariado/1-home-voluntariado/home_og.jpg',
     },
   },
   voluntariadoFundacionBolivarDaviviendaConozcanos: {
@@ -2591,7 +2591,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Voluntariado fundación Bolivar',
       ogTitle: 'Voluntariado fundación Bolivar',
       ogDescription: 'Voluntariado fundación Bolivar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-voluntariado/2-conozcanos/conozcanos_og.jpg',
     },
   },
   voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento: {
@@ -2601,7 +2601,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Voluntariado fundación Bolivar',
       ogTitle: 'Voluntariado fundación Bolivar',
       ogDescription: 'Voluntariado fundación Bolivar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-voluntariado/3-desarrollamos-talento/desarrollamostalento_og.jpg',
     },
   },
   voluntariadoFundacionBolivarDaviviendaInscripciones: {
@@ -2613,7 +2613,7 @@ Vue.prototype.$constants = {
       metaDescription: 'Voluntariado fundación Bolivar',
       ogTitle: 'Voluntariado fundación Bolivar',
       ogDescription: 'Voluntariado fundación Bolivar',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-voluntariado/4-inscripciones/inscripciones_og.jpg',
     },
   },
   emprendePais: {

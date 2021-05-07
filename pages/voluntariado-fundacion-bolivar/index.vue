@@ -3,7 +3,7 @@
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
         <img
-          src="/images/headvoluntariado_ebad.jpg"
+          src="/images/programa-voluntariado/1-home-voluntariado/encabezado_voluntariado_familia_bolivar.jpg"
           alt=""
           class="object-fit-cover"
         />
@@ -82,7 +82,7 @@
           </div>
           <div class="img-rrt-pr order-1-991">
             <img
-              src="/images/rectangle_k.jpg"
+              src="/images/programa-voluntariado/1-home-voluntariado/home_bloque1.jpg"
               alt=""
               class="object-fit-cover"
             />
