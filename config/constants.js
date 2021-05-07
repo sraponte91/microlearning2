@@ -1974,22 +1974,22 @@ Vue.prototype.$constants = {
             text:
               'Por: Valentín Castellanos Mora'+
 
-              'Cómo liderar de forma adecuada siempre será un reto, no solo por las diferencias generacionales si no aún más difícil por la necesidad de personalizar cada conversación y encuentro con un seguidor. Nos hemos hecho constantemente la pregunta de si un líder nace o se hace, la respuesta es simple, el liderazgo no es solo un rasgo de personalidad o un elemento de nuestro carácter, el liderazgo es la suma de comportamientos, momentos, experiencias y aprendizajes que vamos incorporando en nuestra vida. Es así como una conversación de liderazgo hoy podría ser exitosa pero no necesariamente la misma nos serviría 5 años después.'+
+              'Cómo liderar de forma adecuada siempre será un reto, no solo por las diferencias generacionales si no aún más difícil por la necesidad de personalizar cada conversación y encuentro con un seguidor. Nos hemos hecho constantemente la pregunta de si un líder nace o se hace, la respuesta es simple, el liderazgo no es solo un rasgo de personalidad o un elemento de nuestro carácter, el liderazgo es la suma de comportamientos, momentos, experiencias y aprendizajes que vamos incorporando en nuestra vida. Es así como una conversación de liderazgo hoy podría ser exitosa pero no necesariamente la misma nos serviría 5 años después.<br> <br>'+
               
               
-              'Las nuevas generaciones han traído cambios radicales en los conceptos tradicionales de liderazgo, especialmente el que se había basado en un rol o jerarquía. Hoy en día, la comunicación es más directa y menos sumisa por parte de los liderados. Un seguidor expresa con facilidad sus sentimientos y expectativas, espera una conversación influyente y no autoritaria. Es así como el liderazgo actual necesita incorporar negociación, una explicación del sentido de las decisiones y la personalización del mensaje.'+
+              'Las nuevas generaciones han traído cambios radicales en los conceptos tradicionales de liderazgo, especialmente el que se había basado en un rol o jerarquía. Hoy en día, la comunicación es más directa y menos sumisa por parte de los liderados. Un seguidor expresa con facilidad sus sentimientos y expectativas, espera una conversación influyente y no autoritaria. Es así como el liderazgo actual necesita incorporar negociación, una explicación del sentido de las decisiones y la personalización del mensaje.<br> <br>'+
               
               
-              'Como líderes, podemos enfocarnos en 3 elementos vitales para mejorar nuestra relación con liderados de las nuevas generaciones. El primero es el autoconocimiento, un líder que se conoce a sí mismo y entiende sus propias dinámicas, será un líder que genere más confianza con sus liderados. Actualmente el líder debe desprenderse de sus máscaras y mostrar de manera transparente sus cualidades y también sus dificultades. Los equipos están esperando un líder auténtico y consciente de su carácter y el impacto del mismo.'+
+              'Como líderes, podemos enfocarnos en 3 elementos vitales para mejorar nuestra relación con liderados de las nuevas generaciones. El primero es el autoconocimiento, un líder que se conoce a sí mismo y entiende sus propias dinámicas, será un líder que genere más confianza con sus liderados. Actualmente el líder debe desprenderse de sus máscaras y mostrar de manera transparente sus cualidades y también sus dificultades. Los equipos están esperando un líder auténtico y consciente de su carácter y el impacto del mismo.<br> <br>'+
               
               
-              'El segundo elemento es la empatía, una verdadera intención de conocer al seguidor. Una persona de las nuevas generaciones siente la necesidad de trabajar con personas que son leales, sinceras y confiables. Actualmente, se hace más necesario tener conversaciones sobre expectativas, sueños, objetivos e intereses con nuestros liderados. Conocerlos nos dará la posibilidad de personalizar nuestras estrategias de influencia, entre más información tengamos de nuestros equipos, mayor capacidad de establecer una relación efectiva con nuestros liderados.'+
+              'El segundo elemento es la empatía, una verdadera intención de conocer al seguidor. Una persona de las nuevas generaciones siente la necesidad de trabajar con personas que son leales, sinceras y confiables. Actualmente, se hace más necesario tener conversaciones sobre expectativas, sueños, objetivos e intereses con nuestros liderados. Conocerlos nos dará la posibilidad de personalizar nuestras estrategias de influencia, entre más información tengamos de nuestros equipos, mayor capacidad de establecer una relación efectiva con nuestros liderados.<br> <br>'+
               
               
-              'El tercer elemento es la flexibilidad, la información y los cambios son cada día más abundantes, un líder rígido está expuesto a quedarse rápidamente sin buenos coequiperos. Las nuevas generaciones entienden estas dinámicas y están dispuestos a unirse a un líder que enfrenta la incertidumbre con tranquilidad. Si el líder tiene un propósito claro y lo comparte, le genera seguridad a sus liderados, ellos valoran la convicción de ir por una meta, entendiendo que no siempre se puede llegar por el mismo camino. La flexibilidad también se valora en adaptarse a sus intereses y en entender que el compromiso no se mide por tiempo o permanencia en un lugar, se mide por la pasión y entrega que le ponen a los proyectos.'+
+              'El tercer elemento es la flexibilidad, la información y los cambios son cada día más abundantes, un líder rígido está expuesto a quedarse rápidamente sin buenos coequiperos. Las nuevas generaciones entienden estas dinámicas y están dispuestos a unirse a un líder que enfrenta la incertidumbre con tranquilidad. Si el líder tiene un propósito claro y lo comparte, le genera seguridad a sus liderados, ellos valoran la convicción de ir por una meta, entendiendo que no siempre se puede llegar por el mismo camino. La flexibilidad también se valora en adaptarse a sus intereses y en entender que el compromiso no se mide por tiempo o permanencia en un lugar, se mide por la pasión y entrega que le ponen a los proyectos.<br> <br>'+
               
               
-              'Finalmente, es necesario mencionar la importancia de incluir la tecnología en el liderazgo. Siempre será de mucho valor una conversación cara a cara, sentir la presencia de un seguidor ayuda a entender y leer lo que las palabras no dicen. Sin embargo, hoy en día muchas de las conversaciones se hacen virtualmente, una llamada, un mensaje vía celular o una videollamada, sea cual sea el medio es vital cuidar los códigos. Es por eso que la recomendación es acordar con el equipo, normas y definir estrategias que permitan una comunicación clara y objetiva, impulsando al líder a usar estos medios como herramientas de sus acciones de liderazgo en el día a día.',
+              'Finalmente, es necesario mencionar la importancia de incluir la tecnología en el liderazgo. Siempre será de mucho valor una conversación cara a cara, sentir la presencia de un seguidor ayuda a entender y leer lo que las palabras no dicen. Sin embargo, hoy en día muchas de las conversaciones se hacen virtualmente, una llamada, un mensaje vía celular o una videollamada, sea cual sea el medio es vital cuidar los códigos. Es por eso que la recomendación es acordar con el equipo, normas y definir estrategias que permitan una comunicación clara y objetiva, impulsando al líder a usar estos medios como herramientas de sus acciones de liderazgo en el día a día.<br> <br>',
             images: [],
             video: '',
           },
@@ -2023,41 +2023,41 @@ Vue.prototype.$constants = {
           {
             title: '¿Quién ayuda a los que ayudan <br/> en Colombia?',
             text:
-              'Hacer que una organización sin ánimo de lucro evolucione y logre cumplir sus metas es una tarea exhaustiva que requiere de un equipo comprometido y una serie de estrategias para lograr recaudar los fondos suficientes. Por eso traemos una guía básica para que esta labor sea más efectiva y su organización logre cumplir sus objetivos.'+
+              'Hacer que una organización sin ánimo de lucro evolucione y logre cumplir sus metas es una tarea exhaustiva que requiere de un equipo comprometido y una serie de estrategias para lograr recaudar los fondos suficientes. Por eso traemos una guía básica para que esta labor sea más efectiva y su organización logre cumplir sus objetivos.<br> <br>'+
 
-              'De acuerdo al libro “Economía y Gestión de Entidades no Lucrativas”, más que recaudar fondos, se trata de captar recursos, pues en algunos casos y dependiendo del foco de la organización, es mejor recibir donaciones en especie, como por ejemplo medicamentos, equipos, servicios profesionales o personas que quieran donar su tiempo a las múltiples actividades de la organización social.'+
+              'De acuerdo al libro “Economía y Gestión de Entidades no Lucrativas”, más que recaudar fondos, se trata de captar recursos, pues en algunos casos y dependiendo del foco de la organización, es mejor recibir donaciones en especie, como por ejemplo medicamentos, equipos, servicios profesionales o personas que quieran donar su tiempo a las múltiples actividades de la organización social.<br> <br>'+
               
-              'Antes de entrar en materia, lo primero que usted debe hacer para tener éxito es analizar su visión como organización y sus objetivos a corto, mediano y largo plazo. Esto le permitirá tener un panorama más amplio sobre las necesidades que debe suplir para que su fundación tenga una mayor visibilidad. Lo recomendable es que las acciones que use para captar fondos o recursos estén vinculadas directamente a su misión y que su planteamiento sea mucho más estratégico que creativo. Su éxito no dependerá de ideas geniales o inéditas sino de un trabajo sistemático que contemple algunos trucos y principios esenciales.'+
+              'Antes de entrar en materia, lo primero que usted debe hacer para tener éxito es analizar su visión como organización y sus objetivos a corto, mediano y largo plazo. Esto le permitirá tener un panorama más amplio sobre las necesidades que debe suplir para que su fundación tenga una mayor visibilidad. Lo recomendable es que las acciones que use para captar fondos o recursos estén vinculadas directamente a su misión y que su planteamiento sea mucho más estratégico que creativo. Su éxito no dependerá de ideas geniales o inéditas sino de un trabajo sistemático que contemple algunos trucos y principios esenciales.<br> <br>'+
               
-              'La moral en la recaudación'+
+              'La moral en la recaudación<br> <br>'+
               
-              'Existen todo tipo de métodos para conseguir recursos. Sin embargo, usted debe encontrar los más acordes para su organización, esto se basa en analizar los valores que su fundación transmite y buscar las actividades propias de estos valores. Para dar un ejemplo, no sería coherente que una organización que se dedica a combatir el alcoholismo realice una reunión para recaudar fondos donde tenga en venta  licores de todo tipo.'+
+              'Existen todo tipo de métodos para conseguir recursos. Sin embargo, usted debe encontrar los más acordes para su organización, esto se basa en analizar los valores que su fundación transmite y buscar las actividades propias de estos valores. Para dar un ejemplo, no sería coherente que una organización que se dedica a combatir el alcoholismo realice una reunión para recaudar fondos donde tenga en venta  licores de todo tipo.<br> <br>'+
               
-              'Para que su organización no entre en conflictos y no se malinterpreten las estrategias de acción por parte de los miembros de la institución, es recomendable dejar claro cuáles son los límites de recaudación de fondos. Esto le permitirá ser veraz en la información que comparte con su equipo y sus donantes. Proporcióneles todo tipo de documentos que genere confianza, así usted dará un perfil ético que le agregará valor al nombre de su organización sin ánimo de lucro.'+
+              'Para que su organización no entre en conflictos y no se malinterpreten las estrategias de acción por parte de los miembros de la institución, es recomendable dejar claro cuáles son los límites de recaudación de fondos. Esto le permitirá ser veraz en la información que comparte con su equipo y sus donantes. Proporcióneles todo tipo de documentos que genere confianza, así usted dará un perfil ético que le agregará valor al nombre de su organización sin ánimo de lucro.<br> <br>'+
               
-              'Entre los principios que su organización puede manejar, contemple algunos:'+
+              'Entre los principios que su organización puede manejar, contemple algunos:<br> <br>'+
               
-              'Recaudar los fondos o recursos que realmente se necesitan.'+
-              'Considerar valiosas y útiles todas las aportaciones que lleguen a la organización.'+
-              'Realizar publicidad moderada y equilibrada.'+
-              'Ser agradecidos con los donantes.'+
-              'Para recibir ayuda primero pídala'+
+              'Recaudar los fondos o recursos que realmente se necesitan.<br> <br>'+
+              'Considerar valiosas y útiles todas las aportaciones que lleguen a la organización.<br> <br>'+
+              'Realizar publicidad moderada y equilibrada.<br> <br>'+
+              'Ser agradecidos con los donantes.<br> <br>'+
+              'Para recibir ayuda primero pídala<br> <br>'+
               
-              'Hay muchas organizaciones que creen erróneamente que con informar la labor que realizan van a recibir donantes de todas partes. En este punto es necesario comunicar con precisión y claridad lo que se necesita, “necesito X dinero para X causa” o “necesito X implemento para X propósito”.'+
+              'Hay muchas organizaciones que creen erróneamente que con informar la labor que realizan van a recibir donantes de todas partes. En este punto es necesario comunicar con precisión y claridad lo que se necesita, “necesito X dinero para X causa” o “necesito X implemento para X propósito”.<br> <br>'+
               
-              'También es necesario crear una comunicación “personalizada”. Los donantes deben sentirse identificados personalmente con la solicitud que la organización está generando. Este punto es conocido en publicidad como llamado a una acción, como por ejemplo: “Dona en el número de cuenta X” o “Entra a nuestra página web X y dona” etc.'+
+              'También es necesario crear una comunicación “personalizada”. Los donantes deben sentirse identificados personalmente con la solicitud que la organización está generando. Este punto es conocido en publicidad como llamado a una acción, como por ejemplo: “Dona en el número de cuenta X” o “Entra a nuestra página web X y dona” etc.<br> <br>'+
               
-              'Usted tiene diferentes grupos a los que puede llegar a pedir fondos. Entre estos están las empresas privadas, las fundaciones subvencionadas, los organismos públicos e incluso las personas naturales. Sin embargo, tenga en cuenta que usted no es la única organización que está pidiendo ayuda, existen cientos que están en la misma labor y que están pidiendo más o menos recursos. Por eso es vital ser claros en lo que se necesita.'+
+              'Usted tiene diferentes grupos a los que puede llegar a pedir fondos. Entre estos están las empresas privadas, las fundaciones subvencionadas, los organismos públicos e incluso las personas naturales. Sin embargo, tenga en cuenta que usted no es la única organización que está pidiendo ayuda, existen cientos que están en la misma labor y que están pidiendo más o menos recursos. Por eso es vital ser claros en lo que se necesita.<br> <br>'+
               
-              'Como complemento a esto, muéstrele  al donante lo que se puede lograr con su aporte, esto será clave a la hora de decidir si ayuda o no.'+
+              'Como complemento a esto, muéstrele  al donante lo que se puede lograr con su aporte, esto será clave a la hora de decidir si ayuda o no.<br> <br>'+
               
-              'Conseguir recursos también está ligado a las relaciones interpersonales.' + ' Muchas veces se obtienen más donaciones cuando una organización tiene un fuerte vínculo con sus donantes que cuando simplemente da un “gracias” al momento del aporte. Esto es efectivo cuando entre la estrategia se tiene un objetivo a largo plazo. Crear vínculos duraderos y beneficios para las dos partes es una buena táctica y trae consigo aliados duraderos y leales a la causa.'+
+              'Conseguir recursos también está ligado a las relaciones interpersonales.' + ' Muchas veces se obtienen más donaciones cuando una organización tiene un fuerte vínculo con sus donantes que cuando simplemente da un “gracias” al momento del aporte. Esto es efectivo cuando entre la estrategia se tiene un objetivo a largo plazo. Crear vínculos duraderos y beneficios para las dos partes es una buena táctica y trae consigo aliados duraderos y leales a la causa.<br> <br>'+
               
-              'Usted también podrá recibir donaciones haciendo publicidad en medios masivos como televisión, radio, revistas e internet. Pero tenga en cuenta que este esfuerzo es económicamente alto y suele ser más utilizado para generar notoriedad que para obtener donaciones.'+
+              'Usted también podrá recibir donaciones haciendo publicidad en medios masivos como televisión, radio, revistas e internet. Pero tenga en cuenta que este esfuerzo es económicamente alto y suele ser más utilizado para generar notoriedad que para obtener donaciones.<br> <br>'+
               
-              'Recuerde, para conseguir fondos hay que ser creativamente estratégico. Planifique  y lleve a cabo acciones puntuales e interesantes que tengan el potencial de llamar la atención de sus futuros donantes y retener a los que ya ha ganado.'+
+              'Recuerde, para conseguir fondos hay que ser creativamente estratégico. Planifique  y lleve a cabo acciones puntuales e interesantes que tengan el potencial de llamar la atención de sus futuros donantes y retener a los que ya ha ganado.<br> <br>'+
               
-              'Inversión Social es un programa de la Fundación Bolívar Davivienda cuyo propósito es cofinanciar proyectos sociales que tengan una problemática identificada y una propuesta de solución pertinente que genere capacidades, empodere comunidades y promueva la sostenibilidad. ',
+              'Inversión Social es un programa de la Fundación Bolívar Davivienda cuyo propósito es cofinanciar proyectos sociales que tengan una problemática identificada y una propuesta de solución pertinente que genere capacidades, empodere comunidades y promueva la sostenibilidad. <br> <br>',
             images: [
               '/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png'
             ],
@@ -2091,7 +2091,7 @@ Vue.prototype.$constants = {
           'El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable? ',
         description: [
           {
-            title: 'Consejos para crear y elegir el nombre adecuado para su empresa ',
+            title: 'Consejos para crear y elegir el nombre adecuado para su empresa <br> <br>',
             text:
               'Un millón de cosas pueden salir mal a la hora de elegir un nombre para su organización. Aunque a veces es lo último en lo que pensamos, es uno de los aspectos más importantes del negocio.<br> <br>'+
 
