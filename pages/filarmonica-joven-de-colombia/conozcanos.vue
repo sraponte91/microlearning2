@@ -23,7 +23,7 @@
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
         <img
-          src="/images/conozcanos_header_desktop.jpg"
+          src="/images/programa-filarmonica-joven/2-conozcanos/conozcanos_header_desktop.jpg"
           alt=""
           class="object-fit-cover"
         />
@@ -51,7 +51,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/rectangle_g.jpg"
+              src="/images/programa-filarmonica-joven/2-conozcanos/conozcanos_bloque1_alcance.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -63,7 +63,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/rectangle_f.jpg"
+              src="/images/programa-filarmonica-joven/2-conozcanos/conozcanos_bloque2.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -322,52 +322,59 @@
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
-          <h4 class="ff-sans-b">En alianza con:</h4>
+          <h4 class="ff-sans-b">FJC miembro de:</h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0000_OAG-horizontal4.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0001_mincultura.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0002_FMMN.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0003_EU_flag_creative_europe_co_funded.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0004_EFNYO_logo_blue.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0005_classical_next_logo.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0006_CCMC.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+             <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila1-FJC-miembro-de/aliados-fjc_0001s_0003s_0007_aeos.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
@@ -375,53 +382,171 @@
             </div>
           </div>
         </div>
-        <div class="two-row-l">
-          <h4 class="ff-sans-b">Con el apoyo de:</h4>
+         <div class="two-row-l">
+          <h4 class="ff-sans-b">Aliados artisticos:</h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila2-aliados-artisticos/aliados-fjc_0001s_0002s_0000_OA-Logo-stars.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila2-aliados-artisticos/aliados-fjc_0001s_0002s_0001_mco.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+           
+          </div>
+        </div>
+         <div class="two-row-l">
+          <h4 class="ff-sans-b">Aliados Academicos:</h4>
+          <div class="d-flex flex-wrap for-marg-1">
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila3-aliados-academicos/aliados-fjc_0001s_0001s_0000_FCC.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila3-aliados-academicos/aliados-fjc_0001s_0001s_0001_TON.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila3-aliados-academicos/aliados-fjc_0001s_0001s_0002_javeriana.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila3-aliados-academicos/aliados-fjc_0001s_0001s_0003_reinasofia.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila3-aliados-academicos/aliados-fjc_0001s_0001s_0004_albeniz.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+           
+          </div>
+        </div>
+        <div class="two-row-l">
+          <h4 class="ff-sans-b">Aliados Proyeccion Social:</h4>
+          <div class="d-flex flex-wrap for-marg-1">
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0000_cerrejon.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0001_Seminario-de-Clarinete.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0002_PASION-Y-CORAZON.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0003_notas_de_paz_logo.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0004_LOGOS_SILO_FIL-01.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0005_Logos-Batuta-Horizontal-(1).png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0006_unab.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0007_comfamiliar.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0008_FILARMONICAMETROPOLITANA.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0009_Fessme.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0010_emLuchoBermudez.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0011_EMBERACHAMI.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0012_cafeteritos.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0013_ASOFLAUTA.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-filarmonica-joven/2-conozcanos/aliados/fila4-aliados-proyeccion-social/aliados-fjc_0001s_0000s_0014_fondecor.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"

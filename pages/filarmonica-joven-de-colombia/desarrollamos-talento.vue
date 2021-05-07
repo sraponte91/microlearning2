@@ -69,7 +69,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_h.jpg"
+                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -80,7 +80,7 @@
           >
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_i.jpg"
+                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -130,7 +130,7 @@
 
     <section class="educational-training position-relative after-po">
       <img
-        src="/images/desarrollamostalent_main_bg.jpg"
+        src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_formacion_educativa.jpg"
         alt=""
         class="object-fit-cover for-hght"
       />
@@ -175,7 +175,7 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_j.jpg"
+                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_formacion_educativa.jpg"
                 alt=""
                 class="object-fit-cover"
               />

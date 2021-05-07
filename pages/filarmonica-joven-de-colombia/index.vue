@@ -3,7 +3,7 @@
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
         <img
-          src="/images/filarmonica_desktop.png"
+          src="/images/programa-filarmonica-joven/1-home-filarmonica/encabezado_filarmonica_joven_colombia.jpg"
           alt=""
           class="object-fit-cover"
         />
@@ -86,7 +86,7 @@
           </div>
           <div class="img-rrt-pr order-1-991">
             <img
-              src="/images/rectangle_e.jpg"
+              src="/images/programa-filarmonica-joven/1-home-filarmonica/home_bloque1.jpg"
               alt=""
               class="object-fit-cover"
             />
