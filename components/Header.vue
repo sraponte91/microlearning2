@@ -154,12 +154,11 @@
               </ul>
               <ul class="navbar-nav align-items-center text-lg-left ff-nunito">
                 <li class="nav-item btn-inscr">
-                  <a
-                    target="_blank"
+                  <NuxtLink
+                    to="/donaciones"
                     class="nav-link text-center"
-                    :href="$constants.headerBtnLink"
-                    title=""
-                    >Donaciones</a
+                    exact-active-class="active"
+                    >Donaciones</NuxtLink
                   >
                 </li>
               </ul>
