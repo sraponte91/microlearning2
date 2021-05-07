@@ -53,15 +53,15 @@ Vue.prototype.$constants = {
     slides: [
       {
         imgURL: '/images/seccion-inicio/carrusel1.jpg',
-        title: 'FBD',
+        title: 'Desarrollamos talento para construir país.',
         description:
-          'En la Fundación Bolívar Davivienda impulsamos historias de transformación. Somos la representación social del Grupo Bolívar. Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
+          'Conozca todas nuestras Iniciativas y programas.',
       },
       {
         imgURL: '/images/seccion-inicio/carrusel2.jpg',
-        title: 'FBD',
+        title: 'Desarrollamos talento para construir país.',
         description:
-          'En la Fundación Bolívar Davivienda impulsamos historias de transformación. Somos la representación social del Grupo Bolívar. Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
+          'Conozca todas nuestras Iniciativas y programas.',
       },
     ],
     desarrollamosTalento: 'javascript:void(0)',
@@ -186,12 +186,12 @@ Vue.prototype.$constants = {
       },
     ],
     meta: {
-      title: 'Home',
-      metaTitle: 'Home',
-      metaDescription: 'Home Description',
-      ogTitle: 'Home',
-      ogDescription: 'Home',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      title: 'Fundación Bolivar Davivienda',
+      metaTitle: 'Fundación Bolivar Davivienda',
+      metaDescription: 'Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
+      ogTitle: 'Fundación Bolivar Davivienda',
+      ogDescription: 'Nos inspiramos en el talento de personas, organizaciones y empresas para construir juntos un mejor país.',
+      ogImage: '/images/seccion-inicio/home_og.jpg',
     },
   },
   laFundacion: {
