@@ -3333,4 +3333,17 @@ Vue.prototype.$constants = {
       },
     ],
   },
+  donaciones: {
+    link1: 'https://www.zonapagos.com/formulario/',
+    link2: 'https://www.zonapagos.com/formulario/',
+    link3: 'https://www.zonapagos.com/formulario/',
+    meta: {
+      title: 'Donaciones',
+      metaTitle: 'Donaciones',
+      metaDescription: 'Donaciones Description',
+      ogTitle: 'Donaciones',
+      ogDescription: 'Donaciones',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  }
 }

@@ -15,7 +15,10 @@
           Historia
         </h1>
         <div class="iwant-donate">
-          <a href="javascript:void(0)" class="ff-nunito btn-iwant-do"
+          <a
+            target="_blank"
+            :href="$constants.donaciones.link1"
+            class="ff-nunito btn-iwant-do"
             >Quiero donar</a
           >
         </div>
@@ -55,7 +58,10 @@
             </p>
           </div>
           <div class="donate-btn text-center">
-            <a href="javascript:void(0)" class="btb-do-b ff-nunito"
+            <a
+              target="_blank"
+              :href="$constants.donaciones.link2"
+              class="btb-do-b ff-nunito"
               >Quiero donar</a
             >
           </div>
@@ -89,7 +95,10 @@
                 para que sigan construyendo el futuro del país.
               </p>
               <div class="donate-btn">
-                <a href="javascript:void(0)" class="btb-do-b ff-nunito"
+                <a
+                  target="_blank"
+                  :href="$constants.donaciones.link3"
+                  class="btb-do-b ff-nunito"
                   >Quiero donar</a
                 >
               </div>
@@ -147,6 +156,39 @@ export default {
     return {
       value: 33.333333333,
       max: 50,
+    }
+  },
+  head() {
+    return {
+      title: this.$constants.donaciones.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: this.$constants.donaciones.meta.metaTitle,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$constants.donaciones.meta.metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.$constants.donaciones.meta.ogTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$constants.donaciones.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            this.$constants.baseURL + this.$constants.donaciones.meta.ogImage,
+        },
+      ],
     }
   },
 }
