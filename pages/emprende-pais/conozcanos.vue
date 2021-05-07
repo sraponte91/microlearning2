@@ -22,7 +22,7 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/emprende_pa_bg.jpg" alt="" class="object-fit-cover" />
+        <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_header_desktop.jpg" alt="" class="object-fit-cover" />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Emprende país</h1>
@@ -50,7 +50,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/conozcanos_bloque_1_impacto.jpg"
+              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque1_impacto.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -62,7 +62,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/conozcanos_bloque_2_fb_caa2f4e.jpg"
+              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque2.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -232,7 +232,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images/conozcanos_bloque_3_presenciapai.jpg"
+              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque3_presenciapais.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -315,7 +315,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_h.jpg"
+                src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque3_presenciapais.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -351,7 +351,7 @@
           <div class="inner-bx margin-0-auto">
             <div class="d-flex align-itmes-center flex-wrap-767">
               <div class="img-prt d-flex align-items-center">
-                <img src="/images/oxelerator_lg.png" alt="" />
+                <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png" alt="" />
               </div>
               <div class="txt-part">
                 <p>

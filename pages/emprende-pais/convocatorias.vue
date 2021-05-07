@@ -40,7 +40,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/convocatorias_ab_7a7ed8344.jpg"
+                src="/images/programa-emprende-pais/6-convocatorias/convocatorias_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

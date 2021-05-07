@@ -50,7 +50,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_ad.jpg"
+                src="/images/programa-emprende-pais/4-consultores/consultores_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

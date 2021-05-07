@@ -48,7 +48,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamones_a.jpg"
+                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque1_equipo.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -59,7 +59,7 @@
           >
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamones_b.jpg"
+                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque2_mentores.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -113,7 +113,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamones_c.jpg"
+                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque3_mentores2.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -124,7 +124,7 @@
           >
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamones_d.jpg"
+                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque4_consultores.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -153,7 +153,7 @@
 
     <section class="educational-training position-relative after-po">
       <img
-        src="/images/desarrollamostalento_bloque_5_destacado.jpg"
+        src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque5_destacado_trabamos_por.jpg"
         alt=""
         class="object-fit-cover for-hght"
       />
@@ -207,7 +207,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/desarrollamones_e.jpg"
+                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque6_metodologia.jpg"
                 alt=""
                 class="object-fit-cover"
               />

@@ -3,7 +3,7 @@
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
         <img
-          src="/images/header_ep_e_2604_4f0c84e.jpg"
+          src="/images/programa-emprende-pais/1-home-emprende-pais/encabezado_emprende_pais.jpg"
           alt=""
           class="object-fit-cover"
         />
@@ -80,7 +80,7 @@
           </div>
           <div class="img-rrt-pr order-1-991">
             <img
-              src="/images/rectangle_ac.jpg"
+              src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque1.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -111,7 +111,7 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <div class="img-points order-1-991">
               <img
-                src="/images/rectangle_ab.jpg"
+                src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque2_fondo.jpg"
                 alt=""
                 class="object-fit-cover"
               />

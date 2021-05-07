@@ -46,7 +46,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/mentores_side_a.jpg"
+                src="/images/programa-emprende-pais/5-mentores/mentores_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />

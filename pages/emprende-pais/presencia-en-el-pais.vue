@@ -23,7 +23,7 @@
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
         <img
-          src="/images/presenciapais_header_desktop_bbea.jpg"
+          src="/images/programa-emprende-pais/7-presencia-en-el-pais/presenciapais_header_desktop.jpg"
           alt=""
           class="object-fit-cover"
         />
