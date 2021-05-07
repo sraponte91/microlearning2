@@ -2884,7 +2884,7 @@ Vue.prototype.$constants = {
       metaDescription: 'About Us Description',
       ogTitle: 'About Us',
       ogDescription: 'About Us',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/seccion-about/about_us_og.jpg',
     },
     afloraUrl: '/aflora',
     emprendePaisUrl: '/emprende-pais',
