@@ -32,7 +32,7 @@
               v-if="d.title"
               v-html="d.title"
             ></h3>
-            <div class="pra-p ff-nunito" v-if="d.text">
+            <div class="pra-p ff-nunito" v-if="d.text" v-html="d.text">
               <p>
                 {{ d.text }}
               </p>
