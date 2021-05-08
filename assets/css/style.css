@@ -594,27 +594,4 @@ main {
   .testimonial .VueCarousel-dot-container {
     margin-top: 0 !important;
   }
-  .multiple-reapt {
-    position: relative;
-    padding-top: 210px;
-  }
-  .multiple-reapt .txt-points,
-  .multiple-reapt .two-div-in-one,
-  .multiple-reapt .img-points {
-    width: 100% !important;
-  }
-  .multiple-reapt .img-points {
-    position: absolute;
-    top: 0;
-    margin: 0 !important;
-  }
-  .multiple-reapt .txt-points,
-  .multiple-reapt .two-div-in-one {
-    z-index: 1;
-    top: 0 !important;
-    margin: 0 !important;
-  }
-  .multiple-reapt + .multiple-reapt {
-    margin-top: 25px !important;
-  }
 }

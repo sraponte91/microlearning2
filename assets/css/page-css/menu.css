@@ -141,9 +141,21 @@ header .navbar-nav .nav-item.btn-inscr a:hover {
       rgba(17, 24, 32, 0) 100%
     );
   }
-  header .navbar-nav .dropdown-menu {
+  /* header .navbar-nav .dropdown-menu {
     display: none;
+  } */
+
+  header .navbar-nav .nav-item .dropdown-menu {
+    top: 0 !important;
+    padding-bottom: 50px;
+    background-color: #fff;
+    width: 100%;
   }
+
+  header .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    border: none;
+  }
+
   header .navbar-nav .dropdown-toggle::after {
     display: none;
   }

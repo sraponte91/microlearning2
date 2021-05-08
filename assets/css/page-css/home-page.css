@@ -208,6 +208,15 @@
   top: 0;
   right: 20px;
 }
+.program-box .for-img::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
 .program-box .on-hover-2div p {
   position: relative;
   z-index: 9;

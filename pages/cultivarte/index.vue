@@ -1,10 +1,18 @@
 <template>
   <main>
-    <!-- Banner start -->
-    <section class="becas-banner cultivarte-banner">
-      <div class="container-fluid">
-        <div class="banner-content">
-          <div class="b-logo">
+    <section class="aflora-bnr-se position-relative after-po">
+      <div class="img-prt position-absolute">
+        <img
+          src="/images/cultivarte-banner.png"
+          alt=""
+          class="object-fit-cover"
+        />
+      </div>
+      <div
+        class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
+      >
+        <div>
+          <div class="log-prt">
             <img src="/images/cultivarte.png" alt="" class="img-fluid" />
           </div>
           <p>
@@ -18,395 +26,168 @@
           </p>
         </div>
       </div>
-      <div class="banner-img">
-        <img src="/images/programa-cultivarte/1-home-cultivarte/encabezado_cultivarte.jpg" alt="" />
-      </div>
     </section>
-    <!-- Banner end -->
 
-    <!-- Link start -->
-    <section class="becas-links">
+    <section class="bg-white only-links-to">
       <div class="container">
-        <div class="link-main">
-          <NuxtLink to="/cultivarte/conozcanos" class="single-link">
-            Conózcanos
-          </NuxtLink>
-          <NuxtLink to="/cultivarte/desarrollamos-talento" class="single-link">
+        <div
+          class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
+        >
+          <NuxtLink to="/cultivarte/conozcanos" class="linkse text-center"
+            >Conózcanos</NuxtLink
+          >
+          <NuxtLink
+            to="/cultivarte/desarrollamos-talento"
+            class="linkse text-center"
+          >
             Desarrollamos talento
           </NuxtLink>
-          <NuxtLink to="/cultivarte/zona-ludica" class="single-link">
-            Zona lúdica
-          </NuxtLink>
+          <NuxtLink to="/cultivarte/zona-ludica" class="linkse text-center"
+            >Zona lúdica</NuxtLink
+          >
         </div>
       </div>
     </section>
-    <!-- Link end -->
 
-    <!-- image text left right start -->
-    <section class="sobre-becas txt-image right-txt">
+    <section
+      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre cultivat-main"
+    >
       <div class="container">
-        <div class="sobre-main txt-img-multi">
-          <div class="sobre-img only-img">
-            <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg" alt="" />
-          </div>
-          <div class="sobre-content only-txt">
-            <div class="dot">
-              <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg" alt="" />
+        <div class="sm-siz-container margin-0-auto">
+          <div
+            class="d-flex multiple-reapt align-items-end flex-wrap-991 nd-wave-of-div text-points-sie"
+          >
+            <div class="img-points order-1-991">
+              <img
+                src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
             </div>
-            <div class="sobre-txt single-txt">
-              <h2>Sobre Cultivarte</h2>
-              <p>
-                Apoyamos y construimos espacios de aprendizaje lúdico, donde los
-                beneficiarios logran enriquecer sus talentos y fortalecerlos,
-                para inspirar a otros a lograr sus metas a través del desarrollo
-                de sus habilidades.
-              </p>
+            <div class="txt-points adesea position-relative order-2-991">
+              <div class="pra-p for-bgcol">
+                <h2 class="ff-sans-b">Sobre Cultivarte</h2>
+                <p>
+                  Apoyamos y construimos espacios de aprendizaje lúdico, donde
+                  los beneficiarios logran enriquecer sus talentos y
+                  fortalecerlos, para inspirar a otros a lograr sus metas a
+                  través del desarrollo de sus habilidades.
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- image text left right end -->
-
-    <!-- como start -->
-    <section class="como">
-      <div class="container">
-        <h2>¿Cómo lo hacemos?</h2>
-        <p>
-          Apoyamos y construimos espacios de aprendizaje lúdico, donde los
-          beneficiarios logran enriquecer sus talentos y fortalecerlos, para
-          así, inspirar a otros a lograr sus metas a través del desarrollo de
-          sus habilidades.
-        </p>
-      </div>
-    </section>
-    <!-- como end -->
-
-    <!-- image text left right start -->
-    <section class="sobre-becas txt-image left-txt">
-      <div class="container">
-        <div class="sobre-main txt-img-multi">
-          <div class="sobre-content only-txt">
-            <div class="sobre-txt single-txt">
-              <h2>¿Por qué lo hacemos?</h2>
-              <p class="pb-4">
-                Cultivarte nace de la necesidad de transformar la historia de
-                los niños, niñas y adolescentes colombianos, fomentando el buen
-                uso del tiempo libre a través de talleres de lectura, arte,
-                cultura, tecnología y educación financiera.
-              </p>
-              <p>
-                Hasta hoy, Cultivarte ha cambiado la realidad de sus
-                beneficiarios con una idea simple pero poderosa: transformar su
-                tiempo libre.
-              </p>
-            </div>
-          </div>
-          <div class="sobre-img only-img">
-            <img src="/images/programa-cultivarte/1-home-cultivarte/home_bloque3.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
-    <!-- image text left right end -->
 
-    <!-- call to action start -->
+    <section class="howwedo custive-img">
+      <div class="container">
+        <div class="d-flex justify-content-center howwedoheight">
+          <div class="align-self-center howwedotext">
+            <h2>¿Cómo lo hacemos?</h2>
+            <p>
+              Apoyamos y construimos espacios de aprendizaje lúdico, donde los
+              beneficiarios logran enriquecer sus talentos y fortalecerlos, para
+              así, inspirar a otros a lograr sus metas a través del desarrollo
+              de sus habilidades.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="ig-tx-zing-zag autodiag-pg bg-white our-methodology cultiwvat-main-pg"
+    >
+      <div class="container">
+        <div class="sm-siz-container margin-0-auto">
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+            <div class="txt-points position-relative order-2-991">
+              <div class="pra-p for-bgcol">
+                <h2 class="ff-sans-b">¿Por qué lo hacemos?</h2>
+                <p>
+                  Cultivarte nace de la necesidad de transformar la historia de
+                  los niños, niñas y adolescentes colombianos, fomentando el
+                  buen uso del tiempo libre a través de talleres de lectura,
+                  arte, cultura, tecnología y educación financiera.
+                </p>
+                <p>
+                  Hasta hoy, Cultivarte ha cambiado la realidad de sus
+                  beneficiarios con una idea simple pero poderosa: transformar
+                  su tiempo libre.
+                </p>
+              </div>
+            </div>
+            <div class="img-points order-1-991">
+              <img
+                src="/images/programa-cultivarte/1-home-cultivarte/home_bloque3.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section
       class="desarrollamos-section aflora-pg position-relative before-po"
     >
-      <div
-        class="one-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex flex-wrap">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-        <div class="dots-div only-for-dots d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDots></HomeDots>
       <div class="inner-section margin-0-auto position-relative z-index-5">
         <div class="text-center text-white">
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
+          <p class="ff-nunito margin-0-auto">
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
+          </p>
           <div class="for-btn">
-            <a
-              :href="$constants.cultivarteHome.desarrollamosTalento"
-              class="btn-tell-more"
-            >
-              Cuéntame más
-            </a>
+            <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
           </div>
         </div>
       </div>
-      <div
-        class="two-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDotsbottoms></HomeDotsbottoms>
     </section>
-    <!-- call to action end -->
   </main>
 </template>
-
 <script>
 export default {
   head() {
     return {
-      title: this.$constants.cultivarteHome.meta.title,
+      title: this.$constants.emprendePais.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteHome.meta.metaTitle,
+          content: this.$constants.emprendePais.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteHome.meta.metaDescription,
+          content: this.$constants.emprendePais.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.cultivarteHome.meta.ogTitle,
+          content: this.$constants.emprendePais.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteHome.meta.ogDescription,
+          content: this.$constants.emprendePais.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.cultivarteHome.meta.ogImage}`,
+          content:
+            this.$constants.baseURL + this.$constants.emprendePais.meta.ogImage,
         },
       ],
     }
   },
 }
 </script>
-<style>
-.como {
-  background-image: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.95) 16%,
-      rgba(255, 255, 255, 0.7) 100%
-    ),
-    url('/images/programa-cultivarte/1-home-cultivarte/home_fondobloque2.jpg');
-  min-height: 796px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px 0;
-  padding: 50px 0;
-}
-.como h2 {
-  font-family: sansationbold;
-  font-size: 72px;
-  color: #313338;
-  line-height: 108px;
-  text-align: center;
-  padding-bottom: 35px;
-}
-.como p {
-  max-width: 692px;
-  font-family: Nunito, sans-serif;
-  font-size: 24px;
-  color: #77777a;
-  line-height: 32px;
-  text-align: center;
-  margin: 0 auto;
-}
-.cultivarte-banner {
-  background-image: linear-gradient(
-      -90deg,
-      rgba(46, 46, 46, 0.1) 0%,
-      rgba(33, 33, 33, 1) 70%,
-      rgba(33, 33, 33, 1) 100%
-    ),
-    url(/images/cultivarte-banner.png);
-}
-@media (max-width: 767px) {
-  .como {
-    margin: 15px 0;
-  }
-}
-</style>
+
+

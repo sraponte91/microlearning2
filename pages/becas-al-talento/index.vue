@@ -1,9 +1,14 @@
 <template>
   <main>
-    <section class="becas-banner">
-      <div class="container-fluid">
-        <div class="banner-content">
-          <div class="b-logo">
+    <section class="aflora-bnr-se position-relative after-po">
+      <div class="img-prt position-absolute">
+        <img src="/images/becas-banner.jpg" alt="" class="object-fit-cover" />
+      </div>
+      <div
+        class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
+      >
+        <div>
+          <div class="log-prt">
             <img src="/images/becas-banner-logo.png" alt="" class="img-fluid" />
           </div>
           <p>
@@ -14,271 +19,82 @@
           </p>
         </div>
       </div>
-      <div class="banner-img">
-        <img src="/images/programa-becas-al-talento/1-home-becas/encabezado_becas_al_talento.jpg" alt="" />
-      </div>
     </section>
-    <!-- Banner end -->
 
-    <!-- Link start -->
-    <section class="becas-links">
+    <section class="bg-white only-links-to">
       <div class="container">
-        <div class="link-main">
-          <NuxtLink to="/becas-al-talento/conozcanos" class="single-link"
+        <div
+          class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
+        >
+          <NuxtLink to="/becas-al-talento/conozcanos" class="linkse text-center"
             >Conózcanos</NuxtLink
           >
           <NuxtLink
             to="/becas-al-talento/desarrollamos-talento"
-            class="single-link"
+            class="linkse text-center"
           >
             Desarrollamos talento
           </NuxtLink>
-          <NuxtLink to="/becas-al-talento/requisitos" class="single-link"
+          <NuxtLink to="/becas-al-talento/requisitos" class="linkse text-center"
             >Requisitos</NuxtLink
           >
         </div>
       </div>
     </section>
-    <!-- Link end -->
 
-    <!-- Sobre Becas start -->
-    <section class="sobre-becas txt-image right-txt">
+    <section
+      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre cultivat-main"
+    >
       <div class="container">
-        <div class="sobre-main txt-img-multi">
-          <div class="sobre-img only-img">
-            <img src="/images/programa-becas-al-talento/1-home-becas/home_bloque1.jpg" alt="" />
-          </div>
-          <div class="sobre-content only-txt">
-            <div></div>
-            <div class="sobre-txt single-txt">
-              <h2>Sobre Becas</h2>
-              <p>
-                En el programa apoyamos el talento y la excelencia de los
-                estudiantes de nuestras universidades aliadas, con el fin de
-                garantizar que terminen sus estudios profesionales de manera
-                exitosa. Este beneficio se otorga como una beca-crédito para
-                estudiantes que estén cursando entre 5to y 8vo semestre y está
-                ligado a las políticas y procesos internos de las instituciones
-                universitarias.
-              </p>
+        <div class="sm-siz-container margin-0-auto">
+          <div
+            class="d-flex multiple-reapt align-items-end flex-wrap-991 nd-wave-of-div text-points-sie"
+          >
+            <div class="img-points order-1-991">
+              <img
+                src="/images/programa-becas-al-talento/1-home-becas/home_bloque1.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+            <div class="txt-points desesesae position-relative order-2-991">
+              <div class="pra-p for-bgcol">
+                <h2 class="ff-sans-b">Sobre Becas</h2>
+                <p>
+                  En el programa apoyamos el talento y la excelencia de los
+                  estudiantes de nuestras universidades aliadas, con el fin de
+                  garantizar que terminen sus estudios profesionales de manera
+                  exitosa. Este beneficio se otorga como una beca-crédito para
+                  estudiantes que estén cursando entre 5to y 8vo semestre y está
+                  ligado a las políticas y procesos internos de las
+                  instituciones universitarias.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Sobre Becas end -->
 
-    <!-- call to action start -->
     <section
       class="desarrollamos-section aflora-pg position-relative before-po"
     >
-      <div
-        class="one-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex flex-wrap">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-        <div class="dots-div only-for-dots d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDots></HomeDots>
       <div class="inner-section margin-0-auto position-relative z-index-5">
         <div class="text-center text-white">
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
+          <p class="ff-nunito margin-0-auto">
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
+          </p>
           <div class="for-btn">
-            <a
-              :href="$constants.aflora.desarrollamosTalento"
-              class="btn-tell-more"
-              >Cuéntame más</a
-            >
+            <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
           </div>
         </div>
       </div>
-      <div
-        class="two-dot d-flex position-absolute align-items-start d-none-767i"
-      >
-        <div class="dots-div d-flex flex-wrap">
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="d-flex">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </div>
+      <HomeDotsbottoms></HomeDotsbottoms>
     </section>
   </main>
 </template>
@@ -286,53 +102,38 @@
 export default {
   head() {
     return {
-      title: this.$constants.becasAlTalento.meta.title,
+      title: this.$constants.emprendePais.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.becasAlTalento.meta.metaTitle,
+          content: this.$constants.emprendePais.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.becasAlTalento.meta.metaDescription,
+          content: this.$constants.emprendePais.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.becasAlTalento.meta.ogTitle,
+          content: this.$constants.emprendePais.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.becasAlTalento.meta.ogDescription,
+          content: this.$constants.emprendePais.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL +
-            this.$constants.becasAlTalento.meta.ogImage,
+            this.$constants.baseURL + this.$constants.emprendePais.meta.ogImage,
         },
       ],
     }
   },
 }
 </script>
-<style>
-@media (max-width: 767px) {
-  .becas-banner {
-    align-items: flex-start;
-  }
-  .desarrollamos-section.aflora-pg h2 {
-    margin-bottom: 15px;
-  }
-  .desarrollamos-section .for-btn {
-    margin-top: 0px;
-  }
-  .desarrollamos-section .two-dot {
-    display: block !important;
-  }
-}
-</style>
+
+
