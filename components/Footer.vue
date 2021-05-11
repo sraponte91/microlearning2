@@ -92,6 +92,16 @@
                           <li
                             :class="{
                               active:
+                                $route.name === 'red-de-angeles',
+                            }"
+                          >
+                            <NuxtLink to="/red-de-angeles"
+                              >Red de Angeles Inversionistas</NuxtLink
+                            >
+                          </li>
+                          <li
+                            :class="{
+                              active:
                                 $route.name ===
                                 'voluntariado-fundacion-bolivar',
                             }"
@@ -137,15 +147,18 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li :class="{ active: $route.name === '' }">
-                            <NuxtLink to="/"
-                              >Autorización de datos personales</NuxtLink
+                          <li>
+                             <a
+                              target="_blank"
+                              href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos Personales_FBD_y_Cultivarte.pdf"
+                              >Autorización de datos personales</a
                             >
                           </li>
-                          <li :class="{ active: $route.name === '' }">
-                            <NuxtLink to="/"
-                              >Aviso de privacidad Fundación Bolívar
-                              Davivienda</NuxtLink
+                          <li>
+                             <a
+                              target="_blank"
+                              href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf"
+                              >Aviso de privacidad Fundación Bolívar Davivienda</a
                             >
                           </li>
                           <li>
@@ -245,7 +258,7 @@
                         <ul class="ff-sans-r">
                           <li>
                             <p>
-                              Calle 26 # 69-63. Piso 11. <br />
+                              Av. Calle 26 # 69-63. Piso 11. <br />
                               Bogotá, Colombia
                             </p>
                           </li>
@@ -277,7 +290,7 @@
                       <b-card-text>
                         <ul class="ff-sans-r">
                           <li>
-                            <p>(+57 1) 341 0077 Ext. 98981</p>
+                            <p>(+57 1) 2201610 ext 98706</p>
                           </li>
                         </ul>
                       </b-card-text>
