@@ -168,12 +168,12 @@
 export default {
   head() {
     return {
-      title: this.$constants.premioNacionalDePeriodismo.meta.title,
+      title: this.$constants.premioNacionalDePeriodismo.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.premioNacionalDePeriodismo.meta.metaTitle,
+          content: this.$constants.premioNacionalDePeriodismo.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -184,7 +184,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.premioNacionalDePeriodismo.meta.ogTitle,
+          content: this.$constants.premioNacionalDePeriodismo.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

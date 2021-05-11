@@ -66,13 +66,13 @@ export default {
   head() {
     return {
       title: this.$emprendePaisData.emprendePaisDesarrollamosTalentoConsultores
-        .meta.title,
+        .meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
           content: this.$emprendePaisData
-            .emprendePaisDesarrollamosTalentoConsultores.meta.metaTitle,
+            .emprendePaisDesarrollamosTalentoConsultores.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -84,7 +84,7 @@ export default {
           hid: 'og:title',
           name: 'og:title',
           content: this.$emprendePaisData
-            .emprendePaisDesarrollamosTalentoConsultores.meta.ogTitle,
+            .emprendePaisDesarrollamosTalentoConsultores.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

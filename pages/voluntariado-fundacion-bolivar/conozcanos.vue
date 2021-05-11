@@ -324,13 +324,13 @@ export default {
   head() {
     return {
       title: this.$voluntariadoFundacionBolivarDaviviendaData
-        .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.title,
+        .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
           content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle,
+            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -343,7 +343,7 @@ export default {
           hid: 'og:title',
           name: 'og:title',
           content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle,
+            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

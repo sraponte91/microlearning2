@@ -162,12 +162,12 @@
 export default {
   head() {
     return {
-      title: this.$becasAlTalentoData.becasRequisitos.meta.title,
+      title: this.$becasAlTalentoData.becasRequisitos.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$becasAlTalentoData.becasRequisitos.meta.metaTitle,
+          content: this.$becasAlTalentoData.becasRequisitos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -178,7 +178,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$becasAlTalentoData.becasRequisitos.meta.ogTitle,
+          content: this.$becasAlTalentoData.becasRequisitos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -132,13 +132,13 @@ export default {
   head() {
     return {
       title: this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia
-        .meta.title,
+        .meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
           content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombia.meta.metaTitle,
+            .filarmonicaJovenDeColombia.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -150,7 +150,7 @@ export default {
           hid: 'og:title',
           name: 'og:title',
           content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombia.meta.ogTitle,
+            .filarmonicaJovenDeColombia.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

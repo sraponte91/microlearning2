@@ -69,12 +69,12 @@
 export default {
   head() {
     return {
-      title: this.$cultivarteData.cultivarteZonaLudica.meta.title,
+      title: this.$cultivarteData.cultivarteZonaLudica.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -85,7 +85,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

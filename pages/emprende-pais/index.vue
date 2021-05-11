@@ -184,12 +184,12 @@
 export default {
   head() {
     return {
-      title: this.$emprendePaisData.emprendePais.meta.title,
+      title: this.$emprendePaisData.emprendePais.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$emprendePaisData.emprendePais.meta.metaTitle,
+          content: this.$emprendePaisData.emprendePais.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -199,7 +199,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$emprendePaisData.emprendePais.meta.ogTitle,
+          content: this.$emprendePaisData.emprendePais.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

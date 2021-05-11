@@ -669,13 +669,13 @@ export default {
   head() {
     return {
       title: this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
-        .title,
+        .title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
           content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.metaTitle,
+            .meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -687,7 +687,7 @@ export default {
           hid: 'og:title',
           name: 'og:title',
           content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.ogTitle,
+            .meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

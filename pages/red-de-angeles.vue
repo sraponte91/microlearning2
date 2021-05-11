@@ -235,12 +235,12 @@
 export default {
   head() {
     return {
-      title: this.$constants.redDeAngeles.meta.title,
+      title: this.$constants.redDeAngeles.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.redDeAngeles.meta.metaTitle,
+          content: this.$constants.redDeAngeles.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -250,7 +250,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.redDeAngeles.meta.ogTitle,
+          content: this.$constants.redDeAngeles.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
