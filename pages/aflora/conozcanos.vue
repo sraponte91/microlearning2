@@ -56,7 +56,7 @@
               </ul>
               <p>
                 Cada organización que se suma a Aflora, ingresa a una amplia red
-                de expertos con conocimiento relevante para ayudarles a
+                de expertos, con conocimiento relevante para ayudarles a
                 enfrentar sus principales desafíos y construir en conjunto las
                 herramientas y el camino que les permita superarlos.
               </p>
@@ -75,7 +75,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/rectangle_b.jpg"
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque3.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -216,7 +216,7 @@
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
             <img
-              src="/images/programa-aflora/2-conozcanos/aliados/aaliados-aflora_0000s_0003_escuela_superior_de_guerra.png"
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0003_escuela_superior_de_guerra.png"
               alt=""
             />
             <a

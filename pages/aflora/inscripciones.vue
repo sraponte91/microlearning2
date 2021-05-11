@@ -7,13 +7,9 @@
           <b-breadcrumb-item to="/aflora">Aflora</b-breadcrumb-item>
           <b-breadcrumb-item active>Inscripciones</b-breadcrumb-item>
         </b-breadcrumb>
-        <div
-          class="back-to-home position-relative d-flex align-items-center small-size"
-        >
+        <div class="back-to-home position-relative d-flex align-items-center small-size">
           <i class="ic-back" @click="goBack()"></i>
-          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()"
-            >Volver</a
-          >
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">Volver</a>
         </div>
       </div>
     </div>
@@ -35,31 +31,24 @@
               </h3>
               <div class="pra-p for-bgcol">
                 <p>
-                  La inscripción a nuestro programa de fortalecimiento virtual,
-                  será el inicio de un largo sendero lleno de historias y
-                  conocimiento que le brindará a su organización todas las
-                  herramientas para mejorar y lograr los objetivos planteados.
+                  La inscripción a nuestro programa de fortalecimiento virtual, será el inicio de un largo sendero lleno
+                  de historias y conocimiento que le brindará a su organización todas las herramientas para mejorar y
+                  lograr los objetivos planteados.
                 </p>
               </div>
             </div>
             <div class="img-points order-1-991">
-              <img
-                src="/images/programa-aflora/6-inscripciones/inscripciones_bloque1.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/programa-aflora/6-inscripciones/inscripciones_bloque1.jpg" alt=""
+                class="object-fit-cover" />
             </div>
           </div>
 
           <div class="four-boxes">
             <div class="d-flex flex-wrap">
               <div class="one-box text-center position-relative">
-                <div
-                  class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-                >
+                <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                   <div
-                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                  >
+                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                     1
                   </div>
                   <p class="ff-sans-sb">
@@ -68,12 +57,9 @@
                 </div>
               </div>
               <div class="one-box text-center position-relative">
-                <div
-                  class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-                >
+                <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                   <div
-                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                  >
+                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                     2
                   </div>
                   <p class="ff-sans-sb">
@@ -82,12 +68,9 @@
                 </div>
               </div>
               <div class="one-box text-center position-relative">
-                <div
-                  class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-                >
+                <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                   <div
-                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                  >
+                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                     3
                   </div>
                   <p class="ff-sans-sb">
@@ -96,12 +79,9 @@
                 </div>
               </div>
               <div class="one-box text-center position-relative">
-                <div
-                  class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-                >
+                <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                   <div
-                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                  >
+                    class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                     4
                   </div>
                   <p class="ff-sans-sb">
@@ -124,20 +104,11 @@
                 parte.
               </p>
             </div>
-            <div
-              class="two-btn d-flex justify-content-between ff-sans-b flex-wrap"
-            >
-              <a
-                :href="$afloraData.afloraInscripciones.reglamentoLink"
-                class="btn-sm btn-line-btn text-center"
-                >Lee el reglamento de inscripción</a
-              >
-              <a
-                target="_blank"
-                :href="$afloraData.afloraInscripciones.inscribaseLink"
-                class="btn-sm btn-solid-btn text-center"
-                >Inscribase aquí</a
-              >
+            <div class="two-btn d-flex justify-content-between ff-sans-b flex-wrap">
+              <a :href="$afloraData.afloraInscripciones.reglamentoLink" class="btn-sm btn-line-btn text-center">Lee el
+                reglamento de inscripción</a>
+              <a target="_blank" :href="$afloraData.afloraInscripciones.inscribaseLink"
+                class="btn-sm btn-solid-btn text-center">Inscribase aquí</a>
             </div>
           </div>
         </div>
@@ -146,40 +117,39 @@
   </main>
 </template>
 <script>
-export default {
-  head() {
-    return {
-      title: this.$afloraData.afloraInscripciones.meta.title,
-      meta: [
-        {
-          hid: 'title',
-          name: 'title',
-          content: this.$afloraData.afloraInscripciones.meta.metaTitle,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$afloraData.afloraInscripciones.meta.metaDescription,
-        },
-        {
-          hid: 'og:title',
-          name: 'og:title',
-          content: this.$afloraData.afloraInscripciones.meta.ogTitle,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$afloraData.afloraInscripciones.meta.ogDescription,
-        },
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          content:
-            this.$constants.baseURL +
-            this.$afloraData.afloraInscripciones.meta.ogImage,
-        },
-      ],
-    }
-  },
-}
+  export default {
+    head() {
+      return {
+        title: this.$afloraData.afloraInscripciones.meta.title,
+        meta: [{
+            hid: 'title',
+            name: 'title',
+            content: this.$afloraData.afloraInscripciones.meta.metaTitle,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$afloraData.afloraInscripciones.meta.metaDescription,
+          },
+          {
+            hid: 'og:title',
+            name: 'og:title',
+            content: this.$afloraData.afloraInscripciones.meta.ogTitle,
+          },
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.$afloraData.afloraInscripciones.meta.ogDescription,
+          },
+          {
+            hid: 'og:image',
+            name: 'og:image',
+            content: this.$constants.baseURL +
+              this.$afloraData.afloraInscripciones.meta.ogImage,
+          },
+        ],
+      }
+    },
+  }
+
 </script>

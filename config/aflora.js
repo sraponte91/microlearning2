@@ -30,12 +30,6 @@ Vue.prototype.$afloraData = {
         description:
           'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
       },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
     ],
     meta: {
       title: 'Conózcanos',
@@ -47,7 +41,7 @@ Vue.prototype.$afloraData = {
     },
   },
   afloraDesarrollamosTalento: {
-    quieroConocerMas: 'javascript:void(0)',
+    quieroConocerMas: 'desarrollamos-talento/index.vue',
     nivelesLink: 'javascript:void(0)',
     escuelaLink: 'javascript:void(0)',
     meta: {
@@ -73,7 +67,7 @@ Vue.prototype.$afloraData = {
     importantInformations: [
       'Debe contar con 1 hora de su tiempo aproximadamente, para diligenciar todo el formulario.',
       'El formulario debe ser diligenciado por el líder de la organización, junto con su equipo para clasificar en uno de los 4 niveles.',
-      'Es fundamental que todas las respuestas sean contestadas con absoluta sinceridad sobre el estado real de la organización, con el fin de encontrar una ruta que realmente se adecue a las necesidades',
+      'Es fundamental que todas las respuestas sean contestadas con absoluta sinceridad sobre el estado real de la organización, con el fin de encontrar una ruta que realmente se adecue a las necesidades.',
       'Una vez finalizado el formulario, el sistema automáticamente clasificará la organización con el fin de brindarles la mejor ruta de fortalecimiento.',
     ],
     meta: {

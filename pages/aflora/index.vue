@@ -386,7 +386,7 @@
             <a
               :href="$afloraData.aflora.desarrollamosTalento"
               class="btn-tell-more"
-              >Cuéntame más</a
+              >Conozca más</a
             >
           </div>
         </div>

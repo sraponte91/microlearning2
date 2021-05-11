@@ -62,18 +62,18 @@
 
         <div class="multi-bxese-se margin-0-auto">
           <div class="d-flex flex-wrap for-m-left">
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo en Tecnología</div>
-            <div class="in-bxeses ff-sans-b">Ciclo en recursos humanos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
-            <div class="in-bxeses ff-sans-b">Ciclo de gestión de proyectos</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Finanzas y Contabilidad </div>
+            <div class="in-bxeses ff-sans-b">Ciclo Talento Humano</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Gobierno Corporativo</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Mercadeo Social</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Procesos organizacionales</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Tecnología y transformación digital </div>
+            <div class="in-bxeses ff-sans-b">Ciclo de Acceso a Capital</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Gestión de Proyectos</div>
+            <div class="in-bxeses ff-sans-b">Ciclo de Ética y Transparencia </div>
+            <div class="in-bxeses ff-sans-b">Ciclo de Estrategia</div>
+            <div class="in-bxeses ff-sans-b">Ciclo Gestión del Cambio</div>
+            <div class="in-bxeses ff-sans-b">Ciclo para iniciativas no formalizadas</div>
           </div>
         </div>
         <div class="solid-color-bx margin-0-auto ff-sans-b">
