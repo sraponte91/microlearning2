@@ -129,12 +129,12 @@
 export default {
   head() {
     return {
-      title: this.$constants.laFundacion.meta.title,
+      title: this.$constants.laFundacion.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.laFundacion.meta.metaTitle,
+          content: this.$constants.laFundacion.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -144,7 +144,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.laFundacion.meta.ogTitle,
+          content: this.$constants.laFundacion.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -263,12 +263,12 @@ export default {
   },
   head() {
     return {
-      title: this.$afloraData.afloraNuestrasOrganizaciones.meta.title,
+      title: this.$afloraData.afloraNuestrasOrganizaciones.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle,
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -279,7 +279,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle,
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -102,13 +102,13 @@ export default {
   head() {
     return {
       title: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion.meta
-        .title,
+        .title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
           content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
-            .meta.metaTitle,
+            .meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -120,7 +120,7 @@ export default {
           hid: 'og:title',
           name: 'og:title',
           content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
-            .meta.ogTitle,
+            .meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

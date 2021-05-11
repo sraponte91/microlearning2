@@ -323,12 +323,12 @@
 export default {
   head() {
     return {
-      title: this.$afloraData.afloraConozcanos.meta.title,
+      title: this.$afloraData.afloraConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$afloraData.afloraConozcanos.meta.metaTitle,
+          content: this.$afloraData.afloraConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -338,7 +338,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$afloraData.afloraConozcanos.meta.ogTitle,
+          content: this.$afloraData.afloraConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -120,11 +120,11 @@
   export default {
     head() {
       return {
-        title: this.$afloraData.afloraInscripciones.meta.title,
+        title: this.$afloraData.afloraInscripciones.meta.title + ' - ' + this.$constants.home.meta.title,
         meta: [{
             hid: 'title',
             name: 'title',
-            content: this.$afloraData.afloraInscripciones.meta.metaTitle,
+            content: this.$afloraData.afloraInscripciones.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
           },
           {
             hid: 'description',
@@ -134,7 +134,7 @@
           {
             hid: 'og:title',
             name: 'og:title',
-            content: this.$afloraData.afloraInscripciones.meta.ogTitle,
+            content: this.$afloraData.afloraInscripciones.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
           },
           {
             hid: 'og:description',

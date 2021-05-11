@@ -276,12 +276,12 @@
 export default {
   head() {
     return {
-      title: this.$becasAlTalentoData.becasConozcanos.meta.title,
+      title: this.$becasAlTalentoData.becasConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$becasAlTalentoData.becasConozcanos.meta.metaTitle,
+          content: this.$becasAlTalentoData.becasConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -292,7 +292,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$becasAlTalentoData.becasConozcanos.meta.ogTitle,
+          content: this.$becasAlTalentoData.becasConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

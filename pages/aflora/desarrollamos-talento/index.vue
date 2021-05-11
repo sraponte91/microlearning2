@@ -137,11 +137,11 @@
   export default {
     head() {
       return {
-        title: this.$afloraData.afloraDesarrollamosTalento.meta.title,
+        title: this.$afloraData.afloraDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
         meta: [{
             hid: 'title',
             name: 'title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle,
+            content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
           },
           {
             hid: 'description',
@@ -152,7 +152,7 @@
           {
             hid: 'og:title',
             name: 'og:title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle,
+            content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
           },
           {
             hid: 'og:description',

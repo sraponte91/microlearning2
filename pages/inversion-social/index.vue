@@ -117,12 +117,12 @@
 export default {
   head() {
     return {
-      title: this.$inversionSocialData.inversionSocial.meta.title,
+      title: this.$inversionSocialData.inversionSocial.meta.title + ' - ' + this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$inversionSocialData.inversionSocial.meta.metaTitle,
+          content: this.$inversionSocialData.inversionSocial.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -133,7 +133,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$inversionSocialData.inversionSocial.meta.ogTitle,
+          content: this.$inversionSocialData.inversionSocial.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
