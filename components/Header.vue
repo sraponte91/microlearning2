@@ -110,6 +110,9 @@
                     <b-dropdown-item to="/inversion-social"
                       >Inversión Social</b-dropdown-item
                     >
+                    <b-dropdown-item to="/red-de-angeles"
+                      >Red De Ángeles</b-dropdown-item
+                    >
                     <b-dropdown-item to="/voluntariado-fundacion-bolivar"
                       >Voluntariado Fundación Bolivar</b-dropdown-item
                     >
