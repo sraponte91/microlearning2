@@ -144,7 +144,7 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
+            <a href="/desarrollamos-talento/" class="btn-tell-more">Conozca más</a>
           </div>
         </div>
       </div>

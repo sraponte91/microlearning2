@@ -75,11 +75,6 @@ Vue.prototype.$cultivarteData = {
     },
     plataformas: [
       {
-        title: 'LOS ZÚPER',
-        image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Los_Zuper_Logo.png',
-        detailUrl: 'javascript:void(0)',
-      },
-      {
         title: 'CODE COMBAT',
         image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logo_CodeCombat.png',
         detailUrl: 'javascript:void(0)',
