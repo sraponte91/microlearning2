@@ -2,8 +2,8 @@ import Vue from 'vue'
 
 Vue.prototype.$emprendePaisData = {
   emprendePais: {
-    convocatoriasLink: 'javascript:void(0)',
-    desarrollamosTalentoLink: 'javascript:void(0)',
+    convocatoriasLink: '/convocatorias/',
+    desarrollamosTalentoLink: '/desarrollamos-talento/',
     meta: {
       title: 'Emprende-país',
       metaTitle: 'Emprende-país',

@@ -54,7 +54,7 @@
           <NuxtLink
             to="/emprende-pais/presencia-en-el-pais"
             class="linkse text-center"
-            >Precencia en el Pais</NuxtLink
+            >Presencia en el Pais</NuxtLink
           >
         </div>
       </div>

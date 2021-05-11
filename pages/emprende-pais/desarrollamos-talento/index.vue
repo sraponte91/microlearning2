@@ -4,25 +4,18 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/emprende-pais"
-            >Emprende país
+          <b-breadcrumb-item to="/emprende-pais">Emprende país
           </b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
-        <div
-          class="back-to-home position-relative d-flex align-items-center small-size"
-        >
+        <div class="back-to-home position-relative d-flex align-items-center small-size">
           <i class="ic-back" @click="goBack()"></i>
-          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()"
-            >Volver</a
-          >
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">Volver</a>
         </div>
       </div>
     </div>
 
-    <section
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
-    >
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
@@ -47,54 +40,49 @@
               </div>
             </div>
             <div class="img-points order-1-991">
-              <img
-                src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque1_equipo.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque1_equipo.jpg"
+                alt="" class="object-fit-cover" />
             </div>
           </div>
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div">
             <div class="img-points order-1-991">
               <img
                 src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque2_mentores.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+                alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
                 <h3 class="sme-xtra ff-sans-b">Mentores</h3>
                 <p>
-                  Contamos con el apoyo de 116 altos directivos del Grupo
-                  Bolívar (5 presidentes, 27 vicepresidentes y 84 directores y
-                  gerentes), que cuentan con amplia experiencia y están
-                  distribuidos en las áreas de estrategia, finanzas, mercadeo,
-                  procesos y operaciones.
-                </p>
-                <p>
-                  Los más altos ejecutivos en XX años de experiencia liderando
-                  estrategias exitosas… (IDEA DE CÓMO INCLUIRLOS)
-                </p>
-                <p>
-                  A nivel regional, tenemos alianzas con las cámaras de comercio
-                  de cada ciudad y el respaldo de exitosos empresarios de estas
-                  ciudades, que hacen posible el apoyo a emprendedores y
-                  acompañamiento a sus empresas.
+                  Conectamos a los emprendedores con conocimientos y experiencia especializada por parte de la red de
+                  Mentores de la Fundación Bolívar Davivienda, integrada por 70 altos directivos del Grupo Bolívar (5
+                  presidentes, 24 vicepresidentes y 41 directores y gerentes), 57 empresarios exitosos a nivel nacional
+                  y 102 líderes de las empresas del Grupo Bolívar,que cuentan con amplia experiencia y conocimiento en
+                  diversos temas como los siguientes: <br>
+                  <ul>
+                    <li>30% Dirección, estrategia y planificación de negocios </li>
+                    <li>Finanzas, Planeación financiera e inversiones </li>
+                    <li>11% Área comercial comercial y ventas </li>
+                    <li>11% Mercadeo, publicidad y comunicaciones</li>
+                    <li>9% Talento humano </li>
+                    <li>8% Procesos, operaciones y tecnología </li>
+                    <li>4% Gobierno corporativo y Temas legales y/o jurídicos </li>
+                    <li>3% Innovación </li>
+                  </ul>
+                  <br>
+
+                  A nivel regional, tenemos alianzas con las cámaras de comercio de cada ciudad y el respaldo de
+                  exitosos empresarios de estas ciudades, que hacen posible el apoyo a emprendedores y acompañamiento a
+                  sus empresas.
+
                 </p>
                 <div class="linkto-re text-right">
-                  <NuxtLink to="/emprende-pais/desarrollamos-talento/mentores"
-                    >Quiero conocer más ></NuxtLink
-                  >
+                  <NuxtLink to="/emprende-pais/desarrollamos-talento/mentores">Quiero conocer más ></NuxtLink>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 up-steap-a"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 up-steap-a">
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
                 <h3 class="ff-sans-b">Conoce nuestros mentores</h3>
@@ -114,20 +102,14 @@
             <div class="img-points order-1-991">
               <img
                 src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque3_mentores2.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+                alt="" class="object-fit-cover" />
             </div>
           </div>
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie">
             <div class="img-points order-1-991">
               <img
                 src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque4_consultores.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+                alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
@@ -139,10 +121,7 @@
                   ruta de formación para los emprendedores.
                 </p>
                 <div class="linkto-re text-right">
-                  <NuxtLink
-                    to="/emprende-pais/desarrollamos-talento/consultores"
-                    >Quiero conocer más ></NuxtLink
-                  >
+                  <NuxtLink to="/emprende-pais/desarrollamos-talento/consultores">Conozca más ></NuxtLink>
                 </div>
               </div>
             </div>
@@ -154,9 +133,7 @@
     <section class="educational-training position-relative after-po">
       <img
         src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque5_destacado_trabamos_por.jpg"
-        alt=""
-        class="object-fit-cover for-hght"
-      />
+        alt="" class="object-fit-cover for-hght" />
       <div class="container position-absolute">
         <h3 class="ff-sans-b">
           Trabajamos por los grandes <br />
@@ -180,9 +157,7 @@
       <HomeDotsbottoms></HomeDotsbottoms>
     </section>
 
-    <section
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
-    >
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
@@ -208,9 +183,7 @@
             <div class="img-points order-1-991">
               <img
                 src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque6_metodologia.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+                alt="" class="object-fit-cover" />
             </div>
           </div>
         </div>
@@ -222,14 +195,10 @@
         <div class="zig-zag-se margin-0-auto">
           <div class="inr-zig-zag">
             <div class="d-flex">
-              <div
-                class="num-se d-flex align-items-center justify-content-center ff-sans-b"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center ff-sans-b">
                 1
               </div>
-              <div
-                class="txt-prt d-flex align-items-center position-relative after-po"
-              >
+              <div class="txt-prt d-flex align-items-center position-relative after-po">
                 <div class="position-relative z-index-5">
                   <h2 class="ff-sans-b">
                     Convocatoria y selección de empresas
@@ -246,9 +215,7 @@
           </div>
           <div class="inr-zig-zag">
             <div class="d-flex one-one">
-              <div
-                class="num-se d-flex align-items-center justify-content-center"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center">
                 2
               </div>
               <div class="txt-prt position-relative after-po">
@@ -322,9 +289,7 @@
           </div>
           <div class="inr-zig-zag">
             <div class="d-flex">
-              <div
-                class="num-se d-flex align-items-center justify-content-center"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center">
                 3
               </div>
               <div class="txt-prt position-relative after-po">
@@ -349,45 +314,45 @@
   </main>
 </template>
 <script>
-export default {
-  head() {
-    return {
-      title: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
-      meta: [
-        {
-          hid: 'title',
-          name: 'title',
-          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
-            .metaDescription,
-        },
-        {
-          hid: 'og:title',
-          name: 'og:title',
-          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
-            .ogDescription,
-        },
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          content:
-            this.$constants.baseURL +
-            this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+  export default {
+    head() {
+      return {
+        title: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta
+          .title,
+        meta: [{
+            hid: 'title',
+            name: 'title',
+            content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+              .metaTitle + ' - ' + this.$constants.home.meta.title,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+              .metaDescription,
+          },
+          {
+            hid: 'og:title',
+            name: 'og:title',
+            content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+              .ogTitle + ' - ' + this.$constants.home.meta.title,
+          },
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+              .ogDescription,
+          },
+          {
+            hid: 'og:image',
+            name: 'og:image',
+            content: this.$constants.baseURL +
+              this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
               .ogImage,
-        },
-      ],
-    }
-  },
-}
+          },
+        ],
+      }
+    },
+  }
+
 </script>

@@ -229,7 +229,7 @@
               </p>
               <div class="linkto-re">
                 <a href="javascript:void(0)" class="ff-sans-b"
-                  >Quiero conocer más >
+                  >Conozca más >
                 </a>
               </div>
             </div>
@@ -319,7 +319,7 @@
             </div>
             <div class="img-points order-1-991">
               <img
-                src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque3_presenciapais.jpg"
+                src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque4_alianza.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -366,6 +366,50 @@
                   científica y tecnológica, con el interés de apoyar los
                   emprendimientos de esa categoría. El programa trabaja en ambos
                   frentes.
+                </p>
+              </div>
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png"
+                  alt=""
+                />
+              </div>
+              <div class="txt-part">
+                <p>
+                  Es una aceleradora de empresas que ayuda a startups  de Cleantech a acelerar su comercialización en el mercado y crear negocios invertibles. 
+                </p>
+              </div>
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_rockstart_impact.png"
+                  alt=""
+                />
+              </div>
+              <div class="txt-part">
+                <p>
+                 Es una aceleradora de start-ups que apoya a emprendedores que usen la tecnología para generar impacto social y/o ambiental
+                </p>
+              </div>
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png"
+                  alt=""
+                />
+              </div>
+              <div class="txt-part">
+                <p>
+                Social Skin es un movimiento de innovación que apoya a jóvenes universitarios para que sus proyectos sociales crezcan sosteniblemente. Emprende País busca ofrecerles una ruta de formación a estos proyectos, con el fin de proporcionarles un panorama de buenas prácticas y los conocimientos necesarios para rentabilizar una empresa y que sea sostenible en el tiempo.
+                </p>
+              </div>
+               <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_valleimpacta.png"
+                  alt=""
+                />
+              </div>
+              <div class="txt-part">
+                <p>
+                Valle Impacta es un programa de escalamiento empresarial liderado por la Cámara de Comercio de Cali y la Fundación Bolívar Davivienda, que transforma empresas al más alto nivel en sus diferentes sectores económicos, a través del acompañamiento para el crecimiento extraordinario, con el fin de impulsar el desarrollo económico y social de la región.
                 </p>
               </div>
             </div>
