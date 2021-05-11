@@ -19,7 +19,7 @@ talento con el cambio.
             <a
               :href="$constants.home.desarrollamosTalento"
               class="btn-tell-more"
-              >Cuéntame más</a
+              >Conozca más</a
             >
           </div>
         </div>
@@ -130,7 +130,7 @@ talento con el cambio.
               </h3>
               <div class="for-btn">
                 <a :href="$constants.home.elCambio" class="btn-tell-more"
-                  >Cuéntame más</a
+                  >Conozca más</a
                 >
               </div>
             </div>
