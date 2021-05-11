@@ -352,30 +352,30 @@
 export default {
   head() {
     return {
-      title: this.$constants.emprenderPaisDesarrollamosTalento.meta.title,
+      title: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
             .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
             .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprenderPaisDesarrollamosTalento.meta
+          content: this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
             .ogDescription,
         },
         {
@@ -383,7 +383,8 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprenderPaisDesarrollamosTalento.meta.ogImage,
+            this.$emprendePaisData.emprendePaisDesarrollamosTalento.meta
+              .ogImage,
         },
       ],
     }

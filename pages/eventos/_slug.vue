@@ -272,12 +272,12 @@
 export default {
   computed: {
     evt() {
-      return this.$constants.eventos.events.find(
+      return this.$eventosData.eventos.events.find(
         (a) => a.slug === this.$route.params.slug
       )
     },
     otherEvts() {
-      return this.$constants.eventos.events.filter(
+      return this.$eventosData.eventos.events.filter(
         (a) => a.slug !== this.$route.params.slug
       )
     },

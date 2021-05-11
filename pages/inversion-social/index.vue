@@ -94,12 +94,15 @@
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
           <p class="ff-nunito margin-0-auto">
-            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio.
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
             <a
-              :href="$constants.inversionSocial.desarrollamosTalentoLink"
+              :href="
+                $inversionSocialData.inversionSocial.desarrollamosTalentoLink
+              "
               class="btn-tell-more"
               >Cuéntame más</a
             >
@@ -114,34 +117,35 @@ talento con el cambio.
 export default {
   head() {
     return {
-      title: this.$constants.inversionSocial.meta.title,
+      title: this.$inversionSocialData.inversionSocial.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.inversionSocial.meta.metaTitle,
+          content: this.$inversionSocialData.inversionSocial.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.inversionSocial.meta.metaDescription,
+          content: this.$inversionSocialData.inversionSocial.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.inversionSocial.meta.ogTitle,
+          content: this.$inversionSocialData.inversionSocial.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.inversionSocial.meta.ogDescription,
+          content: this.$inversionSocialData.inversionSocial.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.inversionSocial.meta.ogImage,
+            this.$inversionSocialData.inversionSocial.meta.ogImage,
         },
       ],
     }

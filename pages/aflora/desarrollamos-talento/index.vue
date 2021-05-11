@@ -96,7 +96,7 @@
             </div>
             <div class="btn-g">
               <a
-                :href="$constants.afloraDesarrollamosTalento.nivelesLink"
+                :href="$afloraData.afloraDesarrollamosTalento.nivelesLink"
                 class="btn-know-leave ff-sans-b"
                 >Conocer Niveles</a
               >
@@ -140,7 +140,7 @@
               </div>
               <div class="btn-g text-center">
                 <a
-                  :href="$constants.afloraDesarrollamosTalento.escuelaLink"
+                  :href="$afloraData.afloraDesarrollamosTalento.escuelaLink"
                   class="btn-know-leave ff-sans-b"
                   >Conocer Niveles</a
                 >
@@ -156,28 +156,28 @@
 export default {
   head() {
     return {
-      title: this.$constants.afloraDesarrollamosTalento.meta.title,
+      title: this.$afloraData.afloraDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraDesarrollamosTalento.meta.metaTitle,
+          content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraDesarrollamosTalento.meta
+          content: this.$afloraData.afloraDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraDesarrollamosTalento.meta.ogTitle,
+          content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraDesarrollamosTalento.meta
+          content: this.$afloraData.afloraDesarrollamosTalento.meta
             .ogDescription,
         },
         {
@@ -185,7 +185,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.afloraDesarrollamosTalento.meta.ogImage,
+            this.$afloraData.afloraDesarrollamosTalento.meta.ogImage,
         },
       ],
     }

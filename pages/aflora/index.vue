@@ -2,7 +2,11 @@
   <main>
     <section class="aflora-bnr-se position-relative after-po">
       <div class="img-prt position-absolute">
-        <img src="/images/programa-aflora/1-home-aflora/encabezado_aflora.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/programa-aflora/1-home-aflora/encabezado_aflora.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
@@ -374,12 +378,13 @@
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
           <p class="ff-nunito margin-0-auto">
-            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio.
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
             <a
-              :href="$constants.aflora.desarrollamosTalento"
+              :href="$afloraData.aflora.desarrollamosTalento"
               class="btn-tell-more"
               >Cuéntame más</a
             >
@@ -449,33 +454,33 @@ talento con el cambio.
 export default {
   head() {
     return {
-      title: this.$constants.aflora.meta.title,
+      title: this.$afloraData.aflora.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.aflora.meta.metaTitle,
+          content: this.$afloraData.aflora.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.aflora.meta.metaDescription,
+          content: this.$afloraData.aflora.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.aflora.meta.ogTitle,
+          content: this.$afloraData.aflora.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.aflora.meta.ogDescription,
+          content: this.$afloraData.aflora.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL + this.$constants.aflora.meta.ogImage,
+            this.$constants.baseURL + this.$afloraData.aflora.meta.ogImage,
         },
       ],
     }

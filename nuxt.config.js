@@ -16,6 +16,15 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/config/constants.js' },
+    { src: '~/config/aflora.js' },
+    { src: '~/config/actualidad.js' },
+    { src: '~/config/eventos.js' },
+    { src: '~/config/filarmonicaJovenDeColombia.js' },
+    { src: '~/config/voluntariadoFundacionBolivarDavivienda.js' },
+    { src: '~/config/emprendePais.js' },
+    { src: '~/config/inversionSocial.js' },
+    { src: '~/config/becasAlTalento.js' },
+    { src: '~/config/cultivarte.js' },
     { src: '~/plugins/common.js', mode: 'client' },
     { src: '~/plugins/vue-carousel.js', mode: 'client' },
   ],

@@ -8,7 +8,11 @@
     </div>
     <section class="main-slider-at-top actualidad-pg">
       <div class="img-prt position-relative">
-        <img src="/images/seccion-eventos/encabezado_eventos_desktop.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/seccion-eventos/encabezado_eventos_desktop.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
         <div class="container position-absolute set-to-bottom">
           <div class="banner-txt text-white">
             <div class="orange-bg">
@@ -77,7 +81,7 @@
               </div>
             </div>
           </template>
-          <h4 style="margin-left: 2%;" v-else>No data found</h4>
+          <h4 style="margin-left: 2%" v-else>No data found</h4>
         </div>
       </div>
     </section>
@@ -87,7 +91,7 @@
 export default {
   computed: {
     events() {
-      return this.$constants.eventos.events.filter((i) => {
+      return this.$eventosData.eventos.events.filter((i) => {
         return i.title.toLowerCase().includes(this.search.toLowerCase())
       })
     },
@@ -99,33 +103,33 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.eventos.meta.title,
+      title: this.$eventosData.eventos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.eventos.meta.metaTitle,
+          content: this.$eventosData.eventos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.eventos.meta.metaDescription,
+          content: this.$eventosData.eventos.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.eventos.meta.ogTitle,
+          content: this.$eventosData.eventos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.eventos.meta.ogDescription,
+          content: this.$eventosData.eventos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL + this.$constants.eventos.meta.ogImage,
+            this.$constants.baseURL + this.$eventosData.eventos.meta.ogImage,
         },
       ],
     }

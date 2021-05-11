@@ -47,7 +47,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque1_impacto.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque1_impacto.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -59,7 +62,10 @@
       <div class="container">
         <div class="hoy-img-txt">
           <div class="hoy-img">
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque2.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque2.jpg"
+              alt=""
+            />
           </div>
           <div class="hoy-txt">
             <div class="h-txt-main">
@@ -84,7 +90,11 @@
         <div class="nuestro-box">
           <div class="nuestro-single">
             <h4>Con las universidades aliadas</h4>
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b3objetivos-universidades.jpg" alt="" class="img-fluid" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b3objetivos-universidades.jpg"
+              alt=""
+              class="img-fluid"
+            />
             <p>
               Constituir el fondo de becas crédito en alianza con cada
               institución educativa. Con los recaudos de capital que vaya
@@ -95,7 +105,11 @@
           </div>
           <div class="nuestro-single">
             <h4>Con los estudiantes y sus familias</h4>
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b4objetivos_estudiantes.jpg" alt="" class="img-fluid" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b4objetivos_estudiantes.jpg"
+              alt=""
+              class="img-fluid"
+            />
             <p>
               Ofrecer alternativas de financiación para que los estudiantes con
               alto desempeño académico logren culminar sus estudios de pregrado
@@ -104,7 +118,11 @@
           </div>
           <div class="nuestro-single">
             <h4>Con la sociedad colombiana</h4>
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b5objetivos_sociedad.jpg" alt="" class="img-fluid" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_b5objetivos_sociedad.jpg"
+              alt=""
+              class="img-fluid"
+            />
             <p>
               Formar profesionales íntegros, con alto sentido de responsabilidad
               social, jóvenes líderes comprometidos con la construcción de una
@@ -132,7 +150,7 @@
           :navigationEnabled="true"
         >
           <slide
-            v-for="(item, i) of $constants.becasConozcanos.testimonios"
+            v-for="(item, i) of $becasAlTalentoData.becasConozcanos.testimonios"
             :key="i"
             class="testi-center"
           >
@@ -170,7 +188,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque6.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque6.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -182,7 +203,10 @@
       <div class="container">
         <div class="txt-img-multi">
           <div class="only-img">
-            <img src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque7.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/2-conozcanos/conozcanos_bloque7.jpg"
+              alt=""
+            />
           </div>
           <div class="only-txt">
             <div class="single-txt">
@@ -237,34 +261,35 @@
 export default {
   head() {
     return {
-      title: this.$constants.becasConozcanos.meta.title,
+      title: this.$becasAlTalentoData.becasConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.becasConozcanos.meta.metaTitle,
+          content: this.$becasAlTalentoData.becasConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.becasConozcanos.meta.metaDescription,
+          content: this.$becasAlTalentoData.becasConozcanos.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.becasConozcanos.meta.ogTitle,
+          content: this.$becasAlTalentoData.becasConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.becasConozcanos.meta.ogDescription,
+          content: this.$becasAlTalentoData.becasConozcanos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.becasConozcanos.meta.ogImage,
+            this.$becasAlTalentoData.becasConozcanos.meta.ogImage,
         },
       ],
     }

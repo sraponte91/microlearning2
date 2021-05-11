@@ -102,33 +102,34 @@
 export default {
   head() {
     return {
-      title: this.$constants.emprendePais.meta.title,
+      title: this.$becasAlTalentoData.becasAlTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprendePais.meta.metaTitle,
+          content: this.$becasAlTalentoData.becasAlTalento.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprendePais.meta.metaDescription,
+          content: this.$becasAlTalentoData.becasAlTalento.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprendePais.meta.ogTitle,
+          content: this.$becasAlTalentoData.becasAlTalento.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprendePais.meta.ogDescription,
+          content: this.$becasAlTalentoData.becasAlTalento.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL + this.$constants.emprendePais.meta.ogImage,
+            this.$constants.baseURL +
+            this.$becasAlTalentoData.becasAlTalento.meta.ogImage,
         },
       ],
     }

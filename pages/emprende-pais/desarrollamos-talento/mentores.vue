@@ -108,12 +108,12 @@
 export default {
   computed: {
     topics() {
-      return this.$constants.emprenderPaisDesarrollamosTalentoMentores.items
+      return this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.items
         .map((i) => i.topic)
         .filter((v, i, a) => a.indexOf(v) === i)
     },
     topicItems() {
-      return this.$constants.emprenderPaisDesarrollamosTalentoMentores.items.filter(
+      return this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.items.filter(
         (i) => {
           if (this.selectedTopic.length) {
             return this.selectedTopic === i.topic
@@ -131,39 +131,39 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.emprenderPaisDesarrollamosTalentoMentores.meta
-        .title,
+      title: this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores
+        .meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoMentores
-            .meta.metaTitle,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoMentores.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoMentores
-            .meta.metaDescription,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoMentores.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoMentores
-            .meta.ogTitle,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoMentores.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoMentores
-            .meta.ogDescription,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoMentores.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprenderPaisDesarrollamosTalentoMentores.meta
+            this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.meta
               .ogImage,
         },
       ],

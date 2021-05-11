@@ -67,7 +67,8 @@
               <div class="text-right link-to-r-opg">
                 <a
                   :href="
-                    $constants.inversionSocialConvocatorias.quieroConocerMasLink
+                    $inversionSocialData.inversionSocialConvocatorias
+                      .quieroConocerMasLink
                   "
                   class="ff-sans-b"
                   >Quiero conocer más ></a
@@ -98,12 +99,18 @@
               class="two-btn d-flex justify-content-between ff-sans-b flex-wrap"
             >
               <a
-                :href="$constants.inversionSocialConvocatorias.reglamentoLink"
+                :href="
+                  $inversionSocialData.inversionSocialConvocatorias
+                    .reglamentoLink
+                "
                 class="btn-sm btn-line-btn text-center"
                 >Lee el reglamento de inscripción</a
               >
               <a
-                :href="$constants.inversionSocialConvocatorias.inscribaseLink"
+                :href="
+                  $inversionSocialData.inversionSocialConvocatorias
+                    .inscribaseLink
+                "
                 class="btn-sm btn-solid-btn text-center"
                 >Inscribase aquí</a
               >
@@ -118,28 +125,30 @@
 export default {
   head() {
     return {
-      title: this.$constants.inversionSocialConvocatorias.meta.title,
+      title: this.$inversionSocialData.inversionSocialConvocatorias.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.inversionSocialConvocatorias.meta.metaTitle,
+          content: this.$inversionSocialData.inversionSocialConvocatorias.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.inversionSocialConvocatorias.meta
+          content: this.$inversionSocialData.inversionSocialConvocatorias.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.inversionSocialConvocatorias.meta.ogTitle,
+          content: this.$inversionSocialData.inversionSocialConvocatorias.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.inversionSocialConvocatorias.meta
+          content: this.$inversionSocialData.inversionSocialConvocatorias.meta
             .ogDescription,
         },
         {
@@ -147,7 +156,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.inversionSocialConvocatorias.meta.ogImage,
+            this.$inversionSocialData.inversionSocialConvocatorias.meta.ogImage,
         },
       ],
     }

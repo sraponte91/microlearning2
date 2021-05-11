@@ -210,7 +210,8 @@
                 <div class="btn-for text-center">
                   <a
                     :href="
-                      $constants.filarmonicaJovenDeColombiaDesarrollamosTalento
+                      $filarmonicaJovenDeColombiaData
+                        .filarmonicaJovenDeColombiaDesarrollamosTalento
                         .seguirEnlaceLink
                     "
                     class="btn-follow-links ff-sans-b"
@@ -229,41 +230,41 @@
 export default {
   head() {
     return {
-      title: this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
-        .title,
+      title: this.$filarmonicaJovenDeColombiaData
+        .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
+          content: this.$filarmonicaJovenDeColombiaData
             .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
+          content: this.$filarmonicaJovenDeColombiaData
             .filarmonicaJovenDeColombiaDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
+          content: this.$filarmonicaJovenDeColombiaData
             .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
+          content: this.$filarmonicaJovenDeColombiaData
             .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL +
-            this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
-              .ogImage,
+            this.$filarmonicaJovenDeColombiaData.baseURL +
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogImage,
         },
       ],
     }

@@ -4,6 +4,9 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+          <b-breadcrumb-item to="/inversion-social"
+            >Inversión Social</b-breadcrumb-item
+          >
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
         <div
@@ -665,40 +668,39 @@
 export default {
   head() {
     return {
-      title: this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
+      title: this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
         .title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.metaTitle,
+          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+            .meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta
-            .metaDescription,
+          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+            .meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogTitle,
+          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+            .meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogDescription,
+          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+            .meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.filarmonicaJovenDeColombiaDesarrollamosTalento.meta
+            this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
               .ogImage,
         },
       ],

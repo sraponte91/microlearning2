@@ -22,7 +22,11 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_header_desktop.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/programa-emprende-pais/2-conozcanos/conozcanos_header_desktop.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Emprende país</h1>
@@ -260,8 +264,8 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants
-                    .filarmonicaJovenDeColombiaConozcanos.testimonios"
+                  v-for="(item, i) of $emprendePaisData.emprendePaisConozcanos
+                    .testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -351,7 +355,10 @@
           <div class="inner-bx margin-0-auto">
             <div class="d-flex align-itmes-center flex-wrap-767">
               <div class="img-prt d-flex align-items-center">
-                <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png" alt="" />
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png"
+                  alt=""
+                />
               </div>
               <div class="txt-part">
                 <p>
@@ -396,34 +403,36 @@
 export default {
   head() {
     return {
-      title: this.$constants.emprendePaisConozcanos.meta.title,
+      title: this.$emprendePaisData.emprendePaisConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprendePaisConozcanos.meta.metaTitle,
+          content: this.$emprendePaisData.emprendePaisConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprendePaisConozcanos.meta.metaDescription,
+          content: this.$emprendePaisData.emprendePaisConozcanos.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprendePaisConozcanos.meta.ogTitle,
+          content: this.$emprendePaisData.emprendePaisConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprendePaisConozcanos.meta.ogDescription,
+          content: this.$emprendePaisData.emprendePaisConozcanos.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprendePaisConozcanos.meta.ogImage,
+            this.$emprendePaisData.emprendePaisConozcanos.meta.ogImage,
         },
       ],
     }

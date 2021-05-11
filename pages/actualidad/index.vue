@@ -8,7 +8,11 @@
     </div>
     <section class="main-slider-at-top actualidad-pg">
       <div class="img-prt position-relative">
-        <img src="/images/seccion-actualidad/encabezado_actualidad.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/seccion-actualidad/encabezado_actualidad.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
         <div class="container position-absolute set-to-bottom">
           <div class="banner-txt text-white">
             <div class="orange-bg">
@@ -78,7 +82,7 @@
           </div>
         </div>
       </template>
-      <h4 style="margin: 15px 0 0 40px;" v-else>No data found</h4>
+      <h4 style="margin: 15px 0 0 40px" v-else>No data found</h4>
     </section>
   </main>
 </template>
@@ -86,7 +90,7 @@
 export default {
   computed: {
     articles() {
-      return this.$constants.actualidad.articles.filter((i) => {
+      return this.$actualidadData.actualidad.articles.filter((i) => {
         return i.title.toLowerCase().includes(this.search.toLowerCase())
       })
     },
@@ -98,33 +102,34 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.actualidad.meta.title,
+      title: this.$actualidadData.actualidad.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.actualidad.meta.metaTitle,
+          content: this.$actualidadData.actualidad.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.actualidad.meta.metaDescription,
+          content: this.$actualidadData.actualidad.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.actualidad.meta.ogTitle,
+          content: this.$actualidadData.actualidad.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.actualidad.meta.ogDescription,
+          content: this.$actualidadData.actualidad.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL + this.$constants.actualidad.meta.ogImage,
+            this.$constants.baseURL +
+            this.$actualidadData.actualidad.meta.ogImage,
         },
       ],
     }

@@ -20,7 +20,11 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/programa-aflora/2-conozcanos/header_desktop.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/programa-aflora/2-conozcanos/header_desktop.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Conózcanos</h1>
@@ -151,7 +155,7 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants.afloraConozcanos.testimonios"
+                  v-for="(item, i) of $afloraData.afloraConozcanos.testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -181,91 +185,130 @@
         <h4 class="ff-sans-b">Con el apoyo de:</h4>
         <div class="d-flex flex-wrap for-marg-1">
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0000_wingu.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0000_wingu.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0001_javeriana.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0001_javeriana.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0002_tecnologico_monterrey.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0002_tecnologico_monterrey.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aaliados-aflora_0000s_0003_escuela_superior_de_guerra.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aaliados-aflora_0000s_0003_escuela_superior_de_guerra.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0004_edime.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0004_edime.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0005_eafit.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0005_eafit.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0006_cesa.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0006_cesa.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0007_creo.png" alt="" />
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0007_creo.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
-           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0008_compartamosconcolombia.png" alt="" />
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0008_compartamosconcolombia.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
-           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0009_ursario.png" alt="" />
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0009_ursario.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
-           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0010_uninorte.png" alt="" />
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0010_uninorte.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
-           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0011_uniandes.png" alt="" />
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0011_uniandes.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
-           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0012_ventures.png" alt="" />
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img
+              src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0012_ventures.png"
+              alt=""
+            />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
@@ -278,35 +321,36 @@
 </template>
 <script>
 export default {
-
   head() {
     return {
-      title: this.$constants.afloraConozcanos.meta.title,
+      title: this.$afloraData.afloraConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraConozcanos.meta.metaTitle,
+          content: this.$afloraData.afloraConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraConozcanos.meta.metaDescription,
+          content: this.$afloraData.afloraConozcanos.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraConozcanos.meta.ogTitle,
+          content: this.$afloraData.afloraConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraConozcanos.meta.ogDescription,
+          content: this.$afloraData.afloraConozcanos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: this.$constants.baseURL + this.$constants.afloraConozcanos.meta.ogImage,
+          content:
+            this.$constants.baseURL +
+            this.$afloraData.afloraConozcanos.meta.ogImage,
         },
       ],
     }

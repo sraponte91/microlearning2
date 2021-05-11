@@ -230,7 +230,9 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants
+                  v-for="(
+                    item, i
+                  ) of $voluntariadoFundacionBolivarDaviviendaData
                     .voluntariadoFundacionBolivarDaviviendaConozcanos
                     .testimonios"
                   :key="i"
@@ -321,32 +323,32 @@
 export default {
   head() {
     return {
-      title: this.$constants.voluntariadoFundacionBolivarDaviviendaConozcanos
-        .meta.title,
+      title: this.$voluntariadoFundacionBolivarDaviviendaData
+        .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaConozcanos.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaConozcanos.meta
             .ogDescription,
         },
@@ -355,8 +357,8 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.voluntariadoFundacionBolivarDaviviendaConozcanos
-              .meta.ogImage,
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogImage,
         },
       ],
     }

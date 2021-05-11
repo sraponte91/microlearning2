@@ -158,12 +158,12 @@
 export default {
   computed: {
     cities() {
-      return this.$constants.emprendePaisPresenciaEnElPais.municipio
+      return this.$emprendePaisData.emprendePaisPresenciaEnElPais.municipio
         .map((d) => d.city)
         .filter((v, i, a) => a.indexOf(v) === i)
     },
     municipio() {
-      return this.$constants.emprendePaisPresenciaEnElPais.municipio.filter(
+      return this.$emprendePaisData.emprendePaisPresenciaEnElPais.municipio.filter(
         (i) => {
           if (this.selectedCities.length) {
             return this.selectedCities.includes(i.city)
@@ -187,28 +187,30 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.emprendePaisPresenciaEnElPais.meta.title,
+      title: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprendePaisPresenciaEnElPais.meta.metaTitle,
+          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprendePaisPresenciaEnElPais.meta
+          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprendePaisPresenciaEnElPais.meta.ogTitle,
+          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprendePaisPresenciaEnElPais.meta
+          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
             .ogDescription,
         },
         {
@@ -216,7 +218,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprendePaisPresenciaEnElPais.meta.ogImage,
+            this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta.ogImage,
         },
       ],
     }

@@ -67,34 +67,34 @@
 export default {
   head() {
     return {
-      title: this.$constants
+      title: this.$voluntariadoFundacionBolivarDaviviendaData
         .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta
             .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta
             .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta
             .ogDescription,
         },
@@ -103,7 +103,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants
+            this.$voluntariadoFundacionBolivarDaviviendaData
               .voluntariadoFundacionBolivarDaviviendaDesarrollamosTalento.meta
               .ogImage,
         },

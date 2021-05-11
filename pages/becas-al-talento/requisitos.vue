@@ -7,6 +7,9 @@
           <li class="breadcrumb-item">
             <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           </li>
+          <b-breadcrumb-item to="/becas-al-talento">
+            Becas al Talento
+          </b-breadcrumb-item>
           <li class="breadcrumb-item active">
             <span aria-current="location">Requisitos</span>
           </li>
@@ -126,7 +129,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-becas-al-talento/4-requisitos/requisitos_bloque1.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/4-requisitos/requisitos_bloque1.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -156,32 +162,33 @@
 export default {
   head() {
     return {
-      title: this.$constants.becasRequisitos.meta.title,
+      title: this.$becasAlTalentoData.becasRequisitos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.becasRequisitos.meta.metaTitle,
+          content: this.$becasAlTalentoData.becasRequisitos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.becasRequisitos.meta.metaDescription,
+          content: this.$becasAlTalentoData.becasRequisitos.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.becasRequisitos.meta.ogTitle,
+          content: this.$becasAlTalentoData.becasRequisitos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.becasRequisitos.meta.ogDescription,
+          content: this.$becasAlTalentoData.becasRequisitos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.becasRequisitos.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$becasAlTalentoData.becasRequisitos.meta.ogImage}`,
         },
       ],
     }

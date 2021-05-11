@@ -82,7 +82,8 @@
             >
               <a
                 :href="
-                  $constants.voluntariadoFundacionBolivarDaviviendaInscripciones
+                  $voluntariadoFundacionBolivarDaviviendaData
+                    .voluntariadoFundacionBolivarDaviviendaInscripciones
                     .reglamentoLink
                 "
                 class="btn-sm btn-line-btn text-center"
@@ -90,7 +91,8 @@
               >
               <a
                 :href="
-                  $constants.voluntariadoFundacionBolivarDaviviendaInscripciones
+                  $voluntariadoFundacionBolivarDaviviendaData
+                    .voluntariadoFundacionBolivarDaviviendaInscripciones
                     .inscribaseLink
                 "
                 class="btn-sm btn-solid-btn text-center"
@@ -107,32 +109,32 @@
 export default {
   head() {
     return {
-      title: this.$constants.voluntariadoFundacionBolivarDaviviendaInscripciones
-        .meta.title,
+      title: this.$voluntariadoFundacionBolivarDaviviendaData
+        .voluntariadoFundacionBolivarDaviviendaInscripciones.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaInscripciones.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaInscripciones.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaInscripciones.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants
+          content: this.$voluntariadoFundacionBolivarDaviviendaData
             .voluntariadoFundacionBolivarDaviviendaInscripciones.meta
             .ogDescription,
         },
@@ -141,8 +143,8 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.voluntariadoFundacionBolivarDaviviendaInscripciones
-              .meta.ogImage,
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDaviviendaInscripciones.meta.ogImage,
         },
       ],
     }

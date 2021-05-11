@@ -101,31 +101,31 @@
 export default {
   head() {
     return {
-      title: this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion.meta
+      title: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion.meta
         .title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion
+          content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
             .meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion
+          content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
             .meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion
+          content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
             .meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion
+          content: this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion
             .meta.ogDescription,
         },
         {
@@ -133,7 +133,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.afloraDesarrollamosTalentoCiclosDeFormacion.meta
+            this.$afloraData.afloraDesarrollamosTalentoCiclosDeFormacion.meta
               .ogImage,
         },
       ],

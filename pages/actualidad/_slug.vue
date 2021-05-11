@@ -232,12 +232,12 @@
 export default {
   computed: {
     article() {
-      return this.$constants.actualidad.articles.find(
+      return this.$actualidadData.actualidad.articles.find(
         (a) => a.slug === this.$route.params.slug
       )
     },
     otherArticles() {
-      return this.$constants.actualidad.articles.filter(
+      return this.$actualidadData.actualidad.articles.filter(
         (a) => a.slug !== this.$route.params.slug
       )
     },

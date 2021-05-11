@@ -32,7 +32,10 @@
         <div class="txt-img-multi">
           <div class="only-txt">
             <div class="dot">
-              <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg" alt="" />
+              <img
+                src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg"
+                alt=""
+              />
             </div>
             <div class="single-txt">
               <h2 class="title-thin">Nuestro Impacto</h2>
@@ -47,7 +50,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/2-conozcanos/conozcanos_bloque1.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -99,7 +105,10 @@
       <div class="container">
         <div class="txt-img-multi no-pos-right align-items-end">
           <div class="only-img">
-            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_2dondeestamos.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/2-conozcanos/conozcanos_2dondeestamos.jpg"
+              alt=""
+            />
           </div>
           <div class="only-txt">
             <div class="single-txt">
@@ -181,7 +190,8 @@
           :navigationEnabled="true"
         >
           <slide
-            v-for="(item, i) in $constants.cultivarteConozcanos.testimonios"
+            v-for="(item, i) in $cultivarteData.cultivarteConozcanos
+              .testimonios"
             :key="i"
             class="testi-center"
           >
@@ -218,7 +228,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_3tiempo.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/2-conozcanos/conozcanos_3tiempo.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -230,7 +243,10 @@
       <div class="container">
         <div class="txt-img-multi no-pos-right">
           <div class="only-img">
-            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_4inicio.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/2-conozcanos/conozcanos_4inicio.jpg"
+              alt=""
+            />
           </div>
           <div class="only-txt">
             <div class="single-txt">
@@ -291,7 +307,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-cultivarte/2-conozcanos/conozcanos_5cultivartehoy.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/2-conozcanos/conozcanos_5cultivartehoy.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -337,32 +356,33 @@
 export default {
   head() {
     return {
-      title: this.$constants.cultivarteConozcanos.meta.title,
+      title: this.$cultivarteData.cultivarteConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteConozcanos.meta.metaTitle,
+          content: this.$cultivarteData.cultivarteConozcanos.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteConozcanos.meta.metaDescription,
+          content: this.$cultivarteData.cultivarteConozcanos.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.cultivarteConozcanos.meta.ogTitle,
+          content: this.$cultivarteData.cultivarteConozcanos.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteConozcanos.meta.ogDescription,
+          content: this.$cultivarteData.cultivarteConozcanos.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.cultivarteConozcanos.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteConozcanos.meta.ogImage}`,
         },
       ],
     }

@@ -13,7 +13,11 @@
       >
         <div>
           <div class="log-prt">
-            <img src="/images/logos/Logo-Emprede-País_Blanco.png" alt="" class="img-fluid" />
+            <img
+              src="/images/logos/Logo-Emprede-País_Blanco.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
           <p>
             Emprende País es un programa de la Fundación Bolívar Davivienda, que
@@ -145,7 +149,7 @@
             </p>
             <div class="for-btn">
               <a
-                :href="$constants.emprendePais.convocatoriasLink"
+                :href="$emprendePaisData.emprendePais.convocatoriasLink"
                 class="btn-tell-more"
                 >Cuéntame más</a
               >
@@ -163,8 +167,9 @@
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
           <p class="ff-nunito margin-0-auto">
-            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio.
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
             <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
@@ -179,33 +184,34 @@ talento con el cambio.
 export default {
   head() {
     return {
-      title: this.$constants.emprendePais.meta.title,
+      title: this.$emprendePaisData.emprendePais.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprendePais.meta.metaTitle,
+          content: this.$emprendePaisData.emprendePais.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprendePais.meta.metaDescription,
+          content: this.$emprendePaisData.emprendePais.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprendePais.meta.ogTitle,
+          content: this.$emprendePaisData.emprendePais.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprendePais.meta.ogDescription,
+          content: this.$emprendePaisData.emprendePais.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$constants.baseURL + this.$constants.emprendePais.meta.ogImage,
+            this.$constants.baseURL +
+            this.$emprendePaisData.emprendePais.meta.ogImage,
         },
       ],
     }

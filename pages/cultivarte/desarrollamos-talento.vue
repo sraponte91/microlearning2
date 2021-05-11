@@ -7,6 +7,7 @@
           <li class="breadcrumb-item">
             <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           </li>
+          <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
           <li class="breadcrumb-item active">
             <span aria-current="location">Desarrollamos talento</span>
           </li>
@@ -50,7 +51,10 @@
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -238,35 +242,36 @@
 export default {
   head() {
     return {
-      title: this.$constants.cultivarteDesarrollamosTalento.meta.title,
+      title: this.$cultivarteData.cultivarteDesarrollamosTalento.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
             .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta.ogTitle,
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteDesarrollamosTalento.meta
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
             .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.cultivarteDesarrollamosTalento.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteDesarrollamosTalento.meta.ogImage}`,
         },
       ],
     }

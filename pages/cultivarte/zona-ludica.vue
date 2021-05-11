@@ -7,6 +7,7 @@
           <li class="breadcrumb-item">
             <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           </li>
+          <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
           <li class="breadcrumb-item active">
             <span aria-current="location">Zona Lúdica</span>
           </li>
@@ -44,7 +45,8 @@
         <div class="all-zona">
           <div
             class="single-zona"
-            v-for="(item, index) in $constants.cultivarteZonaLudica.plataformas"
+            v-for="(item, index) in $cultivarteData.cultivarteZonaLudica
+              .plataformas"
             :key="index"
           >
             <h3 v-text="item.title" />
@@ -67,32 +69,33 @@
 export default {
   head() {
     return {
-      title: this.$constants.cultivarteZonaLudica.meta.title,
+      title: this.$cultivarteData.cultivarteZonaLudica.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteZonaLudica.meta.metaTitle,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteZonaLudica.meta.metaDescription,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta
+            .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.cultivarteZonaLudica.meta.ogTitle,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteZonaLudica.meta.ogDescription,
+          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.cultivarteZonaLudica.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteZonaLudica.meta.ogImage}`,
         },
       ],
     }

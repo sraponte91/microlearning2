@@ -22,7 +22,11 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/programa-filarmonica-joven/4-orquesta/orquesta_header_desktop.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/programa-filarmonica-joven/4-orquesta/orquesta_header_desktop.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">La Orquesta</h1>
@@ -50,8 +54,8 @@
           <a
             href="javascript:void(0)"
             class="btn-links text-center"
-            v-for="(item, i) of $constants.filarmonicaJovenDeColombiaOrquesta
-              .integrantes.tabs"
+            v-for="(item, i) of $filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaOrquesta.integrantes.tabs"
             :key="i"
             :class="{ active: activeTab === item.name }"
             @click="setTab(item)"
@@ -255,12 +259,12 @@ export default {
       return this.selectedTabItems.chunk(4)
     },
     artistasInvitados() {
-      return this.$constants.filarmonicaJovenDeColombiaOrquesta.artistasInvitados.chunk(
+      return this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombiaOrquesta.artistasInvitados.chunk(
         4
       )
     },
     directores() {
-      return this.$constants.filarmonicaJovenDeColombiaOrquesta.directores.chunk(
+      return this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombiaOrquesta.directores.chunk(
         4
       )
     },
@@ -268,8 +272,8 @@ export default {
   data() {
     return {
       activeTab: 'Cobres',
-      selectedTabItems: this.$constants.filarmonicaJovenDeColombiaOrquesta
-        .integrantes.tabs[0].items,
+      selectedTabItems: this.$filarmonicaJovenDeColombiaData
+        .filarmonicaJovenDeColombiaOrquesta.integrantes.tabs[0].items,
     }
   },
   methods: {
@@ -297,38 +301,40 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.filarmonicaJovenDeColombiaOrquesta.meta.title,
+      title: this.$filarmonicaJovenDeColombiaData
+        .filarmonicaJovenDeColombiaOrquesta.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.filarmonicaJovenDeColombiaOrquesta.meta
-            .metaTitle,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombiaOrquesta.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.filarmonicaJovenDeColombiaOrquesta.meta
-            .metaDescription,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombiaOrquesta.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.filarmonicaJovenDeColombiaOrquesta.meta
-            .ogTitle,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombiaOrquesta.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.filarmonicaJovenDeColombiaOrquesta.meta
-            .ogDescription,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombiaOrquesta.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.filarmonicaJovenDeColombiaOrquesta.meta.ogImage,
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaOrquesta.meta.ogImage,
         },
       ],
     }

@@ -128,13 +128,13 @@
               class="two-btn d-flex justify-content-between ff-sans-b flex-wrap"
             >
               <a
-                :href="$constants.afloraInscripciones.reglamentoLink"
+                :href="$afloraData.afloraInscripciones.reglamentoLink"
                 class="btn-sm btn-line-btn text-center"
                 >Lee el reglamento de inscripción</a
               >
               <a
                 target="_blank"
-                :href="$constants.afloraInscripciones.inscribaseLink"
+                :href="$afloraData.afloraInscripciones.inscribaseLink"
                 class="btn-sm btn-solid-btn text-center"
                 >Inscribase aquí</a
               >
@@ -149,34 +149,34 @@
 export default {
   head() {
     return {
-      title: this.$constants.afloraInscripciones.meta.title,
+      title: this.$afloraData.afloraInscripciones.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraInscripciones.meta.metaTitle,
+          content: this.$afloraData.afloraInscripciones.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraInscripciones.meta.metaDescription,
+          content: this.$afloraData.afloraInscripciones.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraInscripciones.meta.ogTitle,
+          content: this.$afloraData.afloraInscripciones.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraInscripciones.meta.ogDescription,
+          content: this.$afloraData.afloraInscripciones.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.afloraInscripciones.meta.ogImage,
+            this.$afloraData.afloraInscripciones.meta.ogImage,
         },
       ],
     }

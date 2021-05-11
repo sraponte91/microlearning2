@@ -1,0 +1,158 @@
+import Vue from 'vue'
+
+Vue.prototype.$emprendePaisData = {
+  emprendePais: {
+    convocatoriasLink: 'javascript:void(0)',
+    desarrollamosTalentoLink: 'javascript:void(0)',
+    meta: {
+      title: 'Emprende-país',
+      metaTitle: 'Emprende-país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/fundacion_bolivar_davivenda.png',
+    },
+  },
+  emprendePaisConozcanos: {
+    meta: {
+      title: 'Emprende país',
+      metaTitle: 'Emprende país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/1-home-emprende-pais/home_og.jpg',
+    },
+  },
+  emprendePaisDesarrollamosTalento: {
+    meta: {
+      title: 'Emprende-país',
+      metaTitle: 'Emprende-país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_og.jpg',
+    },
+  },
+  emprendePaisDesarrollamosTalentoConsultores: {
+    meta: {
+      title: 'Emprende país',
+      metaTitle: 'Emprende país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/4-consultores/consultores_og.jpg',
+    },
+  },
+  emprendePaisDesarrollamosTalentoMentores: {
+    items: [
+      {
+        id: 1,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Marketing y comunicación',
+      },
+      {
+        id: 2,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Marketing y comunicación',
+      },
+      {
+        id: 3,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 4,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 5,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 6,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+    ],
+    meta: {
+      title: 'Emprende-país',
+      metaTitle: 'Emprende-país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/5-mentores/mentores_og.jpg',
+    },
+  },
+  emprendePaisConvocatorias: {
+    reglamentoLink: 'javascript:void(0)',
+    inscribaseLink: 'javascript:void(0)',
+    meta: {
+      title: 'Emprende-país',
+      metaTitle: 'Emprende-país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/6-convocatorias/convocatorias_og.jpg',
+    },
+  },
+  emprendePaisPresenciaEnElPais: {
+    municipio: [
+      {
+        title: 'CUNDINAMARCA',
+        city: 'Bogota',
+        coordinator: 'Coordinador',
+        name: 'Juan Manuel Platín',
+        email: 'jplatin@fundacionbd.org',
+      },
+      {
+        title: 'VALLE DEL CAUCA',
+        city: 'Cali',
+        coordinator: 'Coordinador',
+        name: 'Margarita Serna',
+        email: 'mserna@ccc.org.co',
+      },
+      {
+        title: 'BOLIVAR',
+        city: 'Santa Marta',
+        coordinator: 'Coordinador',
+        name: 'Julieth Ocampo',
+        email: 'coordinacion.crecimiento@ccsm.org.co',
+      },
+      {
+        title: 'SANTANDER',
+        city: 'Santander',
+        coordinator: 'Coordinador',
+        name: 'Vanessa Marrugo',
+        email: 'epsantander@emprendepais.com',
+      },
+    ],
+    meta: {
+      title: 'Emprende-país',
+      metaTitle: 'Emprende-país',
+      metaDescription: 'Emprende país',
+      ogTitle: 'Emprende país',
+      ogDescription: 'Emprende país',
+      ogImage: '/images/programa-emprende-pais/7-presencia-en-el-pais/presenciapais_og.jpg',
+    },
+  },
+}

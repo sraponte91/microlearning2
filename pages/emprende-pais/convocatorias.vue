@@ -64,12 +64,16 @@
               class="two-btn d-flex justify-content-between ff-sans-b flex-wrap"
             >
               <a
-                :href="$constants.emprendePaisConvocatorias.reglamentoLink"
+                :href="
+                  $emprendePaisData.emprendePaisConvocatorias.reglamentoLink
+                "
                 class="btn-sm btn-line-btn text-center"
                 >Lee el reglamento de inscripción</a
               >
               <a
-                :href="$constants.emprendePaisConvocatorias.inscribaseLink"
+                :href="
+                  $emprendePaisData.emprendePaisConvocatorias.inscribaseLink
+                "
                 class="btn-sm btn-solid-btn text-center"
                 >Inscribase aquí</a
               >
@@ -84,35 +88,38 @@
 export default {
   head() {
     return {
-      title: this.$constants.emprendePaisConvocatorias.meta.title,
+      title: this.$emprendePaisData.emprendePaisConvocatorias.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprendePaisConvocatorias.meta.metaTitle,
+          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprendePaisConvocatorias.meta
+          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprendePaisConvocatorias.meta.ogTitle,
+          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprendePaisConvocatorias.meta.ogDescription,
+          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprendePaisConvocatorias.meta.ogImage,
+            this.$emprendePaisData.emprendePaisConvocatorias.meta.ogImage,
         },
       ],
     }

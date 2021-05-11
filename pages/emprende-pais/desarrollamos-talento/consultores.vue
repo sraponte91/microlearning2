@@ -65,40 +65,40 @@
 export default {
   head() {
     return {
-      title: this.$constants.emprenderPaisDesarrollamosTalentoConsultores.meta
-        .title,
+      title: this.$emprendePaisData.emprendePaisDesarrollamosTalentoConsultores
+        .meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoConsultores
-            .meta.metaTitle,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoConsultores.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoConsultores
-            .meta.metaDescription,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoConsultores.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoConsultores
-            .meta.ogTitle,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoConsultores.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.emprenderPaisDesarrollamosTalentoConsultores
-            .meta.ogDescription,
+          content: this.$emprendePaisData
+            .emprendePaisDesarrollamosTalentoConsultores.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.emprenderPaisDesarrollamosTalentoConsultores.meta
-              .ogImage,
+            this.$emprendePaisData.emprendePaisDesarrollamosTalentoConsultores
+              .meta.ogImage,
         },
       ],
     }

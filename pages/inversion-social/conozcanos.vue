@@ -117,8 +117,8 @@
                 :paginationEnabled="true"
               >
                 <slide
-                  v-for="(item, i) of $constants.inversionSocialConozcanos
-                    .testimonios"
+                  v-for="(item, i) of $inversionSocialData
+                    .inversionSocialConozcanos.testimonios"
                   :key="i"
                 >
                   <div class="position-relative testimo-bx bg-white">
@@ -148,35 +148,38 @@
 export default {
   head() {
     return {
-      title: this.$constants.inversionSocialConozcanos.meta.title,
+      title: this.$inversionSocialData.inversionSocialConozcanos.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.inversionSocialConozcanos.meta.metaTitle,
+          content: this.$inversionSocialData.inversionSocialConozcanos.meta
+            .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.inversionSocialConozcanos.meta
+          content: this.$inversionSocialData.inversionSocialConozcanos.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.inversionSocialConozcanos.meta.ogTitle,
+          content: this.$inversionSocialData.inversionSocialConozcanos.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.inversionSocialConozcanos.meta.ogDescription,
+          content: this.$inversionSocialData.inversionSocialConozcanos.meta
+            .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.inversionSocialConozcanos.meta.ogImage,
+            this.$inversionSocialData.inversionSocialConozcanos.meta.ogImage,
         },
       ],
     }

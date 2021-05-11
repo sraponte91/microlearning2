@@ -20,7 +20,11 @@
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img src="/images/programa-aflora/7-nuestras-organizaciones/header_desktop.jpg" alt="" class="object-fit-cover" />
+        <img
+          src="/images/programa-aflora/7-nuestras-organizaciones/header_desktop.jpg"
+          alt=""
+          class="object-fit-cover"
+        />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Nuestras organizaciones</h1>
@@ -213,17 +217,17 @@
 export default {
   computed: {
     departamento() {
-      return this.$constants.afloraNuestrasOrganizaciones.foundations
+      return this.$afloraData.afloraNuestrasOrganizaciones.foundations
         .map((d) => d.departamento)
         .filter((v, i, a) => a.indexOf(v) === i)
     },
     lineaDeGestion() {
-      return this.$constants.afloraNuestrasOrganizaciones.foundations
+      return this.$afloraData.afloraNuestrasOrganizaciones.foundations
         .map((l) => l.lineaDeGestion)
         .filter((v, i, a) => a.indexOf(v) === i)
     },
     foundations() {
-      return this.$constants.afloraNuestrasOrganizaciones.foundations.filter(
+      return this.$afloraData.afloraNuestrasOrganizaciones.foundations.filter(
         (i) => {
           if (this.selectedDepts.length && this.selectedLineaDeGestion.length) {
             return (
@@ -259,28 +263,28 @@ export default {
   },
   head() {
     return {
-      title: this.$constants.afloraNuestrasOrganizaciones.meta.title,
+      title: this.$afloraData.afloraNuestrasOrganizaciones.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraNuestrasOrganizaciones.meta.metaTitle,
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraNuestrasOrganizaciones.meta
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraNuestrasOrganizaciones.meta.ogTitle,
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraNuestrasOrganizaciones.meta
+          content: this.$afloraData.afloraNuestrasOrganizaciones.meta
             .ogDescription,
         },
         {
@@ -288,7 +292,7 @@ export default {
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.afloraNuestrasOrganizaciones.meta.ogImage,
+            this.$afloraData.afloraNuestrasOrganizaciones.meta.ogImage,
         },
       ],
     }

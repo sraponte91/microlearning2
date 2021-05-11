@@ -63,7 +63,7 @@
             </div>
             <div class="d-flex flex-wrap for-margin-1 align-items-start">
               <div
-                v-for="(item, i) of $constants.afloraAutodiagnostico
+                v-for="(item, i) of $afloraData.afloraAutodiagnostico
                   .importantInformations"
                 :key="i"
                 class="one-bx-grey"
@@ -87,32 +87,34 @@
 export default {
   head() {
     return {
-      title: this.$constants.afloraAutodiagnostico.meta.title,
+      title: this.$afloraData.afloraAutodiagnostico.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.afloraAutodiagnostico.meta.metaTitle,
+          content: this.$afloraData.afloraAutodiagnostico.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.afloraAutodiagnostico.meta.metaDescription,
+          content: this.$afloraData.afloraAutodiagnostico.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.afloraAutodiagnostico.meta.ogTitle,
+          content: this.$afloraData.afloraAutodiagnostico.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.afloraAutodiagnostico.meta.ogDescription,
+          content: this.$afloraData.afloraAutodiagnostico.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: this.$constants.baseURL + this.$constants.afloraAutodiagnostico.meta.ogImage,
+          content:
+            this.$constants.baseURL +
+            this.$afloraData.afloraAutodiagnostico.meta.ogImage,
         },
       ],
     }

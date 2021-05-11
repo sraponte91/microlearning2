@@ -112,8 +112,9 @@
           <small class="ff-nunito">Sobre nosotros</small>
           <h2 class="ff-sans-b">Desarrollamos Talento</h2>
           <p class="ff-nunito margin-0-auto">
-            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio.
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
             <a :href="$constants.cuentameMasLink" class="btn-tell-more"
@@ -130,36 +131,40 @@ talento con el cambio.
 export default {
   head() {
     return {
-      title: this.$constants.filarmonicaJovenDeColombia.meta.title,
+      title: this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia
+        .meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.filarmonicaJovenDeColombia.meta.metaTitle,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombia.meta.metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.filarmonicaJovenDeColombia.meta
-            .metaDescription,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombia.meta.metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.filarmonicaJovenDeColombia.meta.ogTitle,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombia.meta.ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.filarmonicaJovenDeColombia.meta
-            .ogDescription,
+          content: this.$filarmonicaJovenDeColombiaData
+            .filarmonicaJovenDeColombia.meta.ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
           content:
             this.$constants.baseURL +
-            this.$constants.filarmonicaJovenDeColombia.meta.ogImage,
+            this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia.meta
+              .ogImage,
         },
       ],
     }

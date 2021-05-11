@@ -334,35 +334,36 @@
 export default {
   head() {
     return {
-      title: this.$constants.cultivarteDondeEstamosUbicados.meta.title,
+      title: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
             .metaTitle,
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
             .metaDescription,
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta.ogTitle,
+          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
+            .ogTitle,
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.$constants.cultivarteDondeEstamosUbicados.meta
+          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
             .ogDescription,
         },
         {
           hid: 'og:image',
           name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.cultivarteDondeEstamosUbicados.meta.ogImage}`,
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.ogImage}`,
         },
       ],
     }
