@@ -41,7 +41,7 @@ Vue.prototype.$afloraData = {
     },
   },
   afloraDesarrollamosTalento: {
-    quieroConocerMas: 'desarrollamos-talento/index.vue',
+    quieroConocerMas: '/aflora/desarrollamos-talento/',
     nivelesLink: 'javascript:void(0)',
     escuelaLink: 'javascript:void(0)',
     meta: {

@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$becasAlTalentoData = {
   becasAlTalento: {
-    cuentameMasLink: 'javascript:void(0)',
+    cuentameMasLink: '/desarrollamos-talento/',
     meta: {
       title: 'Becas Al Talento',
       metaTitle: 'Becas Al Talento',
@@ -15,26 +15,20 @@ Vue.prototype.$becasAlTalentoData = {
   becasConozcanos: {
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Ana María Núñez - Estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia.',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'Siento que Becas al Talento ha sido un salvavidas que llegó justo en el momento que más lo necesitaba.',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Laura Valdivieso - Encargada del Área de Alianzas Estratégicas Universidad del Rosario.  ',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Esta alianza ha sido de gran importancia para la universidad, ya que nos ha permitido apoyar a estudiantes que se encuentran en una situación económica difícil. Nos ha permitido brindar una ayuda para que puedan continuar con sus estudios',
       },
       {
         title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+          'Juan Sebastián Fernández - Facilitador Programa Mindfulness ',
         description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Considero que es diferente porque los demás programas solo se basan en la parte académica y dejan la parte humana de lado. En cambio en este proyecto buscan que uno sea un ser completo y tenga ambos componentes como eje principal para seguir con el proceso',
       },
     ],
     meta: {

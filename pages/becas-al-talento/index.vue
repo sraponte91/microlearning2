@@ -61,13 +61,7 @@
               <div class="pra-p for-bgcol">
                 <h2 class="ff-sans-b">Sobre Becas</h2>
                 <p>
-                  En el programa apoyamos el talento y la excelencia de los
-                  estudiantes de nuestras universidades aliadas, con el fin de
-                  garantizar que terminen sus estudios profesionales de manera
-                  exitosa. Este beneficio se otorga como una beca-crédito para
-                  estudiantes que estén cursando entre 5to y 8vo semestre y está
-                  ligado a las políticas y procesos internos de las
-                  instituciones universitarias.
+                  En el programa apoyamos el talento y la excelencia de los estudiantes de nuestras universidades aliadas, con el fin de garantizar que terminen sus estudios profesionales de manera exitosa. Este beneficio se otorga como una beca-crédito para estudiantes que estén cursando entre 5to y 8vo semestre y está ligado a las políticas y procesos internos de las instituciones universitarias. 
                 </p>
               </div>
             </div>
@@ -90,7 +84,7 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a href="javascript:void(0)" class="btn-tell-more">Cuéntame más</a>
+            <a href="javascript:void(0)" class="btn-tell-more">Conozca más</a>
           </div>
         </div>
       </div>
