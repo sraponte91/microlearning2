@@ -234,22 +234,37 @@
           <h3>Con el apoyo de:</h3>
           <div class="services">
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Universidad de La Sabana </p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Universidad Externado </p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Universidad del Rosario</p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Escuela Colombiana de Ingenieros</p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Pontificia Universidad Javeriana (Bogotá)</p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana</p>
+              <p>Pontificia Universidad Javeriana (Cali) </p>
+            </div>
+             <div class="single-service">
+              <p>EAFIT  </p>
+            </div>
+             <div class="single-service">
+              <p>ICSEF </p>
+            </div>
+             <div class="single-service">
+              <p>CESA  </p>
+            </div>
+             <div class="single-service">
+              <p>Universidad del Bosque  </p>
+            </div>
+             <div class="single-service">
+              <p>Politécnico Internacional  </p>
             </div>
           </div>
         </div>

@@ -43,14 +43,14 @@
             </div>
             <div class="dot">
               <img
-                src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+                src="/images/oval-1.png"
                 alt=""
               />
             </div>
           </div>
           <div class="only-img">
             <img
-              src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg"
+              src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
               alt=""
             />
           </div>
@@ -64,7 +64,7 @@
       <div class="container">
         <div class="txt-img-multi">
           <div class="only-img">
-            <img src="/images/lady.jpg" alt="" />
+            <img src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg" alt="" />
           </div>
           <div class="only-txt">
             <div class="single-txt top-small">
