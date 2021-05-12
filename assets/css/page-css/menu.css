@@ -138,7 +138,7 @@ header .navbar-nav .nav-item.btn-inscr a:hover {
     background: linear-gradient(
       0deg,
       rgba(17, 24, 32, 0.45) 76%,
-      rgba(17, 24, 32, 0) 100%
+      rgba(17, 24, 32, 0.4) 100%
     );
   }
   /* header .navbar-nav .dropdown-menu {
