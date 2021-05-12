@@ -110,6 +110,9 @@
                     <b-dropdown-item to="/inversion-social"
                       >Inversión Social</b-dropdown-item
                     >
+                    <b-dropdown-item to="/premio-nacional-de-periodismo"
+                      >Premio Nacional de Periodismo</b-dropdown-item
+                    >
                     <b-dropdown-item to="/red-de-angeles"
                       >Red de Ángeles Inversionístas</b-dropdown-item
                     >
