@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$inversionSocialData = {
   inversionSocial: {
-    desarrollamosTalentoLink: 'javascript:void(0)',
+    desarrollamosTalentoLink: 'desarrollamos-talento',
     meta: {
       title: 'Inversión social',
       metaTitle: 'Inversión social',
@@ -25,26 +25,26 @@ Vue.prototype.$inversionSocialData = {
   inversionSocialConozcanos: {
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Kevin Stiven Caicedo - Estudiante del Colegio San Miguel del Tigre, Yondó. ',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'El proyecto me ha hecho analizar las relaciones que tengo con mi familia y amigos, he mejorado en ciertos aspectos. He aprendido a pensar mejor antes de actuar. ',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Yuri Rivera - Madre de familia ',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Ahora nosotros compartimos tiempo en familia, nos integramos, tenemos juegos de mesa, juegos en el patio, mejoramos nuestra relación.',
       },
       {
         title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+          'Ibis Calderín - Beneficiaria de ACIMA ',
         description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Ahora sé cosas diferentes, que era lo que más quería. Puedo confeccionar mi ropa, la de mis hijos y mis nietos',
+      },
+      {
+        title:
+          'John Sebastian Guerrero- Becario, Universidad Externado de Colombia',
+        description:
+          'Considero que este programa es diferente, porque no solo se basa en la parte académica, sino que no dejan la parte humana de lado. En este proyecto buscan que uno tenga ambos componentes',
       },
     ],
     meta: {
@@ -59,7 +59,7 @@ Vue.prototype.$inversionSocialData = {
   inversionSocialConvocatorias: {
     quieroConocerMasLink: 'javascript:void(0)',
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)',
+    inscribaseLink: '',
     meta: {
       title: 'Inversión social',
       metaTitle: 'Inversión social',

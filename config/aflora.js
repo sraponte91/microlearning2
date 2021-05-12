@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$afloraData = {
   aflora: {
-    desarrollamosTalento: 'javascript:void(0)',
+    desarrollamosTalento: '/desarrollamos-talento/',
     meta: {
       title: 'Aflora',
       metaTitle: 'Aflora',

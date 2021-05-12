@@ -71,7 +71,7 @@
                       .quieroConocerMasLink
                   "
                   class="ff-sans-b"
-                  >Quiero conocer más ></a
+                  >Conozca más ></a
                 >
               </div>
             </div>

@@ -4,25 +4,17 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item to="/inversion-social"
-            >Inversión Social</b-breadcrumb-item
-          >
+          <b-breadcrumb-item to="/inversion-social">Inversión Social</b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
-        <div
-          class="back-to-home position-relative d-flex align-items-center small-size"
-        >
+        <div class="back-to-home position-relative d-flex align-items-center small-size">
           <i class="ic-back" @click="goBack()"></i>
-          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()"
-            >Volver</a
-          >
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">Volver</a>
         </div>
       </div>
     </div>
 
-    <section
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
-    >
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
@@ -48,7 +40,6 @@
                 y juventud
               </h4>
               <div class="pra-p for-bgcol">
-                <h3 class="ff-sans-b abc">Nuestros expertos</h3>
                 <p>
                   Buscamos crear y fortalecer entornos seguros para los niños,
                   niñas y adolescentes de las diferentes regiones del país.
@@ -59,11 +50,7 @@
               </div>
             </div>
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque_1b_860044a.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque_1b_860044a.jpg" alt="" class="object-fit-cover" />
             </div>
           </div>
         </div>
@@ -75,14 +62,10 @@
         <div class="zig-zag-se margin-0-auto">
           <div class="inr-zig-zag">
             <div class="d-flex">
-              <div
-                class="num-se d-flex align-items-center justify-content-center ff-sans-b"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center ff-sans-b">
                 1
               </div>
-              <div
-                class="txt-prt d-flex align-items-center position-relative after-po"
-              >
+              <div class="txt-prt d-flex align-items-center position-relative after-po">
                 <div class="position-relative z-index-5">
                   <h2 class="ff-sans-b">
                     Inclusión y retención en el sistema educativo
@@ -100,9 +83,7 @@
           </div>
           <div class="inr-zig-zag">
             <div class="d-flex one-one">
-              <div
-                class="num-se d-flex align-items-center justify-content-center"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center">
                 2
               </div>
               <div class="txt-prt position-relative after-po">
@@ -124,9 +105,7 @@
           </div>
           <div class="inr-zig-zag">
             <div class="d-flex">
-              <div
-                class="num-se d-flex align-items-center justify-content-center"
-              >
+              <div class="num-se d-flex align-items-center justify-content-center">
                 3
               </div>
               <div class="txt-prt position-relative after-po">
@@ -152,9 +131,7 @@
       </div>
     </section>
 
-    <section
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
-    >
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
@@ -185,22 +162,12 @@
               </div>
             </div>
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque4_becas13f.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque4_becas13f.jpg" alt="" class="object-fit-cover" />
             </div>
           </div>
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie">
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque_56002.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque_56002.jpg" alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
@@ -239,11 +206,8 @@
     </section>
 
     <section class="educational-training position-relative after-po ades">
-      <img
-        src="/images/desarrollamostale_to_bloque_6_destacado_desarrolloeconomico_d.jpg"
-        alt=""
-        class="object-fit-cover for-hght"
-      />
+      <img src="/images/desarrollamostale_to_bloque_6_destacado_desarrolloeconomico_d.jpg" alt=""
+        class="object-fit-cover for-hght" />
       <div class="container position-absolute">
         <h3 class="ff-sans-b">Desarrollo Económico</h3>
         <div class="small-bx">
@@ -287,15 +251,9 @@
     <section class="ig-tx-zing-zag desarrolla bg-white">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
-          <div
-            class="d-flex multiple-reapt align-items-start pp-lr flex-wrap-767"
-          >
+          <div class="d-flex multiple-reapt align-items-start pp-lr flex-wrap-767">
             <div class="oly-img-bx">
-              <img
-                src="/images/desarrollamostalento_donaciones_3c5fac8d4a03ea5.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_donaciones_3c5fac8d4a03ea5.jpg" alt="" class="object-fit-cover" />
             </div>
             <div class="oly-tx-bx">
               <h3 class="text-uppercase ss ff-nunito">
@@ -336,11 +294,7 @@
         </div>
         <div class="one-bx-grey">
           <div class="info-tx position-relative after-po before-po ff-sans-r">
-            <p>
-              Tener Registro único tributario RUT con la responsabilidad No. 4
-              “Régimen Tributario Especial”actualizado en el año de presentación
-              del proyecto.
-            </p>
+            <p>No ser de carácter público.</p>
           </div>
         </div>
         <div class="one-bx-grey">
@@ -357,19 +311,6 @@
         </div>
         <div class="one-bx-grey">
           <div class="info-tx position-relative after-po before-po ff-sans-r">
-            <p>No ser de carácter público.</p>
-          </div>
-        </div>
-        <div class="one-bx-grey">
-          <div class="info-tx position-relative after-po before-po ff-sans-r">
-            <p>
-              Contar con un patrimonio mínimo, de acuerdo con el establecido por
-              el tipo de solicitud.
-            </p>
-          </div>
-        </div>
-        <div class="one-bx-grey">
-          <div class="info-tx position-relative after-po before-po ff-sans-r">
             <p>
               Tener capacidad de expedir un certificado oficial de donación, de
               acuerdo con el numeral 2o del artículo 1.2.1.4.3 del Decreto 1625
@@ -377,6 +318,24 @@
             </p>
           </div>
         </div>
+         <div class="one-bx-grey">
+          <div class="info-tx position-relative after-po before-po ff-sans-r">
+            <p>
+              Contar con un patrimonio mínimo, de acuerdo con el establecido por
+              el tipo de solicitud.
+            </p>
+          </div>
+        </div>
+
+        <div class="one-bx-grey">
+          <div class="info-tx position-relative after-po before-po ff-sans-r">
+            <p>
+              Tener Registro único tributario RUT con la responsabilidad No. 4
+              “Régimen Tributario Especial”actualizado en el año de presentación
+              del proyecto.
+            </p>
+          </div>
+        </div>   
       </div>
     </div>
 
@@ -386,36 +345,27 @@
           <h4 class="text-uppercase">¿QUÉ ACTIVIDADES NO APOYAMOS?</h4>
           <div class="d-flex flex-wrap">
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   1
                 </div>
                 <p class="ff-sans-sb">Objetivos políticos o religiosos.</p>
               </div>
             </div>
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   2
                 </div>
                 <p class="ff-sans-sb">Instituciones públicas.</p>
               </div>
             </div>
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   3
                 </div>
                 <p class="ff-sans-sb">
@@ -424,12 +374,9 @@
               </div>
             </div>
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   4
                 </div>
                 <p class="ff-sans-sb">
@@ -439,12 +386,9 @@
             </div>
 
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   5
                 </div>
                 <p class="ff-sans-sb">
@@ -455,12 +399,9 @@
             </div>
 
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   6
                 </div>
                 <p class="ff-sans-sb">Compra de bienes.</p>
@@ -468,12 +409,9 @@
             </div>
 
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   7
                 </div>
                 <p class="ff-sans-sb">Gastos retroactivos.</p>
@@ -481,12 +419,9 @@
             </div>
 
             <div class="one-box text-center position-relative">
-              <div
-                class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center"
-              >
+              <div class="round-bx position-relative margin-0-auto d-flex align-items-center justify-content-center">
                 <div
-                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute"
-                >
+                  class="numbr text-white ff-sans-b d-flex align-items-center justify-content-center position-absolute">
                   8
                 </div>
                 <p class="ff-sans-sb">
@@ -531,20 +466,12 @@
       </div>
     </section>
 
-    <section
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre d-none-n d-block-767"
-    >
+    <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre d-none-n d-block-767">
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie">
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque_56002.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque_56002.jpg" alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
@@ -583,15 +510,9 @@
             </div>
           </div>
 
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie">
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque_56002.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque_56002.jpg" alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
@@ -625,15 +546,9 @@
             </div>
           </div>
 
-          <div
-            class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie"
-          >
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991 nd-wave-of-div text-points-sie">
             <div class="img-points order-1-991">
-              <img
-                src="/images/desarrollamostalento_bloque_56002.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/desarrollamostalento_bloque_56002.jpg" alt="" class="object-fit-cover" />
             </div>
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
@@ -665,46 +580,45 @@
   </main>
 </template>
 <script>
-export default {
-  head() {
-    return {
-      title: this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
-        .title + ' - ' + this.$constants.home.meta.title,
-      meta: [
-        {
-          hid: 'title',
-          name: 'title',
-          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.metaTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.metaDescription,
-        },
-        {
-          hid: 'og:title',
-          name: 'og:title',
-          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.ogTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
-            .meta.ogDescription,
-        },
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          content:
-            this.$constants.baseURL +
-            this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
+  export default {
+    head() {
+      return {
+        title: this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
+          .title + ' - ' + this.$constants.home.meta.title,
+        meta: [{
+            hid: 'title',
+            name: 'title',
+            content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+              .meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+              .meta.metaDescription,
+          },
+          {
+            hid: 'og:title',
+            name: 'og:title',
+            content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+              .meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          },
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.$inversionSocialData.inversionSocialDesarrollamosTalento
+              .meta.ogDescription,
+          },
+          {
+            hid: 'og:image',
+            name: 'og:image',
+            content: this.$constants.baseURL +
+              this.$inversionSocialData.inversionSocialDesarrollamosTalento.meta
               .ogImage,
-        },
-      ],
-    }
-  },
-}
+          },
+        ],
+      }
+    },
+  }
+
 </script>

@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$filarmonicaJovenDeColombiaData = {
   filarmonicaJovenDeColombia: {
-    cuentameMasLink: 'javascript:void(0)',
+    cuentameMasLink: 'desarrollamos-talento',
     meta: {
       title: 'Filarmónica joven de colombia',
       metaTitle: 'Filarmónica joven de colombia',
@@ -97,52 +97,69 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
           name: 'Percusión',
           items: [
             {
-              title: 'Miller <br/> Muñoz',
-              subtitle: 'Miller Muñoz',
+              title: 'Manuel <br/> David',
+              subtitle: 'Obando Flórez',
               imgURL: '/images/member_a.png',
             },
             {
-              title: 'Daniel <br/> Moreno',
-              subtitle: 'Trompeta',
+              title: 'Angela <br/> María',
+              subtitle: 'Lara Cabrera',
               imgURL: '/images/member_b.jpg',
             },
             {
-              title: 'Ana <br/> Molina',
-              subtitle: 'Corno francés',
+              title: 'Fabian <br/>Enrique',
+              subtitle: 'Correa Guette',
               imgURL: '/images/member_c.jpg',
             },
             {
-              title: 'Gloria <br/> Ramirez',
-              subtitle: 'Trombon y Tuba',
+              title: 'Nicolas',
+              subtitle: 'Echeverry Montoya',
               imgURL: '/images/member_d.jpg',
             },
           ],
         },
         {
-          name: 'Cuerdas',
-          items: [
+          name:'Arpa',
+          items:[
             {
-              title: 'Miller <br/> Muñoz',
-              subtitle: 'Miller Muñoz',
+              title: 'Alejandro',
+              subtitle: 'Diaz Hernandez ',
               imgURL: '/images/member_a.png',
-            },
-            {
-              title: 'Daniel <br/> Moreno',
-              subtitle: 'Trompeta',
-              imgURL: '/images/member_b.jpg',
-            },
-            {
-              title: 'Ana <br/> Molina',
-              subtitle: 'Corno francés',
-              imgURL: '/images/member_c.jpg',
-            },
-            {
-              title: 'Gloria <br/> Ramirez',
-              subtitle: 'Trombon y Tuba',
-              imgURL: '/images/member_d.jpg',
             },
           ],
         },
+        {
+          name: 'Piano',
+          items: [
+            {
+              title: 'Daniel <br/> Moreno',
+              subtitle: 'Duplat Torres' ,
+              imgURL: '/images/member_b.jpg',
+            },
+          ],
+        },
+        {
+          name: 'Violín',
+          items: [
+            {
+              title: 'Angeles',
+              subtitle: 'Hoyos Malagón' ,
+              imgURL: '/images/member_b.jpg',
+            },
+            {
+              title: 'Maria <br/> Paula ',
+              subtitle: 'Bernal Niño' ,
+              imgURL: '/images/member_b.jpg',
+            },
+            {
+              title: 'Maria <br/> Paula ',
+              subtitle: 'Bernal Niño' ,
+              imgURL: '/images/member_b.jpg',
+            },
+            
+          ],
+        },
+
         {
           name: 'Maderas',
           items: [
