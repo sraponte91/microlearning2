@@ -92,33 +92,29 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li>
-                            <a target="_blank"
-                              href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos Personales_FBD_y_Cultivarte.pdf">Autorización
-                              de datos personales</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf">Aviso de
-                              privacidad Fundación Bolívar Davivienda</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf">Aviso de
-                              privacidad Cultivarte</a>
-                          </li>
-                          <li>
-                            <a target="_blank"
-                              href="legales/Footer_Legales_Política de tratamiento de datos_FBD.pdf">Política de
-                              tratamiento de datos Fundación
-                              Bolívar Davivienda</a>
-                          </li>
-                          <li>
-                            <a target="_blank"
-                              href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf">Política de
-                              tratamiento de datos Cultivarte</a>
-                          </li>
-                          <li>
-                            <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Términos y condiciones</a>
-                          </li>
+                         <li>
+                  <a target="_blank"
+                    href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf">Autorización de datos personales</a>
+                </li>
+                <li>
+                  <a target="_blank" href="Footer_Legales_Aviso_de_privacidad_FBD.pdf">Aviso de
+                    privacidad Fundación Bolívar Davivienda</a>
+                </li>
+                <li>
+                  <a target="_blank" href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf">Aviso de privacidad Cultivarte</a>
+                </li>
+                <li>
+                  <a target="_blank" href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf">Política de tratamiento de datos
+                    Fundación Bolívar
+                    Davivienda</a>
+                </li>
+                <li>
+                  <a target="_blank" href="legales/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos
+                    Cultivarte</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Términos y condiciones</a>
+                </li>
                         </ul>
                       </b-card-text>
                     </b-card-body>
