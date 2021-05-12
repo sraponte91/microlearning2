@@ -321,23 +321,22 @@
               <ul class="ff-nunito">
                 <li>
                   <a target="_blank"
-                    href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos Personales_FBD_y_Cultivarte.pdf">Autorización
-                    de datos personales</a>
+                    href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf">Autorización de datos personales</a>
                 </li>
                 <li>
-                  <a target="_blank" href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf">Aviso de
+                  <a target="_blank" href="Footer_Legales_Aviso_de_privacidad_FBD.pdf">Aviso de
                     privacidad Fundación Bolívar Davivienda</a>
                 </li>
                 <li>
-                  <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Aviso de privacidad Cultivarte</a>
+                  <a target="_blank" href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf">Aviso de privacidad Cultivarte</a>
                 </li>
                 <li>
-                  <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos
+                  <a target="_blank" href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf">Política de tratamiento de datos
                     Fundación Bolívar
                     Davivienda</a>
                 </li>
                 <li>
-                  <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos
+                  <a target="_blank" href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf">Política de tratamiento de datos
                     Cultivarte</a>
                 </li>
                 <li>
