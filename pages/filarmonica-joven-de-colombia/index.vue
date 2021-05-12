@@ -118,7 +118,7 @@
           </p>
           <div class="for-btn">
             <a :href="$constants.cuentameMasLink" class="btn-tell-more"
-              >Cuéntame más</a
+              >Conozca más</a
             >
           </div>
         </div>

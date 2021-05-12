@@ -15,26 +15,14 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
   filarmonicaJovenDeColombiaConozcanos: {
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Andrés Orozco, Director Titular Filarmónica Joven de Colombia',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'iento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Jumana Pallares, Violinista y voluntaria en #LaJoven Creando Lazos ',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Sin duda alguna nos han abierto a nuevas posibilidades que el músico del ahora, realmente necesita',
       },
     ],
     meta: {

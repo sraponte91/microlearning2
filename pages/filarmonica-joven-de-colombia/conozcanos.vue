@@ -147,7 +147,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">24</h4>
+                <h4 class="ff-sans-b">177</h4>
                 <p class="ff-nunito">Conciertos Internacionales</p>
               </div>
             </div>
@@ -174,7 +174,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">19</h4>
+                <h4 class="ff-sans-b">30 +</h4>
                 <p class="ff-nunito">Facultades De música</p>
               </div>
             </div>
@@ -204,9 +204,9 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">450</h4>
+                <h4 class="ff-sans-b">600 +</h4>
                 <p class="ff-nunito">
-                  Músicos De 68 municipios en 21 departamentos de Colombia
+                  Músicos De 40 municipios en 12 departamentos de Colombia.
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">3'000.000</h4>
+                <h4 class="ff-sans-b">3'000.000 +</h4>
                 <p class="ff-nunito">
                   De personas en 25 países diferentes, han escuchado cómo suena
                   el talento joven de Colombia.
@@ -263,7 +263,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">10</h4>
+                <h4 class="ff-sans-b">20 +</h4>
                 <p class="ff-nunito">
                   Instituciones Musicales Colombianas representadas
                 </p>
