@@ -29,6 +29,10 @@ export default {
     { src: '~/plugins/vue-carousel.js', mode: 'client' },
   ],
 
+  router: {
+    middleware: 'router',
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
