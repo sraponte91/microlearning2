@@ -336,7 +336,7 @@
                     Davivienda</a>
                 </li>
                 <li>
-                  <a target="_blank" href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf">Política de tratamiento de datos
+                  <a target="_blank" href="legales/Politica de Tratamiento de Datos.pdf">Política de tratamiento de datos
                     Cultivarte</a>
                 </li>
                 <li>
@@ -362,7 +362,7 @@
               <ul class="ff-nunito">
                 <li>
                   <p>
-                    Calle 26 # 69-63. Piso 11. <br />
+                   Av. Calle 26 # 69-63. Piso 11. <br />
                     Bogotá, Colombia
                   </p>
                 </li>
