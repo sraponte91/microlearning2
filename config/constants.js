@@ -119,12 +119,13 @@ Vue.prototype.$constants = {
     elCambio: 'javascript:void(0)',
     foundationNews: [
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_a.jpg',
+        smallTitle: 'Cómo liderar nuevas generaciones',
+        bigTitle: 'Cómo liderar nuevas generaciones',
+        imgURL: '/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'Conozca más sobre tres elementos vitales a la hora de enfrentar el reto de liderar nuevas generaciones.',
+        date: '1 - Septiembre - 2020',
+        internalURL: '/actualidad/como-liderar-nuevas-generaciones',
         tags: [
           {
             title: 'Categoría',
@@ -141,12 +142,13 @@ Vue.prototype.$constants = {
         ],
       },
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_b.jpg',
+        smallTitle: 'Aprenda como conseguir recursos para una fundación social',
+        bigTitle: 'Aprenda como conseguir recursos para una fundación social',
+        imgURL: '/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos.',
+        date: '16 - Enero - 2020',
+        internalURL: '/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social',
         tags: [
           {
             title: 'Categoría',
@@ -154,21 +156,18 @@ Vue.prototype.$constants = {
           },
           {
             title: '#Cultivarte',
-            url: 'javascript:void(0)',
-          },
-          {
-            title: '#Trabajo',
             url: 'javascript:void(0)',
           },
         ],
       },
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_c.jpg',
+        smallTitle: 'Consejos para crear y elegir el nombre adecuado para su empresa',
+        bigTitle: 'Consejos para crear y elegir el nombre adecuado para su empresa',
+        imgURL: '/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable?',
+        date: '16 - Enero - 2020',
+        internalURL: '/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa',
         tags: [
           {
             title: 'Categoría',
@@ -176,10 +175,6 @@ Vue.prototype.$constants = {
           },
           {
             title: '#Cultivarte',
-            url: 'javascript:void(0)',
-          },
-          {
-            title: '#Trabajo',
             url: 'javascript:void(0)',
           },
         ],

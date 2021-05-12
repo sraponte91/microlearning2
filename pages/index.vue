@@ -216,7 +216,7 @@ talento con el cambio.
                           <div class="date">{{ item.date }}</div>
                           <div class="new-titles ff-sans-b">
                             <a
-                              href="javascript:void(0)"
+                              :href="item.internalURL"
                               v-html="item.bigTitle"
                             ></a>
                           </div>
@@ -291,7 +291,10 @@ talento con el cambio.
                       </div>
                       <div class="date">{{ item.date }}</div>
                       <div class="new-titles ff-sans-b">
-                        <a href="javascript:void(0)" v-html="item.bigTitle"></a>
+                        <a 
+                        :href="item.internalURL" 
+                        v-html="item.bigTitle">
+                        </a>
                       </div>
                     </div>
                   </b-card-text>
