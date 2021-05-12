@@ -17,7 +17,7 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
       {
         title: 'Andrés Orozco, Director Titular Filarmónica Joven de Colombia',
         description:
-          'iento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
+          'Siento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
       },
       {
         title: 'Jumana Pallares, Violinista y voluntaria en #LaJoven Creando Lazos ',
