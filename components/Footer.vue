@@ -55,18 +55,19 @@
                             }">
                             <NuxtLink to="/filarmonica-joven-de-colombia">Filarmónica Joven de Colombia</NuxtLink>
                           </li>
-                          <li :class="{
-                              active:
-                                $route.name === 'red-de-angeles',
-                            }">
-                            <NuxtLink to="/red-de-angeles">Red de Angeles Inversionistas</NuxtLink>
-                          </li>
                            <li :class="{
                               active:
                                 $route.name === 'premio-nacional-de-periodismo',
                             }">
                             <NuxtLink to="/premio-nacional-de-periodismo">Premio Nacional de Periodismo</NuxtLink>
                           </li>
+                          <li :class="{
+                              active:
+                                $route.name === 'red-de-angeles',
+                            }">
+                            <NuxtLink to="/red-de-angeles">Red de Angeles Inversionistas</NuxtLink>
+                          </li>
+                          
                           <li :class="{
                               active:
                                 $route.name ===
@@ -299,16 +300,17 @@
                 }">
                 <NuxtLink to="/filarmonica-joven-de-colombia">Filarmónica Joven de Colombia</NuxtLink>
               </li>
+               <li :class="{
+                  active: $route.name === 'premio-nacional-de-periodismo',
+                }">
+                <NuxtLink to="/premio-nacional-de-periodismo">Premio Nacional de Periodismo</NuxtLink>
+              </li>
               <li :class="{
                               active:  $route.name === 'red-de-angeles',
                             }">
                 <NuxtLink to="/red-de-angeles">Red de Angeles Inversionistas</NuxtLink>
               </li>
-              <li :class="{
-                  active: $route.name === 'premio-nacional-de-periodismo',
-                }">
-                <NuxtLink to="/premio-nacional-de-periodismo">Premio Nacional de Periodismo</NuxtLink>
-              </li>
+             
               <li :class="{
                   active: $route.name === 'voluntariado-fundacion-bolivar',
                 }">
