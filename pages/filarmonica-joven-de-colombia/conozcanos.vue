@@ -322,7 +322,8 @@
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
-          <h4 class="ff-sans-b">FJC miembro de:</h4>
+          <h5> </h5>
+          <h4 class="ff-sans-b">Filarmónica Joven de Colombia es un miembro de</h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
               <img
