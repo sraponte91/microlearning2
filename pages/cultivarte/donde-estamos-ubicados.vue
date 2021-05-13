@@ -64,8 +64,8 @@
         </ul>
         <div class="tab-content">
           <div class="container tab-pane active">
-            <div class="tab-main">
-              <div class="tab-drop">
+            <div class="tab-main flex-wrap">
+              <div class="tab-drop sma-w">
                 <div class="drop-sub">
                   <h2>Filtros</h2>
                   <h3>Municipio</h3>
@@ -78,7 +78,7 @@
                 </div>
               </div>
               <div
-                class="contact-details"
+                class="contact-details sma-w"
                 v-for="(item, i) of selectedCityData"
                 :key="i"
               >
@@ -181,6 +181,10 @@ export default {
     ),
     url(/images/programa-cultivarte/5-ubicacion/header_desktop.jpg);
 }
+.tab-content .tab-drop.sma-w,
+.tab-content .contact-details.sma-w {
+  width: calc((100% / 3) - 30px);
+}
 
 .donde-esta {
   position: relative;
@@ -246,14 +250,12 @@ export default {
 
 .tab-drop,
 .contact-details {
-  width: calc(48% - 15px);
   margin: 15px;
 }
 
 .drop-sub {
   border: solid 1px #77777a;
-  max-width: 420px;
-  padding: 50px 40px;
+  padding: 30px;
 }
 
 .drop-sub h2 {
@@ -323,7 +325,17 @@ export default {
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  .tab-content .tab-drop.sma-w,
+  .tab-content .contact-details.sma-w {
+    width: calc((100% / 2) - 30px);
+  }
+}
 @media (max-width: 767px) {
+  .tab-content .tab-drop.sma-w,
+  .tab-content .contact-details.sma-w {
+    width: 100%;
+  }
   .all-tab ul li {
     width: 150px;
   }
