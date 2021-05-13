@@ -172,7 +172,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .common-banner.ndb {
   background-image: linear-gradient(
       0deg,

@@ -12,7 +12,9 @@
             <span aria-current="location">Desarrollamos talento</span>
           </li>
         </ol>
-        <div class="back-to-home position-relative d-flex align-items-center small-size">
+        <div
+          class="back-to-home position-relative d-flex align-items-center small-size"
+        >
           <i class="ic-back"></i>
           <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">
             Volver
@@ -32,21 +34,28 @@
             </div>
             <div class="single-txt">
               <p class="pb-4">
-                Apoyamos y construimos espacios de aprendizaje lúdico, donde los beneficiarios logran enriquecer sus
-                talentos, motivándolos a soñar con una realidad más esperanzadora en la que crean en sus capacidades y
-                sepan usarlas para alcanzar sus metas. Por eso, trabajamos bajo metodologías diseñadas para fomentar los
-                valores y habilidades por medio de la construcción de ambientes creativos y seguros, que impulsan el
-                aprendizaje experiencial.
+                Apoyamos y construimos espacios de aprendizaje lúdico, donde los
+                beneficiarios logran enriquecer sus talentos, motivándolos a
+                soñar con una realidad más esperanzadora en la que crean en sus
+                capacidades y sepan usarlas para alcanzar sus metas. Por eso,
+                trabajamos bajo metodologías diseñadas para fomentar los valores
+                y habilidades por medio de la construcción de ambientes
+                creativos y seguros, que impulsan el aprendizaje experiencial.
               </p>
               <p>
-                Desarrollamos nuestro plan utilizando 5 áreas de trabajo que estimulan competencias y les permiten a los
-                beneficiarios desarrollarse de manera integral en su entorno. Así, reescribimos la historia, no solo de
-                los niños, niñas y adolescentes, sino también de sus comunidades.
+                Desarrollamos nuestro plan utilizando 5 áreas de trabajo que
+                estimulan competencias y les permiten a los beneficiarios
+                desarrollarse de manera integral en su entorno. Así,
+                reescribimos la historia, no solo de los niños, niñas y
+                adolescentes, sino también de sus comunidades.
               </p>
             </div>
           </div>
           <div class="only-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -77,7 +86,10 @@
       <div class="container">
         <div class="txt-img-inner">
           <div class="bg-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+              alt=""
+            />
           </div>
           <div class="overlay-content">
             <h2>Promoción de valores</h2>
@@ -87,12 +99,11 @@
                 comunicativas, a través de programas dirigidos a la formación
                 integral de competencias que puedan disminuir algunos
                 comportamientos inadecuados, o a tomar decisiones adecuadas
-                frente a situaciones de riesgo. <br>
-                Estudios demuestran la relación
-                directa y significativa que existe entre estas competencias (o
-                la falta de ellas) y comportamientos sociales constructivos (o
-                destructivos). Chaux, E. Lleras, J, & Velásquez, A.M (2014).,
-                Cepeda y Chaux.(2006).).
+                frente a situaciones de riesgo. <br />
+                Estudios demuestran la relación directa y significativa que
+                existe entre estas competencias (o la falta de ellas) y
+                comportamientos sociales constructivos (o destructivos). Chaux,
+                E. Lleras, J, & Velásquez, A.M (2014)., Cepeda y Chaux.(2006).).
               </p>
               <p>
                 «Los procesos de valores en Cultivarte nos ayudan en que hay que
@@ -105,7 +116,10 @@
         </div>
         <div class="txt-img-inner">
           <div class="bg-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_2valores.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_2valores.jpg"
+              alt=""
+            />
           </div>
           <div class="overlay-content">
             <h2>Promoción de lectura</h2>
@@ -133,7 +147,10 @@
         </div>
         <div class="txt-img-inner">
           <div class="bg-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_3lectura.jpg" alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_3lectura.jpg"
+              alt=""
+            />
           </div>
           <div class="overlay-content">
             <h2>Arte y Cultura</h2>
@@ -159,8 +176,10 @@
         </div>
         <div class="txt-img-inner">
           <div class="bg-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_4_artecultura.jpg"
-              alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_4_artecultura.jpg"
+              alt=""
+            />
           </div>
           <div class="overlay-content">
             <h2>Ciencia y Tecnología</h2>
@@ -187,8 +206,10 @@
         </div>
         <div class="txt-img-inner">
           <div class="bg-img">
-            <img src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_5cienciatecnologia.jpg"
-              alt="" />
+            <img
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_5cienciatecnologia.jpg"
+              alt=""
+            />
           </div>
           <div class="overlay-content">
             <h2>Educación financiera</h2>
@@ -219,170 +240,176 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: this.$cultivarteData.cultivarteDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
-        meta: [{
-            hid: 'title',
-            name: 'title',
-            content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
-              .metaTitle + ' - ' + this.$constants.home.meta.title,
-          },
-          {
-            hid: 'description',
-            name: 'description',
-            content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
-              .metaDescription,
-          },
-          {
-            hid: 'og:title',
-            name: 'og:title',
-            content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
-              .ogTitle + ' - ' + this.$constants.home.meta.title,
-          },
-          {
-            hid: 'og:description',
-            name: 'og:description',
-            content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
-              .ogDescription,
-          },
-          {
-            hid: 'og:image',
-            name: 'og:image',
-            content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteDesarrollamosTalento.meta.ogImage}`,
-          },
-        ],
-      }
-    },
-  }
-
+export default {
+  head() {
+    return {
+      title:
+        this.$cultivarteData.cultivarteDesarrollamosTalento.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content:
+            this.$cultivarteData.cultivarteDesarrollamosTalento.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content:
+            this.$cultivarteData.cultivarteDesarrollamosTalento.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$cultivarteData.cultivarteDesarrollamosTalento.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteDesarrollamosTalento.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
 </script>
 
-<style>
-  .head-text-inner,
-  .txt-img-inner {
-    max-width: 1173px;
-    margin: 0 auto;
+<style scoped>
+.head-text-inner,
+.txt-img-inner {
+  max-width: 1173px;
+  margin: 0 auto;
+}
+
+.head-title h2 {
+  position: relative;
+  font-family: 'sansationbold';
+  font-size: 50px;
+  color: #ff671b;
+  line-height: 52px;
+  padding-bottom: 43px;
+}
+
+@media (min-width: 768px) {
+  .space-bottom {
+    padding-bottom: 172px;
+  }
+}
+
+.head-title h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ff671b;
+  max-width: 316px;
+}
+
+.orange-bg {
+  background: #ffc1b0;
+  color: #313338;
+  padding: 35px 57px 24px 57px;
+  margin-top: 60px;
+}
+
+.orange-bg h3 {
+  font-size: 38px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.orange-bg p {
+  font-size: 16px;
+  text-align: right;
+  padding-top: 35px;
+}
+
+.txt-on-img {
+  padding-top: 77px;
+}
+
+.txt-img-inner {
+  position: relative;
+  padding-top: 60px;
+}
+
+.overlay-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-img img {
+  height: 735px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.overlay-content h2 {
+  font-family: Nunito, sans-serif;
+  font-size: 48px;
+  color: #f7f7f7;
+  background: #ff671b;
+  padding: 24px;
+  display: inline-block;
+}
+
+.o-content {
+  background: rgba(49, 51, 56, 0.9);
+  padding: 20px 35px;
+  width: 100%;
+  max-width: 836px;
+}
+
+.o-content p {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  color: #f7f7f7;
+}
+
+.o-content p:last-child {
+  padding-top: 22px;
+}
+
+.only-txt {
+  z-index: 1;
+}
+
+@media (min-width: 1281px) {
+  .f-65 {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 767px) {
+  .txt-on-img .txt-img-inner {
+    padding-top: 15px;
   }
 
-  .head-title h2 {
-    position: relative;
-    font-family: 'sansationbold';
-    font-size: 50px;
-    color: #ff671b;
-    line-height: 52px;
-    padding-bottom: 43px;
+  .txt-on-img .overlay-content h2 {
+    font-size: 30px;
+    line-height: normal;
+    display: block;
   }
 
-  @media (min-width: 768px) {
-    .space-bottom {
-      padding-bottom: 172px;
-    }
+  .txt-on-img .o-content p {
+    font-size: 14px;
+    line-height: normal;
   }
-
-  .head-title h2:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #ff671b;
-    max-width: 316px;
-  }
-
-  .orange-bg {
-    background: #ffc1b0;
-    color: #313338;
-    padding: 35px 57px 24px 57px;
-    margin-top: 60px;
-  }
-
-  .orange-bg h3 {
-    font-size: 38px;
-    text-align: center;
-    line-height: 48px;
-  }
-
-  .orange-bg p {
-    font-size: 16px;
-    text-align: right;
-    padding-top: 35px;
-  }
-
-  .txt-on-img {
-    padding-top: 77px;
-  }
-
-  .txt-img-inner {
-    position: relative;
-    padding-top: 60px;
-  }
-
-  .overlay-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-
-  .bg-img img {
-    height: 735px;
-    object-fit: cover;
-    width: 100%;
-  }
-
-  .overlay-content h2 {
-    font-family: Nunito, sans-serif;
-    font-size: 48px;
-    color: #f7f7f7;
-    background: #ff671b;
-    padding: 24px;
-    display: inline-block;
-  }
-
-  .o-content {
-    background: rgba(49, 51, 56, 0.9);
-    padding: 20px 35px;
-    width: 100%;
-    max-width: 836px;
-  }
-
-  .o-content p {
-    font-family: Nunito, sans-serif;
-    font-size: 18px;
-    color: #f7f7f7;
-  }
-
-  .o-content p:last-child {
-    padding-top: 22px;
-  }
-
-  .only-txt {
-    z-index: 1;
-  }
-
-  @media (min-width: 1281px) {
-    .f-65 {
-      font-size: 65px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .txt-on-img .txt-img-inner {
-      padding-top: 15px;
-    }
-
-    .txt-on-img .overlay-content h2 {
-      font-size: 30px;
-      line-height: normal;
-      display: block;
-    }
-
-    .txt-on-img .o-content p {
-      font-size: 14px;
-      line-height: normal;
-    }
-  }
-
+}
 </style>

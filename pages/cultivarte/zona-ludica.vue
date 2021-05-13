@@ -69,12 +69,18 @@
 export default {
   head() {
     return {
-      title: this.$cultivarteData.cultivarteZonaLudica.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$cultivarteData.cultivarteZonaLudica.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -85,7 +91,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -103,7 +112,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .pm-title p {
   font-family: Nunito, sans-serif;
   font-size: 20px;

@@ -36,8 +36,15 @@
             <div class="single-txt">
               <h2>Sobre Becas</h2>
               <p>
-                El programa tiene como objetivo impulsar talentos destacados para crear sus propias oportunidades. Buscamos apoyar jóvenes que no piensan en las dificultades, sino que buscan nuevos rumbos para cumplir sus metas personales y profesionales. </p>
-                <p>Becas al Talento, es un proyecto que pretende multiplicar su para que muchos jóvenes logren culminar con sus estudios y se desarrollen profesionalmente. 
+                El programa tiene como objetivo impulsar talentos destacados
+                para crear sus propias oportunidades. Buscamos apoyar jóvenes
+                que no piensan en las dificultades, sino que buscan nuevos
+                rumbos para cumplir sus metas personales y profesionales.
+              </p>
+              <p>
+                Becas al Talento, es un proyecto que pretende multiplicar su
+                para que muchos jóvenes logren culminar con sus estudios y se
+                desarrollen profesionalmente.
               </p>
             </div>
           </div>
@@ -229,10 +236,10 @@
           <h3>Con el apoyo de:</h3>
           <div class="services">
             <div class="single-service">
-              <p>Universidad de La Sabana </p>
+              <p>Universidad de La Sabana</p>
             </div>
             <div class="single-service">
-              <p>Universidad Externado </p>
+              <p>Universidad Externado</p>
             </div>
             <div class="single-service">
               <p>Universidad del Rosario</p>
@@ -244,22 +251,22 @@
               <p>Pontificia Universidad Javeriana (Bogotá)</p>
             </div>
             <div class="single-service">
-              <p>Pontificia Universidad Javeriana (Cali) </p>
+              <p>Pontificia Universidad Javeriana (Cali)</p>
             </div>
-             <div class="single-service">
-              <p>EAFIT  </p>
+            <div class="single-service">
+              <p>EAFIT</p>
             </div>
-             <div class="single-service">
-              <p>ICSEF </p>
+            <div class="single-service">
+              <p>ICSEF</p>
             </div>
-             <div class="single-service">
-              <p>CESA  </p>
+            <div class="single-service">
+              <p>CESA</p>
             </div>
-             <div class="single-service">
-              <p>Universidad del Bosque  </p>
+            <div class="single-service">
+              <p>Universidad del Bosque</p>
             </div>
-             <div class="single-service">
-              <p>Politécnico Internacional  </p>
+            <div class="single-service">
+              <p>Politécnico Internacional</p>
             </div>
           </div>
         </div>
@@ -271,12 +278,18 @@
 export default {
   head() {
     return {
-      title: this.$becasAlTalentoData.becasConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$becasAlTalentoData.becasConozcanos.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$becasAlTalentoData.becasConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasConozcanos.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -287,7 +300,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$becasAlTalentoData.becasConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasConozcanos.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -306,7 +322,7 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 @media (max-width: 767px) {
   .common-banner h2 {
     font-size: 38px;

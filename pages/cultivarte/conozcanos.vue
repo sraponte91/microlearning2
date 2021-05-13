@@ -310,304 +310,311 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: this.$cultivarteData.cultivarteConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
-        meta: [{
-            hid: 'title',
-            name: 'title',
-            content: this.$cultivarteData.cultivarteConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
-          },
-          {
-            hid: 'description',
-            name: 'description',
-            content: this.$cultivarteData.cultivarteConozcanos.meta
-              .metaDescription,
-          },
-          {
-            hid: 'og:title',
-            name: 'og:title',
-            content: this.$cultivarteData.cultivarteConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
-          },
-          {
-            hid: 'og:description',
-            name: 'og:description',
-            content: this.$cultivarteData.cultivarteConozcanos.meta.ogDescription,
-          },
-          {
-            hid: 'og:image',
-            name: 'og:image',
-            content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteConozcanos.meta.ogImage}`,
-          },
-        ],
-      }
-    },
-  }
-
+export default {
+  head() {
+    return {
+      title:
+        this.$cultivarteData.cultivarteConozcanos.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content:
+            this.$cultivarteData.cultivarteConozcanos.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$cultivarteData.cultivarteConozcanos.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content:
+            this.$cultivarteData.cultivarteConozcanos.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$cultivarteData.cultivarteConozcanos.meta.ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${this.$constants.baseURL}${this.$cultivarteData.cultivarteConozcanos.meta.ogImage}`,
+        },
+      ],
+    }
+  },
+}
 </script>
 
-<style>
-  .common-banner.nc {
-    background-image: linear-gradient(0deg,
-        #111820 12%,
-        rgba(255, 103, 27, 0.1) 100%),
-      url(/images/n-cultivarte.jpg);
-  }
+<style scoped>
+.common-banner.nc {
+  background-image: linear-gradient(
+      0deg,
+      #111820 12%,
+      rgba(255, 103, 27, 0.1) 100%
+    ),
+    url(/images/n-cultivarte.jpg);
+}
 
-  @media (min-width: 768px) {
-
-    .sobre-txt a,
-    .single-txt a {
-      font-family: sansationbold;
-      font-size: 16px;
-      color: #030303;
-      display: inline-block;
-      margin-top: 25px;
-    }
-
-    .sobre-txt a img,
-    .single-txt a img {
-      width: 17px;
-      transform: rotate(180deg);
-    }
-
-    .right-txt .no-pos-right .single-txt {
-      position: unset;
-      margin: 0 0 0 -297px;
-    }
-
-    .left-txt .no-pos-left .single-txt {
-      position: relative;
-      margin: 0 -300px 0 0;
-      top: 0;
-    }
-
-    .no-pos-right .only-img {
-      padding-top: 100px;
-    }
-  }
-
-  .bs-txt p {
-    font-family: Nunito, sans-serif;
+@media (min-width: 768px) {
+  .sobre-txt a,
+  .single-txt a {
+    font-family: sansationbold;
     font-size: 16px;
-    color: #58595b;
-    line-height: 30px;
-    padding: 13px 0;
-    max-width: 380px;
+    color: #030303;
+    display: inline-block;
+    margin-top: 25px;
   }
 
-  .single-txt h2.title-thin {
-    font-weight: normal;
+  .sobre-txt a img,
+  .single-txt a img {
+    width: 17px;
+    transform: rotate(180deg);
   }
 
-  @media (min-width: 768px) {
-    .left-txt .no-pos-left .bs-txt p {
-      max-width: 328px;
-      margin: 0 0 0 auto;
-    }
-
-    .left-bottom .only-img {
-      padding-bottom: 50px;
-    }
-
-    .left-bottom .single-txt {
-      top: unset;
-      bottom: 0;
-    }
-
-    .donde {
-      padding: 100px 0;
-    }
+  .right-txt .no-pos-right .single-txt {
+    position: unset;
+    margin: 0 0 0 -297px;
   }
 
-  /* Areas css start */
+  .left-txt .no-pos-left .single-txt {
+    position: relative;
+    margin: 0 -300px 0 0;
+    top: 0;
+  }
+
+  .no-pos-right .only-img {
+    padding-top: 100px;
+  }
+}
+
+.bs-txt p {
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  color: #58595b;
+  line-height: 30px;
+  padding: 13px 0;
+  max-width: 380px;
+}
+
+.single-txt h2.title-thin {
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .left-txt .no-pos-left .bs-txt p {
+    max-width: 328px;
+    margin: 0 0 0 auto;
+  }
+
+  .left-bottom .only-img {
+    padding-bottom: 50px;
+  }
+
+  .left-bottom .single-txt {
+    top: unset;
+    bottom: 0;
+  }
+
+  .donde {
+    padding: 100px 0;
+  }
+}
+
+/* Areas css start */
+.areas {
+  background: linear-gradient(130deg, #313338 52%, #2c3e53 100%);
+  padding: 70px 0;
+}
+
+.areas-container {
+  max-width: 95%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.areas h2 {
+  font-family: Nunito, sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 72px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 70px;
+}
+
+.all-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-areas {
+  width: calc(19% - 10px);
+  margin: 10px;
+  background: #fff;
+  border-radius: 3px;
+  padding: 40px 30px;
+}
+
+.areas-img {
+  height: 133px;
+  display: flex;
+  justify-content: center;
+}
+
+.single-areas img {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+.single-areas p {
+  font-family: sansationregular;
+  font-size: 26px;
+  color: #313338;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Areas css end */
+/* icon section start */
+.achive {
+  padding-bottom: 100px;
+}
+
+.all-achive {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-achive {
+  width: calc(33.33% - 10px);
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+  justify-content: center;
+}
+
+.achive-txt {
+  padding-left: 30px;
+  width: calc(100% - 94px);
+}
+
+.achive-img {
+  width: 94px;
+}
+
+.achive-txt h3 {
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ff671b;
+  line-height: 52px;
+  margin-bottom: 7px;
+}
+
+.achive-txt p {
+  font-family: Nunito, sans-serif;
+  font-size: 30px;
+  color: #111820;
+  line-height: 30px;
+}
+
+/* icon section end */
+.logos {
+  display: flex;
+}
+
+.s-logo {
+  margin: 10px 14px;
+  width: calc(14% - 14px);
+}
+
+@media (max-width: 767px) {
   .areas {
-    background: linear-gradient(130deg, #313338 52%, #2c3e53 100%);
-    padding: 70px 0;
-  }
-
-  .areas-container {
-    max-width: 95%;
-    padding: 0 15px;
-    margin: 0 auto;
+    padding: 25px 0;
   }
 
   .areas h2 {
-    font-family: Nunito, sans-serif;
-    font-size: 72px;
-    color: #ffffff;
-    line-height: 72px;
-    text-align: center;
-    font-weight: normal;
-    padding-bottom: 70px;
+    font-size: 42px;
+    padding-bottom: 15px;
   }
 
-  .all-areas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .single-areas {
-    width: calc(19% - 10px);
-    margin: 10px;
-    background: #fff;
-    border-radius: 3px;
-    padding: 40px 30px;
+  .areas-container {
+    max-width: 100%;
   }
 
   .areas-img {
-    height: 133px;
-    display: flex;
-    justify-content: center;
+    height: 75px;
   }
 
-  .single-areas img {
-    width: 70%;
-    height: auto;
-    object-fit: contain;
+  .all-areas .single-areas {
+    width: calc(46% - 5px);
+    margin: 5px;
+    padding: 20px 15px;
   }
 
-  .single-areas p {
-    font-family: sansationregular;
-    font-size: 26px;
-    color: #313338;
-    line-height: 26px;
-    text-align: center;
-    padding-top: 20px;
+  .all-areas .single-areas p {
+    font-size: 20px;
+    padding-top: 0;
   }
 
-  /* Areas css end */
-  /* icon section start */
   .achive {
-    padding-bottom: 100px;
-  }
-
-  .all-achive {
-    display: flex;
-    justify-content: space-between;
+    padding: 0 0 15px;
   }
 
   .single-achive {
-    width: calc(33.33% - 10px);
-    display: flex;
-    align-items: flex-end;
-    margin: 10px;
-    justify-content: center;
-  }
-
-  .achive-txt {
-    padding-left: 30px;
-    width: calc(100% - 94px);
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background: #dadada;
+    width: 100%;
   }
 
   .achive-img {
-    width: 94px;
+    width: 60px;
+  }
+
+  .achive-img img {
+    max-width: 100%;
+  }
+
+  .single-achive:nth-child(2n + 2) {
+    background: #f7f7f7;
   }
 
   .achive-txt h3 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    margin: 0;
+    font-size: 28px;
+    line-height: normal;
     color: #ff671b;
-    line-height: 52px;
-    margin-bottom: 7px;
   }
 
   .achive-txt p {
-    font-family: Nunito, sans-serif;
-    font-size: 30px;
+    font-size: 21px;
+    line-height: normal;
     color: #111820;
-    line-height: 30px;
   }
 
-  /* icon section end */
-  .logos {
-    display: flex;
+  .conel {
+    padding-bottom: 0px;
   }
 
-  .s-logo {
-    margin: 10px 14px;
-    width: calc(14% - 14px);
+  .conel .s-logo {
+    width: calc(50% - 10px);
+    margin: 5px;
   }
-
-  @media (max-width: 767px) {
-    .areas {
-      padding: 25px 0;
-    }
-
-    .areas h2 {
-      font-size: 42px;
-      padding-bottom: 15px;
-    }
-
-    .areas-container {
-      max-width: 100%;
-    }
-
-    .areas-img {
-      height: 75px;
-    }
-
-    .all-areas .single-areas {
-      width: calc(46% - 5px);
-      margin: 5px;
-      padding: 20px 15px;
-    }
-
-    .all-areas .single-areas p {
-      font-size: 20px;
-      padding-top: 0;
-    }
-
-    .achive {
-      padding: 0 0 15px;
-    }
-
-    .all-achive {}
-
-    .single-achive {
-      align-items: center;
-      margin: 0;
-      padding: 10px;
-      background: #dadada;
-      width: 100%;
-    }
-
-    .achive-img {
-      width: 60px;
-    }
-
-    .achive-img img {
-      max-width: 100%;
-    }
-
-    .single-achive:nth-child(2n + 2) {
-      background: #f7f7f7;
-    }
-
-    .achive-txt h3 {
-      margin: 0;
-      font-size: 28px;
-      line-height: normal;
-      color: #ff671b;
-    }
-
-    .achive-txt p {
-      font-size: 21px;
-      line-height: normal;
-      color: #111820;
-    }
-
-    .conel {
-      padding-bottom: 0px;
-    }
-
-    .conel .s-logo {
-      width: calc(50% - 10px);
-      margin: 5px;
-    }
-  }
-
+}
 </style>

@@ -94,12 +94,18 @@
 export default {
   head() {
     return {
-      title: this.$constants.legales.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$constants.legales.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$constants.legales.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$constants.legales.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -109,7 +115,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$constants.legales.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$constants.legales.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -128,7 +137,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .terms {
   padding: 50px 0;
 }

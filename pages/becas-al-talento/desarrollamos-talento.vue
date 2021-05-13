@@ -42,10 +42,7 @@
               </p>
             </div>
             <div class="dot">
-              <img
-                src="/images/oval-1.png"
-                alt=""
-              />
+              <img src="/images/oval-1.png" alt="" />
             </div>
           </div>
           <div class="only-img">
@@ -64,7 +61,10 @@
       <div class="container">
         <div class="txt-img-multi">
           <div class="only-img">
-            <img src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg" alt="" />
+            <img
+              src="/images/programa-becas-al-talento/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg"
+              alt=""
+            />
           </div>
           <div class="only-txt">
             <div class="single-txt top-small">
@@ -98,13 +98,18 @@
 export default {
   head() {
     return {
-      title: this.$becasAlTalentoData.becasDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$becasAlTalentoData.becasDesarrollamosTalento.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$becasAlTalentoData.becasDesarrollamosTalento.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasDesarrollamosTalento.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -115,8 +120,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$becasAlTalentoData.becasDesarrollamosTalento.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasDesarrollamosTalento.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -135,7 +142,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 /* Breadcrumb css start */
 .breadcrumb {
   background-color: transparent;
