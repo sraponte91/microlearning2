@@ -111,7 +111,7 @@
                   .voluntariadoFundacionBolivarDavivienda.cuentameMasLink
               "
               class="btn-tell-more"
-              >Cuéntame más</a
+              >Conozca más</a
             >
           </div>
         </div>

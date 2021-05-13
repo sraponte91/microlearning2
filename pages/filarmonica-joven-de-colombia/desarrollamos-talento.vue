@@ -36,14 +36,10 @@
               <div class="pra-p for-bgcol">
                 <h3 class="ff-nunito">Creando lazos</h3>
                 <p>
-                  En la Fundación Bolívar Davivienda creemos en la construcción
-                  de un mejor país. Por eso, dimos vida a la iniciativa
-                  #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y
-                  social para iniciativas orquestales y musicales en formación
+                 En la Fundación Bolívar Davivienda creemos en la construcción de un mejor país.  Por eso, dimos vida a la iniciativa #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y social para iniciativas orquestales y musicales en formación.
                 </p>
                 <p>
-                  El programa #LaJovenCreandoLazos, está basado en 6
-                  estrategias:
+                  El programa #LaJovenCreandoLazos, está basado en 6 estrategias: 
                 </p>
                 <ul>
                   <li class="position-relative after-po">
@@ -56,13 +52,12 @@
                         La Nota Joven para semilleros.
                       </li>
                       <li class="position-relative before-po">
-                        Guardianes de la Música con Cultivarte.
+                        Guardianes de la Música, una aplicación que busca acercar a los niños y niñas al universo de la música sinfónica.  
                       </li>
                     </ul>
                   </li>
                   <li class="position-relative after-po">
-                    Formación virtual de instrumento a más de 1.000 niñas, niños
-                    y jóvenes en 17 municipios del país.
+                    Formación virtual de instrumento a niños, niñas y jóvenes pertenecientes a diversos procesos musicales sinfónicos en más de 17 municipios del país. 
                   </li>
                 </ul>
               </div>
@@ -80,7 +75,7 @@
           >
             <div class="img-points order-1-991">
               <img
-                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_bloque2.jpg"
                 alt=""
                 class="object-fit-cover"
               />
@@ -89,36 +84,57 @@
               <div class="pra-p for-bgcol">
                 <ul>
                   <li class="position-relative after-po">
-                    Formación de Formadores, con 41 profesores distribuidos en:
-                    <ul class="inner-ul">
+                   Formación de Formadores, con profesores de instrumento de  diferentes municipios. 
+                   <ul class="inner-ul">
                       <li class="position-relative before-po">
-                        B/ventura y Cali, en el departamento del Valle del
-                        Cauca.
+                       B/ventura y Cali, Valle del Cauca.
                       </li>
                       <li class="position-relative before-po">
                         Quibdó, Chocó.
                       </li>
                       <li class="position-relative before-po">
-                        El Bagre, Antioquia.
+                        El Bagre, Valparaíso y Medellín, Antioquia. 
                       </li>
                       <li class="position-relative before-po">
-                        Sincé y Montes de María en el departamento de Sucre.
+                        Sincé, Sucre 
                       </li>
-                      <li class="position-relative before-po">Eje Cafetero.</li>
-                      <li class="position-relative before-po">Bogotá.</li>
+                      <li class="position-relative before-po">
+                        El Carmen de Bolívar, Bolívar.
+                      </li>
+                      <li class="position-relative before-po">
+                        Eje Cafetero.
+                      </li>
+                      <li class="position-relative before-po">
+                        Bogotá, Cundinamarca.
+                      </li>
+                      <li class="position-relative before-po">
+                        Puerto Asís, Putumayo.  
+                      </li>
+                      <li class="position-relative before-po">
+                        Puerto Carreño, Vichada.  
+                      </li>
+                      <li class="position-relative before-po">
+                        Riohacha, La Guajira.  
+                      </li>
+                      <li class="position-relative before-po">
+                        Villa del Rosario, Norte de Santander.  
+                      </li>
+                      <li class="position-relative before-po">
+                        Villavicencio, Meta.  
+                      </li>
+                      <li class="position-relative before-po">
+                        Bucaramanga, Santander.   
+                      </li>
                     </ul>
                   </li>
                   <li class="position-relative after-po">
-                    Enfoque Proyección Social Apoyo a jóvenes emprendedores,
-                    para el fortalecimiento de sus iniciativas de proyección.
+                    Enfoque Proyección Social Apoyo a jóvenes emprendedores, para el fortalecimiento de sus iniciativas de proyección de los integrantes de #LaJoven
                   </li>
                   <li class="position-relative after-po">
-                    #LaJoven en Casa con Grupo Bolívar, cercanía con los
-                    colaboradores en diferentes escenarios
+                   #LaJoven en Casa con Grupo Bolívar, cercanía con los colaboradores en diferentes escenarios
                   </li>
                   <li class="position-relative after-po">
-                    Respiración y Música, en alianza con la Fundación
-                    Neumológica Colombiana.
+                   Respiración y Música, en alianza con la Fundación Neumológica Colombiana. 
                   </li>
                 </ul>
               </div>
@@ -215,7 +231,7 @@
                         .seguirEnlaceLink
                     "
                     class="btn-follow-links ff-sans-b"
-                    >Seguir enlace</a
+                    >Conozca más</a
                   >
                 </div>
               </div>

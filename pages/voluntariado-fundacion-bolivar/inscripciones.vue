@@ -33,7 +33,7 @@
               <h2 class="ff-sans-b d-none-991">Inscripciones</h2>
               <h3 class="ff-sans-b d-none-991">
                 ¿Cómo inscribirse <br />
-                a Aflora?
+                al Voluntariado?
               </h3>
               <div class="pra-p for-bgcol">
                 <ul>

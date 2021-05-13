@@ -45,6 +45,11 @@
           <NuxtLink to="/cultivarte/zona-ludica" class="linkse text-center"
             >Zona lúdica</NuxtLink
           >
+          <NuxtLink
+            to="/cultivarte/donde-estamos-ubicados"
+            class="linkse text-center"
+            >Dónde estamos ubicados</NuxtLink
+          >
         </div>
       </div>
     </section>
@@ -144,7 +149,12 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a href="/desarrollamos-talento/" class="btn-tell-more">Conozca más</a>
+            <a
+              :href="$cultivarteData.cultivarteHome.desarrollamosTalento"
+              class="btn-tell-more"
+            >
+              Conozca más</a
+            >
           </div>
         </div>
       </div>
@@ -156,12 +166,18 @@
 export default {
   head() {
     return {
-      title: this.$cultivarteData.cultivarteHome.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$cultivarteData.cultivarteHome.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$cultivarteData.cultivarteHome.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteHome.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -171,7 +187,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$cultivarteData.cultivarteHome.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteHome.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

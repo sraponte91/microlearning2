@@ -64,7 +64,7 @@ Vue.prototype.$constants = {
           'Conozca todas nuestras Iniciativas y programas.',
       },
     ],
-    desarrollamosTalento: 'javascript:void(0)',
+    desarrollamosTalento: '/la-fundacion',
     nuestrosProgramas: [
       {
         imgURL: '/images/seccion-inicio/home_programas_0006_aflora.jpg',
@@ -119,12 +119,13 @@ Vue.prototype.$constants = {
     elCambio: 'javascript:void(0)',
     foundationNews: [
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_a.jpg',
+        smallTitle: 'Cómo liderar nuevas generaciones',
+        bigTitle: 'Cómo liderar nuevas generaciones',
+        imgURL: '/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'Conozca más sobre tres elementos vitales a la hora de enfrentar el reto de liderar nuevas generaciones.',
+        date: '1 - Septiembre - 2020',
+        internalURL: '/actualidad/como-liderar-nuevas-generaciones',
         tags: [
           {
             title: 'Categoría',
@@ -141,12 +142,13 @@ Vue.prototype.$constants = {
         ],
       },
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_b.jpg',
+        smallTitle: 'Aprenda como conseguir recursos para una fundación social',
+        bigTitle: 'Aprenda como conseguir recursos para una fundación social',
+        imgURL: '/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos.',
+        date: '16 - Enero - 2020',
+        internalURL: '/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social',
         tags: [
           {
             title: 'Categoría',
@@ -154,21 +156,18 @@ Vue.prototype.$constants = {
           },
           {
             title: '#Cultivarte',
-            url: 'javascript:void(0)',
-          },
-          {
-            title: '#Trabajo',
             url: 'javascript:void(0)',
           },
         ],
       },
       {
-        smallTitle: 'Título de la noticia',
-        bigTitle: 'Título de la noticia, <br />puede bajar a segunda línea',
-        imgURL: '/images/new_img_c.jpg',
+        smallTitle: 'Consejos para crear y elegir el nombre adecuado para su empresa',
+        bigTitle: 'Consejos para crear y elegir el nombre adecuado para su empresa',
+        imgURL: '/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png',
         summary:
-          'Conveniently embrace resource sucking meta-services via scalabe.',
-        date: 'September 16 - 2021',
+          'El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable?',
+        date: '16 - Enero - 2020',
+        internalURL: '/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa',
         tags: [
           {
             title: 'Categoría',
@@ -176,10 +175,6 @@ Vue.prototype.$constants = {
           },
           {
             title: '#Cultivarte',
-            url: 'javascript:void(0)',
-          },
-          {
-            title: '#Trabajo',
             url: 'javascript:void(0)',
           },
         ],
@@ -203,15 +198,15 @@ Vue.prototype.$constants = {
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Estatutos_FBD.pdf',
           },
           {
             title: 'Código de Gobierno Corporativo',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
           {
             title: 'Reglamento Ejecutivo',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
         ],
       },
@@ -219,20 +214,6 @@ Vue.prototype.$constants = {
         title: 'Nuestra Visión',
         description:
           '<p>La Fundación Bolívar Davivienda será reconocida como una fundación líder en los lugares donde está presente el grupo, por el impacto de sus programas en el logro de transformaciones sociales efectivas y sostenibles.</p>',
-        tags: [
-          {
-            title: 'Conoce Nuestros Estatutos',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Código de Gobierno Corporativo',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Reglamento Ejecutivo',
-            link: 'javascript:void(0)',
-          },
-        ],
       },
       {
         title: 'Gobierno Corporativo',
@@ -240,20 +221,6 @@ Vue.prototype.$constants = {
           '<p>En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.</p>' +
           '<p>Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.</p>' +
           '<p>Los miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
-        tags: [
-          {
-            title: 'Conoce Nuestros Estatutos',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Código de Gobierno Corporativo',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Reglamento Ejecutivo',
-            link: 'javascript:void(0)',
-          },
-        ],
       },
     ],
     meta: {

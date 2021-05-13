@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
   voluntariadoFundacionBolivarDavivienda: {
-    cuentameMasLink: 'javascript:void(0)',
+    cuentameMasLink: '/voluntariado-fundacion-bolivar/desarrollamos-talento',
     meta: {
       title: 'Voluntariado-fundación-Bolivar',
       metaTitle: 'Voluntariado fundación Bolivar',
@@ -15,26 +15,26 @@ Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
   voluntariadoFundacionBolivarDaviviendaConozcanos: {
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Patricia Zambrano - Voluntaria Seguros Bolívar ',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'Es despertar esa ayuda hacia los demás. Sentirse uno útil, sentir que en esta sociedad está aportando uno así sea un granito de arena para mejorar las condiciones',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Blanca Gutiérrez - Voluntaria Seguros Bolívar ',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Cada persona desde su formación puede impactar y ahí así construir ese país que todos soñamos, armonioso, con equidad…',
       },
       {
         title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
+          'Andrés Rubio - Voluntario Davivienda ',
         description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Esas acciones pequeñitas que parecen insignificantes, son las que transforman la comunidad y la sociedad en general',
+      },
+      {
+        title:
+          'Vania Bautista - Voluntaria Davivienda ',
+        description:
+          'Entre al voluntariado por unos amigos. Uno veía que eran muy serviciales, en general buenas personas y yo dije ¡Hey yo quiero eso',
       },
     ],
     meta: {

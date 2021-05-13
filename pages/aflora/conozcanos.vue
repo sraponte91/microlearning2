@@ -75,7 +75,7 @@
         >
           <div class="img-points order-2-991">
             <img
-              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque3.jpg"
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque2.jpg"
               alt=""
               class="object-fit-cover"
             />
@@ -127,7 +127,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images//programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque3-1.jpg"
               alt=""
               class="object-fit-cover"
             />

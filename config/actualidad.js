@@ -5,7 +5,7 @@ Vue.prototype.$actualidadData = {
     articles: [
       {
         id: 1,
-        slug: 'Como-liderar-nuevas-generaciones',
+        slug: 'como-liderar-nuevas-generaciones',
         imgURL: '/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg',
         date: '1 - Septiembre - 2020',
         title: 'Cómo liderar nuevas generaciones',
@@ -56,10 +56,10 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 2,
-        slug: 'Aprenda-como-conseguir-recursos-para-una-fundacion-social',
+        slug: 'aprenda-como-conseguir-recursos-para-una-fundacion-social',
         imgURL: '/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png',
         date: '16 - Enero - 2020',
-        title: 'Aprenda como conseguir recursos para una fundación social ',
+        title: 'Aprenda como conseguir recursos para una fundación social',
         shortDescription:
           'Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos. ',
         description: [
@@ -126,10 +126,10 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 3,
-        slug: 'Consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa ',
+        slug: 'consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa',
         imgURL: '/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png',
         date: '16 - Enero - 2020',
-        title: 'Consejos para crear y elegir el nombre adecuado para su empresa ',
+        title: 'Consejos para crear y elegir el nombre adecuado para su empresa',
         shortDescription:
           'El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable? ',
         description: [
@@ -209,7 +209,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 4,
-        slug: 'Las-10-obras-de-musica-clasica-mas-importantes-del-mundo',
+        slug: 'las-10-obras-de-musica-clasica-mas-importantes-del-mundo',
         imgURL: '/images/seccion-actualidad/articulos/las-10-obras-de-musica-clasica-mas-importantes.jpeg',
         date: '12 - Octubre - 2018',
         title: 'Las 10 obras de música clásica más importantes del mundo',
@@ -417,7 +417,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 5,
-        slug: 'Empresarios-colombianos',
+        slug: 'empresarios-colombianos',
         imgURL: '/images/seccion-actualidad/articulos/empresarios_colombianos.jpg',
         date: '1 - Octubre - 2018',
         title: 'Empresarios colombianos',
@@ -455,7 +455,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 6,
-        slug: 'La-Consagracion-de-la-Primavera',
+        slug: 'la-consagracion-de-la-primavera',
         imgURL: '/images/seccion-actualidad/articulos/consagracion_primavera.jpg',
         date: '27 - Julio - 2018',
         title: 'La Consagración de la Primavera',
@@ -491,7 +491,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 7,
-        slug: '¿Cuales-deben-ser-los-principios-basicos-de-una-organizacion-social?',
+        slug: 'cuales-deben-ser-los-principios-basicos-de-una-organizacion-social',
         imgURL: '/images/seccion-actualidad/articulos/cuales-deben-ser-los-principios-basicos.jpeg',
         date: '20 - enero - 2018',
         title: '¿Cuáles deben ser los principios básicos de una organización social? ',
@@ -540,7 +540,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 8,
-        slug: 'La-diferencia-entre-una-Orquesta-Filarmonica-y-una-Orquesta-Sinfonica',
+        slug: 'la-diferencia-entre-una-orquesta-filarmonica-y-una-orquesta-sinfonica',
         imgURL: '/images/seccion-actualidad/articulos/diferencia_sinfonica_filarmonica.jpeg',
         date: '31 - Enero - 2018',
         title: 'La diferencia entre una Orquesta Filarmónica y una Orquesta Sinfónica',
@@ -582,7 +582,7 @@ Vue.prototype.$actualidadData = {
       },
       {
         id: 9,
-        slug: 'Internet-org-la-fundacion-de-Facebook-que-brinda-acceso-gratis-a-la-web',
+        slug: 'internet-org-la-fundacion-de-facebook-que-brinda-acceso-gratis-a-la-web',
         imgURL: '/images/seccion-actualidad/articulos/internetorg_la_fundacion_de_facebook.png',
         date: '19 - septiembre - 2016',
         title: 'Internet.org, la fundación de Facebook que brinda acceso gratis a la web',

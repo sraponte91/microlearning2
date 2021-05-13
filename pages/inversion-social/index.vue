@@ -29,7 +29,7 @@
             Familiar e Inclusión Educativa.
           </p>
           <p>
-            presencia en más de 18 departamentos a lo largo del territorio
+            Tenemos presencia en más de 18 departamentos a lo largo del territorio
             Nacional, con más de 17.000 beneficiarios directos en nuestros
             diferentes programas.
           </p>
@@ -104,7 +104,7 @@
                 $inversionSocialData.inversionSocial.desarrollamosTalentoLink
               "
               class="btn-tell-more"
-              >Cuéntame más</a
+              >Conozca más</a
             >
           </div>
         </div>

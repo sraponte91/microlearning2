@@ -4,7 +4,6 @@
       <div class="container margin-0-auto">
         <b-breadcrumb class="ff-sans-r mb-2">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          <b-breadcrumb-item active>Programas</b-breadcrumb-item>
           <b-breadcrumb-item active>
             Premio nacional de periodismo
           </b-breadcrumb-item>
