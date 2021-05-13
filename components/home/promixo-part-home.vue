@@ -1,47 +1,53 @@
 <template>
   <section class="proximos-eventos">
     <div class="container position-relative">
-      <carousel ref="carousel" :per-page="1">
-        <slide v-for="(ev, i) of latestEvents" :key="i">
-          <div class="slider-desing position-relative">
-            <h3
-              class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
-            >
-              Próximos Eventos
-            </h3>
-            <div class="img-part">
-              <img :src="ev.imgURL" :alt="ev.title" class="object-fit-cover" />
-            </div>
-            <div class="text-part-title position-absolute v-center">
-              <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
-              <div class="inner-bx-info">
-                <h4 class="ff-sans-b">{{ ev.title }}</h4>
-                <div class="pra-p ff-nunito">
-                  <div class="three-line-fixed-tx">
-                    <p>
-                      {{ ev.shortDescription }}
-                    </p>
-                  </div>
-                  <div class="into-part ff-sans-r">
-                    <div class="d-flex">
-                      <p>Lugar</p>
-                      <p>{{ ev.place }}</p>
+      <client-only>
+        <carousel ref="carousel" :per-page="1">
+          <slide v-for="(ev, i) of latestEvents" :key="i">
+            <div class="slider-desing position-relative">
+              <h3
+                class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+              >
+                Próximos Eventos
+              </h3>
+              <div class="img-part">
+                <img
+                  :src="ev.imgURL"
+                  :alt="ev.title"
+                  class="object-fit-cover"
+                />
+              </div>
+              <div class="text-part-title position-absolute v-center">
+                <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
+                <div class="inner-bx-info">
+                  <h4 class="ff-sans-b">{{ ev.title }}</h4>
+                  <div class="pra-p ff-nunito">
+                    <div class="three-line-fixed-tx">
+                      <p>
+                        {{ ev.shortDescription }}
+                      </p>
                     </div>
-                    <div class="d-flex">
-                      <p>Fecha</p>
-                      <p>{{ ev.date }}</p>
-                    </div>
-                    <div class="d-flex">
-                      <p>Hora</p>
-                      <p>{{ ev.time }}</p>
+                    <div class="into-part ff-sans-r">
+                      <div class="d-flex">
+                        <p>Lugar</p>
+                        <p>{{ ev.place }}</p>
+                      </div>
+                      <div class="d-flex">
+                        <p>Fecha</p>
+                        <p>{{ ev.date }}</p>
+                      </div>
+                      <div class="d-flex">
+                        <p>Hora</p>
+                        <p>{{ ev.time }}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </slide>
-      </carousel>
+          </slide>
+        </carousel>
+      </client-only>
       <div class="position-absolute set-to-bottom2">
         <div class="banner-arro">
           <a

@@ -3,15 +3,11 @@
     <!-- Breadcrums start -->
     <div class="breadc-bak">
       <div class="container margin-0-auto">
-        <ol class="breadcrumb ff-sans-r mb-2">
-          <li class="breadcrumb-item">
-            <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          </li>
+        <b-breadcrumb class="ff-sans-r mb-2">
+          <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
-          <li class="breadcrumb-item active">
-            <span aria-current="location">Zona Lúdica</span>
-          </li>
-        </ol>
+          <b-breadcrumb-item active>Zona Lúdica</b-breadcrumb-item>
+        </b-breadcrumb>
         <div
           class="back-to-home position-relative d-flex align-items-center small-size"
         >
