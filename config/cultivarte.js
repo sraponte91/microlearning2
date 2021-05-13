@@ -55,6 +55,89 @@ Vue.prototype.$cultivarteData = {
     },
   },
   cultivarteDondeEstamosUbicados: {
+    locations: [
+      {
+        country: 'Colombia',
+        cities: [
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Bogotá',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          },
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Cali',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          },
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Leticia',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          }
+        ]
+      },
+      {
+        country: 'El Salvador',
+        cities: [
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Apopa',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          },
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'San Vicente',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          },
+        ]
+      },
+      {
+        country: 'Costa Rica',
+        cities: [
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Bogotá',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          }
+        ]
+      },
+      {
+        country: 'Honduras',
+        cities: [
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Bogotá',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          }
+        ]
+      },
+      {
+        country: 'Panamá',
+        cities: [
+          {
+            title: 'CUNDINAMARCA',
+            cityName: 'Bogotá',
+            text: 'Alcaldía de Pacho',
+            designation: 'Coordinador',
+            email: 'bosa@fcultivarte.org'
+          }
+        ]
+      }
+    ],
     meta: {
       title: 'Cultivarte Donde Estamos Ubicados',
       metaTitle: 'Cultivarte Donde Estamos Ubicados',

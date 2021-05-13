@@ -1,28 +1,25 @@
 <template>
   <main>
     <div class="donde-esta">
-      <!-- Breadcrums start -->
-      <div class="breadc-bak">
-        <div class="container margin-0-auto">
-          <ol class="breadcrumb ff-sans-r mb-2">
-            <li class="breadcrumb-item">
-              <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-            </li>
-            <li class="breadcrumb-item active">
-              <span aria-current="location">Directorio</span>
-            </li>
-          </ol>
-          <div
-            class="back-to-home position-relative d-flex align-items-center small-size"
+      <!-- Banner start -->
+      <div class="container position-relative innerpage">
+        <b-breadcrumb class="position-absolute ff-sans-r">
+          <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
+          <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
+          <b-breadcrumb-item active>Dónde estamos ubicados</b-breadcrumb-item>
+        </b-breadcrumb>
+        <div
+          class="back-to-home position-absolute d-flex align-items-center small-size"
+        >
+          <i class="ic-back" @click="goBack()"></i>
+          <a
+            class="ff-sans-b text-white"
+            href="javascript:void(0)"
+            @click="goBack()"
+            >Volver</a
           >
-            <i class="ic-back"></i>
-            <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">
-              Volver
-            </a>
-          </div>
         </div>
       </div>
-      <!-- Breadcrums end -->
 
       <!-- Banner start -->
       <section class="common-banner ndb">
@@ -49,278 +46,49 @@
     <section class="all-tab">
       <div class="container">
         <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#colombia"
-              >Colombia</a
+          <li
+            class="nav-item"
+            v-for="(item, i) of $cultivarteData.cultivarteDondeEstamosUbicados
+              .locations"
+            :key="i"
+          >
+            <a
+              class="nav-link"
+              :class="{ active: activeTab === item.country }"
+              data-toggle="tab"
+              href="javascript:void(0)"
+              @click="changeTab(item)"
+              >{{ item.country }}</a
             >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#el-salvador"
-              >El Salvador</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#costa-rica"
-              >Costa Rica</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#honduras">Honduras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#panamá">Panamá</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div id="colombia" class="container tab-pane active">
+          <div class="container tab-pane active">
             <div class="tab-main">
               <div class="tab-drop">
                 <div class="drop-sub">
                   <h2>Filtros</h2>
-                  <h3>Departamento</h3>
-                  <select>
-                    <option>Antioquia</option>
-                    <option>Arauca</option>
-                    <option>Atlantico</option>
-                    <option>Boyaca</option>
-                    <option>Caldas</option>
-                    <option>Casanare</option>
-                    <option>Cesar</option>
-                    <option>Cordoba</option>
-                    <option>Cundinamarca</option>
-                    <option>Huila</option>
-                    <option>La Guajira</option>
-                    <option>Magdalena</option>
-                    <option>Meta</option>
-                    <option>Nariño</option>
-                    <option>Norte de Santander</option>
-                    <option>Quindio</option>
-                    <option>Risaralda</option>
-                    <option>Santander</option>
-                    <option>Sucre</option>
-                    <option>Tolima</option>
-                    <option>Valle</option>
+                  <h3>Municipio</h3>
+                  <select v-model="selectedCity">
+                    <option value="">Select</option>
+                    <option v-for="(city, i) of cities" :key="i">
+                      {{ city }}
+                    </option>
                   </select>
                 </div>
               </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Amagá</h3>
-                <h2>Alcaldía de Amagá</h2>
-                <h2>Calle 51 N° 50-18, tercer piso</h2>
-                <a href="milto:amaga@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> amaga@fcultivarte.org
+              <div
+                class="contact-details"
+                v-for="(item, i) of selectedCityData"
+                :key="i"
+              >
+                <h2>{{ item.title }}</h2>
+                <h3>{{ item.cityName }}</h3>
+                <h2>{{ item.text }}</h2>
+                <h2>{{ item.designation }}</h2>
+                <a :href="'milto:' + item.email">
+                  <img src="/images/email.svg" alt="" /> {{ item.email }}
                 </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Andes</h3>
-                <h2>Alcaldía de Andes</h2>
-                <h2>Cra 50 N°52-52</h2>
-                <a href="milto:andes@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> andes@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Ciudad Bolivar</h3>
-                <h2>Alcaldía de Ciudad Bolivar</h2>
-                <h2>Calle 50 N° 52 - 07</h2>
-                <a href="milto:ciudadbolivar@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" />
-                  ciudadbolivar@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Jardín</h3>
-                <h2>Alcaldía de Jardín</h2>
-                <h2>Cra 6 N° 9-26</h2>
-                <a href="milto:jardin@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> jardin@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>El Santuario</h3>
-                <h2>Alcaldía de El Santuario</h2>
-                <h2>Cra 49 Nro 48 - 19</h2>
-                <a href="milto:elsantuario@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" />
-                  elsantuario@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Sonsón</h3>
-                <h2>Alcaldía de Sonsón</h2>
-                <h2>Cra8 N° 6-11</h2>
-                <a href="milto:sonson@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> sonson@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Támesis</h3>
-                <h2>Alcaldía de támesis</h2>
-                <h2>Cra 10 N° 12 - 68</h2>
-                <a href="milto:tamesis@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> tamesis@fcultivarte.org
-                </a>
-              </div>
-              <div class="contact-details">
-                <h2>ANTIOQUIA</h2>
-                <h3>Betulia</h3>
-                <h2>Alcaldía de Betulia</h2>
-                <h2>Cra 22 N°23-09 apto 100</h2>
-                <a href="milto:betulia@fcultivarte.org">
-                  <img src="/images/email.svg" alt="" /> betulia@fcultivarte.org
-                </a>
-              </div>
-            </div>
-            <div id="el-salvador" class="container tab-pane fade">
-              <div class="tab-main">
-                <div class="tab-drop">
-                  <div class="drop-sub">
-                    <h2>Filtros2</h2>
-                    <h3>Departamento</h3>
-                    <select>
-                      <option>Santa Tecla</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="contact-details">
-                  <h2>EL SALVADOR</h2>
-                  <h3>Santa Tecla</h3>
-                  <h2>-</h2>
-                  <h2>
-                    Calle La Sabana Y Ave. D, Colonia Jardines De La Sabana,
-                    Santa Tecla, La Libertad. Contiguo Al Centro Escolar
-                    Jardines De La Sabana Y Parque Los Lobos.
-                  </h2>
-                  <a href="milto:santatecla@fcultivarte.org"
-                    ><img
-                      src="/images/email.svg"
-                      alt=""
-                    />santatecla@fcultivarte.org</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div id="costa-rica" class="container tab-pane fade">
-              <div class="tab-main">
-                <div class="tab-drop">
-                  <div class="drop-sub">
-                    <h2>Filtros3</h2>
-                    <h3>Municipio</h3>
-                    <select>
-                      <option>Guacimo</option>
-                      <option>Alajuela</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="contact-details">
-                  <h2>COSTA RICA</h2>
-                  <h3>Guacimo</h3>
-                  <h2>-</h2>
-                  <h2>
-                    De La Entrada Principal A Guácimo, Limón, 600 M Norte Y 25 M
-                    Oeste.
-                  </h2>
-                  <a href="milto:guacimo@fcultivarte.org"
-                    ><img
-                      src="/images/email.svg"
-                      alt=""
-                    />guacimo@fcultivarte.org</a
-                  >
-                </div>
-                <div class="contact-details">
-                  <h2>COSTA RICA</h2>
-                  <h3>Alajuela</h3>
-                  <h2>-</h2>
-                  <h2>
-                    Diagonal A La Iglesia Católica De Barrio Santa Rita, En
-                    Barrio San José De Alajuela
-                  </h2>
-                  <a href="milto:alajuela@fcultivarte.org"
-                    ><img
-                      src="/images/email.svg"
-                      alt=""
-                    />alajuela@fcultivarte.org</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div id="honduras" class="container tab-pane fade">
-              <div class="tab-main">
-                <div class="tab-drop">
-                  <div class="drop-sub">
-                    <h2>Filtros4</h2>
-                    <h3>Municipio</h3>
-                    <select>
-                      <option>Tegucigalpa</option>
-                      <option>Nacaome</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="contact-details">
-                  <h2>HONDURAS</h2>
-                  <h3>Tegucigalpa</h3>
-                  <h2>-</h2>
-                  <h2>
-                    Barrio El Centro Av Jerez, Detrás De Agencia Davivienda
-                    Plaza Morazán
-                  </h2>
-                  <a href="milto:tegucigalpa@fcultivarte.org"
-                    ><img
-                      src="/images/email.svg"
-                      alt=""
-                    />tegucigalpa@fcultivarte.org</a
-                  >
-                </div>
-                <div class="contact-details">
-                  <h2>HONDURAS</h2>
-                  <h3>Nacaome</h3>
-                  <h2>-</h2>
-                  <h2>
-                    Barrio El Centro Contiguo A Agencia Davivienda Nacaome,
-                    Frente A Alcaldía Municipal
-                  </h2>
-                  <a href="milto:nacaome@fcultivarte.org"
-                    ><img
-                      src="/images/email.svg"
-                      alt=""
-                    />nacaome@fcultivarte.org</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div id="panamá" class="container tab-pane fade">
-              <div class="tab-main">
-                <div class="tab-drop">
-                  <div class="drop-sub">
-                    <h2>Filtros5</h2>
-                    <h3>Municipio</h3>
-                    <select>
-                      <option>Curundú</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="contact-details">
-                  <h2>PANAMÁ</h2>
-                  <h3>Curundú</h3>
-                  <h2>-</h2>
-                  <h2>
-                    Calle Maria Reina Al Final, Diagonal A Rotonda, Edificio
-                    Biblioteca Noris Correa De Sanjur
-                  </h2>
-                  <a href="milto:curundu@fcultivarte.org">
-                    <img
-                      src="/images/email.svg"
-                      alt=""
-                    />curundu@fcultivarte.org
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -332,15 +100,46 @@
 
 <script>
 export default {
+  computed: {
+    cities() {
+      return this.selectedCountry.cities.map((ct) => ct.cityName)
+    },
+    selectedCityData() {
+      return this.selectedCountry.cities.filter((ct) =>
+        this.selectedCity ? ct.cityName === this.selectedCity : true
+      )
+    },
+    activeTab() {
+      return this.selectedCountry.country
+    },
+  },
+  data() {
+    return {
+      selectedCity: '',
+      selectedCountry: this.$cultivarteData.cultivarteDondeEstamosUbicados
+        .locations[0],
+    }
+  },
+  methods: {
+    changeTab(country) {
+      this.selectedCity = ''
+      this.selectedCountry = country
+    },
+  },
   head() {
     return {
-      title: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -351,8 +150,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$cultivarteData.cultivarteDondeEstamosUbicados.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteDondeEstamosUbicados.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
