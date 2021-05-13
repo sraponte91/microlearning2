@@ -31,7 +31,7 @@
               </h3>
               <div class="pra-p for-bgcol">
                 <p>
-                  La inscripción a nuestro programa de fortalecimiento virtual, será el inicio de un largo sendero lleno
+                  La inscripción a nuestro programa de fortalecimiento virtual, será el inicio de un sendero lleno
                   de historias y conocimiento que le brindará a su organización todas las herramientas para mejorar y
                   lograr los objetivos planteados.
                 </p>
@@ -42,6 +42,7 @@
                 class="object-fit-cover" />
             </div>
           </div>
+<!--this request was made by the customer. 
 
           <div class="four-boxes">
             <div class="d-flex flex-wrap">
@@ -91,6 +92,7 @@
               </div>
             </div>
           </div>
+          -->
 
           <div class="txt-info-m margin-0-auto text-center">
             <h4 class="ff-sans-b">Reglamento de inscripción</h4>
