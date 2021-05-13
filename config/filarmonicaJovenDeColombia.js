@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$filarmonicaJovenDeColombiaData = {
   filarmonicaJovenDeColombia: {
-    cuentameMasLink: '/filarmonica-joven-de-colombia/desarrollamos-talento/',
+    cuentameMasLink: '/filarmonica-joven-de-colombia/desarrollamos-talento',
     meta: {
       title: 'Filarmónica joven de colombia',
       metaTitle: 'Filarmónica joven de colombia',
