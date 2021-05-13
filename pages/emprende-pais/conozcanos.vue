@@ -228,7 +228,8 @@
                 generación de empleo.
               </p>
               <div class="linkto-re">
-                <a href="javascript:void(0)" class="ff-sans-b"
+                <a  :href="$emprendePaisData.emprendePaisPresenciaEnElPais.presenciaEnElPais"
+                 class="ff-sans-b"
                   >Conozca más >
                 </a>
               </div>
