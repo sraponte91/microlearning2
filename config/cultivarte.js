@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$cultivarteData = {
   cultivarteHome: {
-    desarrollamosTalento: 'desarrollamos-talento',
+    desarrollamosTalento: '/cultivarte/desarrollamos-talento/',
     meta: {
       title: 'Cultivarte',
       metaTitle: 'Cultivarte',

@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
   voluntariadoFundacionBolivarDavivienda: {
-    cuentameMasLink: 'desarrollamos-talento',
+    cuentameMasLink: '/voluntariado-fundacion-bolivar/desarrollamos-talento/',
     meta: {
       title: 'Voluntariado-fundación-Bolivar',
       metaTitle: 'Voluntariado fundación Bolivar',

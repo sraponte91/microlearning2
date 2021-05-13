@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$inversionSocialData = {
   inversionSocial: {
-    desarrollamosTalentoLink: 'desarrollamos-talento',
+    desarrollamosTalentoLink: '/inversion-social/desarrollamos-talento/',
     meta: {
       title: 'Inversión social',
       metaTitle: 'Inversión social',

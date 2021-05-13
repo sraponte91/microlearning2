@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.prototype.$becasAlTalentoData = {
   becasAlTalento: {
-    cuentameMasLink: '/desarrollamos-talento/',
+    cuentameMasLink: '/becas-al-talento/desarrollamos-talento/',
     meta: {
       title: 'Becas Al Talento',
       metaTitle: 'Becas Al Talento',
