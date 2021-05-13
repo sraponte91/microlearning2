@@ -127,7 +127,7 @@
           </div>
           <div class="img-points">
             <img
-              src="/images//programa-aflora/2-conozcanos/conozcanos_bloque3-1.jpg"
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque3-1.jpg"
               alt=""
               class="object-fit-cover"
             />
