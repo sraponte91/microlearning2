@@ -1,3 +1,92 @@
+.proximos-eventos {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.proximos-eventos .slider-desing .img-part {
+  height: 650px;
+  width: 100%;
+}
+.proximos-eventos .VueCarousel-pagination {
+  display: none;
+}
+
+.proximos-eventos .text-part-title h3,
+.proximos-eventos h3.mob-title {
+  background-color: #ff671b;
+  margin: 0 0 30px;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 25px;
+  display: inline-block;
+  font-size: 48px;
+}
+
+.proximos-eventos .text-part-title {
+  z-index: 5;
+  left: 20px;
+}
+.proximos-eventos .text-part-title .inner-bx-info {
+  background-color: rgba(49, 51, 56, 0.95);
+  padding: 20px;
+  max-width: 360px;
+  width: 100%;
+}
+.proximos-eventos .text-part-title .three-line-fixed-tx p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.proximos-eventos .text-part-title .inner-bx-info h4 {
+  color: #fff;
+  font-size: 16px;
+}
+.proximos-eventos .text-part-title .inner-bx-info p {
+  color: #fff;
+  font-size: 14px;
+}
+.proximos-eventos .text-part-title .inner-bx-info .into-part {
+  margin: 5px 0 0;
+}
+.proximos-eventos .text-part-title .inner-bx-info .into-part p {
+  width: 65px;
+  font-size: 14px;
+}
+.proximos-eventos .text-part-title .inner-bx-info .into-part p ~ p {
+  width: calc(100% - 70px);
+}
+
+.proximos-eventos .ic-arrow {
+  height: 44px;
+  width: 44px;
+  background-color: #313338;
+  display: inline-block;
+}
+.proximos-eventos .ic-arrow + .ic-arrow {
+  margin-left: 10px;
+}
+.proximos-eventos .VueCarousel-pagination {
+  display: none;
+}
+.proximos-eventos .ic-arrow:hover {
+  background-color: rgb(12 158 243);
+}
+.proximos-eventos .arrow-rit {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.proximos-eventos .set-to-bottom2 {
+  width: calc(100% - 35px);
+  left: 35px;
+  right: 0;
+  bottom: 130px;
+}
+
 .main-slider-at-top .img-prt {
   height: 700px;
   width: 100%;
@@ -495,6 +584,33 @@
   }
 }
 @media (max-width: 767px) {
+  .proximos-eventos .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .proximos-eventos h3.mob-title {
+    display: block;
+    font-size: 38px;
+    width: 100%;
+    margin: 0;
+  }
+  .proximos-eventos .text-part-title {
+    position: inherit !important;
+    top: inherit;
+    transform: inherit;
+    left: inherit;
+    padding: 0 15px;
+    margin: -50px 0 0 0;
+  }
+  .proximos-eventos .text-part-title .inner-bx-info {
+    max-width: 100%;
+    min-height: 170px;
+  }
+  .proximos-eventos .set-to-bottom2 {
+    left: 15px;
+    bottom: -60px;
+    top: auto;
+  }
   .main-slider-at-top .set-to-bottom {
     bottom: 20px;
   }

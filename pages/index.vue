@@ -12,8 +12,9 @@
             Talento
           </h2>
           <p class="ff-nunito margin-0-auto">
-            Somos un equipo que une. Que invita a explorar con creatividad y a nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que ayuda a conectar el
-talento con el cambio.
+            Somos un equipo que une. Que invita a explorar con creatividad y a
+            nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+            ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
             <a
@@ -145,6 +146,8 @@ talento con el cambio.
         </div>
       </div>
     </section>
+
+    <HomePromixo-part-home></HomePromixo-part-home>
 
     <section class="news-section-bolivar bg-white d-none-767">
       <div class="container">
