@@ -347,7 +347,7 @@
                     Cultivarte</a>
                 </li>
                 <li>
-                  <a target="_blank" href="/Politica de Tratamiento de Datos.pdf">Términos y condiciones</a>
+                  <a target="_blank" href="legales/Terminos_y_Condiciones_FBD_2020.pdf">Términos y condiciones</a>
                 </li>
               </ul>
             </div>
