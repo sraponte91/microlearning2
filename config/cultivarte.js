@@ -138,6 +138,7 @@ Vue.prototype.$cultivarteData = {
         ]
       }
     ],
+    dondeEstamosUbicados: '/cultivarte/donde-estamos-ubicados',
     meta: {
       title: 'Cultivarte Donde Estamos Ubicados',
       metaTitle: 'Cultivarte Donde Estamos Ubicados',

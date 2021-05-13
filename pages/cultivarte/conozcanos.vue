@@ -109,7 +109,9 @@
                 las competencias necesarias para cumplir sus sueños, mientras
                 que aprenden y se divierten.
               </p>
-              <a href="#">Conozca más <img src="/images/back_acon2.svg" /></a>
+              <a  
+              :href="$cultivarteData.cultivarteDondeEstamosUbicados.dondeEstamosUbicados"
+              >Conozca más <img src="/images/back_acon2.svg" /></a>
             </div>
             <div class="dot">
               <img src="/images/oval-1.png" alt="" />
