@@ -64,7 +64,7 @@ Vue.prototype.$constants = {
           'Conozca todas nuestras Iniciativas y programas.',
       },
     ],
-    desarrollamosTalento: '/la-fundacion/',
+    desarrollamosTalento: '/la-fundacion',
     nuestrosProgramas: [
       {
         imgURL: '/images/seccion-inicio/home_programas_0006_aflora.jpg',
