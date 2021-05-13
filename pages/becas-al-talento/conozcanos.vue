@@ -36,13 +36,8 @@
             <div class="single-txt">
               <h2>Sobre Becas</h2>
               <p>
-                En el programa apoyamos el talento y la excelencia de los
-                estudiantes de nuestras universidades aliadas, con el fin de
-                garantizar que terminen sus estudios profesionales de manera
-                exitosa. Este beneficio se otorga como una beca-crédito para
-                estudiantes que estén cursando entre 5to y 8vo semestre y está
-                ligado a las políticas y procesos internos de las instituciones
-                universitarias.
+                El programa tiene como objetivo impulsar talentos destacados para crear sus propias oportunidades. Buscamos apoyar jóvenes que no piensan en las dificultades, sino que buscan nuevos rumbos para cumplir sus metas personales y profesionales. </p>
+                <p>Becas al Talento, es un proyecto que pretende multiplicar su para que muchos jóvenes logren culminar con sus estudios y se desarrollen profesionalmente. 
               </p>
             </div>
           </div>
