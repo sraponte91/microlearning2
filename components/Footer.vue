@@ -379,7 +379,7 @@
               <h3>Teléfono</h3>
               <ul class="ff-nunito">
                 <li>
-                  <p>(+57 1) 341 0077 Ext. 98981</p>
+                  <p> (+57 1) 2201610 ext 98706</p>
                 </li>
               </ul>
             </div>

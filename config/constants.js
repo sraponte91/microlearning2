@@ -64,7 +64,7 @@ Vue.prototype.$constants = {
           'Conozca todas nuestras Iniciativas y programas.',
       },
     ],
-    desarrollamosTalento: 'javascript:void(0)',
+    desarrollamosTalento: '/la-fundacion/',
     nuestrosProgramas: [
       {
         imgURL: '/images/seccion-inicio/home_programas_0006_aflora.jpg',
@@ -198,15 +198,15 @@ Vue.prototype.$constants = {
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Estatutos_FBD.pdf',
           },
           {
             title: 'Código de Gobierno Corporativo',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
           {
             title: 'Reglamento Ejecutivo',
-            url: 'javascript:void(0)',
+            url: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
         ],
       },
@@ -217,15 +217,15 @@ Vue.prototype.$constants = {
         tags: [
           {
             title: 'Conoce Nuestros Estatutos',
-            link: 'javascript:void(0)',
+            link: '/pdf/La_Fundacion_Estatutos_FBD.pdf',
           },
           {
             title: 'Código de Gobierno Corporativo',
-            link: 'javascript:void(0)',
+            link: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
           {
             title: 'Reglamento Ejecutivo',
-            link: 'javascript:void(0)',
+            link: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
           },
         ],
       },
