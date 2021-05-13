@@ -98,6 +98,15 @@ header .navbar-nav .nav-item.btn-inscr a:hover {
   }
 }
 
+@media (max-width: 1350px) {
+  header .navbar-nav .nav-item.btn-inscr a {
+    width: 140px;
+  }
+  header .navbar-nav .nav-item + .nav-item {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 1300px) {
   header .navbar-nav .nav-item.btn-inscr {
     margin-left: 40px;

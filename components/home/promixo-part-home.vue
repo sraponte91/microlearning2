@@ -5,7 +5,7 @@
         <slide>
           <div class="slider-desing position-relative">
             <h3
-              class="ff-sans-b d-none-n d-block-767 mob-title position-absolute"
+              class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
             >
               Próximos Eventos
             </h3>
@@ -46,7 +46,7 @@
         <slide>
           <div class="slider-desing position-relative">
             <h3
-              class="ff-sans-b d-none-n d-block-767 mob-title position-absolute"
+              class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
             >
               Próximos Eventos
             </h3>
