@@ -149,8 +149,11 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a href="/desarrollamos-talento/" class="btn-tell-more"
-              >Conozca más</a
+            <a
+              :href="$cultivarteData.cultivarteHome.desarrollamosTalento"
+              class="btn-tell-more"
+            >
+              Conozca más</a
             >
           </div>
         </div>

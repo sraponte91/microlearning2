@@ -64,7 +64,7 @@ Vue.prototype.$constants = {
           'Conozca todas nuestras Iniciativas y programas.',
       },
     ],
-    desarrollamosTalento: '/la-fundacion/',
+    desarrollamosTalento: '/la-fundacion',
     nuestrosProgramas: [
       {
         imgURL: '/images/seccion-inicio/home_programas_0006_aflora.jpg',
@@ -214,20 +214,6 @@ Vue.prototype.$constants = {
         title: 'Nuestra Visión',
         description:
           '<p>La Fundación Bolívar Davivienda será reconocida como una fundación líder en los lugares donde está presente el grupo, por el impacto de sus programas en el logro de transformaciones sociales efectivas y sostenibles.</p>',
-        tags: [
-          {
-            title: 'Conoce Nuestros Estatutos',
-            link: '/pdf/La_Fundacion_Estatutos_FBD.pdf',
-          },
-          {
-            title: 'Código de Gobierno Corporativo',
-            link: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
-          },
-          {
-            title: 'Reglamento Ejecutivo',
-            link: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
-          },
-        ],
       },
       {
         title: 'Gobierno Corporativo',
@@ -235,20 +221,6 @@ Vue.prototype.$constants = {
           '<p>En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.</p>' +
           '<p>Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.</p>' +
           '<p>Los miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.</p>',
-        tags: [
-          {
-            title: 'Conoce Nuestros Estatutos',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Código de Gobierno Corporativo',
-            link: 'javascript:void(0)',
-          },
-          {
-            title: 'Reglamento Ejecutivo',
-            link: 'javascript:void(0)',
-          },
-        ],
       },
     ],
     meta: {

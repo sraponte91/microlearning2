@@ -179,6 +179,7 @@
 	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .common-banner h2 {
 	font-family: sansationbold;

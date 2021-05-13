@@ -2,8 +2,8 @@ import Vue from 'vue'
 
 Vue.prototype.$emprendePaisData = {
   emprendePais: {
-    convocatoriasLink: '/emprende-pais/convocatorias/',
-    desarrollamosTalentoLink: '/emprende-pais/desarrollamos-talento/',
+    convocatoriasLink: '/emprende-pais/convocatorias',
+    desarrollamosTalentoLink: '/emprende-pais/desarrollamos-talento',
     meta: {
       title: 'Emprende-país',
       metaTitle: 'Emprende-país',
@@ -48,7 +48,7 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 1,
         imgURL: '/images/pic_ae.jpg',
-        title: 'Camilo Alban',
+        title: 'Jorge Rojas Dumit',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Marketing y comunicación',
@@ -56,7 +56,7 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 2,
         imgURL: '/images/pic_ae.jpg',
-        title: 'Camilo Alban',
+        title: 'Livi Betancur',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Marketing y comunicación',
@@ -64,7 +64,7 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 3,
         imgURL: '/images/pic_ae.jpg',
-        title: 'Camilo Alban',
+        title: 'Juan Manuel Díaz',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Talento Humano',
@@ -72,7 +72,7 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 4,
         imgURL: '/images/pic_ae.jpg',
-        title: 'Camilo Alban',
+        title: 'Fernando Hinestrosa',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Talento Humano',
@@ -80,7 +80,7 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 5,
         imgURL: '/images/pic_ae.jpg',
-        title: 'Camilo Alban',
+        title: 'Olga Lucia Rodríguez',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Talento Humano',
@@ -88,7 +88,31 @@ Vue.prototype.$emprendePaisData = {
       {
         id: 6,
         imgURL: '/images/pic_ae.jpg',
+        title: 'Fernando Cortés McAlister',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 7,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Reinaldo Romero',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 8,
+        imgURL: '/images/pic_ae.jpg',
         title: 'Camilo Alban',
+        subtitle: 'Finance, Strategy',
+        link: 'javascript:void(0)',
+        topic: 'Talento Humano',
+      },
+      {
+        id: 9,
+        imgURL: '/images/pic_ae.jpg',
+        title: 'Roberto Holguin',
         subtitle: 'Finance, Strategy',
         link: 'javascript:void(0)',
         topic: 'Talento Humano',
