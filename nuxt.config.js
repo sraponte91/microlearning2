@@ -27,6 +27,7 @@ export default {
     { src: '~/config/cultivarte.js' },
     { src: '~/plugins/common.js', mode: 'client' },
     { src: '~/plugins/vue-carousel.js', mode: 'client' },
+    { src: '~/plugins/wow.js', mode: 'client' },
   ],
 
   router: {
