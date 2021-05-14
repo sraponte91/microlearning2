@@ -78,7 +78,7 @@
             <h2 class="ff-sans-b">#LaJoven</h2>
             <div class="pra-p ff-nunito">
               <p>
-                Despierta el amor de todo un país por la música sinfónica. En
+               Representa el orgullo y la ardua labor  de todo un país por la música sinfónica. En
                 nuestra orquesta, los músicos han tenido la oportunidad de
                 fortalecer su talento en la práctica orquestal de gran formato,
                 alcanzando una calidad artística que ha merecido el

@@ -13,7 +13,32 @@ Vue.prototype.$emprendePaisData = {
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
   },
+
   emprendePaisConozcanos: {
+    testimonios: [
+      {
+        title: 'David García - Líder de Biológica Soluciones',
+        description:
+          'En Emprende País aprendimos que juntos somos más fuertes',
+      },
+      {
+        title: 'Viviana Wilches - Líder de Try my ride',
+        description:
+          'Aprendimos que la mejor estrategia para crecer es seguir formándose y capacitándose',
+      },
+      {
+        title:
+          'Jorge Pablo Granada - Líder de Customer Index Value ',
+        description:
+          'A través de capacitaciones y el apoyo de nuestros mentores, fortalecimos nuestra empresa para seguir creciendo',
+      },
+      {
+        title:
+          'Juan Martín Cardona - Líder de Inspyra',
+        description:
+          'Con Emprende País entendimos que no solo teníamos que invertir tiempo, sino ponerle el alma y el corazón',
+      },
+    ],
     meta: {
       title: 'Emprende país',
       metaTitle: 'Emprende país',
@@ -129,7 +154,7 @@ Vue.prototype.$emprendePaisData = {
   },
   emprendePaisConvocatorias: {
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)',
+    inscribaseLink: 'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Emprende+País&grupo=Empresa',
     meta: {
       title: 'Emprende-país',
       metaTitle: 'Emprende-país',

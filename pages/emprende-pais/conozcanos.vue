@@ -73,38 +73,23 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
-                  height="62">
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
-                  <g />
-                </svg>
+               <img src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/empresas.png" alt="" class="img-fluid">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">+340</h4>
-                <p class="ff-nunito">Empresas</p>
+                <p class="ff-nunito">Empresas han participado de manera exitosa en el programa</p>
               </div>
             </div>
           </div>
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
-                  height="62">
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
-                  <g />
-                </svg>
+                <img src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/ciudades.png" alt="" class="img-fluid">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">4</h4>
                 <p class="ff-nunito">
-                  Ciudades <br />
-                  principales
+                  ciudades principales: <br> BOGOTÁ, BUCARAMANGA, SANTA MARTA Y CALI
                 </p>
               </div>
             </div>
@@ -112,38 +97,23 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
-                  height="62">
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
-                  <g />
-                </svg>
+                <img src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/mentorias.png" alt="" class="img-fluid">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">10 h</h4>
-                <p class="ff-nunito">Mentorias</p>
+                <p class="ff-nunito">de mentorías, con la <br> Red de Mentores del Programa.</p>
               </div>
             </div>
           </div>
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
-                  height="62">
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
-                  <g />
-                </svg>
+               <img src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/consultores.png" alt="" class="img-fluid">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">158 h</h4>
                 <p class="ff-nunito">
-                  Consultores <br />
-                  expertos
+                de formación y acompañamiento, por <br> parte de consultores expertos
                 </p>
               </div>
             </div>
