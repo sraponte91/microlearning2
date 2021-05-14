@@ -34,7 +34,7 @@
                 <p>
                   Las organizaciones interesadas en aprovechar los beneficios del programa, posterior a su inscripción,
                   diligencian un formulario de 34 preguntas necesarias para su crecimiento. Según las respuestas
-                  otorgadas, el sistema clasificará la organización en un nivel, de acuerdo las áreas y aspectos que tienen
+                  otorgadas, el sistema clasificará la organización en un nivel, de acuerdo a las áreas y aspectos que tienen
                   por mejorar.
                 </p>
                 <p>

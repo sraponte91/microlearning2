@@ -1,7 +1,6 @@
 <template>
   <main>
     <div class="donde-esta">
-      <!-- Banner start -->
       <div class="container position-relative innerpage">
         <b-breadcrumb class="position-absolute ff-sans-r">
           <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
@@ -174,7 +173,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .common-banner.ndb {
   background-image: linear-gradient(
       0deg,

@@ -313,7 +313,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .bg-grey {
   background: #f7f7f7;
 }

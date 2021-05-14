@@ -313,13 +313,43 @@
       <div class="container">
         <h3>Downloads</h3>
         <ul class="d-flex">
-          <li><a href="pdf/About_Us_Privacy_Policy_of_La_Fundacion.pdf">Privacy Policy of La Fundación</a></li>
-          <li><a href="pdf/About_Us_Privacy_Policy_of_Cultivarte.pdf">Privacy Policy of Cultivarte</a></li>
-          <li><a href="pdf/About_Us_Notice_of_Privacy_of_La_Fundacion.pdf">Notice of Privacy of La Fundación</a></li>
-          <li><a href="pdf/About_Us_Notice_of_Privacy_of_Cultivarte.pdf">Notice of Privacy of Cultivarte</a></li>
-          <li><a href="pdf/About_Us_Autorization_for_data protection_FBD_FCult.pdf">Autorization for data protection</a></li>
-          <li><a href="pdf/About_Us_Specific_regulations_per_project_FBD_FCult.pdf">Specific regulations per project</a></li>
-          <li><a href="pdf/About_Us_Terms_and_Conditions_FBD_Fcult.pdf">Terms and Conditions</a></li>
+          <li>
+            <a href="pdf/About_Us_Privacy_Policy_of_La_Fundacion.pdf"
+              >Privacy Policy of La Fundación</a
+            >
+          </li>
+          <li>
+            <a href="pdf/About_Us_Privacy_Policy_of_Cultivarte.pdf"
+              >Privacy Policy of Cultivarte</a
+            >
+          </li>
+          <li>
+            <a href="pdf/About_Us_Notice_of_Privacy_of_La_Fundacion.pdf"
+              >Notice of Privacy of La Fundación</a
+            >
+          </li>
+          <li>
+            <a href="pdf/About_Us_Notice_of_Privacy_of_Cultivarte.pdf"
+              >Notice of Privacy of Cultivarte</a
+            >
+          </li>
+          <li>
+            <a
+              href="pdf/About_Us_Autorization_for_data protection_FBD_FCult.pdf"
+              >Autorization for data protection</a
+            >
+          </li>
+          <li>
+            <a
+              href="pdf/About_Us_Specific_regulations_per_project_FBD_FCult.pdf"
+              >Specific regulations per project</a
+            >
+          </li>
+          <li>
+            <a href="pdf/About_Us_Terms_and_Conditions_FBD_Fcult.pdf"
+              >Terms and Conditions</a
+            >
+          </li>
         </ul>
       </div>
     </section>
@@ -363,7 +393,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .full-image {
   background: #dadada;
   position: relative;

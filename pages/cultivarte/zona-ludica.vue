@@ -3,15 +3,11 @@
     <!-- Breadcrums start -->
     <div class="breadc-bak">
       <div class="container margin-0-auto">
-        <ol class="breadcrumb ff-sans-r mb-2">
-          <li class="breadcrumb-item">
-            <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-          </li>
+        <b-breadcrumb class="ff-sans-r mb-2">
+          <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
           <b-breadcrumb-item to="/cultivarte">Cultivarte</b-breadcrumb-item>
-          <li class="breadcrumb-item active">
-            <span aria-current="location">Zona Lúdica</span>
-          </li>
-        </ol>
+          <b-breadcrumb-item active>Zona Lúdica</b-breadcrumb-item>
+        </b-breadcrumb>
         <div
           class="back-to-home position-relative d-flex align-items-center small-size"
         >
@@ -69,12 +65,18 @@
 export default {
   head() {
     return {
-      title: this.$cultivarteData.cultivarteZonaLudica.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$cultivarteData.cultivarteZonaLudica.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteZonaLudica.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -85,7 +87,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$cultivarteData.cultivarteZonaLudica.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -103,7 +108,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .pm-title p {
   font-family: Nunito, sans-serif;
   font-size: 20px;

@@ -55,6 +55,12 @@
             class="linkse text-center"
             >La orquesta</NuxtLink
           >
+          <!-- Create the audiciones section
+          <NuxtLink
+            to="/filarmonica-joven-de-colombia/orquesta"
+            class="linkse text-center"
+            >Audiciones</NuxtLink
+          >-->
         </div>
       </div>
     </section>

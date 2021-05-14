@@ -1,93 +1,60 @@
 <template>
   <section class="proximos-eventos">
     <div class="container position-relative">
-      <carousel ref="carousel" :per-page="1">
-        <slide>
-          <div class="slider-desing position-relative">
-            <h3
-              class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
-            >
-              Próximos Eventos
-            </h3>
-            <div class="img-part">
-              <img
-                src="/images/home_evento_a.jpg"
-                class="object-fit-cover"
-                alt=""
-              />
-            </div>
-            <div class="text-part-title position-absolute v-center">
-              <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
-              <div class="inner-bx-info">
-                <h4 class="ff-sans-b">Nombre de evento</h4>
-                <div class="pra-p ff-nunito">
-                  <div class="three-line-fixed-tx">
-                    <p>
-                      Synergistically redefine high-quality ideas after
-                      transparent strategic theme areas. Professionally optimize
-                      transparent
-                    </p>
-                  </div>
-                  <div class="into-part ff-sans-r">
-                    <div class="d-flex">
-                      <p>Lugar</p>
-                      <p>Centro de eventos principal</p>
+      <client-only>
+        <carousel ref="carousel" :per-page="1">
+          <slide v-for="(ev, i) of latestEvents" :key="i">
+            <div class="slider-desing position-relative">
+              <h3
+                class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+              >
+                Próximos Eventos
+              </h3>
+              <div class="img-part">
+                <img
+                  :src="ev.imgURL"
+                  :alt="ev.title"
+                  class="object-fit-cover"
+                />
+              </div>
+              <div class="text-part-title position-absolute v-center">
+                <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
+                <div class="inner-bx-info">
+                  <h4 class="ff-sans-b">{{ ev.title }}</h4>
+                  <div class="pra-p ff-nunito">
+                    <div class="three-line-fixed-tx">
+                      <p>
+                        {{ ev.shortDescription }}
+                      </p>
                     </div>
-                    <div class="d-flex">
-                      <p>Hora</p>
-                      <p>20h00</p>
+                    <div class="into-part ff-sans-r">
+                      <div class="d-flex">
+                        <p>Lugar</p>
+                        <p>{{ ev.place }}</p>
+                      </div>
+                      <div class="d-flex">
+                        <p>Fecha</p>
+                        <p>{{ ev.date }}</p>
+                      </div>
+                      <div class="d-flex">
+                        <p>Hora</p>
+                        <p>{{ ev.time }}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </slide>
-        <slide>
-          <div class="slider-desing position-relative">
-            <h3
-              class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
-            >
-              Próximos Eventos
-            </h3>
-            <div class="img-part">
-              <img
-                src="/images/home_evento_b.jpg"
-                class="object-fit-cover"
-                alt=""
-              />
-            </div>
-            <div class="text-part-title position-absolute v-center">
-              <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
-              <div class="inner-bx-info">
-                <h4 class="ff-sans-b">Nombre de evento</h4>
-                <div class="pra-p ff-nunito">
-                  <div class="three-line-fixed-tx">
-                    <p>
-                      Synergistically redefine high-quality ideas after
-                      transparent strategic theme areas. Professionally optimize
-                      transparent
-                    </p>
-                  </div>
-                  <div class="into-part ff-sans-r">
-                    <div class="d-flex">
-                      <p>Lugar</p>
-                      <p>Centro de eventos principal</p>
-                    </div>
-                    <div class="d-flex">
-                      <p>Hora</p>
-                      <p>20h00</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </slide>
-      </carousel>
+          </slide>
+        </carousel>
+      </client-only>
       <div class="position-absolute set-to-bottom2">
         <div class="banner-arro">
-          <a href="javascript:void(0)" class="ic-arrow arrow-lft">
+          <a
+            href="javascript:void(0)"
+            class="ic-arrow arrow-lft"
+            @click="goPrev()"
+          >
             <svg
               version="1.2"
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +75,11 @@
               </g>
             </svg>
           </a>
-          <a href="javascript:void(0)" class="ic-arrow arrow-rit">
+          <a
+            href="javascript:void(0)"
+            class="ic-arrow arrow-rit"
+            @click="goNext()"
+          >
             <svg
               version="1.2"
               xmlns="http://www.w3.org/2000/svg"
@@ -134,3 +105,32 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  computed: {
+    latestEvents() {
+      return this.$eventosData.eventos.events
+        .sort(function (a, b) {
+          return new Date(b.date) - new Date(a.date)
+        })
+        .slice(0, 3)
+    },
+  },
+  methods: {
+    goNext() {
+      this.$refs.carousel.goToPage(
+        this.$refs.carousel.currentPage === this.latestEvents.length - 1
+          ? 0
+          : this.$refs.carousel.currentPage + 1
+      )
+    },
+    goPrev() {
+      this.$refs.carousel.goToPage(
+        this.$refs.carousel.currentPage === 0
+          ? this.latestEvents.length - 1
+          : this.$refs.carousel.currentPage - 1
+      )
+    },
+  },
+}
+</script>

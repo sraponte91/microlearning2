@@ -3,39 +3,26 @@
     <div class="container position-relative innerpage">
       <b-breadcrumb class="position-absolute ff-sans-r">
         <b-breadcrumb-item to="/">Home</b-breadcrumb-item>
-        <b-breadcrumb-item to="/emprende-pais"
-          >Emprende país
+        <b-breadcrumb-item to="/emprende-pais">Emprende país
         </b-breadcrumb-item>
         <b-breadcrumb-item active>Conózcanos</b-breadcrumb-item>
       </b-breadcrumb>
-      <div
-        class="back-to-home position-absolute d-flex align-items-center small-size"
-      >
+      <div class="back-to-home position-absolute d-flex align-items-center small-size">
         <i class="ic-back" @click="goBack()"></i>
-        <a
-          class="ff-sans-b text-white"
-          href="javascript:void(0)"
-          @click="goBack()"
-          >Volver</a
-        >
+        <a class="ff-sans-b text-white" href="javascript:void(0)" @click="goBack()">Volver</a>
       </div>
     </div>
     <section class="main-slider-at-top aflora-pge position-relative after-po">
       <div class="img-prt position-relative">
-        <img
-          src="/images/programa-emprende-pais/2-conozcanos/conozcanos_header_desktop.jpg"
-          alt=""
-          class="object-fit-cover"
-        />
+        <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_header_desktop.jpg" alt=""
+          class="object-fit-cover" />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
         <h1 class="ff-sans-b">Emprende país</h1>
       </div>
     </section>
 
-    <section
-      class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde"
-    >
+    <section class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde">
       <HomeDots></HomeDots>
       <div class="container">
         <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
@@ -53,23 +40,15 @@
             </div>
           </div>
           <div class="img-points">
-            <img
-              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque1_impacto.jpg"
-              alt=""
-              class="object-fit-cover"
-            />
+            <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque1_impacto.jpg" alt=""
+              class="object-fit-cover" />
           </div>
         </div>
 
-        <div
-          class="d-flex multiple-reapt align-items-end flex-wrap-991 three-bx"
-        >
+        <div class="d-flex multiple-reapt align-items-end flex-wrap-991 three-bx">
           <div class="img-points order-2-991">
-            <img
-              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque2.jpg"
-              alt=""
-              class="object-fit-cover"
-            />
+            <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque2.jpg" alt=""
+              class="object-fit-cover" />
           </div>
           <div class="txt-points position-relative order-1-991">
             <div class="pra-p">
@@ -94,21 +73,12 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
+                  height="62">
                   <path
                     d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
+                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
                   <g />
                 </svg>
               </i>
@@ -121,21 +91,12 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
+                  height="62">
                   <path
                     d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
+                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
                   <g />
                 </svg>
               </i>
@@ -151,21 +112,12 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
+                  height="62">
                   <path
                     d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
+                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
                   <g />
                 </svg>
               </i>
@@ -178,21 +130,12 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  overflow="visible" preserveAspectRatio="none" viewBox="0 -10.002999400119977 50 50" width="62"
+                  height="62">
                   <path
                     d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
+                    style="fill: rgb(18, 18, 18)" vector-effect="non-scaling-stroke" />
                   <g />
                 </svg>
               </i>
@@ -209,9 +152,7 @@
       </div>
     </section>
 
-    <section
-      class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde pt-2"
-    >
+    <section class="ig-tx-zing-zag bg-white position-relative what-we-do connoz-filamr-mpg conozca-empreder-parde pt-2">
       <div class="container">
         <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
           <div class="txt-points position-relative">
@@ -228,19 +169,15 @@
                 generación de empleo.
               </p>
               <div class="linkto-re">
-                <a  :href="$emprendePaisData.emprendePaisPresenciaEnElPais.presenciaEnElPais"
-                 class="ff-sans-b"
-                  >Conozca más >
+                <a :href="$emprendePaisData.emprendePaisPresenciaEnElPais.presenciaEnElPais" class="ff-sans-b">Conozca
+                  más >
                 </a>
               </div>
             </div>
           </div>
           <div class="img-points">
-            <img
-              src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque3_presenciapais.jpg"
-              alt=""
-              class="object-fit-cover"
-            />
+            <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque3_presenciapais.jpg" alt=""
+              class="object-fit-cover" />
           </div>
         </div>
       </div>
@@ -255,29 +192,20 @@
         <div class="testimo-slider">
           <div class="for-marg-1">
             <client-only>
-              <carousel
-                :perPageCustom="[
+              <carousel :perPageCustom="[
                   [575, 1],
                   [1024, 2],
                   [1200, 3],
-                ]"
-                :navigationEnabled="true"
-                :paginationEnabled="true"
-              >
-                <slide
-                  v-for="(item, i) of $emprendePaisData.emprendePaisConozcanos
-                    .testimonios"
-                  :key="i"
-                >
+                ]" :navigationEnabled="true" :paginationEnabled="true">
+                <slide v-for="(item, i) of $emprendePaisData.emprendePaisConozcanos
+                    .testimonios" :key="i">
                   <div class="position-relative testimo-bx bg-white">
                     <div class="text-center til ff-sans-b">
                       <h3>
                         {{ item.title }}
                       </h3>
                     </div>
-                    <div
-                      class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
-                    >
+                    <div class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i">
                       <p>
                         {{ item.description }}
                       </p>
@@ -319,11 +247,8 @@
               </div>
             </div>
             <div class="img-points order-1-991">
-              <img
-                src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque4_alianza.jpg"
-                alt=""
-                class="object-fit-cover"
-              />
+              <img src="/images/programa-emprende-pais/2-conozcanos/conozcanos_bloque4_alianza.jpg" alt=""
+                class="object-fit-cover" />
             </div>
           </div>
         </div>
@@ -333,33 +258,19 @@
     <section class="some-tabs-here bg-white">
       <div class="container">
         <div class="d-flex flex-wrap multi-btn justify-content-center">
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Oxelerator</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Angel Ventures</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Social Skin</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Valle Impacta</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Climate Kic</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Rockstart Impact</a
-          >
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Oxelerator</a>
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Angel Ventures</a>
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Social Skin</a>
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Valle Impacta</a>
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Climate Kic</a>
+          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center">Rockstart Impact</a>
         </div>
         <div class="box-info-full">
           <div class="inner-bx margin-0-auto">
             <div class="d-flex align-itmes-center flex-wrap-767">
               <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png"
-                  alt=""
-                />
+                <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png"
+                  alt="" />
               </div>
               <div class="txt-part">
                 <p>
@@ -369,51 +280,66 @@
                   frentes.
                 </p>
               </div>
+            </div>
+
+            <div class="d-flex align-itmes-center flex-wrap-767">
               <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png"
-                  alt=""
-                />
+                <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png"
+                  alt="" />
               </div>
               <div class="txt-part">
                 <p>
-                  Es una aceleradora de empresas que ayuda a startups  de Cleantech a acelerar su comercialización en el mercado y crear negocios invertibles. 
-                </p>
-              </div>
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_rockstart_impact.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                 Es una aceleradora de start-ups que apoya a emprendedores que usen la tecnología para generar impacto social y/o ambiental
-                </p>
-              </div>
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                Social Skin es un movimiento de innovación que apoya a jóvenes universitarios para que sus proyectos sociales crezcan sosteniblemente. Emprende País busca ofrecerles una ruta de formación a estos proyectos, con el fin de proporcionarles un panorama de buenas prácticas y los conocimientos necesarios para rentabilizar una empresa y que sea sostenible en el tiempo.
-                </p>
-              </div>
-               <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_valleimpacta.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                Valle Impacta es un programa de escalamiento empresarial liderado por la Cámara de Comercio de Cali y la Fundación Bolívar Davivienda, que transforma empresas al más alto nivel en sus diferentes sectores económicos, a través del acompañamiento para el crecimiento extraordinario, con el fin de impulsar el desarrollo económico y social de la región.
+                  Es una aceleradora de empresas que ayuda a startups de Cleantech a acelerar su comercialización en el
+                  mercado y crear negocios invertibles.
                 </p>
               </div>
             </div>
+            <div class="d-flex align-itmes-center flex-wrap-767">
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_rockstart_impact.png"
+                  alt="" />
+              </div>
+              <div class="txt-part">
+                <p>
+                  Es una aceleradora de start-ups que apoya a emprendedores que usen la tecnología para generar impacto
+                  social y/o ambiental
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex align-itmes-center flex-wrap-767">
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png"
+                  alt="" />
+              </div>
+              <div class="txt-part">
+                <p>
+                  Social Skin es un movimiento de innovación que apoya a jóvenes universitarios para que sus proyectos
+                  sociales crezcan sosteniblemente. Emprende País busca ofrecerles una ruta de formación a estos
+                  proyectos, con el fin de proporcionarles un panorama de buenas prácticas y los conocimientos
+                  necesarios para rentabilizar una empresa y que sea sostenible en el tiempo.
+                </p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-itmes-center flex-wrap-767">
+              <div class="img-prt d-flex align-items-center">
+                <img
+                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_valleimpacta.png"
+                  alt="" />
+              </div>
+              <div class="txt-part">
+                <p>
+                  Valle Impacta es un programa de escalamiento empresarial liderado por la Cámara de Comercio de Cali y
+                  la Fundación Bolívar Davivienda, que transforma empresas al más alto nivel en sus diferentes sectores
+                  económicos, a través del acompañamiento para el crecimiento extraordinario, con el fin de impulsar el
+                  desarrollo económico y social de la región.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -426,17 +352,11 @@
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
               <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
+              <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
               <img src="/images/gell_logo.svg" alt="" />
-              <a
-                href="javascript:void(0)"
-                class="position-absolute full-box-link"
-              ></a>
+              <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
             </div>
           </div>
         </div>
@@ -445,42 +365,43 @@
   </main>
 </template>
 <script>
-export default {
-  head() {
-    return {
-      title: this.$emprendePaisData.emprendePaisConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
-      meta: [
-        {
-          hid: 'title',
-          name: 'title',
-          content: this.$emprendePaisData.emprendePaisConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$emprendePaisData.emprendePaisConozcanos.meta
-            .metaDescription,
-        },
-        {
-          hid: 'og:title',
-          name: 'og:title',
-          content: this.$emprendePaisData.emprendePaisConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$emprendePaisData.emprendePaisConozcanos.meta
-            .ogDescription,
-        },
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          content:
-            this.$constants.baseURL +
-            this.$emprendePaisData.emprendePaisConozcanos.meta.ogImage,
-        },
-      ],
-    }
-  },
-}
+  export default {
+    head() {
+      return {
+        title: this.$emprendePaisData.emprendePaisConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
+        meta: [{
+            hid: 'title',
+            name: 'title',
+            content: this.$emprendePaisData.emprendePaisConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta
+              .title,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$emprendePaisData.emprendePaisConozcanos.meta
+              .metaDescription,
+          },
+          {
+            hid: 'og:title',
+            name: 'og:title',
+            content: this.$emprendePaisData.emprendePaisConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta
+              .title,
+          },
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.$emprendePaisData.emprendePaisConozcanos.meta
+              .ogDescription,
+          },
+          {
+            hid: 'og:image',
+            name: 'og:image',
+            content: this.$constants.baseURL +
+              this.$emprendePaisData.emprendePaisConozcanos.meta.ogImage,
+          },
+        ],
+      }
+    },
+  }
+
 </script>
