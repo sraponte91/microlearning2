@@ -663,12 +663,20 @@
 <script>
 export default {
   mounted() {
-    this.counter('conciertos-nacionales-counter', 0, 123, 0.1)
-    this.counter('conciertos-internacionales-counter', 0, 177, 0.1)
-    this.counter('facultades-de-musica-counter', 0, 30, 0.1)
-    this.counter('musicos-de-counter', 0, 600, 0.2)
-    this.counter('de-personas-counter', 0, 3000000, 5000)
-    this.counter('instituciones-musicales-counter', 0, 20, 0.1)
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry && entry.isIntersecting) {
+        this.counter('conciertos-nacionales-counter', 0, 123, 0.1)
+        this.counter('conciertos-internacionales-counter', 0, 177, 0.1)
+        this.counter('facultades-de-musica-counter', 0, 30, 0.1)
+        this.counter('musicos-de-counter', 0, 600, 0.2)
+        this.counter('de-personas-counter', 0, 3000000, 5000)
+        this.counter('instituciones-musicales-counter', 0, 20, 0.1)
+        observer.unobserve(
+          document.querySelector('#conciertos-nacionales-counter')
+        )
+      }
+    })
+    observer.observe(document.querySelector('#conciertos-nacionales-counter'))
   },
   head() {
     return {

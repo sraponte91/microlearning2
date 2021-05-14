@@ -323,10 +323,18 @@
 <script>
 export default {
   mounted() {
-    this.counter('quickly-repurpose-counter-1', 0, 1000, 1)
-    this.counter('quickly-repurpose-counter-2', 0, 1000, 1)
-    this.counter('quickly-repurpose-counter-3', 0, 1000, 1)
-    this.counter('quickly-repurpose-counter-4', 0, 1000, 1)
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry && entry.isIntersecting) {
+        this.counter('quickly-repurpose-counter-1', 0, 1000, 1)
+        this.counter('quickly-repurpose-counter-2', 0, 1000, 1)
+        this.counter('quickly-repurpose-counter-3', 0, 1000, 1)
+        this.counter('quickly-repurpose-counter-4', 0, 1000, 1)
+        observer.unobserve(
+          document.querySelector('#quickly-repurpose-counter-1')
+        )
+      }
+    })
+    observer.observe(document.querySelector('#quickly-repurpose-counter-1'))
   },
   head() {
     return {

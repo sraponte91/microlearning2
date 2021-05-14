@@ -312,9 +312,15 @@
 <script>
 export default {
   mounted() {
-    this.counter('beneficiarios-counter', 0, '+100000', 100)
-    this.counter('sedes-counter', 0, 86, 0.5)
-    this.counter('asistentes-permanentes-counter', 0, '+11000', 20)
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry && entry.isIntersecting) {
+        this.counter('beneficiarios-counter', 0, '+100000', 100)
+        this.counter('sedes-counter', 0, 86, 0.5)
+        this.counter('asistentes-permanentes-counter', 0, '+11000', 20)
+        observer.unobserve(document.querySelector('#beneficiarios-counter'))
+      }
+    })
+    observer.observe(document.querySelector('#beneficiarios-counter'))
   },
   head() {
     return {

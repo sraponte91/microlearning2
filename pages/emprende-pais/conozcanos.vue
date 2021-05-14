@@ -95,7 +95,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/empresas.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/empresas.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -112,7 +112,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/ciudades.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/ciudades.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -130,7 +130,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/mentorias.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/mentorias.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -150,7 +150,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="images/programa-emprende-pais/2-conozcanos/iconos-cifras/consultores.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/consultores.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -437,10 +437,16 @@
 <script>
 export default {
   mounted() {
-    this.counter('empresas-counter', 0, '+340', 1)
-    this.counter('ciudades-principales-counter', 0, 4, 0.5)
-    this.counter('mentorias-counter', 0, 10, 0.5)
-    this.counter('consultores-expertos-counter', 0, 158, 1)
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry && entry.isIntersecting) {
+        this.counter('empresas-counter', 0, '+340', 1)
+        this.counter('ciudades-principales-counter', 0, 4, 0.5)
+        this.counter('mentorias-counter', 0, 10, 0.5)
+        this.counter('consultores-expertos-counter', 0, 158, 1)
+        observer.unobserve(document.querySelector('#empresas-counter'))
+      }
+    })
+    observer.observe(document.querySelector('#empresas-counter'))
   },
   head() {
     return {
