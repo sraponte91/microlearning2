@@ -157,7 +157,7 @@
                           <li>
                             <a
                               target="_blank"
-                              href="Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                              href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                               >Aviso de privacidad Fundación Bolívar
                               Davivienda</a
                             >
@@ -165,7 +165,7 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf"
+                              href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                               >Aviso de privacidad Cultivarte</a
                             >
                           </li>
@@ -180,7 +180,7 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Politica de Tratamiento de Datos.pdf"
+                              href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                               >Política de tratamiento de datos Cultivarte</a
                             >
                           </li>
@@ -527,14 +527,14 @@
                 <li>
                   <a
                     target="_blank"
-                    href="Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                    href="/legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                     >Aviso de privacidad Fundación Bolívar Davivienda</a
                   >
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Aviso_de_privacidad _FBD.pdf"
+                    href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                     >Aviso de privacidad Cultivarte</a
                   >
                 </li>
@@ -549,7 +549,7 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Politica de Tratamiento de Datos.pdf"
+                    href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                     >Política de tratamiento de datos Cultivarte</a
                   >
                 </li>
