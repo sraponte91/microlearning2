@@ -1,5 +1,5 @@
 <template>
-  <footer class="position-relative wow bounceInDown" data-wow-duration="2s">
+  <footer class="position-relative">
     <a id="scroll" href="javascript:void(0)" @click="scrollToTop()">
       <span>
         <svg

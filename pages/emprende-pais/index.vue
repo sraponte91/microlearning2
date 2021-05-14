@@ -12,25 +12,27 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img
               src="/images/logos/Logo-Emprede-País_Blanco.png"
               alt=""
               class="img-fluid"
             />
           </div>
-          <p>
-            Emprende País es un programa de la Fundación Bolívar Davivienda, que
-            acompaña a todos aquellos líderes emprendedores  que buscan
-            multiplicar su propósito de empresa y abrir oportunidades de trabajo
-            convirtiéndose en motores de desarrollo para el país. Las empresas
-            que hacen parte de este programa tienen un alto potencial de
-            crecimiento y a través de mentorías empresariales con la guía de
-            altos ejecutivos del Grupo Bolívar y de una red de exitosos
-            empresarios a nivel regional, les brindamos las herramientas que les
-            permitan apalancar su desarrollo hacia la rentabilidad y
-            sostenibilidad en el tiempo.
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              Emprende País es un programa de la Fundación Bolívar Davivienda,
+              que acompaña a todos aquellos líderes emprendedores  que buscan
+              multiplicar su propósito de empresa y abrir oportunidades de
+              trabajo convirtiéndose en motores de desarrollo para el país. Las
+              empresas que hacen parte de este programa tienen un alto potencial
+              de crecimiento y a través de mentorías empresariales con la guía
+              de altos ejecutivos del Grupo Bolívar y de una red de exitosos
+              empresarios a nivel regional, les brindamos las herramientas que
+              les permitan apalancar su desarrollo hacia la rentabilidad y
+              sostenibilidad en el tiempo.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -65,7 +67,10 @@
     >
       <div class="container">
         <div class="d-flex align-items-start flex-wrap-991">
-          <div class="two-div-in-one-left position-relative">
+          <div
+            class="two-div-in-one-left position-relative wow bounceInLeft"
+            data-wow-duration="2s"
+          >
             <div class="txt-bx-wht position-relative order-2-991">
               <h2 class="ff-sans-b">El programa</h2>
               <div class="pra-p ff-nunito">
@@ -82,7 +87,10 @@
               </h3>
             </div>
           </div>
-          <div class="img-rrt-pr order-1-991">
+          <div
+            class="img-rrt-pr order-1-991 wow bounceInRight"
+            data-wow-duration="2s"
+          >
             <img
               src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque1.jpg"
               alt=""
@@ -113,14 +121,20 @@
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
-            <div class="img-points order-1-991">
+            <div
+              class="img-points order-1-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <img
                 src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque2_fondo.jpg"
                 alt=""
                 class="object-fit-cover"
               />
             </div>
-            <div class="txt-points position-relative order-2-991">
+            <div
+              class="txt-points position-relative order-2-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
               <div class="pra-p for-bgcol">
                 <h2 class="ff-sans-b">Nuestra metodología</h2>
                 <p>
@@ -172,10 +186,12 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a 
-            :href="$emprendePaisData.emprendePais.desarrollamosTalentoLink"
-            class="btn-tell-more">
-            Conozca más</a>
+            <a
+              :href="$emprendePaisData.emprendePais.desarrollamosTalentoLink"
+              class="btn-tell-more"
+            >
+              Conozca más</a
+            >
           </div>
         </div>
       </div>
@@ -187,12 +203,18 @@
 export default {
   head() {
     return {
-      title: this.$emprendePaisData.emprendePais.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$emprendePaisData.emprendePais.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$emprendePaisData.emprendePais.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePais.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -202,7 +224,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$emprendePaisData.emprendePais.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePais.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

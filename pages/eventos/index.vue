@@ -15,10 +15,10 @@
         />
         <div class="container position-absolute set-to-bottom">
           <div class="banner-txt text-white">
-            <div class="orange-bg">
+            <div class="orange-bg wow bounceInDown" data-wow-duration="2s">
               <h1 class="ff-sans-b">Eventos</h1>
             </div>
-            <div class="black-bg">
+            <div class="black-bg wow bounceInUp" ata-wow-duration="2s">
               <p class="ff-nunito">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at porttitor sem.

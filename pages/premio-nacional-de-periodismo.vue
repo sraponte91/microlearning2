@@ -217,10 +217,10 @@ export default {
 }
 .article h1 {
   font-family: 'sansationbold';
-  font-size: 72px;
+  font-size: 48px;
   color: #2f425b;
   text-decoration: none solid rgb(47, 66, 91);
-  line-height: 72px;
+  line-height: 1;
   text-align: center;
   margin-bottom: 15px;
 }

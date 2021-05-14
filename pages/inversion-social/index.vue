@@ -12,27 +12,29 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img
               src="/images/logos/Logo-Inversión-Social_Blanco.png"
               alt=""
               class="img-fluid"
             />
           </div>
-          <p>
-            Inversión Social, un programa de la Fundación Bolívar Davivienda, es
-            un camino para apoyar iniciativas de impacto social. Un espacio
-            donde impulsamos proyectos que transforman historias con soluciones
-            sostenibles. En equipo con nuestros aliados multiplicamos nuestro
-            resultado en: Proyecto de Vida y Prevención de Embarazo Adolescente,
-            Desarrollo Económico en comunidades rurales, Fortalecimiento
-            Familiar e Inclusión Educativa.
-          </p>
-          <p>
-            Tenemos presencia en más de 18 departamentos a lo largo del territorio
-            Nacional, con más de 17.000 beneficiarios directos en nuestros
-            diferentes programas.
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              Inversión Social, un programa de la Fundación Bolívar Davivienda,
+              es un camino para apoyar iniciativas de impacto social. Un espacio
+              donde impulsamos proyectos que transforman historias con
+              soluciones sostenibles. En equipo con nuestros aliados
+              multiplicamos nuestro resultado en: Proyecto de Vida y Prevención
+              de Embarazo Adolescente, Desarrollo Económico en comunidades
+              rurales, Fortalecimiento Familiar e Inclusión Educativa.
+            </p>
+            <p>
+              Tenemos presencia en más de 18 departamentos a lo largo del
+              territorio Nacional, con más de 17.000 beneficiarios directos en
+              nuestros diferentes programas.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -63,7 +65,10 @@
       <HomeDots></HomeDots>
       <div class="container">
         <div class="d-flex align-items-start flex-wrap-991">
-          <div class="txt-bx-wht position-relative order-2-991">
+          <div
+            class="txt-bx-wht position-relative order-2-991 wow bounceInLeft"
+            data-wow-duration="2s"
+          >
             <h2 class="ff-sans-b">¿Qué hacemos?</h2>
             <div class="pra-p ff-nunito">
               <p>
@@ -74,7 +79,10 @@
               </p>
             </div>
           </div>
-          <div class="img-rrt-pr order-1-991">
+          <div
+            class="img-rrt-pr order-1-991 wow bounceInRight"
+            data-wow-duration="2s"
+          >
             <img
               src="/images/rectangle_l.jpg"
               alt=""
@@ -117,12 +125,18 @@
 export default {
   head() {
     return {
-      title: this.$inversionSocialData.inversionSocial.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$inversionSocialData.inversionSocial.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$inversionSocialData.inversionSocial.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$inversionSocialData.inversionSocial.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -133,7 +147,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$inversionSocialData.inversionSocial.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$inversionSocialData.inversionSocial.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

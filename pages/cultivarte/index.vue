@@ -12,18 +12,20 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img src="/images/cultivarte.png" alt="" class="img-fluid" />
           </div>
-          <p>
-            Cultivarte está generando importantes transformaciones en la vida de
-            más de 220 mil niños, niñas y adolescentes. Es un programa de la
-            Fundación Bolívar Davivienda que potencia el desarrollo de talento
-            creando espacios seguros, que trascienden al buen uso del tiempo
-            libre de una manera constructiva. Nuestros principales aliados son
-            las alcaldías locales, instituciones educativas y comunidades de más
-            de 80 municipios del país.
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              Cultivarte está generando importantes transformaciones en la vida
+              de más de 220 mil niños, niñas y adolescentes. Es un programa de
+              la Fundación Bolívar Davivienda que potencia el desarrollo de
+              talento creando espacios seguros, que trascienden al buen uso del
+              tiempo libre de una manera constructiva. Nuestros principales
+              aliados son las alcaldías locales, instituciones educativas y
+              comunidades de más de 80 municipios del país.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -62,14 +64,20 @@
           <div
             class="d-flex multiple-reapt align-items-end flex-wrap-991 nd-wave-of-div text-points-sie"
           >
-            <div class="img-points order-1-991">
+            <div
+              class="img-points order-1-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <img
                 src="/images/programa-cultivarte/1-home-cultivarte/home_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
             </div>
-            <div class="txt-points adesea position-relative order-2-991">
+            <div
+              class="txt-points adesea position-relative order-2-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
               <div class="pra-p for-bgcol">
                 <h2 class="ff-sans-b">Sobre Cultivarte</h2>
                 <p>
@@ -107,7 +115,10 @@
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
-            <div class="txt-points position-relative order-2-991">
+            <div
+              class="txt-points position-relative order-2-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <div class="pra-p for-bgcol">
                 <h2 class="ff-sans-b">¿Por qué lo hacemos?</h2>
                 <p>
@@ -123,7 +134,10 @@
                 </p>
               </div>
             </div>
-            <div class="img-points order-1-991">
+            <div
+              class="img-points order-1-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
               <img
                 src="/images/programa-cultivarte/1-home-cultivarte/home_bloque3.jpg"
                 alt=""

@@ -12,21 +12,24 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img
               src="/images/logos/Logo-Voluntariado_Blanco.png"
               alt=""
               class="img-fluid"
             />
           </div>
-          <p>
-            El Voluntariado del Grupo Bolívar es el camino para cumplir en
-            equipo la apuesta social de la organización a través de la
-            solidaridad, innovación y participación de colaboradores, familiares
-            y pensionados de las diferentes compañías. Este programa logra la
-            misión de unirnos para transformar y multiplicar. Nos cambia la
-            forma en la que vemos el mundo y a nosotros mismos.
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              El Voluntariado del Grupo Bolívar es el camino para cumplir en
+              equipo la apuesta social de la organización a través de la
+              solidaridad, innovación y participación de colaboradores,
+              familiares y pensionados de las diferentes compañías. Este
+              programa logra la misión de unirnos para transformar y
+              multiplicar. Nos cambia la forma en la que vemos el mundo y a
+              nosotros mismos.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -59,7 +62,10 @@
       <HomeDots></HomeDots>
       <div class="container">
         <div class="d-flex align-items-start flex-wrap-991">
-          <div class="txt-bx-wht position-relative order-2-991">
+          <div
+            class="txt-bx-wht position-relative order-2-991 wow bounceInLeft"
+            data-wow-duration="2s"
+          >
             <h2 class="ff-sans-b">
               Sobre nuestro <br />
               Voluntariado
@@ -80,7 +86,10 @@
               </p>
             </div>
           </div>
-          <div class="img-rrt-pr order-1-991">
+          <div
+            class="img-rrt-pr order-1-991 wow bounceInRight"
+            data-wow-duration="2s"
+          >
             <img
               src="/images/programa-voluntariado/1-home-voluntariado/home_bloque1.jpg"
               alt=""
@@ -124,14 +133,20 @@
 export default {
   head() {
     return {
-      title: this.$voluntariadoFundacionBolivarDaviviendaData
-        .voluntariadoFundacionBolivarDavivienda.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$voluntariadoFundacionBolivarDaviviendaData
+          .voluntariadoFundacionBolivarDavivienda.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDavivienda.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDavivienda.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -142,8 +157,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDavivienda.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDavivienda.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

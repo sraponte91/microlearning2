@@ -8,15 +8,17 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img src="/images/becas-banner-logo.png" alt="" class="img-fluid" />
           </div>
-          <p>
-            Becas al Talento es un programa de la Fundación Bolívar Davivienda,
-            que busca apoyar a estudiantes con un alto desempeño académico, de
-            diferentes instituciones de educación superior para culminar sus
-            estudios en caso de dificultades económicas. º
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              Becas al Talento es un programa de la Fundación Bolívar
+              Davivienda, que busca apoyar a estudiantes con un alto desempeño
+              académico, de diferentes instituciones de educación superior para
+              culminar sus estudios en caso de dificultades económicas. º
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -50,18 +52,30 @@
           <div
             class="d-flex multiple-reapt align-items-end flex-wrap-991 nd-wave-of-div text-points-sie"
           >
-            <div class="img-points order-1-991">
+            <div
+              class="img-points order-1-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <img
                 src="/images/programa-becas-al-talento/1-home-becas/home_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
             </div>
-            <div class="txt-points desesesae position-relative order-2-991">
+            <div
+              class="txt-points desesesae position-relative order-2-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
               <div class="pra-p for-bgcol">
                 <h2 class="ff-sans-b">Sobre Becas</h2>
                 <p>
-                  En el programa apoyamos el talento y la excelencia de los estudiantes de nuestras universidades aliadas, con el fin de garantizar que terminen sus estudios profesionales de manera exitosa. Este beneficio se otorga como una beca-crédito para estudiantes que estén cursando entre 5to y 8vo semestre y está ligado a las políticas y procesos internos de las instituciones universitarias. 
+                  En el programa apoyamos el talento y la excelencia de los
+                  estudiantes de nuestras universidades aliadas, con el fin de
+                  garantizar que terminen sus estudios profesionales de manera
+                  exitosa. Este beneficio se otorga como una beca-crédito para
+                  estudiantes que estén cursando entre 5to y 8vo semestre y está
+                  ligado a las políticas y procesos internos de las
+                  instituciones universitarias.
                 </p>
               </div>
             </div>
@@ -84,9 +98,12 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a  :href="$becasAlTalentoData.becasAlTalento.cuentameMasLink"
-             class="btn-tell-more">
-             Conozca más</a>
+            <a
+              :href="$becasAlTalentoData.becasAlTalento.cuentameMasLink"
+              class="btn-tell-more"
+            >
+              Conozca más</a
+            >
           </div>
         </div>
       </div>
@@ -98,12 +115,18 @@
 export default {
   head() {
     return {
-      title: this.$becasAlTalentoData.becasAlTalento.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$becasAlTalentoData.becasAlTalento.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$becasAlTalentoData.becasAlTalento.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasAlTalento.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -113,7 +136,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$becasAlTalentoData.becasAlTalento.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$becasAlTalentoData.becasAlTalento.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -7,19 +7,16 @@
       <div class="inner-section margin-0-auto position-relative z-index-5">
         <div class="text-center text-white">
           <small class="ff-nunito">Sobre nosotros</small>
-          <h2 class="ff-sans-b wow bounceInUp" data-wow-delay="2s">
+          <h2 class="ff-sans-b">
             Desarrollamos <br />
             Talento
           </h2>
-          <p
-            class="ff-nunito margin-0-auto wow slideInLeft"
-            data-wow-duration="2s"
-          >
+          <p class="ff-nunito margin-0-auto">
             Somos un equipo que une. Que invita a explorar con creatividad y a
             nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
             ayuda a conectar el talento con el cambio.
           </p>
-          <div class="for-btn wow bounceInDown" data-wow-delay="3s">
+          <div class="for-btn">
             <a
               :href="$constants.home.desarrollamosTalento"
               class="btn-tell-more"
@@ -89,10 +86,7 @@
               class="object-fit-cover"
             />
           </div>
-          <div
-            class="title-tx position-absolute text-white ff-sans-b wow rollIn"
-            data-wow-duration="2s"
-          >
+          <div class="title-tx position-absolute text-white ff-sans-b">
             <h3>{{ item.title }}</h3>
           </div>
           <div class="d-none-n plus-sign d-block-767 position-absolute">
@@ -166,7 +160,7 @@
 
     <section class="news-section-bolivar bg-white d-none-767">
       <div class="container">
-        <h2 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+        <h2 class="ff-sans-b">
           Actualidad Fundación <br />
           Bolivar Davivienda
         </h2>
@@ -174,7 +168,7 @@
           <div class="accordion" role="tablist">
             <b-card no-body>
               <div class="d-flex w-100 flex-wrap-991">
-                <div class="wow bounceInLeft" data-wow-duration="2s">
+                <div class="">
                   <b-card-header
                     v-for="(item, i) of $constants.home.foundationNews"
                     :key="i"
@@ -204,10 +198,7 @@
                     </b-button>
                   </b-card-header>
                 </div>
-                <div
-                  class="tabs-contains wow slideInRight"
-                  data-wow-duration="2s"
-                >
+                <div class="tabs-contains">
                   <b-collapse
                     v-for="(item, i) of $constants.home.foundationNews"
                     :key="i"

@@ -12,25 +12,27 @@
         class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
       >
         <div>
-          <div class="log-prt">
+          <div class="log-prt wow bounceInDown" data-wow-duration="2s">
             <img
               src="/images/logo_joven_de_colombia.svg"
               alt=""
               class="img-fluid"
             />
           </div>
-          <p>
-            En Filarmónica Joven de Colombia, buscamos desarrollar el talento de
-            los jóvenes apasionados por la música clásica del país, con el
-            propósito de formar grandes intérpretes, capaces de inspirar la
-            transformación a través de la cultura y la música.
-          </p>
+          <div class="wow bounceInUp" data-wow-duration="2s">
+            <p>
+              En Filarmónica Joven de Colombia, buscamos desarrollar el talento
+              de los jóvenes apasionados por la música clásica del país, con el
+              propósito de formar grandes intérpretes, capaces de inspirar la
+              transformación a través de la cultura y la música.
+            </p>
 
-          <p>
-            La formación dentro de la Filarmónica Joven de Colombia, se
-            caracteriza por su calidad artística, la energía juvenil de sus
-            músicos y su gran talento.
-          </p>
+            <p>
+              La formación dentro de la Filarmónica Joven de Colombia, se
+              caracteriza por su calidad artística, la energía juvenil de sus
+              músicos y su gran talento.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -69,7 +71,10 @@
       <HomeDots></HomeDots>
       <div class="container">
         <div class="d-flex align-items-start flex-wrap-991">
-          <div class="txt-bx-wht position-relative order-2-991">
+          <div
+            class="txt-bx-wht position-relative order-2-991 wow bounceInLeft"
+            data-wow-duration="2s"
+          >
             <h2 class="ff-sans-b">#LaJoven</h2>
             <div class="pra-p ff-nunito">
               <p>
@@ -90,7 +95,10 @@
               </p>
             </div>
           </div>
-          <div class="img-rrt-pr order-1-991">
+          <div
+            class="img-rrt-pr order-1-991 wow bounceInRight"
+            data-wow-duration="2s"
+          >
             <img
               src="/images/programa-filarmonica-joven/1-home-filarmonica/home_bloque1.jpg"
               alt=""
@@ -137,14 +145,20 @@
 export default {
   head() {
     return {
-      title: this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia
-        .meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia.meta
+          .title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombia.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia.meta
+              .metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -155,8 +169,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombia.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia.meta
+              .ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

@@ -1,8 +1,5 @@
 <template>
-  <header
-    class="w-100 header position-relative wow bounceInDown"
-    data-wow-duration="2s"
-  >
+  <header class="w-100 header position-relative">
     <div class="fixed-this">
       <div class="container-fluid">
         <!-- navigation start -->

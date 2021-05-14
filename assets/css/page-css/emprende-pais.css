@@ -18,9 +18,11 @@
 }
 .ig-tx-zing-zag.emp-pais .two-div-in-one-left {
   top: 0;
+  z-index: 9;
 }
 .howwedo {
-  background: url(/images/programa-emprende-pais/1-home-emprende-pais/home_bloque2_fondo.jpg) 0 0 no-repeat;
+  background: url(/images/programa-emprende-pais/1-home-emprende-pais/home_bloque2_fondo.jpg)
+    0 0 no-repeat;
   width: 100%;
   position: relative;
 }
@@ -71,6 +73,7 @@
 
 .ig-tx-zing-zag.autodiag-pg.our-methodology.cultiwvat-main-pg .txt-points {
   margin: 80px 0 0 0;
+  z-index: 9;
 }
 .ig-tx-zing-zag.autodiag-pg.our-methodology.cultiwvat-main-pg .img-points {
   margin: 0 0 0 -180px;
