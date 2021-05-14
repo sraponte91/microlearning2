@@ -7,16 +7,19 @@
       <div class="inner-section margin-0-auto position-relative z-index-5">
         <div class="text-center text-white">
           <small class="ff-nunito">Sobre nosotros</small>
-          <h2 class="ff-sans-b">
+          <h2 class="ff-sans-b wow bounceInUp" data-wow-delay="2s">
             Desarrollamos <br />
             Talento
           </h2>
-          <p class="ff-nunito margin-0-auto">
+          <p
+            class="ff-nunito margin-0-auto wow slideInLeft"
+            data-wow-duration="2s"
+          >
             Somos un equipo que une. Que invita a explorar con creatividad y a
             nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
             ayuda a conectar el talento con el cambio.
           </p>
-          <div class="for-btn">
+          <div class="for-btn wow bounceInDown" data-wow-delay="3s">
             <a
               :href="$constants.home.desarrollamosTalento"
               class="btn-tell-more"
@@ -86,7 +89,10 @@
               class="object-fit-cover"
             />
           </div>
-          <div class="title-tx position-absolute text-white ff-sans-b">
+          <div
+            class="title-tx position-absolute text-white ff-sans-b wow rollIn"
+            data-wow-duration="2s"
+          >
             <h3>{{ item.title }}</h3>
           </div>
           <div class="d-none-n plus-sign d-block-767 position-absolute">
@@ -123,8 +129,14 @@
         <div
           class="d-flex justify-content-between align-items-center flex-wrap-991"
         >
-          <div class="left-solid-color d-flex align-items-center">
-            <div class="inner-tx-w text-center">
+          <div
+            class="left-solid-color d-flex align-items-center wow slideInLeft"
+            data-wow-duration="2s"
+          >
+            <div
+              class="inner-tx-w text-center wow bounceInUp"
+              data-wow-delay="1.8s"
+            >
               <small class="ff-nunito">Así conectamos</small>
               <h3 class="ff-sans-b">
                 El talento <span class="ff-sans-i">con</span> El cambio
@@ -136,7 +148,10 @@
               </div>
             </div>
           </div>
-          <div class="right-img position-relative">
+          <div
+            class="right-img position-relative wow slideInRight"
+            data-wow-duration="2s"
+          >
             <img
               src="/images/seccion-inicio/microlearning.jpg"
               alt=""
@@ -151,7 +166,7 @@
 
     <section class="news-section-bolivar bg-white d-none-767">
       <div class="container">
-        <h2 class="ff-sans-b">
+        <h2 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
           Actualidad Fundación <br />
           Bolivar Davivienda
         </h2>
@@ -159,7 +174,7 @@
           <div class="accordion" role="tablist">
             <b-card no-body>
               <div class="d-flex w-100 flex-wrap-991">
-                <div>
+                <div class="wow bounceInLeft" data-wow-duration="2s">
                   <b-card-header
                     v-for="(item, i) of $constants.home.foundationNews"
                     :key="i"
@@ -189,7 +204,10 @@
                     </b-button>
                   </b-card-header>
                 </div>
-                <div class="tabs-contains">
+                <div
+                  class="tabs-contains wow slideInRight"
+                  data-wow-duration="2s"
+                >
                   <b-collapse
                     v-for="(item, i) of $constants.home.foundationNews"
                     :key="i"
@@ -294,10 +312,7 @@
                       </div>
                       <div class="date">{{ item.date }}</div>
                       <div class="new-titles ff-sans-b">
-                        <a 
-                        :href="item.internalURL" 
-                        v-html="item.bigTitle">
-                        </a>
+                        <a :href="item.internalURL" v-html="item.bigTitle"> </a>
                       </div>
                     </div>
                   </b-card-text>

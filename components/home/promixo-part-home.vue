@@ -10,7 +10,7 @@
               >
                 Próximos Eventos
               </h3>
-              <div class="img-part">
+              <div class="img-part wow flipInX" data-wow-duration="2s">
                 <img
                   :src="ev.imgURL"
                   :alt="ev.title"
@@ -18,8 +18,16 @@
                 />
               </div>
               <div class="text-part-title position-absolute v-center">
-                <h3 class="ff-sans-b d-none-767i">Próximos Eventos</h3>
-                <div class="inner-bx-info">
+                <h3
+                  class="ff-sans-b d-none-767i wow bounceInDown"
+                  data-wow-duration="2s"
+                >
+                  Próximos Eventos
+                </h3>
+                <div
+                  class="inner-bx-info wow bounceInUp"
+                  data-wow-duration="2s"
+                >
                   <h4 class="ff-sans-b">{{ ev.title }}</h4>
                   <div class="pra-p ff-nunito">
                     <div class="three-line-fixed-tx">
@@ -49,7 +57,7 @@
         </carousel>
       </client-only>
       <div class="position-absolute set-to-bottom2">
-        <div class="banner-arro">
+        <div class="banner-arro wow slideInLeft" data-wow-duration="2s">
           <a
             href="javascript:void(0)"
             class="ic-arrow arrow-lft"
