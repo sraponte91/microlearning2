@@ -62,21 +62,23 @@
             >
           </li>
         </ul>
-        <div class="tab-content">
-          <div class="container tab-pane active">
-            <div class="tab-main flex-wrap">
-              <div class="tab-drop sma-w">
-                <div class="drop-sub">
-                  <h2>Filtros</h2>
-                  <h3>Municipio</h3>
-                  <select v-model="selectedCity">
-                    <option value="">Select</option>
-                    <option v-for="(city, i) of cities" :key="i">
-                      {{ city }}
-                    </option>
-                  </select>
-                </div>
+      </div>
+      <div class="tab-content">
+        <div class="container tab-pane active">
+          <div class="tab-main flex-wrap">
+            <div class="tab-drop sma-w fixed-wid">
+              <div class="drop-sub">
+                <h2>Filtros</h2>
+                <h3>Municipio</h3>
+                <select v-model="selectedCity">
+                  <option value="">Select</option>
+                  <option v-for="(city, i) of cities" :key="i">
+                    {{ city }}
+                  </option>
+                </select>
               </div>
+            </div>
+            <div class="d-flex flex-wrap indetails-info-boxees">
               <div
                 class="contact-details sma-w"
                 v-for="(item, i) of selectedCityData"
@@ -181,9 +183,20 @@ export default {
     ),
     url(/images/programa-cultivarte/5-ubicacion/header_desktop.jpg);
 }
-.tab-content .tab-drop.sma-w,
-.tab-content .contact-details.sma-w {
-  width: calc((100% / 3) - 30px);
+
+.tab-content .indetails-info-boxees {
+  width: calc(100% - 330px);
+  padding-left: 20px;
+}
+
+.tab-content .indetails-info-boxees .contact-details.sma-w {
+  width: calc((100% / 2) - 30px);
+  margin: 15px;
+}
+
+.tab-content .tab-drop.sma-w.fixed-wid {
+  width: 330px;
+  margin: 15px 0 0;
 }
 
 .donde-esta {
@@ -241,7 +254,7 @@ export default {
 }
 
 .all-tab .tab-content {
-  padding: 100px 0;
+  padding: 35px 0;
 }
 
 .tab-main {
@@ -255,25 +268,23 @@ export default {
 
 .drop-sub {
   border: solid 1px #77777a;
-  padding: 30px;
+  padding: 20px;
 }
 
 .drop-sub h2 {
   font-family: sansationbold;
-  font-size: 26px;
+  font-size: 22px;
   color: #111820;
   line-height: 21px;
-  letter-spacing: -0.5px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .drop-sub h3 {
   font-family: sansationregular;
-  font-size: 26px;
+  font-size: 20px;
   color: #111820;
   line-height: 21px;
-  letter-spacing: -0.5px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .drop-sub select {
@@ -289,24 +300,23 @@ export default {
 .contact-details {
   border-radius: 10px;
   background: #f7f7f7;
-  box-shadow: 0px 12px 25px rgba(17, 24, 32, 0.1);
-  padding: 50px;
+  box-shadow: 0 8px 11px rgba(17, 24, 32, 0.1);
+  padding: 25px;
   text-align: center;
 }
 
 .contact-details h2 {
   font-family: sansationbold;
-  font-size: 26px;
+  font-size: 22px;
   color: #111820;
-  line-height: 21px;
-  letter-spacing: -0.5px;
+  line-height: 1;
   text-align: center;
   padding-bottom: 20px;
 }
 
 .contact-details h3 {
   font-family: Nunito, sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   color: #ff671b;
   line-height: 30px;
   text-align: center;
@@ -325,13 +335,45 @@ export default {
   text-align: center;
 }
 
+@media (max-width: 1199px) {
+  .tab-content .tab-drop.sma-w.fixed-wid {
+    width: 280px;
+  }
+  .tab-content .indetails-info-boxees {
+    width: calc(100% - 280px);
+  }
+}
+
 @media (max-width: 991px) {
-  .tab-content .tab-drop.sma-w,
-  .tab-content .contact-details.sma-w {
-    width: calc((100% / 2) - 30px);
+  .all-tab .tab-content .container {
+    max-width: 100%;
+  }
+  .tab-content .indetails-info-boxees .contact-details.sma-w {
+    width: 100%;
+    margin: 0;
+  }
+  .tab-content
+    .indetails-info-boxees
+    .contact-details.sma-w
+    + .contact-details.sma-w {
+    margin-top: 35px;
+  }
+  .tab-content .tab-drop.sma-w.fixed-wid {
+    margin: 0;
   }
 }
 @media (max-width: 767px) {
+  .all-tab .tab-content .container {
+    max-width: 540px;
+  }
+  .tab-content .tab-drop.sma-w.fixed-wid {
+    width: 100%;
+  }
+  .tab-content .indetails-info-boxees {
+    width: 100%;
+    padding: 0;
+    margin: 40px 0 0;
+  }
   .tab-content .tab-drop.sma-w,
   .tab-content .contact-details.sma-w {
     width: 100%;
@@ -351,6 +393,15 @@ export default {
   .tab-drop,
   .contact-details {
     width: calc(100% - 30px);
+  }
+}
+@media (max-width: 450px) {
+  .all-tab ul li {
+    width: 100%;
+    margin: 0;
+  }
+  .all-tab ul li + li {
+    margin-top: 15px;
   }
 }
 </style>
