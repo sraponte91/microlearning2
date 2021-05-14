@@ -85,17 +85,20 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991 up-steap-a">
             <div class="txt-points position-relative order-2-991">
               <div class="pra-p for-bgcol">
-                <h3 class="ff-sans-b">Conoce nuestros mentores</h3>
+                <h3 class="ff-sans-b">Nuestros mentores</h3>
                 <p>
-                  Mentores padrinos, son los más altos ejecutivos de las
-                  empresas del Grupo Bolívar, que tienen la capacidad de
-                  analizar el negocio del emprendedor desde una perspectiva
-                  general, para entender la profundidad de su negocio y
-                  priorizar sus necesidades, dando acompañamiento al plan
-                  estratégico empresarial. Los mentores expertos realizan un
-                  proceso de acompañamiento puntual a los empresarios de acuerdo
-                  con su plan de trabajo para facilitarle la implementación de
-                  sus proyectos y proyecciones financieras.
+                  Los emprendedores pueden contar con un comité de mentores conformado por:</p>
+                  <p>
+
+                  Mentores padrinos, son los altos ejecutivos de las empresas del Grupo Bolívar y empresarios exitosos,
+                  que tienen la capacidad de analizar el negocio del emprendedor desde una perspectiva general, para
+                  entender la profundidad de su negocio y priorizar sus necesidades, dando acompañamiento al plan
+                  estratégico empresarial.</p>
+                  <p>
+
+                  Mentores expertos son líderes de las empresas del Grupo Bolívar que acompañan, guían y retan a los
+                  empresarios en un tema específico a trabajar, para facilitar la implementación del plan definido con
+                  el mentor padrino.
                 </p>
               </div>
             </div>
@@ -129,7 +132,7 @@
         </div>
       </div>
     </section>
-
+<!---
     <section class="educational-training position-relative after-po">
       <img
         src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque5_destacado_trabamos_por.jpg"
@@ -156,6 +159,7 @@
       </div>
       <HomeDotsbottoms></HomeDotsbottoms>
     </section>
+    -->
 
     <section class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre">
       <div class="container">

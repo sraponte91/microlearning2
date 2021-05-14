@@ -29,18 +29,14 @@
               </h2>
               <div class="pra-p for-bgcol">
                 <p>
-                  Mediante las jornadas de capacitación y formación
-                  desarrollamos y cultivamos el talento de todos y todas las
-                  participantes, para unirnos, transformar y multiplicar en cada
-                  uno de los territorios donde Voluntariado Familia Bolívar
-                  tiene presencia.
-                </p>
-                <p>
-                  Adicionalmente, el programa brinda la oportunidad a sus
-                  voluntarios de crecer como agentes de cambio, y por eso
-                  impulsa y apoya campañas y proyectos sociales propuestos por
-                  ellos. Buscamos formar más y mejores voluntarios para que cada
-                  vez la red de intercambio de conocimiento sea mayor.
+                  En Aflora brindamos a todas las organizaciones sociales con gran potencial una ruta de formación para
+                  fortalecer sus capacidades y las de sus equipos. Buscamos ayudarlas a identificar sus oportunidades de
+                  mejora en distintas áreas a través de un autodiagnóstico. Nuestro propósito es ayudarlas a identificar
+                  los medios para lograr su sostenibilidad financiera, ambiental y social.</p>
+                  <p>
+
+                  Trabajamos unidos con las organizaciones, para impulsar sus causas, cerrar brechas sociales y
+                  contribuir a la construcción de un mejor país.
                 </p>
               </div>
             </div>
@@ -85,8 +81,9 @@
               </p>
             </div>
             <div class="btn-g">
-              <a :href="$afloraData.afloraDesarrollamosTalento.nivelesLink" class="btn-know-leave ff-sans-b">Conocer
-                Niveles</a>
+              <a :href="$afloraData.afloraDesarrollamosTalento.nivelesLink" 
+              class="btn-know-leave ff-sans-b">
+              Conozca más</a>
             </div>
           </div>
         </div>
@@ -141,7 +138,8 @@
         meta: [{
             hid: 'title',
             name: 'title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+            content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle + ' - ' + this.$constants.home.meta
+              .title,
           },
           {
             hid: 'description',
@@ -152,7 +150,8 @@
           {
             hid: 'og:title',
             name: 'og:title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+            content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle + ' - ' + this.$constants.home.meta
+              .title,
           },
           {
             hid: 'og:description',
