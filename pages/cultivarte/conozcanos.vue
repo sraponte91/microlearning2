@@ -131,7 +131,7 @@
               <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
-              <h3>+100.000</h3>
+              <h3 id="beneficiarios-counter"></h3>
               <p>Beneficiarios</p>
             </div>
           </div>
@@ -140,7 +140,7 @@
               <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
-              <h3>86</h3>
+              <h3 id="sedes-counter"></h3>
               <p>Sedes</p>
             </div>
           </div>
@@ -149,7 +149,7 @@
               <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
-              <h3>+11.000</h3>
+              <h3 id="asistentes-permanentes-counter"></h3>
               <p>Asistentes permanentes</p>
             </div>
           </div>
@@ -311,6 +311,11 @@
 
 <script>
 export default {
+  mounted() {
+    this.counter('beneficiarios-counter', 0, '+100000', 100)
+    this.counter('sedes-counter', 0, 86, 0.5)
+    this.counter('asistentes-permanentes-counter', 0, '+11000', 20)
+  },
   head() {
     return {
       title:

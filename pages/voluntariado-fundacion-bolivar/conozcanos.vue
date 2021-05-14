@@ -72,14 +72,22 @@
           <div class="txt-points position-relative order-1-991">
             <div class="pra-p">
               <p>
-                Actualmente, el programa trabaja con más de 4.700 voluntarios en 5 países: Colombia, Costa Rica, El Salvador, Panamá y Honduras. El objetivo del programa es continuar expandiéndose y seguir llegando a los rincones del mundo donde nadie llega, para sembrar una semilla de cambio y transformación, donde sea que se necesite
+                Actualmente, el programa trabaja con más de 4.700 voluntarios en
+                5 países: Colombia, Costa Rica, El Salvador, Panamá y Honduras.
+                El objetivo del programa es continuar expandiéndose y seguir
+                llegando a los rincones del mundo donde nadie llega, para
+                sembrar una semilla de cambio y transformación, donde sea que se
+                necesite
               </p>
               <p>
-               Voluntariado Familia Bolívar trabajamos diferentes líneas de voluntariado:
+                Voluntariado Familia Bolívar trabajamos diferentes líneas de
+                voluntariado:
               </p>
               <ul>
                 <li class="position-relative after-po">
-                 Capacitación y herramientas para trabajar con emprendedores y organizaciones sociales, finanzas personales, convivencia saludable, o apoyo a la formación educativa de niños y niñas.  
+                  Capacitación y herramientas para trabajar con emprendedores y
+                  organizaciones sociales, finanzas personales, convivencia
+                  saludable, o apoyo a la formación educativa de niños y niñas.
                 </li>
               </ul>
             </div>
@@ -113,7 +121,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
+                <h4 class="ff-sans-b" id="quickly-repurpose-counter-1"></h4>
                 <p class="ff-nunito">Quickly repurpose</p>
               </div>
             </div>
@@ -140,7 +148,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
+                <h4 class="ff-sans-b" id="quickly-repurpose-counter-2"></h4>
                 <p class="ff-nunito">Quickly repurpose</p>
               </div>
             </div>
@@ -167,7 +175,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
+                <h4 class="ff-sans-b" id="quickly-repurpose-counter-3"></h4>
                 <p class="ff-nunito">Quickly repurpose</p>
               </div>
             </div>
@@ -194,7 +202,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">1000</h4>
+                <h4 class="ff-sans-b" id="quickly-repurpose-counter-4"></h4>
                 <p class="ff-nunito">Quickly repurpose</p>
               </div>
             </div>
@@ -257,35 +265,50 @@
           <h4 class="ff-sans-b">Con el apoyo de:</h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0000_voluntare.png" alt="" />
+              <img
+                src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0000_voluntare.png"
+                alt=""
+              />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0001_Somos-Capazes.png" alt="" />
+              <img
+                src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0001_Somos-Capazes.png"
+                alt=""
+              />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0002_LOGO_UWCOLOMBIA_full_color_Mesa-de-trabajo-1.png" alt="" />
+              <img
+                src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0002_LOGO_UWCOLOMBIA_full_color_Mesa-de-trabajo-1.png"
+                alt=""
+              />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0003_Logo-PLAN---seguridad---CMYK-01.png" alt="" />
+              <img
+                src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0003_Logo-PLAN---seguridad---CMYK-01.png"
+                alt=""
+              />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0004_Acc_Logo_Black_Purple_RGB.png" alt="" />
+              <img
+                src="/images/programa-voluntariado/2-conozcanos/aliados/aliados-vfb_0004_Acc_Logo_Black_Purple_RGB.png"
+                alt=""
+              />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
@@ -299,16 +322,28 @@
 </template>
 <script>
 export default {
+  mounted() {
+    this.counter('quickly-repurpose-counter-1', 0, 1000, 1)
+    this.counter('quickly-repurpose-counter-2', 0, 1000, 1)
+    this.counter('quickly-repurpose-counter-3', 0, 1000, 1)
+    this.counter('quickly-repurpose-counter-4', 0, 1000, 1)
+  },
   head() {
     return {
-      title: this.$voluntariadoFundacionBolivarDaviviendaData
-        .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$voluntariadoFundacionBolivarDaviviendaData
+          .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -320,8 +355,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$voluntariadoFundacionBolivarDaviviendaData
-            .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$voluntariadoFundacionBolivarDaviviendaData
+              .voluntariadoFundacionBolivarDaviviendaConozcanos.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

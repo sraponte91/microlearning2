@@ -120,7 +120,7 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">123</h4>
+                <h4 class="ff-sans-b" id="conciertos-nacionales-counter"></h4>
                 <p class="ff-nunito">Conciertos Nacionales</p>
               </div>
             </div>
@@ -147,7 +147,10 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">177</h4>
+                <h4
+                  class="ff-sans-b"
+                  id="conciertos-internacionales-counter"
+                ></h4>
                 <p class="ff-nunito">Conciertos Internacionales</p>
               </div>
             </div>
@@ -174,7 +177,9 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">30 +</h4>
+                <h4 class="ff-sans-b">
+                  <span id="facultades-de-musica-counter"></span> +
+                </h4>
                 <p class="ff-nunito">Facultades De música</p>
               </div>
             </div>
@@ -204,7 +209,9 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">600 +</h4>
+                <h4 class="ff-sans-b">
+                  <span id="musicos-de-counter"></span> +
+                </h4>
                 <p class="ff-nunito">
                   Músicos De 40 municipios en 12 departamentos de Colombia.
                 </p>
@@ -233,7 +240,9 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">3'000.000 +</h4>
+                <h4 class="ff-sans-b">
+                  <span id="de-personas-counter"></span> +
+                </h4>
                 <p class="ff-nunito">
                   De personas en 25 países diferentes, han escuchado cómo suena
                   el talento joven de Colombia.
@@ -263,7 +272,9 @@
                 </svg>
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b">20 +</h4>
+                <h4 class="ff-sans-b">
+                  <span id="instituciones-musicales-counter"></span> +
+                </h4>
                 <p class="ff-nunito">
                   Instituciones Musicales Colombianas representadas
                 </p>
@@ -322,8 +333,10 @@
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
-          <h5> </h5>
-          <h4 class="ff-sans-b">Filarmónica Joven de Colombia es un miembro de</h4>
+          <h5></h5>
+          <h4 class="ff-sans-b">
+            Filarmónica Joven de Colombia es un miembro de
+          </h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
               <img
@@ -649,16 +662,30 @@
 </template>
 <script>
 export default {
+  mounted() {
+    this.counter('conciertos-nacionales-counter', 0, 123, 0.1)
+    this.counter('conciertos-internacionales-counter', 0, 177, 0.1)
+    this.counter('facultades-de-musica-counter', 0, 30, 0.1)
+    this.counter('musicos-de-counter', 0, 600, 0.2)
+    this.counter('de-personas-counter', 0, 3000000, 5000)
+    this.counter('instituciones-musicales-counter', 0, 20, 0.1)
+  },
   head() {
     return {
-      title: this.$filarmonicaJovenDeColombiaData
-        .filarmonicaJovenDeColombiaConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$filarmonicaJovenDeColombiaData
+          .filarmonicaJovenDeColombiaConozcanos.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaConozcanos.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaConozcanos.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -669,8 +696,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaConozcanos.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaConozcanos.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
