@@ -65,25 +65,25 @@
               >
                 <slide
                   v-for="(metodoDelCaso, i) in $constants
-                    .escuelaDeDirectoresLanding.metodoDelCasos"
+                    .escuelaDeDirectores.slides"
                   :key="i"
                 >
                   <div class="position-relative box bg-white">
                     <div class="main-slider-at-top actualidad-pg">
                       <div class="img-prt position-relative">
-                        <b-img :src="metodoDelCaso.image" fluid alt=""></b-img>
+                        <b-img :src="metodoDelCaso.imgURL" fluid alt=""></b-img>
                         <div class="container position-absolute set-to-bottom">
                           <div class="banner-txt text-white">
                             <div class="orange-bg">
                               <h3
                                 class="ff-sans-b"
-                                v-text="metodoDelCaso.title"
+                                v-text="metodoDelCaso.text1"
                               />
                             </div>
                             <div class="black-bg">
                               <p
                                 class="ff-nunito"
-                                v-text="metodoDelCaso.description"
+                                v-text="metodoDelCaso.text2"
                               />
                             </div>
                           </div>
@@ -96,15 +96,14 @@
                     </div>
                     <!-- <b-img :src="item.image" fluid alt=""></b-img> -->
                   </div>
+                  <div class="sec3-info">
+                    <p v-text="metodoDelCaso.description">
+                    </p>
+                  </div>
                 </slide>
               </carousel>
             </client-only>
-            <div class="sec3-info">
-              <p>
-                Es un innovador proceso de aprendizaje y perfeccionamiento de
-                capacidades directivas que se trabaja en tres niveles
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -144,33 +143,25 @@
               <div class="col-md-12">
                 <h3 class="ff-sans-b">Fechas</h3>
                 <p>
-                  La Escuela de directores la haremos el 18,19, 20,23,24,25 y 26
-                  de Agosto en un horario de 8:00 am a 12:00.
+                  {{ $constants.escuelaDeDirectores.fechas }}
                 </p>
               </div>
               <div class="col-md-12"><br /></div>
               <div class="col-md-12">
                 <h3 class="ff-sans-b">Actividades</h3>
                 <p>
-                  El primer día se llevarán a cabo la inauguración, la
-                  introducción y la presentación a cargo de los directivos de la
-                  Fundación Bolívar Davivienda, y 1 sesión de trabajo.
-                </p>
-                <p>
-                  Los seis días siguientes habrá entre 2 y 3 sesiones, para un
-                  total de 14. El último día celebraremos el cierre del
-                  seminario y se entregarán los certificados de asistencia.
-                </p>
+                    {{ $constants.escuelaDeDirectores.actividades1 }}
+                  </p>
+                  <p>
+                    {{ $constants.escuelaDeDirectores.actividades2 }}
+                  </p>
               </div>
               <div class="col-md-12"><br /></div>
               <div class="col-md-12">
                 <h3 class="ff-sans-b">Tiempo dedicado</h3>
                 <p>
-                  Demandará una dedicación de 30 horas presenciales y
-                  aproximadamente 20 horas de estudio individual, para preparar
-                  los casos antes de cada sesión y lograr una mejor interacción
-                  y participación por parte de los asistentes.
-                </p>
+                    {{ $constants.escuelaDeDirectores.tiempoDedicado }}
+                  </p>
               </div>
             </div>
           </div>

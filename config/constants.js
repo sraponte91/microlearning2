@@ -12,42 +12,31 @@ Vue.prototype.$constants = {
     nuestrosBtnLink: 'javascript:void(0)',
     slides: [
       {
-        imgURL: '/images/slide_01.jpg',
+        imgURL: '/images/escuela-directores-landing/slide_01.jpg',
         text1: 'Unidad 1',
         text2: 'Método del caso',
-        description:
-          'Es un innovador proceso de aprendizaje y perfeccionamiento de capacidades directivas que se trabaja en tres niveles',
-      },
-      {
-        imgURL: '/images/slide_01.jpg',
+        description: 'Es un innovador proceso de aprendizaje y perfeccionamiento de capacidades directivas que se trabaja en tres niveles.'
+      }, {
+        imgURL: '/images/escuela-directores-landing/slide_02.jpg',
         text1: 'Unidad 2',
-        text2: 'Método del caso',
-        description:
-          'Es un innovador proceso de aprendizaje y perfeccionamiento de capacidades directivas que se trabaja en tres niveles',
-      },
-      {
-        imgURL: '/images/slide_01.jpg',
+        text2: 'Estudio Individual',
+        description: 'Los participantes resuelven los retos que plantean cada uno de los casos, diagnosticando e identificando el problema, proponiendo individualmente alternativas de solución, estableciendo los criterios de evaluación y tomando decisiones que permitan diseñar un plan de acción. Se estima una dedicación promedio de 120 minutos por caso.'
+      }, {
+        imgURL: '/images/escuela-directores-landing/slide_03.jpg',
         text1: 'Unidad 3',
-        text2: 'Método del caso',
-        description:
-          'Es un innovador proceso de aprendizaje y perfeccionamiento de capacidades directivas que se trabaja en tres niveles',
-      },
-      {
-        imgURL: '/images/slide_01.jpg',
+        text2: 'Trabajo en equipo',
+        description: 'Los participantes se reúnen en grupos de 8 a 10 líderes, para analizar en equipo los casos como comité de dirección. En él expondrán sus puntos de vista y las conclusiones a las que llegaron a través del estudio individual, contrastando así sus alternativas y opiniones. Cada grupo contará con un monitor y 20 minutos para evaluar cada caso.'
+      }, {
+        imgURL: '/images/escuela-directores-landing/slide_04.jpg',
         text1: 'Unidad 4',
-        text2: 'Método del caso',
-        description:
-          'Es un innovador proceso de aprendizaje y perfeccionamiento de capacidades directivas que se trabaja en tres niveles',
+        text2: 'Sesión general',
+        description: 'En la modalidad de asamblea, esta reunión con todos los participantes será dirigida por un experto en el método del caso, con amplio conocimiento en dirección empresarial estratégica, que conducirá la argumentación ordenada y metodología rigurosa para enriquecer las conclusiones. En la sesión, cada uno ratificará o modificará su punto de vista acerca de la situación que plantea el caso y analizará sus decisiones. Tendrá una duración de una hora y veinte minutos.'
       },
     ],
-    fechas:
-      'La Escuela de directores la haremos el 18,19, 20,23,24,25 y 26 de Agosto en un horario de 8:00 am a 12:00.',
-    actividades1:
-      'El primer día se llevarán a cabo la inauguración, la introducción y la presentación a cargo de los directivos de la Fundación Bolívar Davivienda, y 1 sesión de trabajo.',
-    actividades2:
-      'Los seis días siguientes habrá entre 2 y 3 sesiones, para un total de 14. El último día celebraremos el cierre del seminario y se entregarán los certificados de asistencia.',
-    tiempoDedicado:
-      'Demandará una dedicación de 30 horas presenciales y aproximadamente 20 horas de estudio individual, para preparar los casos antes de cada sesión y lograr una mejor interacción y participación por parte de los asistentes.',
+    fechas: 'La Escuela de directores la haremos el 18,19, 20,23,24,25 y 26 de Agosto en un horario de 8:00 am a 12:00.',
+    actividades1: 'El primer día se llevarán a cabo la inauguración, la introducción y la presentación a cargo de los directivos de la Fundación Bolívar Davivienda, y 1 sesión de trabajo.',
+    actividades2: 'Los seis  días siguientes habrá  entre 2 y 3 sesiones, para un total de 14. El último día celebraremos el cierre del seminario y se entregarán los certificados de asistencia.',
+    tiempoDedicado: 'Demandará una dedicación de 30 horas presenciales y aproximadamente 20 horas de estudio individual, para preparar los casos antes de cada sesión y lograr una mejor interacción y participación por parte de los asistentes.'
   },
   home: {
     slides: [

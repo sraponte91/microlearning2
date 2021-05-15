@@ -43,7 +43,7 @@ Vue.prototype.$afloraData = {
   afloraDesarrollamosTalento: {
     quieroConocerMas: '/aflora/desarrollamos-talento/',
     nivelesLink: '/escuela-de-directores-landing/',
-    escuelaLink: 'javascript:void(0)',
+    escuelaLink: '/escuela-de-directores-landing/',
     meta: {
       title: 'Desarrollamos talento',
       metaTitle: 'Desarrollamos talento',
