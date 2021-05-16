@@ -147,7 +147,12 @@
   </main>
 </template>
 <script>
+import HomeDots from '@/components/home/dots'
+
 export default {
+  components: {
+    HomeDots,
+  },
   head() {
     return {
       title:

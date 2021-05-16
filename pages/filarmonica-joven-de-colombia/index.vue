@@ -78,11 +78,11 @@
             <h2 class="ff-sans-b">#LaJoven</h2>
             <div class="pra-p ff-nunito">
               <p>
-               Representa el orgullo y la ardua labor  de todo un país por la música sinfónica. En
-                nuestra orquesta, los músicos han tenido la oportunidad de
-                fortalecer su talento en la práctica orquestal de gran formato,
-                alcanzando una calidad artística que ha merecido el
-                reconocimiento del público internacional en Europa, Estados
+                Representa el orgullo y la ardua labor de todo un país por la
+                música sinfónica. En nuestra orquesta, los músicos han tenido la
+                oportunidad de fortalecer su talento en la práctica orquestal de
+                gran formato, alcanzando una calidad artística que ha merecido
+                el reconocimiento del público internacional en Europa, Estados
                 Unidos y Centroamérica.
               </p>
             </div>
@@ -142,7 +142,14 @@
   </main>
 </template>
 <script>
+import HomeDots from '@/components/home/dots'
+import HomeDotsbottoms from '@/components/home/dotsbottoms'
+
 export default {
+  components: {
+    HomeDots,
+    HomeDotsbottoms,
+  },
   head() {
     return {
       title:

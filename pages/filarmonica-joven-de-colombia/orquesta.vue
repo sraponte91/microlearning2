@@ -101,12 +101,14 @@
             </div>
             <div class="d-flex justify-content-between lft-rit-arrow">
               <a
+                id="go-prev-integrantes"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goPrev('integrantes')"
                 >&lt;</a
               >
               <a
+                id="go-next-integrantes"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goNext('integrantes')"
@@ -166,12 +168,14 @@
             </div>
             <div class="d-flex justify-content-between lft-rit-arrow">
               <a
+                id="go-prev-artistasInvitados"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goPrev('artistasInvitados')"
                 >&lt;</a
               >
               <a
+                id="go-next-artistasInvitados"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goNext('artistasInvitados')"
@@ -231,12 +235,14 @@
             </div>
             <div class="d-flex justify-content-between lft-rit-arrow">
               <a
+                id="go-prev-directores"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goPrev('directores')"
                 >&lt;</a
               >
               <a
+                id="go-next-directores"
                 href="javascript:void(0)"
                 class="btn-arrow"
                 @click="goNext('directores')"

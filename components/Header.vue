@@ -13,6 +13,7 @@
             />
           </NuxtLink>
           <button
+            id="open-mobile-menu"
             class="navbar-toggler p-0"
             type="button"
             data-toggle="collapse"
@@ -47,6 +48,7 @@
               <div class="d-flex justify-content-center position-relative">
                 <h3 class="ff-sans-b">Menú</h3>
                 <a
+                  id="close-mobile-menu"
                   href="javascript:void(0)"
                   class="ic-close-menu position-absolute"
                   @click="closeMobileMenu()"

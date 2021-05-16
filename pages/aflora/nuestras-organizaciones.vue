@@ -107,7 +107,9 @@
                             <ul class="ff-sans-r">
                               <li v-for="(d, i) of departamento" :key="i">
                                 <div>
-                                  <b-form-checkbox class="ff-nunito" :value="d"
+                                  <b-form-checkbox
+                                    class="ff-nunito departamento-checkbox"
+                                    :value="d"
                                     >{{ d }}
                                   </b-form-checkbox>
                                 </div>
@@ -145,7 +147,9 @@
                             <ul class="ff-sans-r">
                               <li v-for="(l, i) of lineaDeGestion" :key="i">
                                 <div>
-                                  <b-form-checkbox class="ff-nunito" :value="l"
+                                  <b-form-checkbox
+                                    class="ff-nunito lineaDeGestion-checkbox"
+                                    :value="l"
                                     >{{ l }}
                                   </b-form-checkbox>
                                 </div>

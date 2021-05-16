@@ -667,7 +667,12 @@
   </main>
 </template>
 <script>
+import HomeDotsbottoms from '@/components/home/dotsbottoms'
+
 export default {
+  components: {
+    HomeDotsbottoms,
+  },
   head() {
     return {
       title:

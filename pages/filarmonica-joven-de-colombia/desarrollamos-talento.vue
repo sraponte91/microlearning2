@@ -252,7 +252,12 @@
   </main>
 </template>
 <script>
+import HomeDotsrightsct from '@/components/home/dotsrightsct'
+
 export default {
+  components: {
+    HomeDotsrightsct,
+  },
   head() {
     return {
       title:
@@ -296,7 +301,7 @@ export default {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$filarmonicaJovenDeColombiaData.baseURL +
+            this.$constants.baseURL +
             this.$filarmonicaJovenDeColombiaData
               .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogImage,
         },

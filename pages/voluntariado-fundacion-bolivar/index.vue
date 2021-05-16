@@ -130,7 +130,14 @@
   </main>
 </template>
 <script>
+import HomeDots from '@/components/home/dots'
+import HomeDotsbottoms from '@/components/home/dotsbottoms'
+
 export default {
+  components: {
+    HomeDots,
+    HomeDotsbottoms,
+  },
   head() {
     return {
       title:

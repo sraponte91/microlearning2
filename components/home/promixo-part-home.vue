@@ -51,6 +51,7 @@
       <div class="position-absolute set-to-bottom2">
         <div class="banner-arro">
           <a
+            id="go-prev"
             href="javascript:void(0)"
             class="ic-arrow arrow-lft"
             @click="goPrev()"
@@ -76,6 +77,7 @@
             </svg>
           </a>
           <a
+            id="go-next"
             href="javascript:void(0)"
             class="ic-arrow arrow-rit"
             @click="goNext()"
