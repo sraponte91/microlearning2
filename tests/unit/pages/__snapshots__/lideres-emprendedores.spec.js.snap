@@ -1,0 +1,1253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lideres-emprendedores.vue Renders correctly 1`] = `
+<main>
+  <section
+    class="leader-section-1"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12 text-center leader-title"
+        >
+          <h1
+            class="ff-sans-b"
+          >
+            Líderes emprendedores
+          </h1>
+           
+          <div
+            class="label"
+          >
+            #LaJoven
+          </div>
+           
+          <p>
+            Transformando el talento cultural en oportunidades
+          </p>
+           
+          <img
+            alt=""
+            class="img-fluid"
+            src="/images/leader-image.jpg"
+          />
+        </div>
+         
+        <div
+          class="col-md-12"
+        >
+          <h2
+            class="ff-sans-b"
+          >
+            El Programa
+          </h2>
+        </div>
+         
+        <div
+          class="col-md-6"
+        >
+          <p>
+            
+            El Global Leaders Program y la Fundación Bolívar Davivienda, a
+            través de la Filarmónica Joven de Colombia, han decidido unir
+            esfuerzos para lanzar Líderes Emprendedores #LaJoven, un programa
+            de formación en emprendimientos artísticos sostenibles de talla
+            mundial. Por primera vez para Latinoamérica, una versión del
+            Global Leaders Program (reconocido programa ejecutivo de formación
+            a nivel internacional) será dictada en español y principalmente
+            enfocada en el contexto colombiano. Este es un compromiso de las
+            dos organizaciones de formar a la próxima generación de músicos
+            emprendedores en Colombia y fortalecer las capacidades de
+            emprendimiento de importantes gestores culturales en el país.
+          
+          </p>
+           
+          <p>
+            
+            Líderes Emprendedores #La Joven es una experiencia de desarrollo
+            profesional que cultiva diversos conjuntos de habilidades,
+            herramientas y recursos cada año en veinticinco jóvenes músicos y
+            5 gestores culturales cuidadosamente seleccionados. La experiencia
+            de aprendizaje para los participantes se centra en dos pilares
+            básicos de crecimiento.
+            <br />
+            en oportunidades
+          
+          </p>
+           
+          <ul>
+            <li>
+              Un currículum multidisciplinario liderado por expertos.
+            </li>
+             
+            <li>
+              
+              Tareas aplicadas al desarrollo de un proyecto artístico
+              innovador e implementable.
+            
+            </li>
+          </ul>
+        </div>
+         
+        <div
+          class="col-md-6"
+        >
+          <img
+            alt=""
+            class="img-fluid"
+            src="/images/ei-program.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-2 bg-grey"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <h2
+        class="ff-sans-b"
+      >
+        Perfil del candidato
+      </h2>
+       
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="sec2-inner-box"
+          >
+            <img
+              alt=""
+              class="img-fluid"
+              src="/images/candidate-image-1.jpg"
+            />
+             
+            <h3
+              class="ff-sans-b"
+            >
+              Jóvenes Músicos
+            </h3>
+             
+            <p>
+              
+              Deben tener interés en la gestión cultural desde cualquier campo
+              de la música sinfónica. Además, de haber integrado al menos una
+              temporada de la Filarmónica Joven de Colombia y mostrar interés
+              y experiencia en el montaje de proyectos que articulen la música
+              con la pedagogía, el emprendimiento y/o la transformación
+              social. Para este perfil de participante en el grupo 2021, se
+              destinarán 25 cupos.
+            
+            </p>
+             
+            <div
+              class="text-center"
+            >
+              <a
+                class="btn btn-primary"
+                href="#"
+                role="button"
+                tabindex="0"
+                target="_self"
+              >
+                Inscríbase aquí
+              </a>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="sec2-inner-box"
+          >
+            <img
+              alt=""
+              class="img-fluid"
+              src="/images/candidate-image-2.jpg"
+            />
+             
+            <h3
+              class="ff-sans-b"
+            >
+              Gestores Culturales
+            </h3>
+             
+            <p>
+              
+              Deben contar con trayectoria en cualquier campo relacionado con
+              el sector sinfónico, además de estar interesados en actualizar
+              sus conocimientos en gestión y emprendimiento de proyectos
+              artísticos sostenibles. Así mismo, deberán demostrar capacidad
+              crítica y formación interdisciplinaria que permita construir una
+              reflexión actual y de tendencia de cara a los retos que enfrenta
+              el sector. Para este perfil de participante en el grupo 2021, se
+              destinarán 5 cupos.
+            
+            </p>
+             
+            <div
+              class="text-center"
+            >
+              <a
+                class="btn btn-primary"
+                href="#"
+                role="button"
+                tabindex="0"
+                target="_self"
+              >
+                Inscríbase aquí
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-3"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <h2
+        class="ff-sans-b"
+      >
+        Malla Curricular
+      </h2>
+       
+      <p
+        class="label text-center text-orange"
+      >
+        Unidades
+      </p>
+       
+      <div>
+        <div
+          class="VueCarousel"
+        >
+          <div
+            class="VueCarousel-wrapper"
+          >
+            <div
+              class="VueCarousel-inner"
+              style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+            >
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 1
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 2
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 3
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 4
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 5
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="VueCarousel-slide VueCarousel-slide-active VueCarousel-slide-center"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="position-relative box bg-white"
+                >
+                  <div
+                    class="main-slider-at-top actualidad-pg"
+                  >
+                    <div
+                      class="img-prt position-relative"
+                    >
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="/images/blog_a.jpg"
+                      />
+                       
+                      <div
+                        class="container position-absolute set-to-bottom"
+                      >
+                        <div
+                          class="banner-txt text-white"
+                        >
+                          <div
+                            class="orange-bg"
+                          >
+                            <h3
+                              class="ff-sans-b"
+                            >
+                              Unidad 6
+                            </h3>
+                          </div>
+                           
+                          <div
+                            class="black-bg"
+                          >
+                            <p
+                              class="ff-nunito"
+                            >
+                              
+                          Empoderamiento y mentalidad reflexiva
+                        
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <!---->
+           
+          <div
+            class="VueCarousel-pagination"
+            data-v-438fd353=""
+            style=""
+          >
+            <div
+              class="VueCarousel-dot-container"
+              data-v-438fd353=""
+              role="tablist"
+              style="margin-top: 20px;"
+            >
+              <button
+                aria-hidden="false"
+                aria-label="Item 0"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 0"
+                value="Item 0"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 1"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 1"
+                value="Item 1"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 2"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 2"
+                value="Item 2"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 3"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 3"
+                value="Item 3"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 4"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 4"
+                value="Item 4"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 5"
+                aria-selected="true"
+                class="VueCarousel-dot VueCarousel-dot--active"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+                title="Item 5"
+                value="Item 5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="sec3-info"
+      >
+        <p>
+          
+          Explora cómo los desafíos sociales locales pueden transformarse en
+          oportunidades para nuevos emprendimientos, cultivando una mentalidad
+          de acción y posibilidad.
+        
+        </p>
+         
+        <button
+          class="btn btn-secondary"
+          type="button"
+        >
+          Ver Mas
+        </button>
+      </div>
+       
+      <div
+        class="block-text"
+      >
+        <h3
+          class="ff-sans-b"
+        >
+          Metodología
+        </h3>
+         
+        <p>
+          
+          Todos los módulos consisten en dos seminarios online en vivo de 90
+          minutos, programados los martes de 4:00 a 5:30 p.m., hora de
+          Colombia, además de lecturas, presentaciones, actividades
+          individuales, y una evaluación, durante cinco meses. Cada unidad
+          está dirigida por un(a) Director(a) de Módulo. Los Directores de
+          Módulo quien garantiza que el plan de estudios esté guiado en todo
+          momento por expertos en cada campo. La formación en cada módulo, se
+          complementa con una gama de expositores invitados que aumentan la
+          experiencia de aprendizaje, a través de ejemplos musicales y
+          consideraciones prácticas del mundo artístico.
+        
+        </p>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-4 bg-grey"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <p
+        class="ff-nunito caption"
+      >
+        Reto de
+      </p>
+       
+      <h2
+        class="ff-sans-b"
+      >
+        Emprendimiento
+      </h2>
+       
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="sec4-inner-box"
+          >
+            <h4
+              class="ff-sans-b"
+            >
+              ¿En que consiste?
+            </h4>
+             
+            <img
+              alt=""
+              class="img-fluid"
+              src="/images/emp-image-1.jpg"
+            />
+             
+            <p>
+              
+              Una vez cursados los seis módulos del plan de estudios, los
+              miembros de la cohorte aplican el conocimiento y las habilidades
+              adquiridas, para escribir y presentar un Reto de Emprendimiento.
+              Esta evaluación final puede ser muy versátil, dependiendo de los
+              intereses, creatividad y antecedentes de cada participante.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="sec4-inner-box"
+          >
+            <h4
+              class="ff-sans-b"
+            >
+              ¿En que consiste?
+            </h4>
+             
+            <img
+              alt=""
+              class="img-fluid"
+              src="/images/emp-image-2.jpg"
+            />
+             
+            <p>
+              
+              Una vez cursados los seis módulos del plan de estudios, los
+              miembros de la cohorte aplican el conocimiento y las habilidades
+              adquiridas, para escribir y presentar un Reto de Emprendimiento.
+              Esta evaluación final puede ser muy versátil, dependiendo de los
+              intereses, creatividad y antecedentes de cada participante.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="sec4-inner-box"
+          >
+            <h4
+              class="ff-sans-b"
+            >
+              ¿En que consiste?
+            </h4>
+             
+            <img
+              alt=""
+              class="img-fluid"
+              src="/images/emp-image-3.jpg"
+            />
+             
+            <p>
+              
+              Una vez cursados los seis módulos del plan de estudios, los
+              miembros de la cohorte aplican el conocimiento y las habilidades
+              adquiridas, para escribir y presentar un Reto de Emprendimiento.
+              Esta evaluación final puede ser muy versátil, dependiendo de los
+              intereses, creatividad y antecedentes de cada participante.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-5"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h2
+            class="ff-sans-b"
+          >
+            Reconocimientos
+          </h2>
+           
+          <p>
+            
+            Una vez concluido este proceso formativo, y posterior al pitch, de
+            los treinta retos de emprendimiento seleccionados, en la cohorte,
+            se premiarán tres proyectos que recibirán el reconocimiento –
+            Líder Emprendedor #LaJoven 2021 – para su implementación o
+            desarrollo.
+          
+          </p>
+        </div>
+         
+        <div
+          class="col-md-8 offset-md-2"
+        >
+          <div
+            class="sec5-inner-list"
+          >
+            <div
+              class="sec5-inner-left"
+            >
+              1
+            </div>
+             
+            <div
+              class="sec5-inner-right"
+            >
+              <h4
+                class="ff-sans-b"
+              >
+                Primer lugar
+              </h4>
+               
+              <p>
+                
+                Acompañamiento con el programa de Mentorías de la Fundación
+                Bolívar Davivienda, con altos ejecutivos empresariales +
+                Capital Semilla para el proyecto.
+              
+              </p>
+            </div>
+          </div>
+           
+          <div
+            class="sec5-inner-list reverse"
+          >
+            <div
+              class="sec5-inner-left"
+            >
+              2
+            </div>
+             
+            <div
+              class="sec5-inner-right"
+            >
+              <h4
+                class="ff-sans-b"
+              >
+                Segundo lugar
+              </h4>
+               
+              <p>
+                
+                Acompañamiento con el programa de Mentorías de la Fundación
+                Bolívar Davivienda, con altos ejecutivos empresariales +
+                Integración al Grupo 2020 de la versión bilingüe del Global
+                Leaders Program para el trabajo de campo internacional.
+              
+              </p>
+            </div>
+          </div>
+           
+          <div
+            class="sec5-inner-list"
+          >
+            <div
+              class="sec5-inner-left"
+            >
+              3
+            </div>
+             
+            <div
+              class="sec5-inner-right"
+            >
+              <h4
+                class="ff-sans-b"
+              >
+                Tercer lugar
+              </h4>
+               
+              <p>
+                
+                Acompañamiento con el programa de Mentorías de la Fundación
+                Bolívar Davivienda, con altos ejecutivos empresariales.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="col-md-6"
+        >
+          <p>
+            
+            Los ganadores serán seleccionados por un comité de evaluación
+            integrado por el Global Leaders Program, la Fundación Bolívar
+            Davivienda y uno o más miembros del comité académico.
+          
+          </p>
+           
+          <p>
+            <strong>
+              *Sujeto a la evolución de la crisis sanitaria derivada del
+              COVID-19.
+            </strong>
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="row leader-cost"
+      >
+        <div
+          class="col-md-12"
+        >
+          <h2
+            class="ff-sans-b"
+          >
+            Costos
+          </h2>
+        </div>
+         
+        <div
+          class="col-md-12"
+        >
+          <div
+            class="lc-lists"
+          >
+            <div
+              class="lc-items"
+            >
+              <div
+                class="lc-item"
+              >
+                <h4
+                  class="ff-sans-b"
+                >
+                  
+                  Para jóvenes integrantes y egresados de la filarmónica joven
+                  de Colombia
+                
+                </h4>
+                 
+                <p
+                  class="regular-price"
+                >
+                  de 
+                  <strong>
+                    $6.375usd
+                  </strong>
+                </p>
+                 
+                <p
+                  class="special-price"
+                >
+                  Beca 
+                  <strong>
+                    $6.375usd
+                  </strong>
+                </p>
+                 
+                <p
+                  class="savings-price"
+                >
+                  
+                  Ahora 
+                  <strong>
+                    <span>
+                      $
+                    </span>
+                    103
+                    <span>
+                      USD
+                    </span>
+                  </strong>
+                </p>
+                 
+                <div
+                  class="text-center"
+                >
+                  <a
+                    class="btn btn-primary"
+                    href="#"
+                    role="button"
+                    tabindex="0"
+                    target="_self"
+                  >
+                    Inscribase aquí
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="lc-items"
+            >
+              <div
+                class="lc-item"
+              >
+                <h4
+                  class="ff-sans-b"
+                >
+                  
+                  Para jóvenes integrantes y egresados de la filarmónica joven
+                  de Colombia
+                
+                </h4>
+                 
+                <p
+                  class="regular-price"
+                >
+                  de 
+                  <strong>
+                    $6.375usd
+                  </strong>
+                </p>
+                 
+                <p
+                  class="special-price"
+                >
+                  Beca 
+                  <strong>
+                    $6.375usd
+                  </strong>
+                </p>
+                 
+                <p
+                  class="savings-price"
+                >
+                  
+                  Ahora 
+                  <strong>
+                    <span>
+                      $
+                    </span>
+                    103
+                    <span>
+                      USD
+                    </span>
+                  </strong>
+                </p>
+                 
+                <div
+                  class="text-center"
+                >
+                  <a
+                    class="btn btn-primary"
+                    href="#"
+                    role="button"
+                    tabindex="0"
+                    target="_self"
+                  >
+                    Inscribase aquí
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="col-md-6 offset-md-3"
+        >
+          <h4
+            class="ff-sans-b"
+          >
+            Forma de pago
+          </h4>
+           
+          <p>
+            
+            El pago se realizará directamente al Global Leaders Program,
+            después de haber sido seleccionado en la cohorte, a través de pago
+            por tarjeta de crédito.
+          
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-6 bg-grey"
+  >
+    <div
+      class="container margin-0-auto text-center"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-8 offset-md-2"
+        >
+          <p
+            class="ff-nunito caption"
+          >
+            Proceso de
+          </p>
+           
+          <h2
+            class="ff-sans-b"
+          >
+            Selección
+          </h2>
+           
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-12"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                Inscripción
+              </h3>
+               
+              <p>
+                
+                El pago se realizará directamente al Global Leaders Program,
+                después de haber sido seleccionado en la cohorte, a través de
+                pago por tarjeta de crédito.
+              
+              </p>
+            </div>
+             
+            <div
+              class="col-md-12"
+            >
+              <br />
+            </div>
+             
+            <div
+              class="col-md-12"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                Selección anual
+              </h3>
+               
+              <p>
+                
+                Anualmente, se seleccionarán 30 estudiantes (25 jóvenes
+                músicos y 5 gestores culturales profesionales). La selección
+                estará a cargo de un jurado integrado por Fundación Bolívar
+                Davivienda, Filarmónica Joven de Colombia y Global Leaders
+                Program.
+              
+              </p>
+            </div>
+             
+            <div
+              class="col-md-12"
+            >
+              <br />
+            </div>
+             
+            <div
+              class="col-md-12"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                Notificación
+              </h3>
+               
+              <p>
+                
+                Los seleccionados serán notificados por correo electrónico en
+                enero 2021, para realizar todo el proceso de matrícula, con el
+                Global Leaders Program.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="leader-section-7"
+  >
+    <div
+      class="container margin-0-auto text-center"
+    >
+      <img
+        alt=""
+        class="img-fluid"
+        src="/images/leader-info.jpg"
+      />
+       
+      <p>
+        
+        Para mayor información contacte a 
+        <br />
+        <a
+          href="#"
+        >
+          filarmonica@fundacionbd.org
+        </a>
+      </p>
+    </div>
+  </section>
+</main>
+`;

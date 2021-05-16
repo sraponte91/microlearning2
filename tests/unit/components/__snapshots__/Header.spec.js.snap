@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue Renders correctly 1`] = `
+<header
+  class="w-100 header position-relative"
+>
+  <div
+    class="fixed-this"
+  >
+    <div
+      class="container-fluid"
+    >
+      <nav
+        class="navbar navbar-expand-lg pl-0 pr-0"
+      >
+        <a
+          class="navbar-brand"
+          to="/"
+        >
+          <img
+            alt="Fundacion Bolivar Davivenda"
+            class="img-fluid"
+            src="/images/fundacion_bolivar_davivenda.png"
+            title="Fundacion Bolivar Davivenda"
+          />
+        </a>
+         
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler p-0"
+          data-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          id="open-mobile-menu"
+          type="button"
+        >
+          <svg
+            class="ng-element"
+            data-id="b6605a34ec1443d69f97220deeb3b22c"
+            preserveAspectRatio="none"
+            style="opacity: 1; mix-blend-mode: normal; fill: rgb(255, 255, 255); width: 33px; height: 33px;"
+            version="1.2"
+            viewBox="0 0 24 24"
+          >
+            <g>
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                style="fill: rgb(255, 103, 27);"
+                xmlns:default="http://www.w3.org/2000/svg"
+              />
+            </g>
+          </svg>
+        </button>
+         
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <div
+            class="manu-text-close-ic d-none-n d-block-991"
+          >
+            <div
+              class="d-flex justify-content-center position-relative"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                Menú
+              </h3>
+               
+              <a
+                class="ic-close-menu position-absolute"
+                href="javascript:void(0)"
+                id="close-mobile-menu"
+              >
+                <svg
+                  class="ng-element interactive"
+                  data-id="d72899987dcb405f9711674b20491c84"
+                  preserveAspectRatio="none"
+                  style="opacity: 1; mix-blend-mode: normal; fill: rgb(255, 255, 255); width: 33px; height: 33px;"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                >
+                  <g>
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      style="fill: rgb(255, 255, 255);"
+                      xmlns:default="http://www.w3.org/2000/svg"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="d-flex justify-content-between w-100 flex-wrap"
+          >
+            <ul
+              class="navbar-nav align-items-center text-lg-left ff-nunito"
+            >
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  to="/la-fundacion"
+                >
+                  La Fundación
+                </a>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <div
+                  class="dropdown b-dropdown dpd-menu btn-group"
+                  id="dropdown-1"
+                >
+                  <!---->
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="btn dropdown-toggle btn-secondary"
+                    id="dropdown-1__BV_toggle_"
+                    type="button"
+                  >
+                    Nuestros programas
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-1__BV_toggle_"
+                    class="dropdown-menu"
+                    role="menu"
+                    tabindex="-1"
+                  >
+                    <li
+                      class=""
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/aflora"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Aflora
+                      </a>
+                    </li>
+                     
+                    <li
+                      class=""
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/becas-al-talento"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Becas al Talento
+                      </a>
+                    </li>
+                     
+                    <li
+                      class=""
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/cultivarte"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Cultivarte
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/emprende-pais"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Emprende País
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/filarmonica-joven-de-colombia"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Filarmónica Joven de Colombia
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/inversion-social"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Inversión Social
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/premio-nacional-de-periodismo"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Premio Nacional de Periodismo
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/red-de-angeles"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Red de Ángeles Inversionístas
+                      </a>
+                    </li>
+                     
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="/voluntariado-fundacion-bolivar"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Voluntariado Fundación Bolivar
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  to="/actualidad"
+                >
+                  Actualidad
+                </a>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  to="/eventos"
+                >
+                  Eventos
+                </a>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  href="https://www.fundacionbolivardavivienda.org/sostenibilidad/"
+                  target="_blank"
+                >
+                  Informe de sostenibilidad
+                </a>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  href="https://fundacionbolivardavivienda.secure.force.com/fbdcontactenos/fbd_FormularioContactenos"
+                  target="_blank"
+                >
+                  Contacto
+                </a>
+              </li>
+               
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                  to="/about-us"
+                >
+                  About us
+                </a>
+              </li>
+            </ul>
+             
+            <ul
+              class="navbar-nav align-items-center text-lg-left ff-nunito"
+            >
+              <li
+                class="nav-item btn-inscr"
+              >
+                <a
+                  class="nav-link text-center"
+                  exact-active-class="active"
+                  to="/donaciones"
+                >
+                  Donaciones
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+`;

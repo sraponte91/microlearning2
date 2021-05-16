@@ -1,0 +1,2757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue Renders correctly 1`] = `
+<main>
+  <section
+    class="main-slider-at-top position-relative"
+  >
+    <div>
+      <div
+        class="VueCarousel"
+      >
+        <div
+          class="VueCarousel-wrapper"
+        >
+          <div
+            class="VueCarousel-inner"
+            style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+          >
+            <div
+              class="VueCarousel-slide VueCarousel-slide-active VueCarousel-slide-center"
+              role="tabpanel"
+              tabindex="-1"
+            >
+              <div
+                class="img-prt position-relative"
+              >
+                <img
+                  alt="Desarrollamos talento para construir país."
+                  class="object-fit-cover"
+                  src="/images/seccion-inicio/carrusel1.jpg"
+                />
+                 
+                <div
+                  class="container position-absolute set-to-bottom"
+                >
+                  <div
+                    class="banner-txt text-white"
+                  >
+                    <div
+                      class="orange-bg wow bounceInDown"
+                      data-wow-duration="2s"
+                    >
+                      <h1
+                        class="ff-sans-b"
+                      >
+                        Desarrollamos talento para construir país.
+                      </h1>
+                    </div>
+                     
+                    <div
+                      class="black-bg wow bounceInUp"
+                      data-wow-duration="2s"
+                    >
+                      <p
+                        class="ff-nunito"
+                      >
+                        
+                  Conozca todas nuestras Iniciativas y programas.
+                
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="VueCarousel-slide"
+              role="tabpanel"
+              tabindex="-1"
+            >
+              <div
+                class="img-prt position-relative"
+              >
+                <img
+                  alt="Desarrollamos talento para construir país."
+                  class="object-fit-cover"
+                  src="/images/seccion-inicio/carrusel2.jpg"
+                />
+                 
+                <div
+                  class="container position-absolute set-to-bottom"
+                >
+                  <div
+                    class="banner-txt text-white"
+                  >
+                    <div
+                      class="orange-bg wow bounceInDown"
+                      data-wow-duration="2s"
+                    >
+                      <h1
+                        class="ff-sans-b"
+                      >
+                        Desarrollamos talento para construir país.
+                      </h1>
+                    </div>
+                     
+                    <div
+                      class="black-bg wow bounceInUp"
+                      data-wow-duration="2s"
+                    >
+                      <p
+                        class="ff-nunito"
+                      >
+                        
+                  Conozca todas nuestras Iniciativas y programas.
+                
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <!---->
+         
+        <div
+          class="VueCarousel-pagination"
+          data-v-438fd353=""
+          style=""
+        >
+          <div
+            class="VueCarousel-dot-container"
+            data-v-438fd353=""
+            role="tablist"
+            style="margin-top: 20px;"
+          >
+            <button
+              aria-hidden="false"
+              aria-label="Item 0"
+              aria-selected="true"
+              class="VueCarousel-dot VueCarousel-dot--active"
+              data-v-438fd353=""
+              role="tab"
+              style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+              title="Item 0"
+              value="Item 0"
+            />
+            <button
+              aria-hidden="false"
+              aria-label="Item 1"
+              aria-selected="false"
+              class="VueCarousel-dot"
+              data-v-438fd353=""
+              role="tab"
+              style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+              title="Item 1"
+              value="Item 1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="container position-absolute set-to-bottom2 d-none-767"
+    >
+      <div
+        class="banner-arro"
+      >
+        <a
+          class="ic-arrow arrow-lft"
+          href="javascript:void(0)"
+          id="go-prev"
+        >
+          <svg
+            height="44"
+            overflow="visible"
+            preserveAspectRatio="none"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="44"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g>
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                style="fill: rgb(255, 255, 255);"
+                vector-effect="non-scaling-stroke"
+                xmlns:default="http://www.w3.org/2000/svg"
+              />
+            </g>
+          </svg>
+        </a>
+         
+        <a
+          class="ic-arrow arrow-rit"
+          href="javascript:void(0)"
+          id="go-next"
+        >
+          <svg
+            height="44"
+            overflow="visible"
+            preserveAspectRatio="none"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="44"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g>
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                style="fill: rgb(255, 255, 255);"
+                vector-effect="non-scaling-stroke"
+                xmlns:default="http://www.w3.org/2000/svg"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+     
+    <div
+      class="four-line position-absolute v-center d-none-767"
+    >
+      <a
+        class="sign-line"
+        href="javascript:void(0)"
+        id="change-slide"
+      />
+      <a
+        class="sign-line"
+        href="javascript:void(0)"
+        id="change-slide"
+      />
+    </div>
+  </section>
+   
+  <section
+    class="desarrollamos-section position-relative before-po"
+  >
+    <div
+      class="one-dot d-flex position-absolute align-items-start d-none-991i"
+    >
+      <div
+        class="dots-div d-flex flex-wrap"
+      >
+        <div
+          class="d-flex flex-wrap"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="dots-div only-for-dots d-flex flex-wrap"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="inner-section margin-0-auto position-relative z-index-5"
+    >
+      <div
+        class="text-center text-white"
+      >
+        <small
+          class="ff-nunito"
+        >
+          Sobre nosotros
+        </small>
+         
+        <h2
+          class="ff-sans-b"
+        >
+          
+          Desarrollamos 
+          <br />
+          
+          Talento
+        
+        </h2>
+         
+        <p
+          class="ff-nunito margin-0-auto"
+        >
+          
+          Somos un equipo que une. Que invita a explorar con creatividad y a
+          nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+          ayuda a conectar el talento con el cambio.
+        
+        </p>
+         
+        <div
+          class="for-btn"
+        >
+          <a
+            class="btn-tell-more"
+            href="/la-fundacion"
+          >
+            Conozca más
+          </a>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="two-dot d-flex position-absolute align-items-start"
+    >
+      <div
+        class="dots-div d-flex flex-wrap"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex d-none-767i"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="our-program-section"
+  >
+    <div
+      class="d-flex flex-wrap"
+    >
+      <div
+        class="sec-name fr-width-height d-flex align-items-center position-relative justify-content-center"
+      >
+        <div
+          class="two-dot d-flex position-absolute align-items-start d-none-767i"
+        >
+          <div
+            class="dots-div d-flex flex-wrap"
+          >
+            <div
+              class="d-flex"
+            >
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+            </div>
+             
+            <div
+              class="d-flex"
+            >
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+            </div>
+             
+            <div
+              class="d-flex"
+            >
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+            </div>
+             
+            <div
+              class="d-flex"
+            >
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+            </div>
+             
+            <div
+              class="d-flex"
+            >
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+               
+              <span
+                class="dot"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="text-white text-center"
+        >
+          <p
+            class="ff-nunito"
+          >
+            Nuestros
+          </p>
+           
+          <p
+            class="ff-sans-b"
+          >
+            Programas
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Aflora"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0006_aflora.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Aflora
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/aflora"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            En Aflora impulsamos a las organizaciones sociales que quieren multiplicar su capacidad de servir, que buscan crecer para tener un mayor impacto, para que sean agentes de cambio sostenibles en el tiempo.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/aflora"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/aflora"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Becas al Talento"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0005_becas.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Becas al Talento
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/becas-al-talento"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            En Becas al Talento respaldamos el sueño de estudiantes destacados que tienen dificultades económicas para continuar sus carreras profesionales.
+            <br />
+            Apoyamos a aquellos que inspiran a otros a transformar su talento en oportunidades.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/becas-al-talento"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/becas-al-talento"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Cultivarte"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0004_cultivarte.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Cultivarte
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/cultivarte"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            Cultivarte, un espacio donde niños, niñas y adolescentes descubren su talento y aprenden a usarlo pensando en su futuro. Los talentos de Cultivarte transforman sus realidades, las de sus familias e inspiran a otros en su entorno.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/cultivarte"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/cultivarte"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Emprende País"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0003_emprende_pais.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Emprende País
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/emprende-pais"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            Emprende País apoya el talento de líderes comprometidos con el desarrollo económico del país, brindando capacitaciones y herramientas para sus empresas.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/emprende-pais"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/emprende-pais"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Filarmónica Joven de Colombia"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0002_filarmonica.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Filarmónica Joven de Colombia
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/filarmonica-joven-de-colombia"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            Filarmónica Joven de Colombia es una apuesta que promueve el talento musical de nuestro país para construir un proyecto de vida desde la pasión. Nuestros músicos llegan al mundo entero e inspiran a otros en Colombia a creer en el ritmo de sus sueños.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/filarmonica-joven-de-colombia"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/filarmonica-joven-de-colombia"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Inversión Social"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0001_inversion social.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Inversión Social
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/inversion-social"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            En Inversión Social trabajamos por la transformación de historias de niños, niñas, adolescentes y mujeres que desde su rol como agentes de cambios en sus comunidades buscan soluciones sostenibles.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/inversion-social"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/inversion-social"
+        />
+      </div>
+      <div
+        class="program-box position-relative fr-width-height"
+      >
+        <div
+          class="for-img position-absolute"
+        >
+          <img
+            alt="Voluntariado Fundación Bolivar"
+            class="object-fit-cover"
+            src="/images/seccion-inicio/home_programas_0000_voluntariado.jpg"
+          />
+        </div>
+         
+        <div
+          class="title-tx position-absolute text-white ff-sans-b"
+        >
+          <h3>
+            Voluntariado Fundación Bolivar
+          </h3>
+        </div>
+         
+        <div
+          class="d-none-n plus-sign d-block-767 position-absolute"
+        >
+          <a
+            class="after-po before-po position-relative"
+            to="/voluntariado-fundacion-bolivar"
+          />
+        </div>
+         
+        <div
+          class="on-hover-show position-absolute d-flex align-items-center"
+        />
+         
+        <div
+          class="on-hover-2div position-absolute d-flex align-items-center"
+        >
+          <p>
+            En Voluntariado Familiar Bolívar unimos esfuerzos para que colaboradores, familiares y pensionados del Grupo sean una fuerza multiplicadora de solidaridad compartiendo conocimiento para transformar a otros porque ayudar, inspira.
+          </p>
+           
+          <a
+            class="btn-read-mr position-absolute ff-sans-r"
+            to="/voluntariado-fundacion-bolivar"
+          >
+            Leer Más
+          </a>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/voluntariado-fundacion-bolivar"
+        />
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="how-we-connect bg-white"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="d-flex justify-content-between align-items-center flex-wrap-991"
+      >
+        <div
+          class="left-solid-color d-flex align-items-center wow slideInLeft"
+          data-wow-duration="2s"
+        >
+          <div
+            class="inner-tx-w text-center wow bounceInUp"
+            data-wow-delay="1.8s"
+          >
+            <small
+              class="ff-nunito"
+            >
+              Así conectamos
+            </small>
+             
+            <h3
+              class="ff-sans-b"
+            >
+              
+              El talento 
+              <span
+                class="ff-sans-i"
+              >
+                con
+              </span>
+               El cambio
+            
+            </h3>
+             
+            <div
+              class="for-btn"
+            >
+              <a
+                class="btn-tell-more"
+                href="javascript:void(0)"
+              >
+                Conozca más
+              </a>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="right-img position-relative wow slideInRight"
+          data-wow-duration="2s"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/seccion-inicio/microlearning.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="proximos-eventos"
+  >
+    <div
+      class="container position-relative"
+    >
+      <div>
+        <div
+          class="VueCarousel"
+        >
+          <div
+            class="VueCarousel-wrapper"
+          >
+            <div
+              class="VueCarousel-inner"
+              style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+            >
+              <div
+                class="VueCarousel-slide VueCarousel-slide-active VueCarousel-slide-center"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="slider-desing position-relative"
+                >
+                  <h3
+                    class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                  >
+                    
+              Próximos Eventos
+            
+                  </h3>
+                   
+                  <div
+                    class="img-part"
+                  >
+                    <img
+                      alt="Un ejemplo de evento"
+                      class="object-fit-cover"
+                      src="/images/inversion_social.jpg"
+                    />
+                  </div>
+                   
+                  <div
+                    class="text-part-title position-absolute v-center"
+                  >
+                    <h3
+                      class="ff-sans-b d-none-767i"
+                    >
+                      Próximos Eventos
+                    </h3>
+                     
+                    <div
+                      class="inner-bx-info"
+                    >
+                      <h4
+                        class="ff-sans-b"
+                      >
+                        Un ejemplo de evento
+                      </h4>
+                       
+                      <div
+                        class="pra-p ff-nunito"
+                      >
+                        <div
+                          class="three-line-fixed-tx"
+                        >
+                          <p>
+                            
+                      Lugar del evento, Objectively productize value-added care
+                    
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="into-part ff-sans-r"
+                        >
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Lugar
+                            </p>
+                             
+                            <p>
+                              Bogotá
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Fecha
+                            </p>
+                             
+                            <p>
+                              9/Feb/2021
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Hora
+                            </p>
+                             
+                            <p>
+                              8:00 a.m.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="slider-desing position-relative"
+                >
+                  <h3
+                    class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                  >
+                    
+              Próximos Eventos
+            
+                  </h3>
+                   
+                  <div
+                    class="img-part"
+                  >
+                    <img
+                      alt="Otro en cualquier lugar"
+                      class="object-fit-cover"
+                      src="/images/inversion_social.jpg"
+                    />
+                  </div>
+                   
+                  <div
+                    class="text-part-title position-absolute v-center"
+                  >
+                    <h3
+                      class="ff-sans-b d-none-767i"
+                    >
+                      Próximos Eventos
+                    </h3>
+                     
+                    <div
+                      class="inner-bx-info"
+                    >
+                      <h4
+                        class="ff-sans-b"
+                      >
+                        Otro en cualquier lugar
+                      </h4>
+                       
+                      <div
+                        class="pra-p ff-nunito"
+                      >
+                        <div
+                          class="three-line-fixed-tx"
+                        >
+                          <p>
+                            
+                      Lugar del evento, Objectively productize value-added care
+                    
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="into-part ff-sans-r"
+                        >
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Lugar
+                            </p>
+                             
+                            <p>
+                              Bogotá
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Fecha
+                            </p>
+                             
+                            <p>
+                              9/Feb/2021
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Hora
+                            </p>
+                             
+                            <p>
+                              8:00 a.m.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="VueCarousel-slide"
+                role="tabpanel"
+                tabindex="-1"
+              >
+                <div
+                  class="slider-desing position-relative"
+                >
+                  <h3
+                    class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                  >
+                    
+              Próximos Eventos
+            
+                  </h3>
+                   
+                  <div
+                    class="img-part"
+                  >
+                    <img
+                      alt="Invitando a todos"
+                      class="object-fit-cover"
+                      src="/images/inversion_social.jpg"
+                    />
+                  </div>
+                   
+                  <div
+                    class="text-part-title position-absolute v-center"
+                  >
+                    <h3
+                      class="ff-sans-b d-none-767i"
+                    >
+                      Próximos Eventos
+                    </h3>
+                     
+                    <div
+                      class="inner-bx-info"
+                    >
+                      <h4
+                        class="ff-sans-b"
+                      >
+                        Invitando a todos
+                      </h4>
+                       
+                      <div
+                        class="pra-p ff-nunito"
+                      >
+                        <div
+                          class="three-line-fixed-tx"
+                        >
+                          <p>
+                            
+                      Lugar del evento, Objectively productize value-added care
+                    
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="into-part ff-sans-r"
+                        >
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Lugar
+                            </p>
+                             
+                            <p>
+                              Bogotá
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Fecha
+                            </p>
+                             
+                            <p>
+                              9/Feb/2021
+                            </p>
+                          </div>
+                           
+                          <div
+                            class="d-flex"
+                          >
+                            <p>
+                              Hora
+                            </p>
+                             
+                            <p>
+                              8:00 a.m.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <!---->
+           
+          <div
+            class="VueCarousel-pagination"
+            data-v-438fd353=""
+            style=""
+          >
+            <div
+              class="VueCarousel-dot-container"
+              data-v-438fd353=""
+              role="tablist"
+              style="margin-top: 20px;"
+            >
+              <button
+                aria-hidden="false"
+                aria-label="Item 0"
+                aria-selected="true"
+                class="VueCarousel-dot VueCarousel-dot--active"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+                title="Item 0"
+                value="Item 0"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 1"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 1"
+                value="Item 1"
+              />
+              <button
+                aria-hidden="false"
+                aria-label="Item 2"
+                aria-selected="false"
+                class="VueCarousel-dot"
+                data-v-438fd353=""
+                role="tab"
+                style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                title="Item 2"
+                value="Item 2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="position-absolute set-to-bottom2"
+      >
+        <div
+          class="banner-arro"
+        >
+          <a
+            class="ic-arrow arrow-lft"
+            href="javascript:void(0)"
+            id="go-prev"
+          >
+            <svg
+              height="44"
+              overflow="visible"
+              preserveAspectRatio="none"
+              version="1.2"
+              viewBox="0 0 24 24"
+              width="44"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g>
+                <path
+                  d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  style="fill: rgb(255, 255, 255);"
+                  vector-effect="non-scaling-stroke"
+                  xmlns:default="http://www.w3.org/2000/svg"
+                />
+              </g>
+            </svg>
+          </a>
+           
+          <a
+            class="ic-arrow arrow-rit"
+            href="javascript:void(0)"
+            id="go-next"
+          >
+            <svg
+              height="44"
+              overflow="visible"
+              preserveAspectRatio="none"
+              version="1.2"
+              viewBox="0 0 24 24"
+              width="44"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g>
+                <path
+                  d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  style="fill: rgb(255, 255, 255);"
+                  vector-effect="non-scaling-stroke"
+                  xmlns:default="http://www.w3.org/2000/svg"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="news-section-bolivar bg-white d-none-767"
+  >
+    <div
+      class="container"
+    >
+      <h2
+        class="ff-sans-b"
+      >
+        
+        Actualidad Fundación 
+        <br />
+        
+        Bolivar Davivienda
+      
+      </h2>
+       
+      <div>
+        <div
+          class="accordion"
+          role="tablist"
+        >
+          <div
+            class="card"
+          >
+            <!---->
+            <!---->
+            <div
+              class="d-flex w-100 flex-wrap-991"
+            >
+              <div>
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-0"
+                    aria-expanded="true"
+                    class="btn btn-info btn-block not-collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex align-items-center"
+                    >
+                      <div
+                        class="sm-img"
+                      >
+                        <img
+                          alt="Cómo liderar nuevas generaciones"
+                          class="object-fit-cover"
+                          src="/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg"
+                        />
+                      </div>
+                       
+                      <div
+                        class="tx-info"
+                      >
+                        <h4
+                          class="ff-sans-b"
+                        >
+                          Cómo liderar nuevas generaciones
+                        </h4>
+                         
+                        <p
+                          class="ff-nunito"
+                        >
+                          
+                          Conozca más sobre tres elementos vitales a la hora de enfrentar el reto de liderar nuevas generaciones.
+                        
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </header>
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-1"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex align-items-center"
+                    >
+                      <div
+                        class="sm-img"
+                      >
+                        <img
+                          alt="Aprenda como conseguir recursos para una fundación social"
+                          class="object-fit-cover"
+                          src="/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png"
+                        />
+                      </div>
+                       
+                      <div
+                        class="tx-info"
+                      >
+                        <h4
+                          class="ff-sans-b"
+                        >
+                          Aprenda como conseguir recursos para una fundación social
+                        </h4>
+                         
+                        <p
+                          class="ff-nunito"
+                        >
+                          
+                          Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos.
+                        
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </header>
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-2"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex align-items-center"
+                    >
+                      <div
+                        class="sm-img"
+                      >
+                        <img
+                          alt="Consejos para crear y elegir el nombre adecuado para su empresa"
+                          class="object-fit-cover"
+                          src="/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png"
+                        />
+                      </div>
+                       
+                      <div
+                        class="tx-info"
+                      >
+                        <h4
+                          class="ff-sans-b"
+                        >
+                          Consejos para crear y elegir el nombre adecuado para su empresa
+                        </h4>
+                         
+                        <p
+                          class="ff-nunito"
+                        >
+                          
+                          El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable?
+                        
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </header>
+              </div>
+               
+              <div
+                class="tabs-contains"
+              >
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse show"
+                    id="accordion-0"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="big-news-img position-relative after-po"
+                        >
+                          <img
+                            alt="Cómo liderar nuevas generaciones"
+                            class="object-fit-cover"
+                            src="/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg"
+                          />
+                        </div>
+                         
+                        <div
+                          class="about-news"
+                        >
+                          <div
+                            class="tags ff-nunito"
+                          >
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              Categoría
+                            </a>
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              #Cultivarte
+                            </a>
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              #Trabajo
+                            </a>
+                          </div>
+                           
+                          <div
+                            class="date"
+                          >
+                            1 - Septiembre - 2020
+                          </div>
+                           
+                          <div
+                            class="new-titles ff-sans-b"
+                          >
+                            <a
+                              href="/actualidad/como-liderar-nuevas-generaciones"
+                            >
+                              Cómo liderar nuevas generaciones
+                            </a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse"
+                    id="accordion-1"
+                    style="display: none;"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="big-news-img position-relative after-po"
+                        >
+                          <img
+                            alt="Aprenda como conseguir recursos para una fundación social"
+                            class="object-fit-cover"
+                            src="/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png"
+                          />
+                        </div>
+                         
+                        <div
+                          class="about-news"
+                        >
+                          <div
+                            class="tags ff-nunito"
+                          >
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              Categoría
+                            </a>
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              #Cultivarte
+                            </a>
+                          </div>
+                           
+                          <div
+                            class="date"
+                          >
+                            16 - Enero - 2020
+                          </div>
+                           
+                          <div
+                            class="new-titles ff-sans-b"
+                          >
+                            <a
+                              href="/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social"
+                            >
+                              Aprenda como conseguir recursos para una fundación social
+                            </a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse"
+                    id="accordion-2"
+                    style="display: none;"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="big-news-img position-relative after-po"
+                        >
+                          <img
+                            alt="Consejos para crear y elegir el nombre adecuado para su empresa"
+                            class="object-fit-cover"
+                            src="/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png"
+                          />
+                        </div>
+                         
+                        <div
+                          class="about-news"
+                        >
+                          <div
+                            class="tags ff-nunito"
+                          >
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              Categoría
+                            </a>
+                            <a
+                              href="javascript:void(0)"
+                            >
+                              #Cultivarte
+                            </a>
+                          </div>
+                           
+                          <div
+                            class="date"
+                          >
+                            16 - Enero - 2020
+                          </div>
+                           
+                          <div
+                            class="new-titles ff-sans-b"
+                          >
+                            <a
+                              href="/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa"
+                            >
+                              Consejos para crear y elegir el nombre adecuado para su empresa
+                            </a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+              </div>
+            </div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="news-section-bolivar bg-white d-none-n d-block-767"
+  >
+    <div
+      class="container"
+    >
+      <h2
+        class="ff-sans-b"
+      >
+        
+        Actualidad Fundación 
+        <br />
+        
+        Bolivar Davivienda
+      
+      </h2>
+       
+      <div>
+        <div
+          class="accordion"
+          role="tablist"
+        >
+          <div
+            class="card"
+          >
+            <!---->
+            <!---->
+            <header
+              class="card-header p-1"
+              role="tab"
+            >
+              <button
+                aria-controls="accordion-0"
+                aria-expanded="true"
+                class="btn btn-info btn-block not-collapsed"
+                type="button"
+              >
+                <div
+                  class="d-flex align-items-center"
+                >
+                  <div
+                    class="sm-img"
+                  >
+                    <img
+                      alt="Cómo liderar nuevas generaciones"
+                      class="object-fit-cover"
+                      src="/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg"
+                    />
+                  </div>
+                   
+                  <div
+                    class="tx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Cómo liderar nuevas generaciones
+                    </h4>
+                     
+                    <p
+                      class="ff-nunito"
+                    >
+                      
+                      Conozca más sobre tres elementos vitales a la hora de enfrentar el reto de liderar nuevas generaciones.
+                    
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </header>
+             
+            <transition-stub
+              class="tabs-contains"
+              css="true"
+              enteractiveclass="collapsing"
+              enterclass=""
+              entertoclass="collapse show"
+              leaveactiveclass="collapsing"
+              leaveclass="collapse show"
+              leavetoclass="collapse"
+              role="tabpanel"
+            >
+              <div
+                class="collapse show"
+                id="accordion-0"
+              >
+                <div
+                  class="card-body"
+                >
+                  <!---->
+                  <!---->
+                  <p
+                    class="card-text"
+                  >
+                    <div
+                      class="big-news-img position-relative after-po"
+                    >
+                      <img
+                        alt="Cómo liderar nuevas generaciones"
+                        class="object-fit-cover"
+                        src="/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg"
+                      />
+                    </div>
+                     
+                    <div
+                      class="about-news"
+                    >
+                      <div
+                        class="tags ff-nunito"
+                      >
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          Categoría
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          #Cultivarte
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          #Trabajo
+                        </a>
+                      </div>
+                       
+                      <div
+                        class="date"
+                      >
+                        1 - Septiembre - 2020
+                      </div>
+                       
+                      <div
+                        class="new-titles ff-sans-b"
+                      >
+                        <a
+                          href="/actualidad/como-liderar-nuevas-generaciones"
+                        >
+                          Cómo liderar nuevas generaciones
+                        </a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </transition-stub>
+            <!---->
+            <!---->
+          </div>
+          <div
+            class="card"
+          >
+            <!---->
+            <!---->
+            <header
+              class="card-header p-1"
+              role="tab"
+            >
+              <button
+                aria-controls="accordion-1"
+                aria-expanded="false"
+                class="btn btn-info btn-block collapsed"
+                type="button"
+              >
+                <div
+                  class="d-flex align-items-center"
+                >
+                  <div
+                    class="sm-img"
+                  >
+                    <img
+                      alt="Aprenda como conseguir recursos para una fundación social"
+                      class="object-fit-cover"
+                      src="/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png"
+                    />
+                  </div>
+                   
+                  <div
+                    class="tx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Aprenda como conseguir recursos para una fundación social
+                    </h4>
+                     
+                    <p
+                      class="ff-nunito"
+                    >
+                      
+                      Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos.
+                    
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </header>
+             
+            <transition-stub
+              class="tabs-contains"
+              css="true"
+              enteractiveclass="collapsing"
+              enterclass=""
+              entertoclass="collapse show"
+              leaveactiveclass="collapsing"
+              leaveclass="collapse show"
+              leavetoclass="collapse"
+              role="tabpanel"
+            >
+              <div
+                class="collapse"
+                id="accordion-1"
+                style="display: none;"
+              >
+                <div
+                  class="card-body"
+                >
+                  <!---->
+                  <!---->
+                  <p
+                    class="card-text"
+                  >
+                    <div
+                      class="big-news-img position-relative after-po"
+                    >
+                      <img
+                        alt="Aprenda como conseguir recursos para una fundación social"
+                        class="object-fit-cover"
+                        src="/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png"
+                      />
+                    </div>
+                     
+                    <div
+                      class="about-news"
+                    >
+                      <div
+                        class="tags ff-nunito"
+                      >
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          Categoría
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          #Cultivarte
+                        </a>
+                      </div>
+                       
+                      <div
+                        class="date"
+                      >
+                        16 - Enero - 2020
+                      </div>
+                       
+                      <div
+                        class="new-titles ff-sans-b"
+                      >
+                        <a
+                          href="/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social"
+                        >
+                          Aprenda como conseguir recursos para una fundación social
+                        </a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </transition-stub>
+            <!---->
+            <!---->
+          </div>
+          <div
+            class="card"
+          >
+            <!---->
+            <!---->
+            <header
+              class="card-header p-1"
+              role="tab"
+            >
+              <button
+                aria-controls="accordion-2"
+                aria-expanded="false"
+                class="btn btn-info btn-block collapsed"
+                type="button"
+              >
+                <div
+                  class="d-flex align-items-center"
+                >
+                  <div
+                    class="sm-img"
+                  >
+                    <img
+                      alt="Consejos para crear y elegir el nombre adecuado para su empresa"
+                      class="object-fit-cover"
+                      src="/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png"
+                    />
+                  </div>
+                   
+                  <div
+                    class="tx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Consejos para crear y elegir el nombre adecuado para su empresa
+                    </h4>
+                     
+                    <p
+                      class="ff-nunito"
+                    >
+                      
+                      El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable?
+                    
+                    </p>
+                  </div>
+                </div>
+              </button>
+            </header>
+             
+            <transition-stub
+              class="tabs-contains"
+              css="true"
+              enteractiveclass="collapsing"
+              enterclass=""
+              entertoclass="collapse show"
+              leaveactiveclass="collapsing"
+              leaveclass="collapse show"
+              leavetoclass="collapse"
+              role="tabpanel"
+            >
+              <div
+                class="collapse"
+                id="accordion-2"
+                style="display: none;"
+              >
+                <div
+                  class="card-body"
+                >
+                  <!---->
+                  <!---->
+                  <p
+                    class="card-text"
+                  >
+                    <div
+                      class="big-news-img position-relative after-po"
+                    >
+                      <img
+                        alt="Consejos para crear y elegir el nombre adecuado para su empresa"
+                        class="object-fit-cover"
+                        src="/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png"
+                      />
+                    </div>
+                     
+                    <div
+                      class="about-news"
+                    >
+                      <div
+                        class="tags ff-nunito"
+                      >
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          Categoría
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                        >
+                          #Cultivarte
+                        </a>
+                      </div>
+                       
+                      <div
+                        class="date"
+                      >
+                        16 - Enero - 2020
+                      </div>
+                       
+                      <div
+                        class="new-titles ff-sans-b"
+                      >
+                        <a
+                          href="/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa"
+                        >
+                          Consejos para crear y elegir el nombre adecuado para su empresa
+                        </a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </transition-stub>
+            <!---->
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

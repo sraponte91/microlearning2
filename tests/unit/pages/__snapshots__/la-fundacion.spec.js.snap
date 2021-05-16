@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`la-fundacion.vue Renders correctly 1`] = `
+<main>
+  <section
+    class="la-fundacion-main-sec pg-la-main"
+  >
+    <div
+      class="d-flex flex-wrap"
+    >
+      <div
+        class="sm-wid txt-part-lft d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="in-sm-size-bx text-white"
+        >
+          <h1
+            class="ff-sans-b"
+          >
+            La Fundación
+          </h1>
+           
+          <div
+            class="pra ff-nunito"
+          >
+            <p>
+              
+              Somos el brazo social del Grupo Empresarial Bolívar, con más de 75 años de trayectoria, construyendo confianza y una sólida reputación en diversos sectores del mercado colombiano.
+            
+            </p>
+             
+            <p>
+              
+              Desde el año 2009, dedicamos esfuerzos a las transformaciones estructurales, sostenibles y de impacto en la sociedad, nuestro propósito es desarrollar talento para construir país.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="sm-wid img-part-rght"
+      >
+        <ul
+          class="d-flex"
+        >
+          <li>
+            <img
+              alt=""
+              class="object-fit-cover"
+              src="/images/seccion-la-fundacion/lafundacion_slider1.jpg"
+            />
+          </li>
+           
+          <li>
+            <img
+              alt=""
+              class="object-fit-cover"
+              src="/images/seccion-la-fundacion/lafundacion_slider2.jpg"
+            />
+          </li>
+           
+          <li>
+            <img
+              alt=""
+              class="object-fit-cover"
+              src="/images/seccion-la-fundacion/lafundacion_slider3.jpg"
+            />
+          </li>
+           
+          <li>
+            <img
+              alt=""
+              class="object-fit-cover"
+              src="/images/seccion-la-fundacion/lafundacion_slider4.jpg"
+            />
+          </li>
+           
+          <li>
+            <img
+              alt=""
+              class="object-fit-cover"
+              src="/images/seccion-la-fundacion/lafundacion_slider5.jpg"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="misi-visi-sec"
+  >
+    <div
+      class="container"
+    >
+      <div>
+        <div
+          class="accordion"
+          role="tablist"
+        >
+          <div
+            class="card"
+          >
+            <!---->
+            <!---->
+            <div
+              class="d-flex w-100 flex-wrap-991 align-items-center"
+            >
+              <div
+                class="tabs-titles ff-sans-b"
+              >
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-0"
+                    aria-expanded="true"
+                    class="btn btn-info btn-block not-collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex justify-content-between"
+                    >
+                      <p>
+                        Nuestra Misión
+                      </p>
+                       
+                      <div
+                        class="plus-sign position-relative after-po before-po"
+                      />
+                    </div>
+                  </button>
+                </header>
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-1"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex justify-content-between"
+                    >
+                      <p>
+                        Nuestra Visión
+                      </p>
+                       
+                      <div
+                        class="plus-sign position-relative after-po before-po"
+                      />
+                    </div>
+                  </button>
+                </header>
+                <header
+                  class="card-header"
+                  role="tab"
+                >
+                  <button
+                    aria-controls="accordion-2"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    type="button"
+                  >
+                    <div
+                      class="d-flex justify-content-between"
+                    >
+                      <p>
+                        Gobierno Corporativo
+                      </p>
+                       
+                      <div
+                        class="plus-sign position-relative after-po before-po"
+                      />
+                    </div>
+                  </button>
+                </header>
+              </div>
+               
+              <div
+                class="tabs-contains"
+              >
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse show"
+                    id="accordion-0"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="pra-sec position-relative after-po before-po"
+                        >
+                          <div
+                            class="position-relative text-white ff-nunito"
+                          >
+                            <p>
+                              Como expresión del compromiso social del Grupo Bolívar, apoyamos y potenciamos proyectos transformadores y de alto impacto que generan capacidades en personas, comunidades y organizaciones, para construir una sociedad más justa, equitativa e innovadora.
+                            </p>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="page-links d-flex ff-sans-r justify-content-center text-white flex-wrap-767"
+                        >
+                          <a
+                            href="/pdf/La_Fundacion_Estatutos_FBD.pdf"
+                            target="_blank"
+                          >
+                            Conoce Nuestros Estatutos
+                          </a>
+                          <a
+                            href="/pdf/La_Fundacion_Codigo_Gobierno_Corporativo.pdf"
+                            target="_blank"
+                          >
+                            Código de Gobierno Corporativo
+                          </a>
+                          <a
+                            href="/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf"
+                            target="_blank"
+                          >
+                            Reglamento Ejecutivo
+                          </a>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse"
+                    id="accordion-1"
+                    style="display: none;"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="pra-sec position-relative after-po before-po"
+                        >
+                          <div
+                            class="position-relative text-white ff-nunito"
+                          >
+                            <p>
+                              La Fundación Bolívar Davivienda será reconocida como una fundación líder en los lugares donde está presente el grupo, por el impacto de sus programas en el logro de transformaciones sociales efectivas y sostenibles.
+                            </p>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="page-links d-flex ff-sans-r justify-content-center text-white flex-wrap-767"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+                <transition-stub
+                  css="true"
+                  enteractiveclass="collapsing"
+                  enterclass=""
+                  entertoclass="collapse show"
+                  leaveactiveclass="collapsing"
+                  leaveclass="collapse show"
+                  leavetoclass="collapse"
+                  role="tabpanel"
+                >
+                  <div
+                    class="collapse"
+                    id="accordion-2"
+                    style="display: none;"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <!---->
+                      <!---->
+                      <p
+                        class="card-text"
+                      >
+                        <div
+                          class="pra-sec position-relative after-po before-po"
+                        >
+                          <div
+                            class="position-relative text-white ff-nunito"
+                          >
+                            <p>
+                              En la Fundación Bolívar Davivienda contamos con un Sistema de Buen Gobierno en armonía con los estatutos, a través del cual se definen e identifican las funciones, naturaleza y razón de ser de cada uno de nuestros órganos de Gobierno Corporativo (Consejo Directivo, Consejo Ejecutivo, Director Ejecutivo y Revisor Fiscal), asignando las responsabilidades y obligaciones que permiten el cumplimiento de las metas fundacionales y la adecuada atención a las necesidades de los diferentes grupos de interés.
+                            </p>
+                            <p>
+                              Lo anterior, se complementa con la promoción de competencias profesionales y del comportamiento, que priman como elementos fundamentales del desarrollo de la institución entre fundadores, administradores y colaboradores, donde el respeto hacia los valores éticos se convierte en un activo imprescindible que guía el actuar cotidiano de nuestra organización.
+                            </p>
+                            <p>
+                              Los miembros de los órganos de dirección y administración desempeñan tales cargos en atención a sus altas condiciones morales y profesionales.
+                            </p>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="page-links d-flex ff-sans-r justify-content-center text-white flex-wrap-767"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </transition-stub>
+              </div>
+            </div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

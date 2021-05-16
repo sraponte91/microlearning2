@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dotsrightsct.vue Renders correctly 1`] = `
+<div
+  class="dots-three-rt position-absolute"
+>
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+   
+  <div
+    class="d-flex"
+  >
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+     
+    <span />
+  </div>
+</div>
+`;
