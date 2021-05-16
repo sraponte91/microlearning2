@@ -34,7 +34,7 @@
     <section class="cundinamarca-s">
       <div class="container">
         <div class="text-center">
-          <h2 class="ff-sans-b">Cundinamarca</h2>
+          <h2 class="ff-sans-b">{{ title }}</h2>
         </div>
         <div class="d-flex align-items-start flex-wrap-767">
           <div class="filters-prt">
@@ -216,6 +216,25 @@
 <script>
 export default {
   computed: {
+    title() {
+      if (
+        this.selectedDepts.length === 0 &&
+        this.selectedLineaDeGestion.length === 0
+      ) {
+        return 'Todos'
+      } else if (
+        this.selectedDepts.length > 1 ||
+        this.selectedLineaDeGestion.length > 1 ||
+        (this.selectedDepts.length === 1 &&
+          this.selectedLineaDeGestion.length === 1)
+      ) {
+        return 'Varios'
+      } else if (this.selectedDepts.length === 1) {
+        return this.selectedDepts[0]
+      } else {
+        return this.selectedLineaDeGestion[0]
+      }
+    },
     departamento() {
       return this.$afloraData.afloraNuestrasOrganizaciones.foundations
         .map((d) => d.departamento)
@@ -263,12 +282,18 @@ export default {
   },
   head() {
     return {
-      title: this.$afloraData.afloraNuestrasOrganizaciones.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$afloraData.afloraNuestrasOrganizaciones.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -279,7 +304,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
