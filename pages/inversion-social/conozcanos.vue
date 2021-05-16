@@ -29,7 +29,9 @@
         />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Inversión Social</h1>
+        <h1 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+          Inversión Social
+        </h1>
       </div>
     </section>
 
@@ -148,13 +150,18 @@
 export default {
   head() {
     return {
-      title: this.$inversionSocialData.inversionSocialConozcanos.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$inversionSocialData.inversionSocialConozcanos.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$inversionSocialData.inversionSocialConozcanos.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$inversionSocialData.inversionSocialConozcanos.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -165,8 +172,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$inversionSocialData.inversionSocialConozcanos.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$inversionSocialData.inversionSocialConozcanos.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

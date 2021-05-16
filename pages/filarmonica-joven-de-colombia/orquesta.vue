@@ -28,7 +28,10 @@
           class="object-fit-cover"
         />
       </div>
-      <div class="pg-tit-inner position-absolute text-center">
+      <div
+        class="pg-tit-inner position-absolute text-center wow bounceInDown"
+        data-wow-duration="2s"
+      >
         <h1 class="ff-sans-b">La Orquesta</h1>
         <div class="on-banner-tx margin-0-auto">
           <p>
@@ -301,14 +304,20 @@ export default {
   },
   head() {
     return {
-      title: this.$filarmonicaJovenDeColombiaData
-        .filarmonicaJovenDeColombiaOrquesta.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombiaOrquesta
+          .meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaOrquesta.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaOrquesta.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -319,8 +328,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaOrquesta.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaOrquesta.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

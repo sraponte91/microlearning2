@@ -578,6 +578,7 @@
 
 .desarrolla.ig-tx-zing-zag .txt-points {
   top: 0;
+  z-index: 5;
 }
 .desarrolla.ig-tx-zing-zag .txt-points {
   padding: 0;

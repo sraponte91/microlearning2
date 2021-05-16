@@ -29,7 +29,9 @@
         />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Filarmónica Joven de Colombia</h1>
+        <h1 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+          Filarmónica Joven de Colombia
+        </h1>
       </div>
     </section>
 

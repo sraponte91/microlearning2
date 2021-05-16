@@ -27,7 +27,9 @@
         />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Nuestras organizaciones</h1>
+        <h1 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+          Nuestras organizaciones
+        </h1>
       </div>
     </section>
 
