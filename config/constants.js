@@ -191,7 +191,7 @@ Vue.prototype.$constants = {
           },
           {
             title: 'Código de Gobierno Corporativo',
-            url: '/pdf/La_Fundacion_Reglamento_Consejo_Ejecutivo.pdf',
+            url: '/pdf/La_Fundacion_Codigo_Gobierno_Corporativo.pdf',
           },
           {
             title: 'Reglamento Ejecutivo',

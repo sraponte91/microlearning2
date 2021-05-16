@@ -80,11 +80,11 @@
 
               </p>
             </div>
-            <div class="btn-g">
+            <!--<div class="btn-g">
               <a :href="$afloraData.afloraDesarrollamosTalento.nivelesLink" 
               class="btn-know-leave ff-sans-b">
               Conozca más</a>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>

@@ -33,6 +33,7 @@
 
     <section class="ig-tx-zing-zag bg-white">
       <div class="container">
+        <!-- Block 1 -->
         <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
           <div class="txt-points position-relative">
             <div class="pra-p">
@@ -70,6 +71,7 @@
             />
           </div>
         </div>
+        <!-- Block 2 -->
         <div
           class="d-flex multiple-reapt align-items-start part-two flex-wrap-991"
         >
@@ -110,6 +112,7 @@
             </div>
           </div>
         </div>
+        <!-- Block 3 -->
         <div
           class="d-flex multiple-reapt align-items-start flex-wrap-991 three-bx"
         >
@@ -133,6 +136,91 @@
             />
           </div>
         </div>
+
+        <!-- Block 4 -->
+        <div
+          class="d-flex multiple-reapt align-items-start part-two flex-wrap-991"
+        >
+          <div class="img-points order-2-991">
+            <img
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque2.jpg"
+              alt=""
+              class="object-fit-cover"
+            />
+            <div class="extra-div ff-sans-b d-block-991 d-none-n">
+              <p>
+                Rutas de desarrollo:
+                <ul>
+                  <li>Fundaciones sociales </li>
+                  <li>Asociaciones o fundaciones sin ánimo de lucro</li>
+                  <li>ONGs </li>
+                </ul>
+                Programa de formalización y constitución jurídica:
+                <ul>
+                  <li>Iniciativas sociales (no formalizadas)</li>
+                 </ul>
+              </p>
+            </div>
+          </div>
+          <div class="two-div-in-one position-relative order-1-991">
+            <div class="txt-points position-relative">
+              <div class="pra-p">
+                <h3 class="ff-sans-b">
+                  ¿Quiénes pueden hacer parte del programa Aflora?
+                </h3>
+                <p>
+                  Pueden participar todas las organizaciones sociales, independientemente de su línea de trabajo, no tenemos restricciones por sectores o territorios: 
+                </p>
+              </div>
+            </div>
+            <div class="extra-div ff-sans-b d-none-991">
+               <p>
+                Rutas de desarrollo:
+                <ul>
+                  <li>Fundaciones sociales </li>
+                  <li>Asociaciones o fundaciones sin ánimo de lucro</li>
+                  <li>ONGs </li>
+                </ul>
+                Programa de formalización y constitución jurídica:
+                <ul>
+                  <li>Iniciativas sociales (no formalizadas)</li>
+                 </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 5 -->
+        <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+          <div class="txt-points position-relative">
+            <div class="pra-p">
+              <p>
+                Debido a las características jurídicas y misionales que tenemos, el programa Aflora no está diseñado para las siguientes entidades:
+              </p>
+              <ul>
+                <li class="position-relative after-po">Organizaciones comunitarias (Juntas de Acción Local, Juntas de Acción Comunal, Asociaciones de vecinos, de madres comunitarias, y Juntas de pobladores Urbanos y Rurales).</li>
+                <li class="position-relative after-po">Organizaciones sectoriales (Sindicatos, gremios, asociaciones de profesionales, cooperativas, Precooperativas, Asociaciones Mutuales y Juntas Administradoras de propiedad horizontal). </li>
+                <li class="position-relative after-po">Organizaciones étnicas.</li>
+                <li class="position-relative after-po">Asociaciones religiosas (registradas en el Ministerio del Interior).</li>
+                <li class="position-relative after-po">Asociaciones productivas</li>
+                <li class="position-relative after-po">Partidos y asociaciones políticas.</li>
+                <li class="position-relative after-po">Entidades de educación básica y superior. </li>
+                <li class="position-relative after-po">Hospitales, IPS.</li>
+              </ul>
+              <p>
+                Lo más importante para hacer parte de Aflora, es que las organizaciones y fundaciones sociales, se comprometan con su proceso de aprendizaje y fortalecimiento, por medio del correcto uso de las herramientas que brinda el programa. 
+              </p>
+            </div>
+          </div>
+          <div class="img-points">
+            <img
+              src="/images/programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+        </div>
+
       </div>
     </section>
 

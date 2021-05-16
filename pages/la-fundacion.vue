@@ -110,7 +110,7 @@
                             v-for="(tag, i) of item.tags"
                             :key="i"
                             :href="tag.url"
-                            >{{ tag.title }}</a
+                            target= "_blank">{{ tag.title }}</a
                           >
                         </div>
                       </b-card-text>

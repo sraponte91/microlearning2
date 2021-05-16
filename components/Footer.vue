@@ -165,7 +165,7 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                              href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                               >Aviso de privacidad Cultivarte</a
                             >
                           </li>
@@ -218,16 +218,25 @@
                     <b-card-body>
                       <b-card-text>
                         <ul class="ff-sans-r">
-                          <li
-                            :class="{ active: $route.name === 'seleccionados' }"
-                          >
-                            <NuxtLink to="/seleccionados"
-                              >Ver documentación</NuxtLink
+                          <li>
+                            <a
+                              target="_blank"
+                              href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                              >Registro Web DIAN Fundación Bolívar Davivienda</a
                             >
                           </li>
-                          <li :class="{ active: $route.name === 'faqs' }">
-                            <NuxtLink to="/faqs"
-                              >Reglamento de inscripción a programas</NuxtLink
+                          <li>
+                            <a
+                              target="_blank"
+                              href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                              >Registro Web DIAN Cultivarte</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              target="_blank"
+                              href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                              >Reglamento de inscripción a programas</a
                             >
                           </li>
                         </ul>
@@ -534,7 +543,7 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                    href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                     >Aviso de privacidad Cultivarte</a
                   >
                 </li>
@@ -565,14 +574,29 @@
             <div class="if-two-ul-is-there d-none-767">
               <h3>Documentación</h3>
               <ul class="ff-nunito">
-                <li :class="{ active: $route.name === 'seleccionados' }">
-                  <NuxtLink to="/seleccionados">Ver documentación</NuxtLink>
-                </li>
-                <li :class="{ active: $route.name === 'faqs' }">
-                  <NuxtLink to="/faqs"
-                    >Reglamento de inscripción a programas</NuxtLink
+
+                <li>
+                  <a
+                    target="_blank"
+                    href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                    >Registro Web DIAN Fundación Bolívar Davivienda</a
                   >
                 </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                    >Registro Web DIAN Cultivarte</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                    >Reglamento de inscripción a programas</a
+                  >
+                </li>
+
               </ul>
             </div>
           </div>
