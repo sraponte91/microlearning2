@@ -27,20 +27,16 @@
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
-            <h2 class="ff-sans-b ss d-block-991 d-none-n">Mentores</h2>
-            <div class="txt-points position-relative order-2-991">
-              <h2 class="ff-sans-b d-none-991">Mentores</h2>
+            <h2 class="ff-sans-b ss d-block-991 d-none-n">Nuestros mentores</h2>
+            <div class="txt-points position-relative order-2-991"></div>
+              <h2 class="ff-sans-b d-none-991">Nuestros mentores</h2>
               <div class="pra-p for-bgcol">
-                <h3 class="ff-sans-b">Conoce tus guías</h3>
+                <!--<h3 class="ff-sans-b">Conoce tus guías</h3>-->
                 <p>
-                  Mentores expertos son líderes de las empresas del Grupo
-                  Bolívar que acompañan, guían y retan a los empresarios en un
-                  tema específico a trabajar, para facilitar la implementación
-                  del plan definido con el mentor padrino.
+                  Los emprendedores pueden contar con un comité de mentores padrinos conformado por los altos ejecutivos de las empresas del Grupo Bolívar y empresarios exitosos, que tienen la capacidad de analizar el negocio del emprendedor desde una perspectiva general, para entender la profundidad de su negocio y priorizar sus necesidades, dando acompañamiento al plan estratégico empresarial. 
                 </p>
                 <p>
-                  Algunos de nuestros mentores padrinos que acompañan los
-                  emprendedores son:
+                  Algunos de nuestros mentores padrinos son:
                 </p>
               </div>
             </div>

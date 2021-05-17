@@ -31,21 +31,12 @@
             <div class="txt-points position-relative order-2-991">
               <h2 class="ff-sans-b d-none-991">Consultores</h2>
               <div class="pra-p for-bgcol">
-                <h3 class="ff-sans-b">
+                <!--<h3 class="ff-sans-b">
                   Trabajamos por los grandes <br />
                   emprendedores del país
-                </h3>
-                <p>
-                  Mentores padrinos, son los más altos ejecutivos de las
-                  empresas del Grupo Bolívar, que tienen la capacidad de
-                  analizar el negocio del emprendedor desde una perspectiva
-                  general, evaluándola como un todo, para entender la
-                  profundidad de su negocio y priorizar sus necesidades, dando
-                  acompañamiento a los temas más estratégicos. Los mentores
-                  expertos realizan un proceso de acompañamiento puntual a los
-                  empresarios de acuerdo a su plan de trabajo para facilitarle
-                  la implementación de sus proyectos.
-                </p>
+                </h3>-->
+                <p>Nuestros consultores son expertos en áreas estratégicas de muy alto nivel, buscamos que las pymes tengan acceso al mejor conocimiento y experiencia. Trabajamos hoy en día con 26 firmas de consultoría, al servicio de los emprendedores que participan en Emprende País en temas: Comercial,  Comunicaciones,  Estrategia,  Finanzas,  Gobierno Corporativo,  Innovación,  Marketing y Marketing Digital, Sostenibilidad, Dirección y Liderazgo. </p>
+                <p>Nuestros consultores son expertos en emprendimiento y encargados de llevar conocimiento a las empresas. Cada uno de ellos, desde su sector, se convierte en una pieza clave de la ruta de formación para los emprendedores exitosos.</p>
               </div>
             </div>
             <div class="img-points order-1-991">
