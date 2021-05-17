@@ -128,58 +128,29 @@
         <div class="all-achive">
           <div class="single-achive">
             <div class="achive-img">
-              <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/conciertos-nacionales.png" class="img-fluid" alt="" />
+              <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
               <h3 id="beneficiarios-counter"></h3>
-              <p>170+ Conciertos</p>
+              <p>Beneficiarios</p>
             </div>
           </div>
           <div class="single-achive">
             <div class="achive-img">
-             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/giras-nacionales.png" class="img-fluid" alt="" />
+              <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
               <h3 id="sedes-counter"></h3>
-              <p>6 giras Internacionales en 29 ciudades</p>
+              <p>Sedes</p>
             </div>
           </div>
           <div class="single-achive">
             <div class="achive-img">
-             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/giras-nacionales.png" class="img-fluid" alt="" />
+              <img src="/images/icon.png" alt="" />
             </div>
             <div class="achive-txt">
               <h3 id="asistentes-permanentes-counter"></h3>
-              <p>14 giras nacionales en 26 ciudades</p>
-            </div>
-          </div>
-
-           <div class="single-achive">
-            <div class="achive-img">
-             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/jovenes-musicos.png" class="img-fluid" alt="" />
-            </div>
-            <div class="achive-txt">
-              <h3 id="asistentes-permanentes-counter"></h3>
-              <p>600+ Músicos colombianos beneficiados</p>
-            </div>
-          </div>
-          
-           <div class="single-achive">
-            <div class="achive-img">
-             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/conciertos-internacionales.png" class="img-fluid" alt="" />
-            </div>
-            <div class="achive-txt">
-              <h3 id="asistentes-permanentes-counter"></h3>
-              <p>3.000.000+ asistentes en conciertos</p>
-            </div>
-          </div>
-           <div class="single-achive">
-            <div class="achive-img">
-             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/institucionales-musicales.png" class="img-fluid" alt="" />
-            </div>
-            <div class="achive-txt">
-              <h3 id="asistentes-permanentes-counter"></h3>
-              <p>20+ Instituciones musicales representadas</p>
+              <p>Asistentes permanentes</p>
             </div>
           </div>
         </div>
