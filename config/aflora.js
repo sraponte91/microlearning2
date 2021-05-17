@@ -80,12 +80,12 @@ Vue.prototype.$afloraData = {
     },
   },
   afloraInscripciones: {
-    reglamentoLink: 'javascript:void(0)',
+    reglamentoLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
     inscribaseLink:
       'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
     meta: {
       title: 'Aflora - Inscripciones',
-      metaTitle: 'Afora - Inscripciones',
+      metaTitle: 'Aflora - Inscripciones',
       metaDescription: 'Inscripciones Description',
       ogTitle: 'Inscripciones',
       ogDescription: 'Inscripciones',

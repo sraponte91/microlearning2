@@ -150,14 +150,14 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
                               >Autorización de datos personales</a
                             >
                           </li>
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                              href="/legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                               >Aviso de privacidad Fundación Bolívar
                               Davivienda</a
                             >
@@ -165,14 +165,14 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                               >Aviso de privacidad Cultivarte</a
                             >
                           </li>
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
+                              href="/legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
                               >Política de tratamiento de datos Fundación
                               Bolívar Davivienda</a
                             >
@@ -180,7 +180,7 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                               >Política de tratamiento de datos Cultivarte</a
                             >
                           </li>
@@ -221,21 +221,21 @@
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                              href="/legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
                               >Registro Web DIAN Fundación Bolívar Davivienda</a
                             >
                           </li>
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                              href="/legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
                               >Registro Web DIAN Cultivarte</a
                             >
                           </li>
                           <li>
                             <a
                               target="_blank"
-                              href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                              href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf"
                               >Reglamento de inscripción a programas</a
                             >
                           </li>
@@ -529,7 +529,7 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
+                    href="/legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
                     >Autorización de datos personales</a
                   >
                 </li>
@@ -543,14 +543,14 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
+                    href="/legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                     >Aviso de privacidad Cultivarte</a
                   >
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
+                    href="/legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
                     >Política de tratamiento de datos Fundación Bolívar
                     Davivienda</a
                   >
@@ -558,14 +558,14 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
+                    href="/legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                     >Política de tratamiento de datos Cultivarte</a
                   >
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Terminos_y_Condiciones_FBD_2020.pdf"
+                    href="/legales/Terminos_y_Condiciones_FBD_2020.pdf"
                     >Términos y condiciones</a
                   >
                 </li>
@@ -578,21 +578,21 @@
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                    href="/legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
                     >Registro Web DIAN Fundación Bolívar Davivienda</a
                   >
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                    href="/legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
                     >Registro Web DIAN Cultivarte</a
                   >
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                    href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf"
                     >Reglamento de inscripción a programas</a
                   >
                 </li>

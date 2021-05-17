@@ -147,7 +147,7 @@
           donde  encontrará los requisitos y condiciones para ser parte del
           programa.
         </p>
-        <a href="#">Lee el reglamento de inscripción</a>
+        <a href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf">Lee el reglamento de inscripción</a>
       </div>
     </section>
     <!-- call to action white end -->
