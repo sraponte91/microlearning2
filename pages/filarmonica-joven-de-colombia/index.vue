@@ -21,16 +21,11 @@
           </div>
           <div class="wow bounceInUp" data-wow-duration="2s">
             <p>
-              En Filarmónica Joven de Colombia, buscamos desarrollar el talento
-              de los jóvenes apasionados por la música clásica del país, con el
-              propósito de formar grandes intérpretes, capaces de inspirar la
-              transformación a través de la cultura y la música.
+            En Filarmónica Joven de Colombia buscamos desarrollar el talento de los jóvenes apasionados por la música sinfónica del país, con el propósito de formar grandes intérpretes, capaces de inspirar la transformación a través de la cultura y la música. 
             </p>
 
             <p>
-              La formación dentro de la Filarmónica Joven de Colombia, se
-              caracteriza por su calidad artística, la energía juvenil de sus
-              músicos y su gran talento.
+              La formación integral en #LaJoven se caracteriza por ofrecer un enfoque innovador en el fortalecimiento de proyectos de vida en el arte, invitando a los jóvenes a desarrollar habilidades múltiples y convertirse en importantes agentes de cambio para el desarrollo social, cultural y musical del país. Este modelo de laboratorio de innovación social se fundamenta en los altos estándares de calidad artística, la energía desbordante de quienes hacen parte y una visión estratégica que responde a los enormes retos de las industrias creativas, en la actualidad. 
             </p>
           </div>
         </div>

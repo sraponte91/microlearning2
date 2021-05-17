@@ -36,10 +36,7 @@
               <div class="pra-p for-bgcol">
                 <h3 class="ff-nunito">Creando lazos</h3>
                 <p>
-                  En la Fundación Bolívar Davivienda creemos en la construcción
-                  de un mejor país. Por eso, dimos vida a la iniciativa
-                  #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y
-                  social para iniciativas orquestales y musicales en formación.
+                 En la Fundación Bolívar Davivienda creemos en la construcción de un mejor país.  Por eso, dimos vida a la iniciativa #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y social para iniciativas orquestales y musicales en formación
                 </p>
                 <p>
                   El programa #LaJovenCreandoLazos, está basado en 6
@@ -200,7 +197,7 @@
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <div class="img-points order-1-991">
               <img
-                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_formacion_educativa.jpg"
+                src="/images/programa-filarmonica-joven/3-desarrollamos-talento/desarrollamostalento_lideresLaJoven.jpg"
                 alt=""
                 class="object-fit-cover"
               />

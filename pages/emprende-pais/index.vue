@@ -53,11 +53,12 @@
           <NuxtLink to="/emprende-pais/convocatorias" class="linkse text-center"
             >Convocatorias</NuxtLink
           >
+          <!--
           <NuxtLink
             to="/emprende-pais/presencia-en-el-pais"
             class="linkse text-center"
             >Presencia en el Pais</NuxtLink
-          >
+          >-->
         </div>
       </div>
     </section>

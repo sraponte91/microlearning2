@@ -17,10 +17,15 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
       {
         title: 'Andrés Orozco, Director Titular Filarmónica Joven de Colombia',
         description:
-          'Siento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
+          'Para mi es un proyecto que une muchísimas cosas, todas grandes oportunidades y grandes cualidades, entre ellas que juntos nos demos la oportunidad de explorar el repertorio clásico y universal desde una perspectiva muy nuestra… Ya hemos salido varias veces a Europa, Estados Unidos a compartir este gran acontecimiento artístico con todo el mundo',
       },
       {
         title: 'Jumana Pallares, Violinista y voluntaria en #LaJoven Creando Lazos ',
+        description:
+          'Siento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
+      },
+      {
+        title: 'JDaniel González - Trombón, Músico temporada 2020 ',
         description:
           'Sin duda alguna nos han abierto a nuevas posibilidades que el músico del ahora, realmente necesita',
       },
