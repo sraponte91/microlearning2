@@ -42,11 +42,11 @@ Vue.prototype.$emprendePaisData = {
     tabs: [{
       title: 'Oxelerator',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png',
-      description: 'Promueve la inversión en proyectos de investigación de base científica y tecnológica, con el interés de apoyar los emprendimientos de esa categoría.El programa trabaja en ambos frentes.'
+      description: 'Promueve la inversión en proyectos de investigación de base científica y tecnológica, con el interés de apoyar los emprendimientos de esa categoría. El programa trabaja en ambos frentes.'
     }, {
       title: 'Angel Ventures',
-      imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png',
-      description: 'Valle Impacta es un programa de escalamiento empresarial liderado por la Cámara de Comercio de Cali y la Fundación Bolívar Davivienda, que transforma empresas al más alto nivel en sus diferentes sectores económicos, a través del acompañamiento para el crecimiento extraordinario, con el fin de impulsar el desarrollo económico y social de la región.'
+      imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_angel_ventures.png',
+      description: 'Trabajamos en alianza con Angel Ventures, expertos en establecer conexiones de valor entre inversionistas y emprendedores. Tienen operaciones en México, Perú, Chile y actualmente en Colombia. Emprende País capacita a los inversionistas y emprendedores, con el fin de crear una comunidad en el ecosistema de inversionistas, para ayudar a más proyectos potencialmente interesantes.'
     }, {
       title: 'Social Skin',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png',
@@ -58,11 +58,11 @@ Vue.prototype.$emprendePaisData = {
     }, {
       title: 'Climate Kic',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png',
-      description: 'Es una aceleradora de empresas que ayuda a startups de Cleantech a acelerar su comercialización en el mercado y crear negocios invertibles.'
+      description: 'Es una aceleradora de empresas que ayuda a startups  de Cleantech a acelerar su comercialización en el mercado y crear negocios invertibles.'
     }, {
       title: 'Rockstart Impact',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_rockstart_impact.png',
-      description: 'Es una aceleradora de start-ups que apoya a emprendedores que usen la tecnología para generar impacto social y/o ambiental'
+      description: 'Es una aceleradora de start-ups que apoya a emprendedores que usen la tecnología para generar impacto social y/o ambiental.'
     }],
     meta: {
       title: 'Emprende país',
