@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue Renders correctly 1`] = `
+<main>
+  <div
+    class="container position-relative"
+  >
+    <ol
+      class="breadcrumb position-absolute ff-sans-r"
+    >
+      <li
+        class="breadcrumb-item"
+      >
+        <a
+          class=""
+          href="/"
+          target="_self"
+        >
+          Home
+        </a>
+      </li>
+       
+      <li
+        class="breadcrumb-item active"
+      >
+        <span
+          aria-current="location"
+        >
+          Eventos
+        </span>
+      </li>
+    </ol>
+  </div>
+   
+  <section
+    class="main-slider-at-top actualidad-pg"
+  >
+    <div
+      class="img-prt position-relative"
+    >
+      <img
+        alt=""
+        class="object-fit-cover"
+        src="/images/seccion-eventos/encabezado_eventos_desktop.jpg"
+      />
+       
+      <div
+        class="container position-absolute set-to-bottom"
+      >
+        <div
+          class="banner-txt text-white"
+        >
+          <div
+            class="orange-bg wow bounceInDown"
+            data-wow-duration="2s"
+          >
+            <h1
+              class="ff-sans-b"
+            >
+              Eventos
+            </h1>
+          </div>
+           
+          <div
+            ata-wow-duration="2s"
+            class="black-bg wow bounceInUp"
+          >
+            <p
+              class="ff-nunito"
+            >
+              
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              at porttitor sem.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="what-looking-for"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="innper-bx margin-0-auto"
+      >
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap-767"
+        >
+          <p
+            class="ff-nunito text-white"
+          >
+            ¿Qué estas buscando?
+          </p>
+           
+          <input
+            class="form-control"
+            id="__BVID__5"
+            placeholder="Eventos"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="only-boxes-section"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="d-flex flex-wrap for-mar-setmet"
+      >
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            Un ejemplo de evento
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="Un ejemplo de evento"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/un-ejemplo-de-evento"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            Otro en cualquier lugar
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="Otro en cualquier lugar"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/otro-en-cualquier-lugar"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            Invitando a todos
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="Invitando a todos"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/invitando-a-todos"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            TÍTULO DEL EVENTO
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="TÍTULO DEL EVENTO"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/title-of-event4"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            TÍTULO DEL EVENTO
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="TÍTULO DEL EVENTO"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/title-of-event5"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+        <div
+          class="only-one-bx"
+        >
+          <h3
+            class="ff-sans-b text-uppercase"
+          >
+            TÍTULO DEL EVENTO
+          </h3>
+           
+          <div
+            class="im-bxe"
+          >
+            <img
+              alt="TÍTULO DEL EVENTO"
+              class="object-fit-cover"
+              src="/images/inversion_social.jpg"
+            />
+          </div>
+           
+          <div
+            class="dt-tx-info position-relative after-po ff-nunito"
+          >
+            <div
+              class="d-flex"
+            >
+              <div
+                class="dat-bx position-relative after-po"
+              >
+                <p>
+                  9/Feb/2021
+                </p>
+                 
+                <p>
+                  8:00 a.m.
+                </p>
+              </div>
+               
+              <div
+                class="bx-nam"
+              >
+                <div
+                  class="d-flex justify-content-between"
+                >
+                  <div
+                    class="lft"
+                  >
+                    <h4>
+                      Lugar del evento
+                    </h4>
+                     
+                    <p>
+                      Nombre del encargado
+                    </p>
+                  </div>
+                   
+                  <p>
+                    Bogotá
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="for-btn"
+          >
+            <a
+              class="btn-ver-evento ff-nunito position-relative"
+              to="/eventos/title-of-event6"
+            >
+              
+                Ver Evento
+              
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

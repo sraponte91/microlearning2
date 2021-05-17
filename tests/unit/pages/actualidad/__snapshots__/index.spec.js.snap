@@ -1,0 +1,638 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue Renders correctly 1`] = `
+<main>
+  <div
+    class="container position-relative"
+  >
+    <ol
+      class="breadcrumb position-absolute ff-sans-r"
+    >
+      <li
+        class="breadcrumb-item"
+      >
+        <a
+          class=""
+          href="/"
+          target="_self"
+        >
+          Home
+        </a>
+      </li>
+       
+      <li
+        class="breadcrumb-item active"
+      >
+        <span
+          aria-current="location"
+        >
+          Actualidad
+        </span>
+      </li>
+    </ol>
+  </div>
+   
+  <section
+    class="main-slider-at-top actualidad-pg"
+  >
+    <div
+      class="img-prt position-relative"
+    >
+      <img
+        alt=""
+        class="object-fit-cover"
+        src="/images/seccion-actualidad/encabezado_actualidad.jpg"
+      />
+       
+      <div
+        class="container position-absolute set-to-bottom"
+      >
+        <div
+          class="banner-txt text-white"
+        >
+          <div
+            class="orange-bg wow bounceInDown"
+            data-wow-duration="2s"
+          >
+            <h1
+              class="ff-sans-b"
+            >
+              Actualidad
+            </h1>
+          </div>
+           
+          <div
+            ata-wow-duration="2s"
+            class="black-bg wow bounceInUp"
+          >
+            <p
+              class="ff-nunito"
+            >
+              
+              Aquí vas a poder aprender acerca del desarrollo de nuestros
+              programas y sus novedades
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="what-looking-for"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="innper-bx margin-0-auto"
+      >
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap-767"
+        >
+          <p
+            class="ff-nunito text-white"
+          >
+            ¿Qué estas buscando?
+          </p>
+           
+          <input
+            class="form-control"
+            id="__BVID__5"
+            placeholder="Actualidad"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="list-of-blog-actu"
+  >
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Cómo liderar nuevas generaciones"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                1 - Septiembre - 2020
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Cómo liderar nuevas generaciones
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Conozca más sobre tres elementos vitales a la hora de enfrentar el reto de liderar nuevas generaciones.
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/como-liderar-nuevas-generaciones"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Aprenda como conseguir recursos para una fundación social"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                16 - Enero - 2020
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Aprenda como conseguir recursos para una fundación social
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Conozca una guía básica para que la laborde conseguir recursos sea más efectiva y su organización logre cumplir sus objetivos. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Consejos para crear y elegir el nombre adecuado para su empresa"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                16 - Enero - 2020
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Consejos para crear y elegir el nombre adecuado para su empresa
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  El nombre es la cara de su marca y debe transmitir aquello a lo que se dedica. Así que, ¿cómo hacer para elegir un nombre memorable? 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Las 10 obras de música clásica más importantes del mundo"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/las-10-obras-de-musica-clasica-mas-importantes.jpeg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                12 - Octubre - 2018
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Las 10 obras de música clásica más importantes del mundo
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  La Filarmónica Joven de Colombia, un programa de la Fundación Bolívar Davivienda, trae a continuación las obras más interpretadas del mundo. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/las-10-obras-de-musica-clasica-mas-importantes-del-mundo"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Empresarios colombianos"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/empresarios_colombianos.jpg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                1 - Octubre - 2018
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Empresarios colombianos
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Lo invitamos a descubrir estos 5 casos de empresarios que con Emprende País, lograron cumplir sus metas en crecimiento, sostenibilidad y rentabilidad. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/empresarios-colombianos"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="La Consagración de la Primavera"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/consagracion_primavera.jpg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                27 - Julio - 2018
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                La Consagración de la Primavera
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  La Orquesta Filarmónica Joven de Colombia, dirigida por Andrés Orozco Estrada, logra una mágica interpretación coreográfica de La Consagración de la Primavera de Igor Stravinsky. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/la-consagracion-de-la-primavera"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="¿Cuáles deben ser los principios básicos de una organización social? "
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/cuales-deben-ser-los-principios-basicos.jpeg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                20 - enero - 2018
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                ¿Cuáles deben ser los principios básicos de una organización social? 
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Conozca los principios básicos para que las organizaciones sociales alcancen el éxito.
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/cuales-deben-ser-los-principios-basicos-de-una-organizacion-social"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="La diferencia entre una Orquesta Filarmónica y una Orquesta Sinfónica"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/diferencia_sinfonica_filarmonica.jpeg"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                31 - Enero - 2018
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                La diferencia entre una Orquesta Filarmónica y una Orquesta Sinfónica
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Conozca qué hay detrás de los términos Orquesta Sinfónica y Orquesta Filarmónica. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/la-diferencia-entre-una-orquesta-filarmonica-y-una-orquesta-sinfonica"
+        />
+      </div>
+    </div>
+    <div
+      class="main-slider-at-top actualidad-pg"
+    >
+      <div
+        class="img-prt position-relative"
+      >
+        <img
+          alt="Internet.org, la fundación de Facebook que brinda acceso gratis a la web"
+          class="object-fit-cover"
+          src="/images/seccion-actualidad/articulos/internetorg_la_fundacion_de_facebook.png"
+        />
+         
+        <div
+          class="container position-absolute set-to-bottom"
+        >
+          <div
+            class="banner-txt text-white"
+          >
+            <div
+              class="line-he-1"
+            >
+              <span
+                class="date-p ff-nunito text-white"
+              >
+                19 - septiembre - 2016
+              </span>
+            </div>
+             
+            <div
+              class="orange-bg"
+            >
+              <h1
+                class="ff-sans-b"
+              >
+                Internet.org, la fundación de Facebook que brinda acceso gratis a la web
+              </h1>
+            </div>
+             
+            <div
+              class="black-bg"
+            >
+              <p
+                class="ff-nunito"
+              >
+                
+                  Cumple un año internet.org, la iniciativa de Mark Zuckerberg el creador de Facebook, que busca llevar gratuitamente internet a lugares remotos del mundo donde era prácticamente imposible conectarse. 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        <a
+          class="position-absolute full-box-link"
+          to="/actualidad/internet-org-la-fundacion-de-facebook-que-brinda-acceso-gratis-a-la-web"
+        />
+      </div>
+    </div>
+  </section>
+</main>
+`;

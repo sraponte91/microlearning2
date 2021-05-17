@@ -250,7 +250,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                         >
                           <li>
                             <a
-                              href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
                               target="_blank"
                             >
                               Autorización de datos personales
@@ -259,7 +259,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
+                              href="/legales/Footer_Legales_Aviso_de_privacidad_FBD.pdf"
                               target="_blank"
                             >
                               Aviso de privacidad Fundación Bolívar
@@ -269,7 +269,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                               target="_blank"
                             >
                               Aviso de privacidad Cultivarte
@@ -278,7 +278,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
+                              href="/legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
                               target="_blank"
                             >
                               Política de tratamiento de datos Fundación
@@ -288,7 +288,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
+                              href="/legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                               target="_blank"
                             >
                               Política de tratamiento de datos Cultivarte
@@ -369,7 +369,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                         >
                           <li>
                             <a
-                              href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                              href="/legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
                               target="_blank"
                             >
                               Registro Web DIAN Fundación Bolívar Davivienda
@@ -378,7 +378,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                              href="/legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
                               target="_blank"
                             >
                               Registro Web DIAN Cultivarte
@@ -387,7 +387,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                            
                           <li>
                             <a
-                              href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                              href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf"
                               target="_blank"
                             >
                               Reglamento de inscripción a programas
@@ -890,7 +890,7 @@ exports[`Footer.vue Renders correctly 1`] = `
             >
               <li>
                 <a
-                  href="legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
+                  href="/legales/Footer_Legales_Autorizacion_Tratamiento_de_Datos_Personales_FBD_y_Cultivarte.pdf"
                   target="_blank"
                 >
                   Autorización de datos personales
@@ -908,7 +908,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
+                  href="/legales/Footer_Legales_Aviso_de_privacidad_Cultivarte.pdf"
                   target="_blank"
                 >
                   Aviso de privacidad Cultivarte
@@ -917,7 +917,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
+                  href="/legales/Footer_Legales_Política_de_tratamiento_de_datos_FBD.pdf"
                   target="_blank"
                 >
                   Política de tratamiento de datos Fundación Bolívar
@@ -927,7 +927,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
+                  href="/legales/Footer_Legales_Politica_de_tratamiento_de_datos_Cultivarte.pdf"
                   target="_blank"
                 >
                   Política de tratamiento de datos Cultivarte
@@ -936,7 +936,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Terminos_y_Condiciones_FBD_2020.pdf"
+                  href="/legales/Terminos_y_Condiciones_FBD_2020.pdf"
                   target="_blank"
                 >
                   Términos y condiciones
@@ -957,7 +957,7 @@ exports[`Footer.vue Renders correctly 1`] = `
             >
               <li>
                 <a
-                  href="legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
+                  href="/legales/Footer_Documentos_Registro_Web_DIAN_FBD.pdf"
                   target="_blank"
                 >
                   Registro Web DIAN Fundación Bolívar Davivienda
@@ -966,7 +966,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
+                  href="/legales/Footer_Documentos_Registro_Web_DIAN_Cultivarte.pdf"
                   target="_blank"
                 >
                   Registro Web DIAN Cultivarte
@@ -975,7 +975,7 @@ exports[`Footer.vue Renders correctly 1`] = `
                
               <li>
                 <a
-                  href="legales/Footer_Reglamento_Inscripciones_Programas.pdf"
+                  href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf"
                   target="_blank"
                 >
                   Reglamento de inscripción a programas

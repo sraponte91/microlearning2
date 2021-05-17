@@ -172,7 +172,7 @@ exports[`inscripciones.vue Renders correctly 1`] = `
           >
             <a
               class="btn-sm btn-line-btn text-center"
-              href="javascript:void(0)"
+              href="/legales/Footer_Reglamento_Inscripciones_Programas.pdf"
             >
               Lee el reglamento de inscripción
             </a>
