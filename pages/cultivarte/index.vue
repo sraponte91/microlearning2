@@ -47,11 +47,11 @@
           <NuxtLink to="/cultivarte/zona-ludica" class="linkse text-center"
             >Zona lúdica</NuxtLink
           >
-          <NuxtLink
+          <!--<NuxtLink
             to="/cultivarte/donde-estamos-ubicados"
             class="linkse text-center"
             >Dónde estamos ubicados</NuxtLink
-          >
+          >-->
         </div>
       </div>
     </section>

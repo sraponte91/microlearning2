@@ -131,7 +131,7 @@
             ayuda a conectar el talento con el cambio.
           </p>
           <div class="for-btn">
-            <a :href="$constants.cuentameMasLink" class="btn-tell-more"
+            <a :href="$filarmonicaJovenDeColombiaData.filarmonicaJovenDeColombia.cuentameMasLink" class="btn-tell-more"
               >Conozca más</a
             >
           </div>

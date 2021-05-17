@@ -86,7 +86,7 @@
                   para cada una de las familias de instrumentos.
                 </li>
                 <li class="position-relative after-po">
-                  En los 10 años de trabajo en Colombia, se han vinculado XXXX
+                  En los 10 años de trabajo en Colombia, se han vinculado más de 600 
                   jóvenes talentos impulsando sus carreras profesionales
                   nacional e internacionalmente.
                 </li>

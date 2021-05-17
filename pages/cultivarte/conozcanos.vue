@@ -529,7 +529,7 @@ export default {
 
 .achive-txt p {
   font-family: Nunito, sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   color: #111820;
   line-height: 30px;
 }
@@ -605,7 +605,7 @@ export default {
   }
 
   .achive-txt p {
-    font-size: 21px;
+    font-size: 18px;
     line-height: normal;
     color: #111820;
   }

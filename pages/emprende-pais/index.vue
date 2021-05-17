@@ -126,7 +126,7 @@
               data-wow-duration="2s"
             >
               <img
-                src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque2_fondo.jpg"
+                src="/images/programa-emprende-pais/1-home-emprende-pais/home_bloque3_metodologia.jpg"
                 alt=""
                 class="object-fit-cover"
               />
