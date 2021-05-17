@@ -83,7 +83,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_2valores.jpg"
               alt=""
             />
           </div>
@@ -113,7 +113,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_2valores.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_3lectura.jpg"
               alt=""
             />
           </div>
@@ -144,7 +144,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_3lectura.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_4_artecultura.jpg"
               alt=""
             />
           </div>
@@ -173,7 +173,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_4_artecultura.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_5cienciatecnologia.jpg"
               alt=""
             />
           </div>
@@ -203,7 +203,7 @@
         <div class="txt-img-inner">
           <div class="bg-img">
             <img
-              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_5cienciatecnologia.jpg"
+              src="/images/programa-cultivarte/3-desarrollamos-talento/desarrollamostalento_6financiera.jpg"
               alt=""
             />
           </div>
