@@ -223,22 +223,13 @@
             <div class="single-txt">
               <h2>Nuestro inicio</h2>
               <p class="pb-4">
-                En 2012 nace el programa como la iniciativa de responsabilidad
-                social más importante del Banco Davivienda que, consciente de la
-                difícil situación en la que se encontraba la infancia y
-                adolescencia en diferentes zonas del país.
+                En 2012 nace el programa como la iniciativa de responsabilidad social más importante del Banco Davivienda que, consciente de la situación en la que se encontraba la infancia y adolescencia en diferentes zonas del país, decide tener una participación activa en la transformación de la historia de vida de los niños, niñas y jóvenes. 
               </p>
               <p>
-                De esta manera, buscamos brindarles a sus poblaciones, espacios seguros en los que puedan pasar sus
-                ratos libres de manera constructiva y segura, y alejándose de riesgos sociales. Así buscamos fortalecer
-                el vínculo de los beneficiarios con la alta calidad educacional, y así, potenciar sus competencias.
-                Iniciamos primero con operaciones en dos sedes, que fueron en Anserma (Caldas) y Pacho (Cundinamarca), y
-                en la actualidad contamos con más de 80 distribuidas en toda Colombia y varios países de Centroamérica.
+                De esta manera, buscamos brindarles a sus poblaciones, espacios seguros en los que puedan pasar sus ratos libres de manera constructiva y segura, y alejándose de riesgos sociales. Así buscamos fortalecer el vínculo de los beneficiarios con la alta calidad educacional, y así, potenciar sus competencias. Iniciamos primero con operaciones en dos sedes, que fueron en Anserma (Caldas) y Pacho (Cundinamarca), y en la actualidad contamos con más de 80 distribuidas en toda Colombia y varios países de Centroamérica.
               </p>
               <p></p>
-              “La educación es el pasaporte para el futuro, porque el mañana pertenece a quienes se preparan hoy.” -
-              El-Hajj Malik El-Shabazz (Malcom X).
-
+              “La educación es el pasaporte para el futuro, porque el mañana pertenece a quienes se preparan hoy.” - El-Hajj Malik El-Shabazz (Malcom X).
               </p>
             </div>
           </div>

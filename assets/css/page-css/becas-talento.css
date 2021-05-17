@@ -385,14 +385,14 @@
 }
 .testi-single h3 {
 	font-family: sansationbold;
-	font-size: 35px;
+	font-size: 18px;
 	color: #111820;
 	text-align: center;
 }
 .testi-single p {
 	position: relative;
 	font-family: sansationregular;
-	font-size: 22px;
+	font-size: 14px;
 	color: #111820;
 	font-style: italic;
 	padding: 10px 20px 10px 45px;
