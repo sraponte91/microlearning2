@@ -300,109 +300,25 @@
     <section class="some-tabs-here bg-white">
       <div class="container">
         <div class="d-flex flex-wrap multi-btn justify-content-center">
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Oxelerator</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Angel Ventures</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Social Skin</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Valle Impacta</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Climate Kic</a
-          >
-          <a href="javascript:void(0)" class="btn-tbses ff-lato text-center"
-            >Rockstart Impact</a
+          <a
+            href="javascript:void(0)"
+            v-for="(tab, i) of $emprendePaisData.emprendePaisConozcanos.tabs"
+            :key="i"
+            class="btn-tbses ff-lato text-center"
+            :class="{ active: selectedTab.title === tab.title }"
+            @click="selectedTab = tab"
+            >{{ tab.title }}</a
           >
         </div>
         <div class="box-info-full">
           <div class="inner-bx margin-0-auto">
             <div class="d-flex align-itmes-center flex-wrap-767">
               <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png"
-                  alt=""
-                />
+                <img :src="selectedTab.imgURL" :alt="selectedTab.title" />
               </div>
               <div class="txt-part">
                 <p>
-                  Promueve la inversión en proyectos de investigación de base
-                  científica y tecnológica, con el interés de apoyar los
-                  emprendimientos de esa categoría. El programa trabaja en ambos
-                  frentes.
-                </p>
-              </div>
-            </div>
-
-            <div class="d-flex align-itmes-center flex-wrap-767">
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                  Es una aceleradora de empresas que ayuda a startups de
-                  Cleantech a acelerar su comercialización en el mercado y crear
-                  negocios invertibles.
-                </p>
-              </div>
-            </div>
-            <div class="d-flex align-itmes-center flex-wrap-767">
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_rockstart_impact.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                  Es una aceleradora de start-ups que apoya a emprendedores que
-                  usen la tecnología para generar impacto social y/o ambiental
-                </p>
-              </div>
-            </div>
-
-            <div class="d-flex align-itmes-center flex-wrap-767">
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                  Social Skin es un movimiento de innovación que apoya a jóvenes
-                  universitarios para que sus proyectos sociales crezcan
-                  sosteniblemente. Emprende País busca ofrecerles una ruta de
-                  formación a estos proyectos, con el fin de proporcionarles un
-                  panorama de buenas prácticas y los conocimientos necesarios
-                  para rentabilizar una empresa y que sea sostenible en el
-                  tiempo.
-                </p>
-              </div>
-            </div>
-
-            <div class="d-flex align-itmes-center flex-wrap-767">
-              <div class="img-prt d-flex align-items-center">
-                <img
-                  src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_valleimpacta.png"
-                  alt=""
-                />
-              </div>
-              <div class="txt-part">
-                <p>
-                  Valle Impacta es un programa de escalamiento empresarial
-                  liderado por la Cámara de Comercio de Cali y la Fundación
-                  Bolívar Davivienda, que transforma empresas al más alto nivel
-                  en sus diferentes sectores económicos, a través del
-                  acompañamiento para el crecimiento extraordinario, con el fin
-                  de impulsar el desarrollo económico y social de la región.
+                  {{ selectedTab.description }}
                 </p>
               </div>
             </div>
@@ -442,6 +358,11 @@ import HomeDots from '@/components/home/dots'
 export default {
   components: {
     HomeDots,
+  },
+  data() {
+    return {
+      selectedTab: this.$emprendePaisData.emprendePaisConozcanos.tabs[0],
+    }
   },
   mounted() {
     const observer = new IntersectionObserver(([entry]) => {
@@ -502,3 +423,10 @@ export default {
   },
 }
 </script>
+<style scoped>
+.btn-tbses.active {
+  background-color: #ff671b;
+  border-color: #ff671b;
+  color: #f7f7f7;
+}
+</style>
