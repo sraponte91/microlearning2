@@ -27,14 +27,16 @@
         />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Nuestras organizaciones</h1>
+        <h1 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+          Nuestras organizaciones
+        </h1>
       </div>
     </section>
 
     <section class="cundinamarca-s">
       <div class="container">
         <div class="text-center">
-          <h2 class="ff-sans-b">Cundinamarca</h2>
+          <h2 class="ff-sans-b">{{ title }}</h2>
         </div>
         <div class="d-flex align-items-start flex-wrap-767">
           <div class="filters-prt">
@@ -105,7 +107,9 @@
                             <ul class="ff-sans-r">
                               <li v-for="(d, i) of departamento" :key="i">
                                 <div>
-                                  <b-form-checkbox class="ff-nunito" :value="d"
+                                  <b-form-checkbox
+                                    class="ff-nunito departamento-checkbox"
+                                    :value="d"
                                     >{{ d }}
                                   </b-form-checkbox>
                                 </div>
@@ -143,7 +147,9 @@
                             <ul class="ff-sans-r">
                               <li v-for="(l, i) of lineaDeGestion" :key="i">
                                 <div>
-                                  <b-form-checkbox class="ff-nunito" :value="l"
+                                  <b-form-checkbox
+                                    class="ff-nunito lineaDeGestion-checkbox"
+                                    :value="l"
                                     >{{ l }}
                                   </b-form-checkbox>
                                 </div>
@@ -216,6 +222,25 @@
 <script>
 export default {
   computed: {
+    title() {
+      if (
+        this.selectedDepts.length === 0 &&
+        this.selectedLineaDeGestion.length === 0
+      ) {
+        return 'Todos'
+      } else if (
+        this.selectedDepts.length > 1 ||
+        this.selectedLineaDeGestion.length > 1 ||
+        (this.selectedDepts.length === 1 &&
+          this.selectedLineaDeGestion.length === 1)
+      ) {
+        return 'Varios'
+      } else if (this.selectedDepts.length === 1) {
+        return this.selectedDepts[0]
+      } else {
+        return this.selectedLineaDeGestion[0]
+      }
+    },
     departamento() {
       return this.$afloraData.afloraNuestrasOrganizaciones.foundations
         .map((d) => d.departamento)
@@ -263,12 +288,18 @@ export default {
   },
   head() {
     return {
-      title: this.$afloraData.afloraNuestrasOrganizaciones.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$afloraData.afloraNuestrasOrganizaciones.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$afloraData.afloraNuestrasOrganizaciones.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -279,7 +310,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$afloraData.afloraNuestrasOrganizaciones.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

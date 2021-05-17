@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapa-del-sitio.vue Renders correctly 1`] = `
+<main>
+  <section
+    class="sitemap"
+  >
+    <div
+      class="container margin-0-auto"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-8 offset-md-2"
+        >
+          <h1
+            class="text-center"
+          >
+            Términos y condiciones
+          </h1>
+           
+          <ul>
+            <li>
+              <a
+                href="#"
+              >
+                Nombre de página
+              </a>
+               
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Nombre de página
+                  </a>
+                </li>
+                 
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Nombre de página
+                  </a>
+                </li>
+                 
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Nombre de página
+                  </a>
+                   
+                  <ul>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Nombre de página
+                      </a>
+                    </li>
+                     
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Nombre de página
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                Gestión de procesos
+              </a>
+            </li>
+             
+            <li>
+              <a
+                href="#"
+              >
+                Estrategia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

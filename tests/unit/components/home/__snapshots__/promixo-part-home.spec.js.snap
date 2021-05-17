@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`promixo-part-home.vue Renders correctly 1`] = `
+<section
+  class="proximos-eventos"
+>
+  <div
+    class="container position-relative"
+  >
+    <div>
+      <div
+        class="VueCarousel"
+      >
+        <div
+          class="VueCarousel-wrapper"
+        >
+          <div
+            class="VueCarousel-inner"
+            style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+          >
+            <div
+              aria-hidden="true"
+              class="VueCarousel-slide"
+              role="tabpanel"
+              tabindex="-1"
+            >
+              <div
+                class="slider-desing position-relative"
+              >
+                <h3
+                  class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                >
+                  
+              Próximos Eventos
+            
+                </h3>
+                 
+                <div
+                  class="img-part"
+                >
+                  <img
+                    alt="Un ejemplo de evento"
+                    class="object-fit-cover"
+                    src="/images/inversion_social.jpg"
+                  />
+                </div>
+                 
+                <div
+                  class="text-part-title position-absolute v-center"
+                >
+                  <h3
+                    class="ff-sans-b d-none-767i"
+                  >
+                    Próximos Eventos
+                  </h3>
+                   
+                  <div
+                    class="inner-bx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Un ejemplo de evento
+                    </h4>
+                     
+                    <div
+                      class="pra-p ff-nunito"
+                    >
+                      <div
+                        class="three-line-fixed-tx"
+                      >
+                        <p>
+                          
+                      Lugar del evento, Objectively productize value-added care
+                    
+                        </p>
+                      </div>
+                       
+                      <div
+                        class="into-part ff-sans-r"
+                      >
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Lugar
+                          </p>
+                           
+                          <p>
+                            Bogotá
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Fecha
+                          </p>
+                           
+                          <p>
+                            9/Feb/2021
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Hora
+                          </p>
+                           
+                          <p>
+                            8:00 a.m.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="VueCarousel-slide"
+              role="tabpanel"
+              tabindex="-1"
+            >
+              <div
+                class="slider-desing position-relative"
+              >
+                <h3
+                  class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                >
+                  
+              Próximos Eventos
+            
+                </h3>
+                 
+                <div
+                  class="img-part"
+                >
+                  <img
+                    alt="Otro en cualquier lugar"
+                    class="object-fit-cover"
+                    src="/images/inversion_social.jpg"
+                  />
+                </div>
+                 
+                <div
+                  class="text-part-title position-absolute v-center"
+                >
+                  <h3
+                    class="ff-sans-b d-none-767i"
+                  >
+                    Próximos Eventos
+                  </h3>
+                   
+                  <div
+                    class="inner-bx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Otro en cualquier lugar
+                    </h4>
+                     
+                    <div
+                      class="pra-p ff-nunito"
+                    >
+                      <div
+                        class="three-line-fixed-tx"
+                      >
+                        <p>
+                          
+                      Lugar del evento, Objectively productize value-added care
+                    
+                        </p>
+                      </div>
+                       
+                      <div
+                        class="into-part ff-sans-r"
+                      >
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Lugar
+                          </p>
+                           
+                          <p>
+                            Bogotá
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Fecha
+                          </p>
+                           
+                          <p>
+                            9/Feb/2021
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Hora
+                          </p>
+                           
+                          <p>
+                            8:00 a.m.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="VueCarousel-slide VueCarousel-slide-active VueCarousel-slide-center"
+              role="tabpanel"
+              tabindex="-1"
+            >
+              <div
+                class="slider-desing position-relative"
+              >
+                <h3
+                  class="ff-sans-b d-none-ni d-block-767i mob-title position-absolute"
+                >
+                  
+              Próximos Eventos
+            
+                </h3>
+                 
+                <div
+                  class="img-part"
+                >
+                  <img
+                    alt="Invitando a todos"
+                    class="object-fit-cover"
+                    src="/images/inversion_social.jpg"
+                  />
+                </div>
+                 
+                <div
+                  class="text-part-title position-absolute v-center"
+                >
+                  <h3
+                    class="ff-sans-b d-none-767i"
+                  >
+                    Próximos Eventos
+                  </h3>
+                   
+                  <div
+                    class="inner-bx-info"
+                  >
+                    <h4
+                      class="ff-sans-b"
+                    >
+                      Invitando a todos
+                    </h4>
+                     
+                    <div
+                      class="pra-p ff-nunito"
+                    >
+                      <div
+                        class="three-line-fixed-tx"
+                      >
+                        <p>
+                          
+                      Lugar del evento, Objectively productize value-added care
+                    
+                        </p>
+                      </div>
+                       
+                      <div
+                        class="into-part ff-sans-r"
+                      >
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Lugar
+                          </p>
+                           
+                          <p>
+                            Bogotá
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Fecha
+                          </p>
+                           
+                          <p>
+                            9/Feb/2021
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="d-flex"
+                        >
+                          <p>
+                            Hora
+                          </p>
+                           
+                          <p>
+                            8:00 a.m.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <!---->
+         
+        <div
+          class="VueCarousel-pagination"
+          data-v-438fd353=""
+          style=""
+        >
+          <div
+            class="VueCarousel-dot-container"
+            data-v-438fd353=""
+            role="tablist"
+            style="margin-top: 20px;"
+          >
+            <button
+              aria-hidden="false"
+              aria-label="Item 0"
+              aria-selected="false"
+              class="VueCarousel-dot"
+              data-v-438fd353=""
+              role="tab"
+              style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+              title="Item 0"
+              value="Item 0"
+            />
+            <button
+              aria-hidden="false"
+              aria-label="Item 1"
+              aria-selected="false"
+              class="VueCarousel-dot"
+              data-v-438fd353=""
+              role="tab"
+              style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+              title="Item 1"
+              value="Item 1"
+            />
+            <button
+              aria-hidden="false"
+              aria-label="Item 2"
+              aria-selected="true"
+              class="VueCarousel-dot VueCarousel-dot--active"
+              data-v-438fd353=""
+              role="tab"
+              style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+              title="Item 2"
+              value="Item 2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="position-absolute set-to-bottom2"
+    >
+      <div
+        class="banner-arro"
+      >
+        <a
+          class="ic-arrow arrow-lft"
+          href="javascript:void(0)"
+          id="go-prev"
+        >
+          <svg
+            height="44"
+            overflow="visible"
+            preserveAspectRatio="none"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="44"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g>
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                style="fill: rgb(255, 255, 255);"
+                vector-effect="non-scaling-stroke"
+                xmlns:default="http://www.w3.org/2000/svg"
+              />
+            </g>
+          </svg>
+        </a>
+         
+        <a
+          class="ic-arrow arrow-rit"
+          href="javascript:void(0)"
+          id="go-next"
+        >
+          <svg
+            height="44"
+            overflow="visible"
+            preserveAspectRatio="none"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="44"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g>
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                style="fill: rgb(255, 255, 255);"
+                vector-effect="non-scaling-stroke"
+                xmlns:default="http://www.w3.org/2000/svg"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

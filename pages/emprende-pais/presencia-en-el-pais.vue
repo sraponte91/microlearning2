@@ -29,7 +29,9 @@
         />
       </div>
       <div class="pg-tit-inner position-absolute text-center">
-        <h1 class="ff-sans-b">Presencia en el País</h1>
+        <h1 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
+          Presencia en el País
+        </h1>
       </div>
     </section>
 
@@ -187,13 +189,19 @@ export default {
   },
   head() {
     return {
-      title: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
+              .metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -204,8 +212,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisPresenciaEnElPais.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

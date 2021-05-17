@@ -321,7 +321,12 @@
   </main>
 </template>
 <script>
+import HomeDots from '@/components/home/dots'
+
 export default {
+  components: {
+    HomeDots,
+  },
   mounted() {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry && entry.isIntersecting) {

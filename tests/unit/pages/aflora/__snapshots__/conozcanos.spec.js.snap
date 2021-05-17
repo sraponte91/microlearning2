@@ -1,0 +1,853 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conozcanos.vue Renders correctly 1`] = `
+<main>
+  <div
+    class="container position-relative innerpage"
+  >
+    <ol
+      class="breadcrumb position-absolute ff-sans-r"
+    >
+      <li
+        class="breadcrumb-item"
+      >
+        <a
+          class=""
+          href="/"
+          target="_self"
+        >
+          Home
+        </a>
+      </li>
+       
+      <li
+        class="breadcrumb-item"
+      >
+        <a
+          class=""
+          href="/aflora"
+          target="_self"
+        >
+          Aflora
+        </a>
+      </li>
+       
+      <li
+        class="breadcrumb-item active"
+      >
+        <span
+          aria-current="location"
+        >
+          Conózcanos
+        </span>
+      </li>
+    </ol>
+     
+    <div
+      class="back-to-home position-absolute d-flex align-items-center small-size"
+    >
+      <i
+        class="ic-back"
+      />
+       
+      <a
+        class="ff-sans-b text-white"
+        href="javascript:void(0)"
+      >
+        Volver
+      </a>
+    </div>
+  </div>
+   
+  <section
+    class="main-slider-at-top aflora-pge position-relative after-po"
+  >
+    <div
+      class="img-prt position-relative"
+    >
+      <img
+        alt=""
+        class="object-fit-cover"
+        src="/images/programa-aflora/2-conozcanos/header_desktop.jpg"
+      />
+    </div>
+     
+    <div
+      class="pg-tit-inner position-absolute text-center"
+    >
+      <h1
+        class="ff-sans-b wow bounceInDown"
+        data-wow-duration="2s"
+      >
+        Conózcanos
+      </h1>
+    </div>
+  </section>
+   
+  <section
+    class="ig-tx-zing-zag bg-white"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="d-flex multiple-reapt align-items-start flex-wrap-991"
+      >
+        <div
+          class="txt-points position-relative"
+        >
+          <div
+            class="pra-p"
+          >
+            <p>
+              
+              Creemos que esta es una oportunidad de crecimiento para todas
+              las organizaciones en Colombia, independiente de su foco de
+              trabajo. Cada una de nuestras organizaciones tiene sus
+              necesidades individuales y construimos con ellas el camino más
+              adecuado para cumplir los objetivos de las causas que lideran.
+            
+            </p>
+             
+            <ul>
+              <li
+                class="position-relative after-po"
+              >
+                
+                Más de 1.700 organizaciones inscritas y activas.
+              
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                
+                Más de 22.000 horas de formación.
+              
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                
+                El 95% de los participantes recomiendan nuestros cursos.
+              
+              </li>
+            </ul>
+             
+            <p>
+              
+              Cada organización que se suma a Aflora, ingresa a una amplia red
+              de expertos, con conocimiento relevante para ayudarles a
+              enfrentar sus principales desafíos y construir en conjunto las
+              herramientas y el camino que les permita superarlos.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="img-points"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="d-flex multiple-reapt align-items-start part-two flex-wrap-991"
+      >
+        <div
+          class="img-points order-2-991"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/2-conozcanos/conozcanos_bloque2.jpg"
+          />
+           
+          <div
+            class="extra-div ff-sans-b d-block-991 d-none-n"
+          >
+            <p>
+              
+              Toda organización que esté comprometida con fortalecer sus
+              procesos internos para lograr un mayor impacto, puede hacer
+              parte de nuestro programa.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="two-div-in-one position-relative order-1-991"
+        >
+          <div
+            class="txt-points position-relative"
+          >
+            <div
+              class="pra-p"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                
+                Programa especial para organizaciones comprometidas:
+              
+              </h3>
+               
+              <p>
+                
+                Aquellos organizaciones que cumplan con más del 60% de su ruta
+                de formación podrán acceder al acompañamiento de expertos
+                quienes les ayudarán a implementar los proyectos de mejora en
+                la organización.
+              
+              </p>
+            </div>
+          </div>
+           
+          <div
+            class="extra-div ff-sans-b d-none-991"
+          >
+            <p>
+              
+              Toda organización que esté comprometida con fortalecer sus
+              procesos internos para lograr un mayor impacto, puede hacer
+              parte de nuestro programa.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="d-flex multiple-reapt align-items-start flex-wrap-991 three-bx"
+      >
+        <div
+          class="txt-points position-relative"
+        >
+          <div
+            class="pra-p"
+          >
+            <h3
+              class="ff-sans-b"
+            >
+              
+              Programa de formalización y constitución jurídica:
+            
+            </h3>
+             
+            <p>
+              
+              Dirigido a iniciativas sociales no formalizadas que buscan
+              constituirse legalmente, recibirán un ciclo de formación y un
+              acompañamiento en su formalización.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="img-points"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/2-conozcanos/conozcanos_bloque3-1.jpg"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="d-flex multiple-reapt align-items-start part-two flex-wrap-991"
+      >
+        <div
+          class="img-points order-2-991"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/2-conozcanos/conozcanos_bloque2.jpg"
+          />
+           
+          <div
+            class="extra-div ff-sans-b d-block-991 d-none-n"
+          >
+            <p>
+              
+              Rutas de desarrollo:
+              
+              <ul>
+                <li>
+                  Fundaciones sociales 
+                </li>
+                 
+                <li>
+                  Asociaciones o fundaciones sin ánimo de lucro
+                </li>
+                 
+                <li>
+                  ONGs 
+                </li>
+              </ul>
+              
+              Programa de formalización y constitución jurídica:
+              
+              <ul>
+                <li>
+                  Iniciativas sociales (no formalizadas)
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="two-div-in-one position-relative order-1-991"
+        >
+          <div
+            class="txt-points position-relative"
+          >
+            <div
+              class="pra-p"
+            >
+              <h3
+                class="ff-sans-b"
+              >
+                
+                ¿Quiénes pueden hacer parte del programa Aflora?
+              
+              </h3>
+               
+              <p>
+                
+                Pueden participar todas las organizaciones sociales, independientemente de su línea de trabajo, no tenemos restricciones por sectores o territorios: 
+              
+              </p>
+            </div>
+          </div>
+           
+          <div
+            class="extra-div ff-sans-b d-none-991"
+          >
+            <p>
+              
+              Rutas de desarrollo:
+              
+              <ul>
+                <li>
+                  Fundaciones sociales 
+                </li>
+                 
+                <li>
+                  Asociaciones o fundaciones sin ánimo de lucro
+                </li>
+                 
+                <li>
+                  ONGs 
+                </li>
+              </ul>
+              
+              Programa de formalización y constitución jurídica:
+              
+              <ul>
+                <li>
+                  Iniciativas sociales (no formalizadas)
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="d-flex multiple-reapt align-items-start flex-wrap-991"
+      >
+        <div
+          class="txt-points position-relative"
+        >
+          <div
+            class="pra-p"
+          >
+            <p>
+              
+              Debido a las características jurídicas y misionales que tenemos, el programa Aflora no está diseñado para las siguientes entidades:
+            
+            </p>
+             
+            <ul>
+              <li
+                class="position-relative after-po"
+              >
+                Organizaciones comunitarias (Juntas de Acción Local, Juntas de Acción Comunal, Asociaciones de vecinos, de madres comunitarias, y Juntas de pobladores Urbanos y Rurales).
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Organizaciones sectoriales (Sindicatos, gremios, asociaciones de profesionales, cooperativas, Precooperativas, Asociaciones Mutuales y Juntas Administradoras de propiedad horizontal). 
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Organizaciones étnicas.
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Asociaciones religiosas (registradas en el Ministerio del Interior).
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Asociaciones productivas
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Partidos y asociaciones políticas.
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Entidades de educación básica y superior. 
+              </li>
+               
+              <li
+                class="position-relative after-po"
+              >
+                Hospitales, IPS.
+              </li>
+            </ul>
+             
+            <p>
+              
+              Lo más importante para hacer parte de Aflora, es que las organizaciones y fundaciones sociales, se comprometan con su proceso de aprendizaje y fortalecimiento, por medio del correcto uso de las herramientas que brinda el programa. 
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="img-points"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/2-conozcanos/conozcanos_bloque1.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="testimonios-sec"
+  >
+    <div
+      class="container-fluid"
+    >
+      <div
+        class="sec-title text-center"
+      >
+        <h2
+          class="ff-nunito"
+        >
+          Testimonios
+        </h2>
+         
+        <p
+          class="ff-sans-b"
+        >
+          De nuestros integrantes
+        </p>
+      </div>
+       
+      <div
+        class="testimo-slider"
+      >
+        <div
+          class="for-marg-1"
+        >
+          <div>
+            <div
+              class="VueCarousel"
+            >
+              <div
+                class="VueCarousel-wrapper"
+              >
+                <div
+                  class="VueCarousel-inner"
+                  style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="VueCarousel-slide"
+                    role="tabpanel"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="position-relative testimo-bx bg-white"
+                    >
+                      <div
+                        class="text-center til ff-sans-b"
+                      >
+                        <h3>
+                          
+                      Carolina Escalona - Presidenta Fundación Rafael Escalona
+                    
+                        </h3>
+                      </div>
+                       
+                      <div
+                        class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
+                      >
+                        <p>
+                          
+                      Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.
+                    
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="VueCarousel-slide"
+                    role="tabpanel"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="position-relative testimo-bx bg-white"
+                    >
+                      <div
+                        class="text-center til ff-sans-b"
+                      >
+                        <h3>
+                          
+                      Marian Tertel - Coordinadora en la Fundación Sole Colombia
+                    
+                        </h3>
+                      </div>
+                       
+                      <div
+                        class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
+                      >
+                        <p>
+                          
+                      Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.
+                    
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="VueCarousel-slide VueCarousel-slide-active"
+                    role="tabpanel"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="position-relative testimo-bx bg-white"
+                    >
+                      <div
+                        class="text-center til ff-sans-b"
+                      >
+                        <h3>
+                          
+                      Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres
+                    
+                        </h3>
+                      </div>
+                       
+                      <div
+                        class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
+                      >
+                        <p>
+                          
+                      Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación
+                    
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="VueCarousel-navigation"
+                data-v-453ad8cd=""
+              >
+                <button
+                  aria-label="Previous page"
+                  class="VueCarousel-navigation-button VueCarousel-navigation-prev"
+                  data-v-453ad8cd=""
+                  style="padding: 8px; margin-right: -8px;"
+                  tabindex="0"
+                  type="button"
+                >
+                  ◀
+                </button>
+                 
+                <button
+                  aria-label="Next page"
+                  class="VueCarousel-navigation-button VueCarousel-navigation-next VueCarousel-navigation--disabled"
+                  data-v-453ad8cd=""
+                  style="padding: 8px; margin-left: -8px;"
+                  tabindex="-1"
+                  type="button"
+                >
+                  ▶
+                </button>
+              </div>
+               
+              <div
+                class="VueCarousel-pagination"
+                data-v-438fd353=""
+                style=""
+              >
+                <div
+                  class="VueCarousel-dot-container"
+                  data-v-438fd353=""
+                  role="tablist"
+                  style="margin-top: 20px;"
+                >
+                  <button
+                    aria-hidden="false"
+                    aria-label="Item 0"
+                    aria-selected="false"
+                    class="VueCarousel-dot"
+                    data-v-438fd353=""
+                    role="tab"
+                    style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+                    title="Item 0"
+                    value="Item 0"
+                  />
+                  <button
+                    aria-hidden="false"
+                    aria-label="Item 1"
+                    aria-selected="true"
+                    class="VueCarousel-dot VueCarousel-dot--active"
+                    data-v-438fd353=""
+                    role="tab"
+                    style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+                    title="Item 1"
+                    value="Item 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="wid-support-of bg-white"
+  >
+    <div
+      class="container"
+    >
+      <h4
+        class="ff-sans-b"
+      >
+        Con el apoyo de:
+      </h4>
+       
+      <div
+        class="d-flex flex-wrap for-marg-1"
+      >
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0000_wingu.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0001_javeriana.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0002_tecnologico_monterrey.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0003_escuela_superior_de_guerra.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0004_edime.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0005_eafit.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0006_cesa.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0007_creo.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0008_compartamosconcolombia.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0009_ursario.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0010_uninorte.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0011_uniandes.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+         
+        <div
+          class="lgoes-bx d-flex align-items-center position-relative"
+        >
+          <img
+            alt=""
+            src="/images/programa-aflora/2-conozcanos/aliados/aliados-aflora_0000s_0012_ventures.png"
+          />
+           
+          <a
+            class="position-absolute full-box-link"
+            href="javascript:void(0)"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

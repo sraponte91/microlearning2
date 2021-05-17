@@ -7,9 +7,13 @@
           <b-breadcrumb-item to="/aflora">Aflora</b-breadcrumb-item>
           <b-breadcrumb-item active>Desarrollamos talento</b-breadcrumb-item>
         </b-breadcrumb>
-        <div class="back-to-home position-relative d-flex align-items-center small-size">
+        <div
+          class="back-to-home position-relative d-flex align-items-center small-size"
+        >
           <i class="ic-back" @click="goBack()"></i>
-          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()">Volver</a>
+          <a class="ff-sans-b" href="javascript:void(0)" @click="goBack()"
+            >Volver</a
+          >
         </div>
       </div>
     </div>
@@ -18,46 +22,70 @@
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
-            <h2 class="ff-sans-b ss d-block-991 d-none-n">
+            <h2
+              class="ff-sans-b ss d-block-991 d-none-n wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               Desarrollamos <br />
               talento
             </h2>
-            <div class="txt-points position-relative order-2-991">
+            <div
+              class="txt-points position-relative order-2-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <h2 class="ff-sans-b d-none-991">
                 Desarrollamos <br />
                 talento
               </h2>
               <div class="pra-p for-bgcol">
                 <p>
-                  En Aflora brindamos a todas las organizaciones sociales con gran potencial una ruta de formación para
-                  fortalecer sus capacidades y las de sus equipos. Buscamos ayudarlas a identificar sus oportunidades de
-                  mejora en distintas áreas a través de un autodiagnóstico. Nuestro propósito es ayudarlas a identificar
-                  los medios para lograr su sostenibilidad financiera, ambiental y social.</p>
-                  <p>
-
-                  Trabajamos unidos con las organizaciones, para impulsar sus causas, cerrar brechas sociales y
-                  contribuir a la construcción de un mejor país.
+                  En Aflora brindamos a todas las organizaciones sociales con
+                  gran potencial una ruta de formación para fortalecer sus
+                  capacidades y las de sus equipos. Buscamos ayudarlas a
+                  identificar sus oportunidades de mejora en distintas áreas a
+                  través de un autodiagnóstico. Nuestro propósito es ayudarlas a
+                  identificar los medios para lograr su sostenibilidad
+                  financiera, ambiental y social.
+                </p>
+                <p>
+                  Trabajamos unidos con las organizaciones, para impulsar sus
+                  causas, cerrar brechas sociales y contribuir a la construcción
+                  de un mejor país.
                 </p>
               </div>
             </div>
-            <div class="img-points order-1-991">
-              <img src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg" alt=""
-                class="object-fit-cover" />
+            <div
+              class="img-points order-1-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
+              <img
+                src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque1.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
             </div>
           </div>
-          <div class="d-flex multiple-reapt align-items-start pp-lr flex-wrap-767">
-            <div class="oly-img-bx">
-              <img src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque2_destacado.jpg"
-                alt="" class="object-fit-cover" />
+          <div
+            class="d-flex multiple-reapt align-items-start pp-lr flex-wrap-767"
+          >
+            <div class="oly-img-bx wow bounceInLeft" data-wow-duration="2s">
+              <img
+                src="/images/programa-aflora/3-desarrollamos-talento/desarrollamostalento_bloque2_destacado.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
             </div>
-            <div class="oly-tx-bx">
+            <div class="oly-tx-bx wow bounceInRight" data-wow-duration="2s">
               <div class="inn-bx-bg ff-sans-b">
                 <p>
                   Conozca los ciclos de formación, y certifíquese de manera
                   gratuita con prestigiosas universidades.
                 </p>
                 <div class="links-to-r text-right">
-                  <NuxtLink to="/aflora/desarrollamos-talento/ciclos-de-formacion">Quiero conocer más ></NuxtLink>
+                  <NuxtLink
+                    to="/aflora/desarrollamos-talento/ciclos-de-formacion"
+                    >Quiero conocer más ></NuxtLink
+                  >
                 </div>
               </div>
             </div>
@@ -66,18 +94,23 @@
             <h2 class="ff-sans-b">Niveles y beneficios por nivel</h2>
             <div class="pra-p">
               <p>
-                Ofrecemos un conjunto de capacitaciones y ciclos de formación adaptados a las condiciones, necesidades y
-                características de cada organización. Luego de diligenciar el autodiagnóstico, las organizaciones serán
-                clasificadas en uno de los 4 niveles que tiene Aflora. <br>
+                Ofrecemos un conjunto de capacitaciones y ciclos de formación
+                adaptados a las condiciones, necesidades y características de
+                cada organización. Luego de diligenciar el autodiagnóstico, las
+                organizaciones serán clasificadas en uno de los 4 niveles que
+                tiene Aflora. <br />
 
-                Cada nivel está construido de manera estratégica para brindarle a las organizaciones los contenidos que
-                necesitan según el estado real en el que se encuentra cada área de la organización. <br>
+                Cada nivel está construido de manera estratégica para brindarle
+                a las organizaciones los contenidos que necesitan según el
+                estado real en el que se encuentra cada área de la organización.
+                <br />
 
-                El objetivo es que las organizaciones cumplan con los requisitos de cada nivel, para que logren avanzar
-                al siguiente y así terminar con éxito todo el proceso de aprendizaje y mejora. <br>
+                El objetivo es que las organizaciones cumplan con los requisitos
+                de cada nivel, para que logren avanzar al siguiente y así
+                terminar con éxito todo el proceso de aprendizaje y mejora.
+                <br />
 
-                Estas son las características de cada nivel: <br>
-
+                Estas son las características de cada nivel: <br />
               </p>
             </div>
             <!--<div class="btn-g">
@@ -95,8 +128,11 @@
         <div class="sm-siz-container margin-0-auto">
           <div class="position-relative for-mt-mins">
             <div class="im-prt">
-              <img src="/images/programa-aflora/3-desarrollamos-talento/escuela_de_directores_desktop.jpg" alt=""
-                class="object-fit-cover" />
+              <img
+                src="/images/programa-aflora/3-desarrollamos-talento/escuela_de_directores_desktop.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
             </div>
             <div class="txt-sec margin-0-auto">
               <div class="text-center">
@@ -120,8 +156,11 @@
                 </p>
               </div>
               <div class="btn-g text-center">
-                <a :href="$afloraData.afloraDesarrollamosTalento.escuelaLink" class="btn-know-leave ff-sans-b">Conocer
-                  Niveles</a>
+                <a
+                  :href="$afloraData.afloraDesarrollamosTalento.escuelaLink"
+                  class="btn-know-leave ff-sans-b"
+                  >Conocer Niveles</a
+                >
               </div>
             </div>
           </div>
@@ -131,43 +170,51 @@
   </main>
 </template>
 <script>
-  export default {
-    head() {
-      return {
-        title: this.$afloraData.afloraDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
-        meta: [{
-            hid: 'title',
-            name: 'title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle + ' - ' + this.$constants.home.meta
-              .title,
-          },
-          {
-            hid: 'description',
-            name: 'description',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta
-              .metaDescription,
-          },
-          {
-            hid: 'og:title',
-            name: 'og:title',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle + ' - ' + this.$constants.home.meta
-              .title,
-          },
-          {
-            hid: 'og:description',
-            name: 'og:description',
-            content: this.$afloraData.afloraDesarrollamosTalento.meta
-              .ogDescription,
-          },
-          {
-            hid: 'og:image',
-            name: 'og:image',
-            content: this.$constants.baseURL +
-              this.$afloraData.afloraDesarrollamosTalento.meta.ogImage,
-          },
-        ],
-      }
-    },
-  }
-
+export default {
+  head() {
+    return {
+      title:
+        this.$afloraData.afloraDesarrollamosTalento.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content:
+            this.$afloraData.afloraDesarrollamosTalento.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$afloraData.afloraDesarrollamosTalento.meta
+            .metaDescription,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content:
+            this.$afloraData.afloraDesarrollamosTalento.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.$afloraData.afloraDesarrollamosTalento.meta
+            .ogDescription,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            this.$constants.baseURL +
+            this.$afloraData.afloraDesarrollamosTalento.meta.ogImage,
+        },
+      ],
+    }
+  },
+}
 </script>

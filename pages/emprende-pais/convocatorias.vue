@@ -24,8 +24,16 @@
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
-            <h2 class="ff-sans-b ss d-block-991 d-none-n">Convocatorias</h2>
-            <div class="txt-points position-relative order-2-991">
+            <h2
+              class="ff-sans-b ss d-block-991 d-none-n wow bounceInLeft"
+              data-wow-duration="2s"
+            >
+              Convocatorias
+            </h2>
+            <div
+              class="txt-points position-relative order-2-991 wow bounceInLeft"
+              data-wow-duration="2s"
+            >
               <h2 class="ff-sans-b d-none-991">Convocatorias</h2>
               <div class="pra-p for-bgcol">
                 <p>
@@ -38,7 +46,10 @@
                 </p>
               </div>
             </div>
-            <div class="img-points order-1-991">
+            <div
+              class="img-points order-1-991 wow bounceInRight"
+              data-wow-duration="2s"
+            >
               <img
                 src="/images/programa-emprende-pais/6-convocatorias/convocatorias_bloque1.jpg"
                 alt=""
@@ -88,13 +99,18 @@
 export default {
   head() {
     return {
-      title: this.$emprendePaisData.emprendePaisConvocatorias.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$emprendePaisData.emprendePaisConvocatorias.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
-            .metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisConvocatorias.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -105,8 +121,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$emprendePaisData.emprendePaisConvocatorias.meta
-            .ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisConvocatorias.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',

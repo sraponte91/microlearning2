@@ -36,10 +36,14 @@
               <div class="pra-p for-bgcol">
                 <h3 class="ff-nunito">Creando lazos</h3>
                 <p>
-                 En la Fundación Bolívar Davivienda creemos en la construcción de un mejor país.  Por eso, dimos vida a la iniciativa #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y social para iniciativas orquestales y musicales en formación.
+                  En la Fundación Bolívar Davivienda creemos en la construcción
+                  de un mejor país. Por eso, dimos vida a la iniciativa
+                  #LaJovenCreandoLazos, un proyecto de apoyo musical, técnico y
+                  social para iniciativas orquestales y musicales en formación.
                 </p>
                 <p>
-                  El programa #LaJovenCreandoLazos, está basado en 6 estrategias: 
+                  El programa #LaJovenCreandoLazos, está basado en 6
+                  estrategias:
                 </p>
                 <ul>
                   <li class="position-relative after-po">
@@ -52,12 +56,16 @@
                         La Nota Joven para semilleros.
                       </li>
                       <li class="position-relative before-po">
-                        Guardianes de la Música, una aplicación que busca acercar a los niños y niñas al universo de la música sinfónica.  
+                        Guardianes de la Música, una aplicación que busca
+                        acercar a los niños y niñas al universo de la música
+                        sinfónica.
                       </li>
                     </ul>
                   </li>
                   <li class="position-relative after-po">
-                    Formación virtual de instrumento a niños, niñas y jóvenes pertenecientes a diversos procesos musicales sinfónicos en más de 17 municipios del país. 
+                    Formación virtual de instrumento a niños, niñas y jóvenes
+                    pertenecientes a diversos procesos musicales sinfónicos en
+                    más de 17 municipios del país.
                   </li>
                 </ul>
               </div>
@@ -84,57 +92,58 @@
               <div class="pra-p for-bgcol">
                 <ul>
                   <li class="position-relative after-po">
-                   Formación de Formadores, con profesores de instrumento de  diferentes municipios. 
-                   <ul class="inner-ul">
+                    Formación de Formadores, con profesores de instrumento de
+                    diferentes municipios.
+                    <ul class="inner-ul">
                       <li class="position-relative before-po">
-                       B/ventura y Cali, Valle del Cauca.
+                        B/ventura y Cali, Valle del Cauca.
                       </li>
                       <li class="position-relative before-po">
                         Quibdó, Chocó.
                       </li>
                       <li class="position-relative before-po">
-                        El Bagre, Valparaíso y Medellín, Antioquia. 
+                        El Bagre, Valparaíso y Medellín, Antioquia.
                       </li>
-                      <li class="position-relative before-po">
-                        Sincé, Sucre 
-                      </li>
+                      <li class="position-relative before-po">Sincé, Sucre</li>
                       <li class="position-relative before-po">
                         El Carmen de Bolívar, Bolívar.
                       </li>
-                      <li class="position-relative before-po">
-                        Eje Cafetero.
-                      </li>
+                      <li class="position-relative before-po">Eje Cafetero.</li>
                       <li class="position-relative before-po">
                         Bogotá, Cundinamarca.
                       </li>
                       <li class="position-relative before-po">
-                        Puerto Asís, Putumayo.  
+                        Puerto Asís, Putumayo.
                       </li>
                       <li class="position-relative before-po">
-                        Puerto Carreño, Vichada.  
+                        Puerto Carreño, Vichada.
                       </li>
                       <li class="position-relative before-po">
-                        Riohacha, La Guajira.  
+                        Riohacha, La Guajira.
                       </li>
                       <li class="position-relative before-po">
-                        Villa del Rosario, Norte de Santander.  
+                        Villa del Rosario, Norte de Santander.
                       </li>
                       <li class="position-relative before-po">
-                        Villavicencio, Meta.  
+                        Villavicencio, Meta.
                       </li>
                       <li class="position-relative before-po">
-                        Bucaramanga, Santander.   
+                        Bucaramanga, Santander.
                       </li>
                     </ul>
                   </li>
                   <li class="position-relative after-po">
-                    Enfoque Proyección Social Apoyo a jóvenes emprendedores, para el fortalecimiento de sus iniciativas de proyección de los integrantes de #LaJoven
+                    Enfoque Proyección Social Apoyo a jóvenes emprendedores,
+                    para el fortalecimiento de sus iniciativas de proyección de
+                    los integrantes de #LaJoven
                   </li>
                   <li class="position-relative after-po">
-                   #LaJoven en Casa con Grupo Bolívar, cercanía con los colaboradores en diferentes escenarios
+                    #LaJoven en Casa con Grupo Bolívar, cercanía con los
+                    colaboradores en diferentes escenarios
                   </li>
                   <li class="position-relative after-po">
-                   Respiración y Música, en alianza con la Fundación Neumológica Colombiana. 
+                    Respiración y Música, en alianza con la Fundación
+                    Neumológica Colombiana.
                   </li>
                 </ul>
               </div>
@@ -152,11 +161,11 @@
       />
       <HomeDotsrightsct></HomeDotsrightsct>
       <div class="container position-absolute">
-        <h3 class="ff-sans-b">
+        <h3 class="ff-sans-b wow bounceInDown" data-wow-duration="2s">
           Formación <br />
           educativa
         </h3>
-        <div class="small-bx">
+        <div class="small-bx wow bounceInUp" data-wow-duration="2s">
           <div class="pra-p ff-nunito">
             <p>
               En La Filarmónica Joven de Colombia trabajamos por una formación
@@ -243,17 +252,28 @@
   </main>
 </template>
 <script>
+import HomeDotsrightsct from '@/components/home/dotsrightsct'
+
 export default {
+  components: {
+    HomeDotsrightsct,
+  },
   head() {
     return {
-      title: this.$filarmonicaJovenDeColombiaData
-        .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$filarmonicaJovenDeColombiaData
+          .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -265,8 +285,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$filarmonicaJovenDeColombiaData
-            .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$filarmonicaJovenDeColombiaData
+              .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
@@ -278,7 +301,7 @@ export default {
           hid: 'og:image',
           name: 'og:image',
           content:
-            this.$filarmonicaJovenDeColombiaData.baseURL +
+            this.$constants.baseURL +
             this.$filarmonicaJovenDeColombiaData
               .filarmonicaJovenDeColombiaDesarrollamosTalento.meta.ogImage,
         },

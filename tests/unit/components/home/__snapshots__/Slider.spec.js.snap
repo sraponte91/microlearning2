@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider.vue Renders correctly 1`] = `
+<section
+  class="main-slider-at-top position-relative"
+>
+  <div>
+    <div
+      class="VueCarousel"
+    >
+      <div
+        class="VueCarousel-wrapper"
+      >
+        <div
+          class="VueCarousel-inner"
+          style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"
+        >
+          <div
+            aria-hidden="true"
+            class="VueCarousel-slide"
+            role="tabpanel"
+            tabindex="-1"
+          >
+            <div
+              class="img-prt position-relative"
+            >
+              <img
+                alt="Desarrollamos talento para construir país."
+                class="object-fit-cover"
+                src="/images/seccion-inicio/carrusel1.jpg"
+              />
+               
+              <div
+                class="container position-absolute set-to-bottom"
+              >
+                <div
+                  class="banner-txt text-white"
+                >
+                  <div
+                    class="orange-bg wow bounceInDown"
+                    data-wow-duration="2s"
+                  >
+                    <h1
+                      class="ff-sans-b"
+                    >
+                      Desarrollamos talento para construir país.
+                    </h1>
+                  </div>
+                   
+                  <div
+                    class="black-bg wow bounceInUp"
+                    data-wow-duration="2s"
+                  >
+                    <p
+                      class="ff-nunito"
+                    >
+                      
+                  Conozca todas nuestras Iniciativas y programas.
+                
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="VueCarousel-slide VueCarousel-slide-active VueCarousel-slide-center"
+            role="tabpanel"
+            tabindex="-1"
+          >
+            <div
+              class="img-prt position-relative"
+            >
+              <img
+                alt="Desarrollamos talento para construir país."
+                class="object-fit-cover"
+                src="/images/seccion-inicio/carrusel2.jpg"
+              />
+               
+              <div
+                class="container position-absolute set-to-bottom"
+              >
+                <div
+                  class="banner-txt text-white"
+                >
+                  <div
+                    class="orange-bg wow bounceInDown"
+                    data-wow-duration="2s"
+                  >
+                    <h1
+                      class="ff-sans-b"
+                    >
+                      Desarrollamos talento para construir país.
+                    </h1>
+                  </div>
+                   
+                  <div
+                    class="black-bg wow bounceInUp"
+                    data-wow-duration="2s"
+                  >
+                    <p
+                      class="ff-nunito"
+                    >
+                      
+                  Conozca todas nuestras Iniciativas y programas.
+                
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+       
+      <div
+        class="VueCarousel-pagination"
+        data-v-438fd353=""
+        style=""
+      >
+        <div
+          class="VueCarousel-dot-container"
+          data-v-438fd353=""
+          role="tablist"
+          style="margin-top: 20px;"
+        >
+          <button
+            aria-hidden="false"
+            aria-label="Item 0"
+            aria-selected="false"
+            class="VueCarousel-dot"
+            data-v-438fd353=""
+            role="tab"
+            style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(239, 239, 239);"
+            title="Item 0"
+            value="Item 0"
+          />
+          <button
+            aria-hidden="false"
+            aria-label="Item 1"
+            aria-selected="true"
+            class="VueCarousel-dot VueCarousel-dot--active"
+            data-v-438fd353=""
+            role="tab"
+            style="margin-top: 20px; padding: 10px; width: 10px; height: 10px; background-color: rgb(0, 0, 0);"
+            title="Item 1"
+            value="Item 1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="container position-absolute set-to-bottom2 d-none-767"
+  >
+    <div
+      class="banner-arro"
+    >
+      <a
+        class="ic-arrow arrow-lft"
+        href="javascript:void(0)"
+        id="go-prev"
+      >
+        <svg
+          height="44"
+          overflow="visible"
+          preserveAspectRatio="none"
+          version="1.2"
+          viewBox="0 0 24 24"
+          width="44"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g>
+            <path
+              d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+              style="fill: rgb(255, 255, 255);"
+              vector-effect="non-scaling-stroke"
+              xmlns:default="http://www.w3.org/2000/svg"
+            />
+          </g>
+        </svg>
+      </a>
+       
+      <a
+        class="ic-arrow arrow-rit"
+        href="javascript:void(0)"
+        id="go-next"
+      >
+        <svg
+          height="44"
+          overflow="visible"
+          preserveAspectRatio="none"
+          version="1.2"
+          viewBox="0 0 24 24"
+          width="44"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g>
+            <path
+              d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+              style="fill: rgb(255, 255, 255);"
+              vector-effect="non-scaling-stroke"
+              xmlns:default="http://www.w3.org/2000/svg"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </div>
+   
+  <div
+    class="four-line position-absolute v-center d-none-767"
+  >
+    <a
+      class="sign-line"
+      href="javascript:void(0)"
+      id="change-slide"
+    />
+    <a
+      class="sign-line"
+      href="javascript:void(0)"
+      id="change-slide"
+    />
+  </div>
+</section>
+`;

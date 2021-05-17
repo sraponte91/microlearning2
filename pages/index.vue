@@ -317,7 +317,20 @@
   </main>
 </template>
 <script>
+import HomeSlider from '@/components/home/Slider'
+import HomeDots from '@/components/home/dots'
+import HomeDotsbottoms from '@/components/home/dotsbottoms'
+import HomeDotsrightsct from '@/components/home/dotsrightsct'
+import HomePromixoPartHome from '@/components/home/promixo-part-home'
+
 export default {
+  components: {
+    HomeSlider,
+    HomeDots,
+    HomeDotsbottoms,
+    HomeDotsrightsct,
+    HomePromixoPartHome,
+  },
   head() {
     return {
       title: this.$constants.home.meta.title,

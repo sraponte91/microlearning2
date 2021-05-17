@@ -1,0 +1,1342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue Renders correctly 1`] = `
+<main>
+  <section
+    class="aflora-bnr-se position-relative after-po"
+  >
+    <div
+      class="img-prt position-absolute"
+    >
+      <img
+        alt=""
+        class="object-fit-cover"
+        src="/images/programa-aflora/1-home-aflora/encabezado_aflora.jpg"
+      />
+    </div>
+     
+    <div
+      class="d-flex align-items-center some-txt-logo justify-content-center-767 align-items-start-767 position-relative ff-nunito text-white"
+    >
+      <div>
+        <div
+          class="log-prt wow bounceInDown"
+          data-wow-duration="2s"
+        >
+          <img
+            alt=""
+            class="img-fluid"
+            src="/images/logo_aflora.png"
+          />
+        </div>
+         
+        <div
+          class="wow bounceInUp"
+          data-wow-duration="2s"
+        >
+          <p>
+            
+            Nuestro propósito es acompañar el crecimiento de las
+            organizaciones sociales, apalancadas en el talento de sus líderes
+            y equipo de trabajo. Buscamos que las organizaciones logren
+            sostenerse en el tiempo y encuentren nuevos rumbos y oportunidades
+            de mejora, tanto para las comunidades involucradas en cada
+            iniciativa, como para la organización en sí misma.
+          
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="bg-white only-links-to"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
+      >
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          to="/aflora/conozcanos"
+        >
+          Conózcanos
+        </a>
+         
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          to="/aflora/desarrollamos-talento"
+        >
+          Desarrollamos talento
+        </a>
+         
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          to="/aflora/autodiagnostico"
+        >
+          Autodiagnóstico
+        </a>
+         
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          to="/aflora/inscripciones"
+        >
+          Inscripciones
+        </a>
+         
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          to="/aflora/nuestras-organizaciones"
+        >
+          Nuestras organizaciones
+        </a>
+         
+        <a
+          class="linkse d-flex justify-content-center align-items-center text-center"
+          href="https://formamostalento.fundacionbd.org/login/index.php"
+          target="_blank"
+        >
+          Iniciar sesión
+        </a>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="bg-white what-we-do position-relative"
+  >
+    <div
+      class="one-dot d-flex position-absolute align-items-start d-none-991i"
+    >
+      <div
+        class="dots-div d-flex flex-wrap"
+      >
+        <div
+          class="d-flex flex-wrap"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="dots-div only-for-dots d-flex flex-wrap"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="container"
+    >
+      <div
+        class="d-flex align-items-end flex-wrap-991"
+      >
+        <div
+          class="txt-bx-wht position-relative order-2-991 wow bounceInLeft"
+          data-wow-duration="2s"
+        >
+          <h2
+            class="ff-sans-b"
+          >
+            ¿Qué hacemos?
+          </h2>
+           
+          <div
+            class="pra-p ff-nunito"
+          >
+            <p>
+              
+              En Aflora estamos comprometidos con brindarle a todas las
+              organizaciones sociales con gran potencial, una ruta de
+              formación para fortalecer sus capacidades. Buscamos apoyarlas a
+              mejorar sus áreas débiles, a través de un autodiagnóstico, por
+              medio del cual pueden evaluar sus oportunidades de mejora y
+              hacer que su impacto sea mayor.
+            
+            </p>
+             
+            <p>
+              
+              Trabajamos unidos con las organizaciones, para impulsar líderes
+              apasionados y comprometidos con la construcción de un mejor
+              país, para que logren inspirar a quienes aún no conocen cómo
+              transformar su talento en nuevas oportunidades.
+            
+            </p>
+          </div>
+        </div>
+         
+        <div
+          class="img-rrt-pr order-1-991 wow bounceInRight"
+          data-wow-duration="2s"
+        >
+          <img
+            alt=""
+            class="object-fit-cover"
+            src="/images/programa-aflora/1-home-aflora/homeaflora_quehacemos.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section
+    class="desarrollamos-section aflora-pg position-relative before-po"
+  >
+    <div
+      class="one-dot d-flex position-absolute align-items-start d-none-991i"
+    >
+      <div
+        class="dots-div d-flex flex-wrap"
+      >
+        <div
+          class="d-flex flex-wrap"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="dots-div only-for-dots d-flex flex-wrap"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="inner-section margin-0-auto position-relative z-index-5"
+    >
+      <div
+        class="text-center text-white"
+      >
+        <small
+          class="ff-nunito"
+        >
+          Sobre nosotros
+        </small>
+         
+        <h2
+          class="ff-sans-b"
+        >
+          Desarrollamos Talento
+        </h2>
+         
+        <p
+          class="ff-nunito margin-0-auto"
+        >
+          
+          Somos un equipo que une. Que invita a explorar con creatividad y a
+          nunca dejar de innovar. A encontrar el éxito en cada esfuerzo. Que
+          ayuda a conectar el talento con el cambio.
+        
+        </p>
+         
+        <div
+          class="for-btn"
+        >
+          <a
+            class="btn-tell-more"
+            href="/aflora/desarrollamos-talento"
+          >
+            Conozca más
+          </a>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="two-dot d-flex position-absolute align-items-start"
+    >
+      <div
+        class="dots-div d-flex flex-wrap"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+         
+        <div
+          class="d-flex d-none-767i"
+        >
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot d-none-767"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+           
+          <span
+            class="dot"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

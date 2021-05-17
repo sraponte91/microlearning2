@@ -28,6 +28,7 @@
     <div class="container position-absolute set-to-bottom2 d-none-767">
       <div class="banner-arro">
         <a
+          id="go-prev"
           href="javascript:void(0)"
           class="ic-arrow arrow-lft"
           @click="goPrev()"
@@ -53,6 +54,7 @@
           </svg>
         </a>
         <a
+          id="go-next"
           href="javascript:void(0)"
           class="ic-arrow arrow-rit"
           @click="goNext()"
@@ -81,6 +83,7 @@
     </div>
     <div class="four-line position-absolute v-center d-none-767">
       <a
+        id="change-slide"
         href="javascript:void(0)"
         class="sign-line"
         :class="{ active: $refs.carousel && i === $refs.carousel.currentPage }"
