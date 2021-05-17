@@ -28,24 +28,22 @@
         <div class="sm-siz-container margin-0-auto">
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <h2 class="ff-sans-b ss d-block-991 d-none-n">Nuestros mentores</h2>
-            <div class="txt-points position-relative order-2-991"></div>
-              <h2 class="ff-sans-b d-none-991">Nuestros mentores</h2>
-              <div class="pra-p for-bgcol">
-                <!--<h3 class="ff-sans-b">Conoce tus guías</h3>-->
-                <p>
-                  Los emprendedores pueden contar con un comité de mentores padrinos conformado por los altos ejecutivos de las empresas del Grupo Bolívar y empresarios exitosos, que tienen la capacidad de analizar el negocio del emprendedor desde una perspectiva general, para entender la profundidad de su negocio y priorizar sus necesidades, dando acompañamiento al plan estratégico empresarial. 
-                </p>
-                <p>
-                  Algunos de nuestros mentores padrinos son:
-                </p>
-              </div>
-            </div>
+               <div class="txt-points position-relative order-2-991">
+                    <h2 class="ff-sans-b d-none-991">Nuestros mentores</h2>
+                    <div class="pra-p for-bgcol">
+                         <!--<h3 class="ff-sans-b">Conoce tus guías</h3>-->
+                         <p>Los emprendedores pueden contar con un comité de mentores padrinos conformado por los altos ejecutivos de las empresas del Grupo Bolívar y empresarios exitosos, que tienen la capacidad de analizar el negocio del emprendedor desde una perspectiva general, para entender la profundidad de su negocio y priorizar sus necesidades, dando acompañamiento al plan estratégico empresarial. </p>
+                         <p>Algunos de nuestros mentores padrinos son:</p>
+                    </div>
+            </div>              
+            
             <div class="img-points order-1-991">
               <img
                 src="/images/programa-emprende-pais/5-mentores/mentores_bloque1.jpg"
                 alt=""
                 class="object-fit-cover"
               />
+            </div>
             </div>
           </div>
         </div>
@@ -127,14 +125,20 @@ export default {
   },
   head() {
     return {
-      title: this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores
-        .meta.title + ' - ' + this.$constants.home.meta.title,
+      title:
+        this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.meta
+          .title +
+        ' - ' +
+        this.$constants.home.meta.title,
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: this.$emprendePaisData
-            .emprendePaisDesarrollamosTalentoMentores.meta.metaTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.meta
+              .metaTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'description',
@@ -145,8 +149,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.$emprendePaisData
-            .emprendePaisDesarrollamosTalentoMentores.meta.ogTitle + ' - ' + this.$constants.home.meta.title,
+          content:
+            this.$emprendePaisData.emprendePaisDesarrollamosTalentoMentores.meta
+              .ogTitle +
+            ' - ' +
+            this.$constants.home.meta.title,
         },
         {
           hid: 'og:description',
