@@ -103,23 +103,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/conciertos-nacionales.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b" id="conciertos-nacionales-counter"></h4>
@@ -130,23 +114,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/conciertos-internacionales.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4
@@ -160,23 +128,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/facultades-musica.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -192,23 +144,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/jovenes-musicos.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -223,23 +159,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+                <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/giras-nacionales.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -255,23 +175,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <svg
-                  version="1.2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  overflow="visible"
-                  preserveAspectRatio="none"
-                  viewBox="0 -10.002999400119977 50 50"
-                  width="62"
-                  height="62"
-                >
-                  <path
-                    d="M39.1,0H11L0,10v20h50V10L39.1,0z M11.9,2h26.3l9.1,8H32c0,3.7-3.3,6.9-7,6.9s-7-3.2-7-6.9H2.7L11.9,2z M48,28H2V12l14.2,0  c1,3.8,4.6,7,8.8,7c4.2,0,7.8-3.2,8.8-7L48,12V28z"
-                    style="fill: rgb(18, 18, 18)"
-                    vector-effect="non-scaling-stroke"
-                  />
-                  <g />
-                </svg>
+                <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/institucionales-musicales.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
