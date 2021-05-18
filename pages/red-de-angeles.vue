@@ -178,49 +178,49 @@
         <h4 class="ff-sans-b">Con el apoyo de:</h4>
         <div class="d-flex flex-wrap for-marg-1">
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/alcaldia-de-manizales.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/angel-ventures.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/camara-de-comercio-bmanga.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/camara-de-comercio-bogota.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/fbd.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/incubar-manizales.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"
             ></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/gell_logo.svg" alt="" />
+            <img src="/images/programas-angeles/aliados/inlazu.png" alt="" />
             <a
               href="javascript:void(0)"
               class="position-absolute full-box-link"

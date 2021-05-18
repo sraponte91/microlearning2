@@ -408,50 +408,14 @@ Vue.prototype.$constants = {
     ],
     testimonios: [
       {
-        title: 'Carolina Escalona - Presidenta Fundación Rafael Escalona',
+        title: 'Carmen Gloria Pinzón. Ángel inversionista RAI Santander',
         description:
-          'Con Aflora pudimos realizar muchos cambios internos y reconocer qué nos hace falta para llegar a ser una organización autosostenible y con visión.',
+          'Un buen vehículo que nos ha llevado a encontrar oportunidades de inversión, que nos permiten mantener activo ese espíritu de riesgo que definitivamente debemos tener al decidir invertir junto a emprendedores. Nos ha permitido creer que también podemos apoyar con nuestra experiencia y aportar al desarrollo y crecimiento del emprendedor, la industria y la región.',
       },
       {
-        title: 'Marian Tertel - Coordinadora en la Fundación Sole Colombia',
+        title: 'Germán Hernández Giraldo. Inversiones gama verde SAS',
         description:
-          'Gracias a Aflora pudimos entender dónde estábamos y hacia dónde teníamos que proyectarnos para cumplir todos nuestros objetivos.',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
-      },
-      {
-        title:
-          'Isabel Cristina Rengifo - Representante legal de Fundación Mis Corazones Alegres',
-        description:
-          'Con los ciclos de Aflora logramos armar bien los proyectos y fortalecer los  procesos internos de la fundación',
+          'Gracias al apoyo de la Red de Ángeles Inversionistas, he visto que todo este esfuerzo, constancia y sacrificio para llevar la empresa a un nivel de desarrollo que compita en las grandes ligas de la agroindustria, ha merecido la pena. Hoy considero que soy privilegiado de tener como socios a los mejores empresarios y mentores para lograrlo',
       },
     ],
   },
