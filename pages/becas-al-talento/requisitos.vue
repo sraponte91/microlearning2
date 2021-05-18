@@ -88,10 +88,9 @@
         <div class="txt-img-multi">
           <div class="only-txt outer-small-txt">
             <div class="b-title">
-              <p>
-                Para beneficiarios antiguos del programa, estos son los
-                requerimientos para renovar el beneficio:
-              </p>
+              <p class="sub">
+            Para beneficiarios antiguos del programa, estos son los requerimientos para renovar el beneficio
+          </p>
             </div>
             <div class="single-txt top-small">
               <ul>
