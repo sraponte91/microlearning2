@@ -34,7 +34,7 @@
       >
         <h1 class="ff-sans-b">La Orquesta</h1>
         <div class="on-banner-tx margin-0-auto">
-          <p>
+          <!--<p>
             Credibly pursue efficient relationships after strategic
             collaboration and idea-sharing. Completely embrace virtual
             technology after out-of-the-box collaboration and idea-sharing.
@@ -43,7 +43,7 @@
             procedures without extensive internal or "organic" sources.
             Phosfluorescently matrix 24/7 scenarios before robust best
             practices.
-          </p>
+          </p>-->
         </div>
       </div>
     </section>
@@ -125,11 +125,11 @@
         <div class="text-center">
           <div class="margin-0-auto pra-p-mem">
             <h3 class="ff-sans-b">Artistas Invitados</h3>
-            <p>
+           <!--<p>
               Professionally innovate goal-oriented human capital for
               interactive leadership. Monotonectally innovate 24/7 collaboration
               and idea-sharing rather than economically sound technologies.
-            </p>
+            </p>-->
           </div>
         </div>
         <div class="listof-member">
@@ -192,11 +192,11 @@
         <div class="text-center">
           <div class="margin-0-auto pra-p-mem">
             <h3 class="ff-sans-b">Directores</h3>
-            <p>
+            <!--<p>
               Professionally innovate goal-oriented human capital for
               interactive leadership. Monotonectally innovate 24/7 collaboration
               and idea-sharing rather than economically sound technologies.
-            </p>
+            </p>-->
           </div>
         </div>
         <div class="listof-member">

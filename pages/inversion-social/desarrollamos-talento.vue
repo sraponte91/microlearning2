@@ -87,7 +87,7 @@
                     Inclusión y retención en el sistema educativo
                   </h2>
                   <p>
-                    Fortalecimiento creación de ambientes de aprendizaje que
+                    Fortalecimiento y creación de ambientes de aprendizaje que
                     faciliten el proceso educativo de niños y niñas,
                     incentivando su permanencia dentro del sistema educativo y
                     evitando su deserción. Trabajamos con docentes, niños,
