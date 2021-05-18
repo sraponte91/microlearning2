@@ -53,7 +53,7 @@
                         La Nota Joven para semilleros.
                       </li>
                       <li class="position-relative before-po">
-                        Guardianes de la Música, una aplicación que busca
+                        <a href="https://www.guardianesdelamusica.com/" target="_blank">Guardianes de la Música</a>, una aplicación que busca
                         acercar a los niños y niñas al universo de la música
                         sinfónica.
                       </li>
