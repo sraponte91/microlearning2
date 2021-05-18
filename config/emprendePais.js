@@ -46,7 +46,7 @@ Vue.prototype.$emprendePaisData = {
     }, {
       title: 'Angel Ventures',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_angel_ventures.png',
-      description: 'Trabajamos en alianza con Angel Ventures, expertos en establecer conexiones de valor entre inversionistas y emprendedores. Tienen operaciones en México, Perú, Chile y actualmente en Colombia. Emprende País capacita a los inversionistas y emprendedores, con el fin de crear una comunidad en el ecosistema de inversionistas, para ayudar a más proyectos potencialmente interesantes.'
+      description: 'Trabajamos en alianza con Angel Ventures, expertos en establecer conexiones de valor entre inversionistas y emprendedores exitosos. Tienen operaciones en México, Perú, Chile y actualmente en Colombia. Emprende País capacita a los inversionistas y emprendedores, con el fin de crear una comunidad en el ecosistema de inversionistas, para ayudar a más proyectos potencialmente interesantes.'
     }, {
       title: 'Social Skin',
       imgURL: '/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_social_skin.png',

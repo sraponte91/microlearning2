@@ -26,7 +26,7 @@
   width: 100%;
   z-index: 9;
   left: 100px;
-  max-width: 400px;
+  max-width: 600px;
 }
 .aflora-bnr-se .log-prt {
   margin: 0 0 20px;
@@ -1563,6 +1563,7 @@
   .aflora-bnr-se .some-txt-logo {
     margin: 0 auto;
     left: 0;
+    width: 90%;
   }
   .only-links-to .linkse {
     width: 150px;
