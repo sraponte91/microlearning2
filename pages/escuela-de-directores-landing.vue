@@ -206,7 +206,7 @@
           </div>
           <div class="col-md-4">
             <div class="sec6-inner-box">
-              <h4 class="ff-sans-b">3. Formulario Completo</h4>
+              <h4 class="ff-sans-b">3. Método de pago</h4>
               <b-img
                 src="/images/director-participate-3.jpg"
                 fluid

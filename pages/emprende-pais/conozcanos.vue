@@ -326,7 +326,7 @@
         </div>
       </div>
     </section>
-
+<!--
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
@@ -350,6 +350,7 @@
         </div>
       </div>
     </section>
+    -->
   </main>
 </template>
 <script>
