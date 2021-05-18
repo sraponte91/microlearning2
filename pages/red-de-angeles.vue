@@ -380,6 +380,7 @@ export default {
   padding: 25px;
   height: 100%;
   flex: 0 0 35%;
+  min-height: 800px;
 }
 .sec2-inner-box h4 {
   font-size: 24px;
@@ -563,6 +564,7 @@ export default {
   .sec2-boxes .sec2-inner-box {
     flex: 0 0 100%;
     margin: 0 0 15px;
+    min-height: auto;
   }
   .invester-section-3 h2 {
     font-size: 42px;
