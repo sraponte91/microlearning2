@@ -59,7 +59,7 @@ Vue.prototype.$inversionSocialData = {
   inversionSocialConvocatorias: {
     quieroConocerMasLink: 'javascript:void(0)',
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: '',
+    inscribaseLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
     meta: {
       title: 'Inversión social',
       metaTitle: 'Inversión social',

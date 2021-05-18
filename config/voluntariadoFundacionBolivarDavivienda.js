@@ -15,14 +15,14 @@ Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
   voluntariadoFundacionBolivarDaviviendaConozcanos: {
     testimonios: [
       {
-        title: 'Patricia Zambrano - Voluntaria Seguros Bolívar ',
+        title: 'Patricia Zambrano - Voluntaria Seguros Bolívar  ',
         description:
           'Es despertar esa ayuda hacia los demás. Sentirse uno útil, sentir que en esta sociedad está aportando uno así sea un granito de arena para mejorar las condiciones',
       },
       {
-        title: 'Blanca Gutiérrez - Voluntaria Seguros Bolívar ',
+        title: 'Blanca Gutiérrez - Voluntaria Seguros Bolívar  ',
         description:
-          'Cada persona desde su formación puede impactar y ahí así construir ese país que todos soñamos, armonioso, con equidad…',
+          'Cada persona desde su formación puede impactar y así construir ese país que todos soñamos, armonioso, con equidad…',
       },
       {
         title:
@@ -58,7 +58,7 @@ Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
   },
   voluntariadoFundacionBolivarDaviviendaInscripciones: {
     reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: 'javascript:void(0)',
+    inscribaseLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
     meta: {
       title: 'Voluntariado fundación Bolivar',
       metaTitle: 'Voluntariado fundación Bolivar',

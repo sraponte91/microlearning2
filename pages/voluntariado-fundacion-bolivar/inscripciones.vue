@@ -87,7 +87,7 @@
                     .reglamentoLink
                 "
                 class="btn-sm btn-line-btn text-center"
-                >Lee el reglamento de inscripción</a
+                >Lea el reglamento de inscripción</a
               >
               <a
                 :href="

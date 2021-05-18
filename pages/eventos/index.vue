@@ -18,12 +18,12 @@
             <div class="orange-bg wow bounceInDown" data-wow-duration="2s">
               <h1 class="ff-sans-b">Eventos</h1>
             </div>
-            <div class="black-bg wow bounceInUp" ata-wow-duration="2s">
+            <!--<div class="black-bg wow bounceInUp" ata-wow-duration="2s">
               <p class="ff-nunito">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at porttitor sem.
               </p>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
