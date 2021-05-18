@@ -106,7 +106,7 @@
                <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/boleto.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
-                <h4 class="ff-sans-b" id="conciertos-nacionales-counter"></h4>
+                <h4 class="ff-sans-b" id="conciertos-nacionales-counter"></h4>+
                 <p class="ff-nunito">Conciertos Nacionales</p>
               </div>
             </div>
@@ -121,7 +121,7 @@
                   class="ff-sans-b"
                   id="conciertos-internacionales-counter"
                 ></h4>
-                <p class="ff-nunito">Conciertos Internacionales</p>
+                <p class="ff-nunito">Giras Internacionales en 29 ciudades</p>
               </div>
             </div>
           </div>
@@ -132,9 +132,9 @@
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
-                  <span id="facultades-de-musica-counter"></span> +
+                  <span id="facultades-de-musica-counter"></span>
                 </h4>
-                <p class="ff-nunito">Facultades De música</p>
+                <p class="ff-nunito">Giras nacionales en 26 ciudades</p>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
                   <span id="musicos-de-counter"></span> +
                 </h4>
                 <p class="ff-nunito">
-                  Músicos De 40 municipios en 12 departamentos de Colombia.
+                  Musicos Colombianos beneficiados
                 </p>
               </div>
             </div>
@@ -166,8 +166,7 @@
                   <span id="de-personas-counter"></span> +
                 </h4>
                 <p class="ff-nunito">
-                  De personas en 25 países diferentes, han escuchado cómo suena
-                  el talento joven de Colombia.
+                  Asistentes en conciertos
                 </p>
               </div>
             </div>
@@ -576,9 +575,9 @@ export default {
   mounted() {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry && entry.isIntersecting) {
-        this.counter('conciertos-nacionales-counter', 0, 123, 0.1)
-        this.counter('conciertos-internacionales-counter', 0, 177, 0.1)
-        this.counter('facultades-de-musica-counter', 0, 30, 0.1)
+        this.counter('conciertos-nacionales-counter', 0, 170, 0.1)
+        this.counter('conciertos-internacionales-counter', 0, 6, 0.1)
+        this.counter('facultades-de-musica-counter', 0, 14, 0.1)
         this.counter('musicos-de-counter', 0, 600, 0.2)
         this.counter('de-personas-counter', 0, 3000000, 5000)
         this.counter('instituciones-musicales-counter', 0, 20, 0.1)
