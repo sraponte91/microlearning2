@@ -37,7 +37,7 @@ Vue.prototype.$afloraData = {
       metaDescription: 'Conózcanos Description',
       ogTitle: 'Conózcanos',
       ogDescription: 'Conózcanos',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/2-conozcanos/aflora_conozcanos_og.jpg',
     },
   },
   afloraDesarrollamosTalento: {
@@ -50,7 +50,7 @@ Vue.prototype.$afloraData = {
       metaDescription: 'Desarrollamos talento Description',
       ogTitle: 'Desarrollamos talento',
       ogDescription: 'Desarrollamos talento',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/2-conozcanos/aflora_desarrollamostalento_og.jpg',
     },
   },
   afloraDesarrollamosTalentoCiclosDeFormacion: {
@@ -60,7 +60,7 @@ Vue.prototype.$afloraData = {
       metaDescription: 'Desarrollamos talento Description',
       ogTitle: 'Desarrollamos talento',
       ogDescription: 'Desarrollamos talento',
-      ogImage: '/images/fundacion_bolivar_davivenda.png',
+      ogImage: '/images/programa-aflora/2-conozcanos/aflora_ciclosformacion_og.jpg',
     },
   },
   afloraAutodiagnostico: {

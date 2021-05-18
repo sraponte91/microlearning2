@@ -378,32 +378,32 @@ Vue.prototype.$constants = {
     perfilesInversionistaUrl: 'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Red+de+angeles+inversionistas&grupo=Inversionistas',
     requisitos: [
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/curriculum.png',
+        description: 'Tener mínimo 6 meses de operación.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/asistencia-social.png',
+        description: 'El emprendimiento no destruye valor social o ambiental.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/iconAS-05.png',
+        description: 'Un emprendedor del equipo tiene que estar dedicado 100% a la empresa.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/iprogramas-angeles/iconos/certificate.png',
+        description: 'La empresa debe estar legalmente constituida.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/crecimiento.png',
+        description: 'Contar una facturación mínima de 50 millones de pesos en el último año.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/clasificacion.png',
+        description: 'Contar con un factor innovador.',
       },
       {
-        image: '/images/icon-user-group.png',
-        description: 'Su emprendimiento no destruye valor social o ambiental',
+        image: '/images/programas-angeles/iconos/colombia.png',
+        description: 'Debe ser una empresa colombiana.',
       },
     ],
     testimonios: [

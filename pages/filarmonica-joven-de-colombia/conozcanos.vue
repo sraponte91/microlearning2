@@ -103,7 +103,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/conciertos-nacionales.png" style="img-fluid" alt="">
+               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/boleto.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b" id="conciertos-nacionales-counter"></h4>
@@ -114,7 +114,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/conciertos-internacionales.png" style="img-fluid" alt="">
+               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/boleto.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4
@@ -128,7 +128,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/facultades-musica.png" style="img-fluid" alt="">
+               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/nota-musical.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -144,7 +144,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-               <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/jovenes-musicos.png" style="img-fluid" alt="">
+               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/violonchelo.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -159,7 +159,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/giras-nacionales.png" style="img-fluid" alt="">
+                <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/internacional.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -175,7 +175,7 @@
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-                <img src="images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/institucionales-musicales.png" style="img-fluid" alt="">
+                <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/musica.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">

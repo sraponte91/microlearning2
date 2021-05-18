@@ -128,7 +128,7 @@
         <div class="all-achive">
           <div class="single-achive">
             <div class="achive-img">
-              <img src="/images/icon.png" alt="" />
+              <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/red.png" alt="" style="img-fluid" />
             </div>
             <div class="achive-txt">
               <h3 id="beneficiarios-counter"></h3>
@@ -137,7 +137,7 @@
           </div>
           <div class="single-achive">
             <div class="achive-img">
-              <img src="/images/icon.png" alt="" />
+             <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/edificio.png" alt="" style="img-fluid" />
             </div>
             <div class="achive-txt">
               <h3 id="sedes-counter"></h3>
@@ -146,7 +146,7 @@
           </div>
           <div class="single-achive">
             <div class="achive-img">
-              <img src="/images/icon.png" alt="" />
+               <img src="/images/programa-cultivarte/2-conozcanos/iconos-cifras/responsabilidad.png" alt="" style="img-fluid" />
             </div>
             <div class="achive-txt">
               <h3 id="asistentes-permanentes-counter"></h3>

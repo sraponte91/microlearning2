@@ -97,7 +97,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/empresas.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/adquisicion.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -114,7 +114,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/ciudades.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/destino.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -132,7 +132,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/mentorias.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/consulta.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -152,7 +152,7 @@
             <div class="d-flex">
               <i class="icon">
                 <img
-                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/consultores.png"
+                  src="/images/programa-emprende-pais/2-conozcanos/iconos-cifras/visitante.png"
                   alt=""
                   class="img-fluid"
                 />
