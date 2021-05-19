@@ -138,8 +138,8 @@
                 <p class="ff-nunito">Giras nacionales en 26 ciudades</p>
               </div>
             </div>
-          </div>
-        </div>-->
+          </div>-->
+        </div>
 
         <div class="nd-three-bex-sm margin-0-auto com-stu d-flex flex-wrap-767">
           <div class="sigl-bx">
