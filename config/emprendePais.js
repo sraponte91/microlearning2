@@ -178,7 +178,7 @@ Vue.prototype.$emprendePaisData = {
     },
   },
   emprendePaisConvocatorias: {
-    reglamentoLink: 'javascript:void(0)',
+    reglamentoLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
     inscribaseLink: 'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Emprende+País&grupo=Empresa',
     meta: {
       title: 'Emprende-país',

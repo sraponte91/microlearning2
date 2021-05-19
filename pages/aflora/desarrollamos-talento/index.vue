@@ -88,7 +88,7 @@
 
                 Estas son las características de cada nivel: <br />
               </p>
-              <!--New design--->
+              <!--New design---
               <div class="four-boxes">
                 <div class="d-flex flex-wrap">
                   <div class="one-box text-center position-relative">
@@ -154,6 +154,8 @@
                   </div>
                 </div>
               </div>
+              -->
+              <p>Nuestro foco principal serán aquellas organizaciones sociales altamente comprometidas con su proceso formativo y que apliquen el uso y herramientas que brinda cada nivel. </p>
               <!--Close New design--->
 
             </div>
@@ -197,8 +199,7 @@
                 </p>
               </div>
               <div class="btn-g text-center">
-                <a :href="$afloraData.afloraDesarrollamosTalento.escuelaLink" class="btn-know-leave ff-sans-b">Conocer
-                  Niveles</a>
+                <a :href="$afloraData.afloraDesarrollamosTalento.escuelaLink" class="btn-know-leave ff-sans-b">Conozca más</a>
               </div>
             </div>
           </div>

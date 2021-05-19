@@ -390,7 +390,7 @@ Vue.prototype.$constants = {
         description: 'Un emprendedor del equipo tiene que estar dedicado 100% a la empresa.',
       },
       {
-        image: '/images/iprogramas-angeles/iconos/certificate.png',
+        image: '/images/programas-angeles/iconos/certificate.png',
         description: 'La empresa debe estar legalmente constituida.',
       },
       {
@@ -428,6 +428,7 @@ Vue.prototype.$constants = {
       ogDescription: 'Escuela De Directores Landing',
       ogImage: '/images/fundacion_bolivar_davivenda.png',
     },
+    inscribaseLink:'https://fundacionbolivardaviviendaorg.force.com/comunidadfbd/s/?language=es_CO&programa=Aflora&grupo=Estudiantes+de+escuelas',
     metodoDelCasos: [
       {
         title: 'Unidad 1',

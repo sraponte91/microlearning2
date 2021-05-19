@@ -39,11 +39,7 @@
             <div class="sec2-boxes">
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Empresas</h4>
-                <b-img
-                  src="/images/invester-profile-1.jpg"
-                  fluid
-                  alt=""
-                ></b-img>
+                <b-img src="/images/invester-profile-1.jpg" fluid alt=""></b-img>
                 <p>
                   Una vez cursados los seis módulos del plan de estudios, los
                   miembros de la cohorte aplican el conocimiento y las
@@ -53,21 +49,13 @@
                   cada participante.
                 </p>
                 <div class="text-center">
-                  <b-button
-                    variant="primary"
-                    target="_blank"
-                    :href="$constants.redDeAngeles.perfilesEmpresasUrl"
-                    >Inscribase aquí</b-button
-                  >
+                  <b-button variant="primary" target="_blank" :href="$constants.redDeAngeles.perfilesEmpresasUrl">
+                    Inscribase aquí</b-button>
                 </div>
               </div>
               <div class="sec2-inner-box">
                 <h4 class="ff-sans-b">Inversionista</h4>
-                <b-img
-                  src="/images/invester-profile-2.jpg"
-                  fluid
-                  alt=""
-                ></b-img>
+                <b-img src="/images/invester-profile-2.jpg" fluid alt=""></b-img>
                 <p>
                   Los inversionistas que participan en la Red de Ángeles
                   Inversionistas han impactado al país con su liderazgo y
@@ -78,12 +66,8 @@
                   en una etapa temprana.
                 </p>
                 <div class="text-center">
-                  <b-button
-                    variant="primary"
-                    target="_blank"
-                    :href="$constants.redDeAngeles.perfilesInversionistaUrl"
-                    >Inscribase aquí</b-button
-                  >
+                  <b-button variant="primary" target="_blank" :href="$constants.redDeAngeles.perfilesInversionistaUrl">
+                    Inscribase aquí</b-button>
                 </div>
               </div>
             </div>
@@ -99,19 +83,12 @@
               Requisitos para aplicar a la red como emprendendor
             </h2>
             <client-only>
-              <carousel
-                :perPageCustom="[
+              <carousel :perPageCustom="[
                   [575, 1],
                   [1024, 1],
                   [1200, 1],
-                ]"
-                :navigationEnabled="false"
-                :paginationEnabled="true"
-              >
-                <slide
-                  v-for="(requisitos, i) in $constants.redDeAngeles.requisitos"
-                  :key="i"
-                >
+                ]" :navigationEnabled="false" :paginationEnabled="true">
+                <slide v-for="(requisitos, i) in $constants.redDeAngeles.requisitos" :key="i">
                   <div class="sec3-boxes">
                     <div class="row align-items-center">
                       <div class="col-md-4">
@@ -139,28 +116,19 @@
         <div class="testimo-slider">
           <div class="for-marg-1">
             <client-only>
-              <carousel
-                :perPageCustom="[
+              <carousel :perPageCustom="[
                   [575, 1],
                   [1024, 2],
                   [1200, 3],
-                ]"
-                :navigationEnabled="false"
-                :paginationEnabled="true"
-              >
-                <slide
-                  v-for="(item, i) of $constants.redDeAngeles.testimonios"
-                  :key="i"
-                >
+                ]" :navigationEnabled="false" :paginationEnabled="true">
+                <slide v-for="(item, i) of $constants.redDeAngeles.testimonios" :key="i">
                   <div class="position-relative testimo-bx bg-white">
                     <div class="text-center til ff-sans-b">
                       <h3>
                         {{ item.title }}
                       </h3>
                     </div>
-                    <div
-                      class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i"
-                    >
+                    <div class="txt margin-0-auto position-relative after-po before-po quote-sign ff-sans-i">
                       <p>
                         {{ item.description }}
                       </p>
@@ -178,53 +146,24 @@
         <h4 class="ff-sans-b">Con el apoyo de:</h4>
         <div class="d-flex flex-wrap for-marg-1">
           <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programas-angeles/aliados/alcaldia-de-manizales.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
-          </div>
-          <div class="lgoes-bx d-flex align-items-center position-relative">
             <img src="/images/programas-angeles/aliados/angel-ventures.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
+            <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
             <img src="/images/programas-angeles/aliados/camara-de-comercio-bmanga.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
-          </div>
-          <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programas-angeles/aliados/camara-de-comercio-bogota.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
-          </div>
-          <div class="lgoes-bx d-flex align-items-center position-relative">
-            <img src="/images/programas-angeles/aliados/fbd.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
+            <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
             <img src="/images/programas-angeles/aliados/incubar-manizales.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
+            <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
           </div>
           <div class="lgoes-bx d-flex align-items-center position-relative">
             <img src="/images/programas-angeles/aliados/inlazu.png" alt="" />
-            <a
-              href="javascript:void(0)"
-              class="position-absolute full-box-link"
-            ></a>
+            <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
+          </div>
+          <div class="lgoes-bx d-flex align-items-center position-relative">
+            <img src="/images/programas-angeles/aliados/camara-de-comercio-bogota.png" alt="" />
+            <a href="javascript:void(0)" class="position-absolute full-box-link"></a>
           </div>
         </div>
       </div>
@@ -232,349 +171,384 @@
   </main>
 </template>
 <script>
-export default {
-  head() {
-    return {
-      title:
-        this.$constants.redDeAngeles.meta.title +
-        ' - ' +
-        this.$constants.home.meta.title,
-      meta: [
-        {
-          hid: 'title',
-          name: 'title',
-          content:
-            this.$constants.redDeAngeles.meta.metaTitle +
-            ' - ' +
-            this.$constants.home.meta.title,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$constants.redDeAngeles.meta.metaDescription,
-        },
-        {
-          hid: 'og:title',
-          name: 'og:title',
-          content:
-            this.$constants.redDeAngeles.meta.ogTitle +
-            ' - ' +
-            this.$constants.home.meta.title,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$constants.redDeAngeles.meta.ogDescription,
-        },
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          content: `${this.$constants.baseURL}${this.$constants.redDeAngeles.meta.ogImage}`,
-        },
-      ],
-    }
-  },
-}
+  export default {
+    head() {
+      return {
+        title: this.$constants.redDeAngeles.meta.title +
+          ' - ' +
+          this.$constants.home.meta.title,
+        meta: [{
+            hid: 'title',
+            name: 'title',
+            content: this.$constants.redDeAngeles.meta.metaTitle +
+              ' - ' +
+              this.$constants.home.meta.title,
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$constants.redDeAngeles.meta.metaDescription,
+          },
+          {
+            hid: 'og:title',
+            name: 'og:title',
+            content: this.$constants.redDeAngeles.meta.ogTitle +
+              ' - ' +
+              this.$constants.home.meta.title,
+          },
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.$constants.redDeAngeles.meta.ogDescription,
+          },
+          {
+            hid: 'og:image',
+            name: 'og:image',
+            content: `${this.$constants.baseURL}${this.$constants.redDeAngeles.meta.ogImage}`,
+          },
+        ],
+      }
+    },
+  }
+
 </script>
 
 
 
 <style scoped>
-.bg-grey {
-  background: #f7f7f7;
-}
-.text-orange {
-  color: #ff671b;
-}
-.invester-section-1 {
-  padding: 50px 0;
-}
-.invester-section-1 h1 {
-  font-size: 60px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  text-align: center;
-}
-.invester-section-1 .text-orange {
-  font-family: Nunito;
-  font-size: 32px;
-  color: #ff671b;
-  text-decoration: none solid rgb(255, 103, 27);
-  line-height: 34px;
-  letter-spacing: 2px;
-  text-align: center;
-}
-.sec1-boxes {
-  margin-top: 30px;
-  position: relative;
-  overflow: hidden;
-}
-.sec1-boxes .img-fluid {
-  position: absolute;
-  z-index: 0;
-  right: 0;
-  top: 0;
-}
-.sec1-boxes .sec1-description {
-  position: relative;
-  z-index: 1;
-  padding: 50px;
-  width: 60%;
-  background: -moz-linear-gradient(
-    left,
-    rgba(218, 218, 218, 1) 0%,
-    rgba(218, 218, 218, 1) 50%,
-    rgba(255, 255, 255, 1) 75%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(218, 218, 218, 1) 0%,
-    rgba(218, 218, 218, 1) 50%,
-    rgba(255, 218, 255, 1) 75%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(218, 218, 218, 1) 0%,
-    rgba(218, 218, 218, 1) 50%,
-    rgba(255, 255, 255, 1) 75%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadada', endColorstr='#00dadada',GradientType=1 );
-}
-.sec1-boxes h3 {
-  font-size: 60px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  line-height: 64px;
-  margin-bottom: 25px;
-}
-.sec1-boxes p {
-  font-family: Nunito;
-  font-size: 18px;
-  color: #313338;
-  text-decoration: none solid rgb(49, 51, 56);
-  line-height: 32px;
-}
-
-.invester-section-2 {
-  padding: 50px 0;
-}
-.invester-section-2 h2 {
-  font-size: 60px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  text-align: center;
-}
-.sec2-boxes {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: center;
-  margin-top: 15px;
-}
-.sec2-boxes .sec2-inner-box {
-  background: #fff;
-  margin: 0 30px;
-  padding: 25px;
-  height: 100%;
-  flex: 0 0 35%;
-  min-height: 800px;
-}
-.sec2-inner-box h4 {
-  font-size: 24px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  line-height: 32px;
-  margin-bottom: 15px;
-}
-.sec2-inner-box p {
-  font-family: Nunito;
-  font-size: 18px;
-  color: #77777a;
-  text-decoration: none solid rgb(119, 119, 122);
-  line-height: 32px;
-  margin-bottom: 15px;
-}
-.sec2-inner-box .img-fluid {
-  margin-bottom: 15px;
-}
-.sec2-inner-box .btn-primary {
-  padding: 10px 25px;
-  background-color: #ff671b;
-  font-family: Nunito;
-  font-size: 18px;
-  color: #ffffff;
-  text-decoration: none solid rgb(255, 255, 255);
-  text-align: center;
-  border: none;
-  border-radius: 0;
-  margin-bottom: 15px;
-}
-
-.invester-section-3 {
-  padding: 50px 0;
-}
-.invester-section-3 h2 {
-  font-size: 60px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  margin-bottom: 50px;
-  text-align: center;
-  position: relative;
-}
-.invester-section-3 h2:after {
-  content: '';
-  position: absolute;
-  width: 300px;
-  height: 1px;
-  background: #2f425b;
-  margin-left: -150px;
-  left: 50%;
-  bottom: -20px;
-}
-
-.invester-section-3 .VueCarousel {
-  padding-top: 100px;
-}
-.invester-section-3 .VueCarousel-pagination {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
-}
-.invester-section-3 {
-  counter-reset: my-sec-counter;
-}
-.invester-section-3 .VueCarousel-dot-container button:before {
-  counter-increment: my-sec-counter;
-  content: counter(my-sec-counter);
-}
-.invester-section-3 .VueCarousel-dot-container {
-  margin: 0 !important;
-}
-.invester-section-3 .VueCarousel-dot-container button {
-  margin: 0 5px !important;
-  padding: 0 !important;
-  width: 60px !important;
-  height: 55px !important;
-  border-radius: 5px;
-  background: #2f425b !important;
-  font-family: sansationbold;
-  font-size: 26px;
-  color: #f7f7f7;
-  text-decoration: none solid rgb(247, 247, 247);
-  text-transform: uppercase;
-  text-align: center;
-  outline: none !important;
-}
-.invester-section-3 .VueCarousel-dot-container .VueCarousel-dot--active {
-  background: #ff671b !important;
-  color: #fff;
-}
-
-.sec3-boxes {
-  margin: 30px;
-  margin-top: 0;
-  margin-bottom: 40px;
-  padding: 30px;
-  border-radius: 10px;
-  background: #f7f7f7;
-  box-shadow: 0px 22px 30px rgba(17, 24, 32, 0.12);
-}
-.sec3-boxes {
-  text-align: center;
-}
-.sec3-boxes p {
-  font-size: 22px;
-  color: #111820;
-  text-decoration: none solid rgb(17, 24, 32);
-  line-height: 28px;
-}
-
-.invester-section-4 {
-  padding: 50px 0;
-}
-
-.invester-section-4 h2 {
-  font-size: 60px;
-  color: #2f425b;
-  text-decoration: none solid rgb(47, 66, 91);
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.invester-section-5 {
-  padding: 50px 0;
-}
-.invester-section-5 h4 {
-  color: #111820;
-  font-size: 20px;
-  margin: 0 0 15px;
-}
-.invester-section-5 .for-marg-1 {
-  margin: 0 -1%;
-}
-.invester-section-5 .lgoes-bx {
-  width: 12.28571%;
-  margin: 10px 1%;
-  height: 60px;
-}
-.invester-section-5 .lgoes-bx img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 100%;
-}
-@media (max-width: 767px) {
-  .invester-section-1 h1 {
-    font-size: 42px;
-    line-height: normal;
+  .bg-grey {
+    background: #f7f7f7;
   }
-  .invester-section-1 .text-orange {
-    font-size: 22px;
-    line-height: normal;
+
+  .text-orange {
+    color: #ff671b;
   }
+
   .invester-section-1 {
-    padding-bottom: 15px;
+    padding: 50px 0;
   }
+
+  .invester-section-1 h1 {
+    font-size: 60px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    text-align: center;
+  }
+
+  .invester-section-1 .text-orange {
+    font-family: Nunito;
+    font-size: 32px;
+    color: #ff671b;
+    text-decoration: none solid rgb(255, 103, 27);
+    line-height: 34px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .sec1-boxes {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
   .sec1-boxes .img-fluid {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .sec1-boxes .sec1-description {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    width: 60%;
+    background: -moz-linear-gradient(left,
+        rgba(218, 218, 218, 1) 0%,
+        rgba(218, 218, 218, 1) 50%,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left,
+        rgba(218, 218, 218, 1) 0%,
+        rgba(218, 218, 218, 1) 50%,
+        rgba(255, 218, 255, 1) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right,
+        rgba(218, 218, 218, 1) 0%,
+        rgba(218, 218, 218, 1) 50%,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dadada', endColorstr='#00dadada', GradientType=1);
+  }
+
+  .sec1-boxes h3 {
+    font-size: 60px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    line-height: 64px;
+    margin-bottom: 25px;
+  }
+
+  .sec1-boxes p {
+    font-family: Nunito;
+    font-size: 18px;
+    color: #313338;
+    text-decoration: none solid rgb(49, 51, 56);
+    line-height: 32px;
+  }
+
+  .invester-section-2 {
+    padding: 50px 0;
+  }
+
+  .invester-section-2 h2 {
+    font-size: 60px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    text-align: center;
+  }
+
+  .sec2-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .sec2-boxes .sec2-inner-box {
+    background: #fff;
+    margin: 0 30px;
+    padding: 25px;
+    height: 100%;
+    flex: 0 0 35%;
+    min-height: 800px;
+  }
+
+  .sec2-inner-box h4 {
+    font-size: 24px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  .sec2-inner-box p {
+    font-family: Nunito;
+    font-size: 18px;
+    color: #77777a;
+    text-decoration: none solid rgb(119, 119, 122);
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  .sec2-inner-box .img-fluid {
+    margin-bottom: 15px;
+  }
+
+  .sec2-inner-box .btn-primary {
+    padding: 10px 25px;
+    background-color: #ff671b;
+    font-family: Nunito;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+  }
+
+  .invester-section-3 {
+    padding: 50px 0;
+  }
+
+  .invester-section-3 h2 {
+    font-size: 60px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    margin-bottom: 50px;
+    text-align: center;
     position: relative;
   }
-  .sec1-boxes .sec1-description {
-    width: 100%;
+
+  .invester-section-3 h2:after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background: #2f425b;
+    margin-left: -150px;
+    left: 50%;
+    bottom: -20px;
+  }
+
+  .invester-section-3 .VueCarousel {
+    padding-top: 100px;
+  }
+
+  .invester-section-3 .VueCarousel-pagination {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+  }
+
+  .invester-section-3 {
+    counter-reset: my-sec-counter;
+  }
+
+  .invester-section-3 .VueCarousel-dot-container button:before {
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter);
+  }
+
+  .invester-section-3 .VueCarousel-dot-container {
+    margin: 0 !important;
+  }
+
+  .invester-section-3 .VueCarousel-dot-container button {
+    margin: 0 5px !important;
+    padding: 0 !important;
+    width: 60px !important;
+    height: 55px !important;
+    border-radius: 5px;
+    background: #2f425b !important;
+    font-family: sansationbold;
+    font-size: 26px;
+    color: #f7f7f7;
+    text-decoration: none solid rgb(247, 247, 247);
+    text-transform: uppercase;
+    text-align: center;
+    outline: none !important;
+  }
+
+  .invester-section-3 .VueCarousel-dot-container .VueCarousel-dot--active {
+    background: #ff671b !important;
+    color: #fff;
+  }
+
+  .sec3-boxes {
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
     background: #f7f7f7;
-    padding: 25px;
+    box-shadow: 0px 22px 30px rgba(17, 24, 32, 0.12);
   }
-  .sec1-boxes h3 {
-    font-size: 40px;
-    line-height: normal;
+
+  .sec3-boxes {
+    text-align: center;
   }
-  .sec1-boxes p {
-    font-size: 14px;
-    line-height: normal;
+
+  .sec3-boxes p {
+    font-size: 22px;
+    color: #111820;
+    text-decoration: none solid rgb(17, 24, 32);
+    line-height: 28px;
   }
-  .invester-section-2 {
-    padding-bottom: 25px;
+
+  .invester-section-4 {
+    padding: 50px 0;
   }
-  .sec2-boxes {
-    flex-direction: column;
+
+  .invester-section-4 h2 {
+    font-size: 60px;
+    color: #2f425b;
+    text-decoration: none solid rgb(47, 66, 91);
+    text-align: center;
+    margin-bottom: 15px;
   }
-  .sec2-boxes .sec2-inner-box {
-    flex: 0 0 100%;
-    margin: 0 0 15px;
-    min-height: auto;
-  }
-  .invester-section-3 h2 {
-    font-size: 42px;
-    line-height: normal;
-  }
+
   .invester-section-5 {
-    padding-bottom: 25px;
+    padding: 50px 0;
   }
+
+  .invester-section-5 h4 {
+    color: #111820;
+    font-size: 20px;
+    margin: 0 0 15px;
+  }
+
+  .invester-section-5 .for-marg-1 {
+    margin: 0 -1%;
+  }
+
   .invester-section-5 .lgoes-bx {
-    width: calc(50% - 2%);
+    width: 12.28571%;
+    margin: 10px 1%;
+    height: 100px;
   }
-}
+
+  .invester-section-5 .lgoes-bx img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .invester-section-1 h1 {
+      font-size: 42px;
+      line-height: normal;
+    }
+
+    .invester-section-1 .text-orange {
+      font-size: 22px;
+      line-height: normal;
+    }
+
+    .invester-section-1 {
+      padding-bottom: 15px;
+    }
+
+    .sec1-boxes .img-fluid {
+      position: relative;
+    }
+
+    .sec1-boxes .sec1-description {
+      width: 100%;
+      background: #f7f7f7;
+      padding: 25px;
+    }
+
+    .sec1-boxes h3 {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    .sec1-boxes p {
+      font-size: 14px;
+      line-height: normal;
+    }
+
+    .invester-section-2 {
+      padding-bottom: 25px;
+    }
+
+    .sec2-boxes {
+      flex-direction: column;
+    }
+
+    .sec2-boxes .sec2-inner-box {
+      flex: 0 0 100%;
+      margin: 0 0 15px;
+      min-height: auto;
+    }
+
+    .invester-section-3 h2 {
+      font-size: 42px;
+      line-height: normal;
+    }
+
+    .invester-section-5 {
+      padding-bottom: 25px;
+    }
+
+    .invester-section-5 .lgoes-bx {
+      width: calc(50% - 2%);
+    }
+  }
+
 </style>

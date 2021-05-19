@@ -5,6 +5,57 @@ Vue.prototype.$actualidadData = {
     articles: [
       {
         id: 1,
+        slug: 'Cultivarte-Transformando-el-tiempo-libre-de-miles-de-niños-colombianos',
+        imgURL: '/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg',
+        date: '1 - Septiembre - 2020',
+        title: 'Cultivarte: Transformando el tiempo libre de miles de niños colombianos',
+        shortDescription:
+          'Cultivarte un programa de la Fundación Bolívar Davivienda nace para potenciar el desarrollo de talento de niños y jóvenes, creando espacios seguros, de conocimiento científico, arte, cultura y recreación, como medios de apoyo a la educación, que trascienden al buen uso del tiempo libre de una manera constructiva. Esta iniciativa es el resultado de una estrecha unión con las alcaldías locales, instituciones educativas y comunidades de más de 80 municipios del país',
+        description: [
+          {
+            title: 'Cultivarte: Transformando el tiempo libre de miles de niños colombianos',
+            text:
+              'Por: Valentín Castellanos Mora' +
+
+              'José tiene 13 años y vive en Tumaco, Nariño con sus papás y sus 6 hermanos. Asiste todos los días al colegio y sueña con ser abogado algún día.  Pero la vida de José no es como la de cualquier niño; ha crecido en medio de un contexto donde él, al igual que miles de niños más se exponen constantemente a situaciones que los hacen vulnerables.<br> <br>' +
+
+
+              'En medio de estas historias nace Cultivarte, un programa de la Fundación Bolívar Davivienda que desde 2012 hasta hoy ha ayudado a cambiar la realidad de más de 220.000 niños en Colombia con una idea simple pero poderosa; transformando su tiempo libre.<br> <br>' +
+
+
+              'Los espacios Cultivarte, que están distribuidos en más 80 sedes en Colombia y 6 en Centroamérica, han recibido a miles de niños y adolescentes que prefieren invertir su tiempo libre en talleres de lectura, arte, cultura, tecnología y educación financiera. Hoy, aunque las sedes están temporalmente cerradas por la coyuntura de la pandemia, el programa sigue acompañando el desarrollo de talento de estos niños, buscando nuevas alternativas para continuar con su aprendizaje.<br> <br>' +
+
+
+              'Cultivarte busca garantizar una formación basada en el afecto y en la co-creación de arte y cultura, convirtiéndose en una oportunidad fundamental para la generación de posibilidades en comunidades y contextos vulnerables”, Steve Pedraza, neuropsicólogo y psicoterapeuta colombiano.<br> <br>' +
+
+
+              'Los espacios Cultivarte, que han sido el resultado de una estrecha unión con alcaldías locales, instituciones educativas y comunidades de diferentes municipios del país, son también generadores de oportunidades de trabajo para sus habitantes, siendo ellos los que acompañan el proceso de los niños y jóvenes, utilizando innovadoras metodologías lúdicas y formativas, que se complementan con el firme propósito de ayudarles a transformar su realidad.<br> <br>',
+
+
+              
+            images: [],
+            video: '',
+          },
+
+        ],
+        time: '4 minutos',
+        tags: [
+          {
+            title: 'Categoría',
+            url: 'javascript:void(0)',
+          },
+          {
+            title: '#EmpredePais',
+            url: 'javascript:void(0)',
+          },
+          {
+            title: '#Trabajo',
+            url: 'javascript:void(0)',
+          },
+        ],
+      },
+      {
+        id: 2,
         slug: 'como-liderar-nuevas-generaciones',
         imgURL: '/images/seccion-actualidad/articulos/como-liderar-nuevas-generaciones.jpeg',
         date: '1 - Septiembre - 2020',
@@ -55,7 +106,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 2,
+        id: 3,
         slug: 'aprenda-como-conseguir-recursos-para-una-fundacion-social',
         imgURL: '/images/seccion-actualidad/articulos/aprenda_como_conseguir_recursos_para_fundacion.png',
         date: '16 - Enero - 2020',
@@ -125,7 +176,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 3,
+        id: 4,
         slug: 'consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa',
         imgURL: '/images/seccion-actualidad/articulos/consejos-para-elegir-nombre-empresa.png',
         date: '16 - Enero - 2020',
@@ -208,7 +259,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 4,
+        id: 5,
         slug: 'las-10-obras-de-musica-clasica-mas-importantes-del-mundo',
         imgURL: '/images/seccion-actualidad/articulos/las-10-obras-de-musica-clasica-mas-importantes.jpeg',
         date: '12 - Octubre - 2018',
@@ -416,7 +467,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 5,
+        id: 6,
         slug: 'empresarios-colombianos',
         imgURL: '/images/seccion-actualidad/articulos/empresarios_colombianos.jpg',
         date: '1 - Octubre - 2018',
@@ -454,7 +505,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 6,
+        id: 7,
         slug: 'la-consagracion-de-la-primavera',
         imgURL: '/images/seccion-actualidad/articulos/consagracion_primavera.jpg',
         date: '27 - Julio - 2018',
@@ -490,7 +541,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 7,
+        id: 8,
         slug: 'cuales-deben-ser-los-principios-basicos-de-una-organizacion-social',
         imgURL: '/images/seccion-actualidad/articulos/cuales-deben-ser-los-principios-basicos.jpeg',
         date: '20 - enero - 2018',
@@ -539,7 +590,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 8,
+        id: 9,
         slug: 'la-diferencia-entre-una-orquesta-filarmonica-y-una-orquesta-sinfonica',
         imgURL: '/images/seccion-actualidad/articulos/diferencia_sinfonica_filarmonica.jpeg',
         date: '31 - Enero - 2018',
@@ -581,7 +632,7 @@ Vue.prototype.$actualidadData = {
         ],
       },
       {
-        id: 9,
+        id: 10,
         slug: 'internet-org-la-fundacion-de-facebook-que-brinda-acceso-gratis-a-la-web',
         imgURL: '/images/seccion-actualidad/articulos/internetorg_la_fundacion_de_facebook.png',
         date: '19 - septiembre - 2016',

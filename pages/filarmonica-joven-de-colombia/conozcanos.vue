@@ -125,6 +125,7 @@
               </div>
             </div>
           </div>
+          <!--
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
@@ -138,7 +139,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
 
         <div class="nd-three-bex-sm margin-0-auto com-stu d-flex flex-wrap-767">
           <div class="sigl-bx">

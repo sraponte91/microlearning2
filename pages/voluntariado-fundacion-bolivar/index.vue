@@ -54,6 +54,11 @@
             class="linkse text-center"
             >Inscripciones</NuxtLink
           >
+          <NuxtLink
+            to="/voluntariado-fundacion-bolivar/inscripciones"
+            class="linkse text-center"
+            >Iniciar Sesión</NuxtLink
+          >
         </div>
       </div>
     </section>

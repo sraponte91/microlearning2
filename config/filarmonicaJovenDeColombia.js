@@ -22,10 +22,10 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
       {
         title: 'Jumana Pallares, Violinista y voluntaria en #LaJoven Creando Lazos ',
         description:
-          'Siento que es un aporte a mi vida personal y profesional. Cuando #LaJoven nos da la oportunidad de ser mentores de los jóvenes y niños del país, nos encontramos con niños muy talentosos, llenos de energía y un carisma increíble, que es inevitable aprender de ellos, es un conocimiento y un aprendizaje mutuo',
+          'Cuando vemos la cultura, la gente y todas las regiones pienso en la unión que creando lazos está logrando. El impacto social es la unión entre tantos jóvenes.',
       },
       {
-        title: 'JDaniel González - Trombón, Músico temporada 2020 ',
+        title: 'Daniel González - Trombón, Músico temporada 2020 ',
         description:
           'Sin duda alguna nos han abierto a nuevas posibilidades que el músico del ahora, realmente necesita',
       },
@@ -40,7 +40,7 @@ Vue.prototype.$filarmonicaJovenDeColombiaData = {
     },
   },
   filarmonicaJovenDeColombiaDesarrollamosTalento: {
-    seguirEnlaceLink: 'javascript:void(0)',
+    seguirEnlaceLink: '/lideres-emprendedores/',
     meta: {
       title: 'Filarmónica joven de colombia',
       metaTitle: 'Filarmónica joven de colombia',

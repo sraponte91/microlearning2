@@ -228,8 +228,8 @@
               <p>
                 De esta manera, buscamos brindarles a sus poblaciones, espacios seguros en los que puedan pasar sus ratos libres de manera constructiva y segura, y alejándose de riesgos sociales. Así buscamos fortalecer el vínculo de los beneficiarios con la alta calidad educacional, y así, potenciar sus competencias. Iniciamos primero con operaciones en dos sedes, que fueron en Anserma (Caldas) y Pacho (Cundinamarca), y en la actualidad contamos con más de 80 distribuidas en toda Colombia y varios países de Centroamérica.
               </p>
-              <p></p>
-              “La educación es el pasaporte para el futuro, porque el mañana pertenece a quienes se preparan hoy.” - El-Hajj Malik El-Shabazz (Malcom X).
+              <p><i>
+              “La educación es el pasaporte para el futuro, porque el mañana pertenece a quienes se preparan hoy.” - El-Hajj Malik El-Shabazz (Malcom X).</i>
               </p>
             </div>
           </div>
@@ -252,8 +252,8 @@
                 los beneficiarios convertirse en seres integrales, desarrollando significativamente sus talentos, a
                 través del tiempo libre.
               </p>
-              <p>
-                “El mundo pertenece a quienes creen en la belleza de sus sueños.” - Eleanor Roosevelt
+              <p><i>
+                “El mundo pertenece a quienes creen en la belleza de sus sueños.” - Eleanor Roosevelt</i>
               </p>
             </div>
           </div>

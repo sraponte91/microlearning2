@@ -49,7 +49,7 @@
             <div class="zona-img">
               <img :src="item.image" alt="" />
             </div>
-            <a :href="item.detailUrl target":"_blank">Ver más</a>
+            <a :href="item.detailUrl" target="blank">Ver más</a>
           </div>
         </div>
         <!-- <div class="page-btn">

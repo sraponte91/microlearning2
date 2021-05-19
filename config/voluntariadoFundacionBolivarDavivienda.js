@@ -34,7 +34,7 @@ Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
         title:
           'Vania Bautista - Voluntaria Davivienda ',
         description:
-          'Entre al voluntariado por unos amigos. Uno veía que eran muy serviciales, en general buenas personas y yo dije ¡Hey yo quiero eso',
+          'Entre al voluntariado por unos amigos. Uno veía que eran muy serviciales, en general buenas personas y yo dije ¡Hey yo quiero eso!',
       },
     ],
     meta: {
@@ -57,8 +57,8 @@ Vue.prototype.$voluntariadoFundacionBolivarDaviviendaData = {
     },
   },
   voluntariadoFundacionBolivarDaviviendaInscripciones: {
-    reglamentoLink: 'javascript:void(0)',
-    inscribaseLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
+    reglamentoLink: '/legales/Footer_Reglamento_Inscripciones_Programas.pdf',
+    inscribaseLink: '',
     meta: {
       title: 'Voluntariado fundación Bolivar',
       metaTitle: 'Voluntariado fundación Bolivar',

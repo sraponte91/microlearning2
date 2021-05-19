@@ -29,7 +29,13 @@
                 </p>
               </div>
             </div>
-            <b-btn variant="primary">Inscríbase aquí</b-btn>
+            <b-btn variant="primary"> <a
+              :href="
+                $constants.escuelaDeDirectoresLanding.inscribaseLink
+              "
+              class="btn-tell-more"
+              >Inscríbase Aquí</a
+            ></b-btn>
           </div>
         </div>
       </div>
@@ -39,7 +45,7 @@
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <h2 class="ff-sans-b">Nuestros expertos</h2>
-            <b-img src="/images/director-expert.jpg" fluid alt=""></b-img>
+            <b-img src="/pdf/Escuela_de_Directores_Perfiles_Docentes.pdf" fluid alt=""></b-img>
             <b-btn variant="primary">Conozca más</b-btn>
           </div>
         </div>
