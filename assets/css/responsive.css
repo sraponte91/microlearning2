@@ -291,6 +291,15 @@
   .requi-detail p.sub {
     padding: 35px 0;
   }
+  .sub-new{
+    
+    font-size: 21px;
+    color: #313338;
+    line-height: 30px;
+    text-align: center;
+   
+    
+  }
   .pm-services {
     flex-wrap: wrap;
   }

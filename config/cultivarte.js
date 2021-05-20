@@ -727,7 +727,7 @@ Vue.prototype.$cultivarteData = {
         detailUrl: 'http://www.seguropolis.co/',
       },
       {
-        title: 'MONETARIUM EL UNIVERSO DE LOS NIÑOS',
+        title: 'MONETARIUM ',
         image: '/images/programa-cultivarte/4-zona-ludica/logos_plataformas/zl_Logos-AeF-Monetarium.png',
         detailUrl: 'https://monetarium.co/',
       },

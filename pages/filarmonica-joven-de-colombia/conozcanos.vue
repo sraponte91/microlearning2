@@ -125,11 +125,11 @@
               </div>
             </div>
           </div>
-          <!--
+          
           <div class="sigl-bx">
             <div class="d-flex">
               <i class="icon">
-               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/nota-musical.png" style="img-fluid" alt="">
+               <img src="/images/programa-filarmonica-joven/2-conozcanos/iconos-cifras/boleto.png" style="img-fluid" alt="">
               </i>
               <div class="tx-i">
                 <h4 class="ff-sans-b">
@@ -138,7 +138,7 @@
                 <p class="ff-nunito">Giras nacionales en 26 ciudades</p>
               </div>
             </div>
-          </div>-->
+          </div>
         </div>
 
         <div class="nd-three-bex-sm margin-0-auto com-stu d-flex flex-wrap-767">

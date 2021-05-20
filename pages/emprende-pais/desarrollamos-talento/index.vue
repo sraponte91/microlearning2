@@ -88,13 +88,13 @@
                 <h3 class="ff-sans-b">Nuestros mentores</h3>
                 <p>
                   Los emprendedores pueden contar con un comité de mentores conformado por:</p>
-                  <p>
+                <p>
 
                   Mentores padrinos, son los altos ejecutivos de las empresas del Grupo Bolívar y empresarios exitosos,
                   que tienen la capacidad de analizar el negocio del emprendedor desde una perspectiva general, para
                   entender la profundidad de su negocio y priorizar sus necesidades, dando acompañamiento al plan
                   estratégico empresarial.</p>
-                  <p>
+                <p>
 
                   Mentores expertos son líderes de las empresas del Grupo Bolívar que acompañan, guían y retan a los
                   empresarios en un tema específico a trabajar, para facilitar la implementación del plan definido con
@@ -132,7 +132,7 @@
         </div>
       </div>
     </section>
-<!---
+    <!---
     <section class="educational-training position-relative after-po">
       <img
         src="/images/programa-emprende-pais/3-desarrollamos-talento/desarrollamostalento_bloque5_destacado_trabamos_por.jpg"
@@ -208,10 +208,8 @@
                     Convocatoria y selección de empresas
                   </h2>
                   <p>
-                    Buscamos y seleccionamos empresas en Colombia, con alto
-                    potencial de crecimiento para acompañarlas durante 1 año con
-                    consultorías empresariales a través de una ruta de
-                    crecimiento.
+                    Buscamos y seleccionamos empresas en Colombia, con alto potencial de crecimiento para acompañarlas
+                    durante 8 meses con consultorías empresariales a través de una ruta de crecimiento.
                   </p>
                 </div>
               </div>

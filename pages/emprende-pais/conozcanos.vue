@@ -326,21 +326,42 @@
         </div>
       </div>
     </section>
-<!--
+
     <section class="wid-support-of bg-white">
       <div class="container">
         <div class="two-row-l">
           <h4 class="ff-sans-b">Con el apoyo de:</h4>
           <div class="d-flex flex-wrap for-marg-1">
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-emprende-pais/2-conozcanos/apoyo/CESA_horiz.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
               ></a>
             </div>
             <div class="lgoes-bx d-flex align-items-center position-relative">
-              <img src="/images/gell_logo.svg" alt="" />
+              <img src="/images/programa-emprende-pais/2-conozcanos/apoyo/logos_ Rockstart_Impact-03.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-emprende-pais/2-conozcanos/apoyo/alianza_valleimpacta.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_eit.png" alt="" />
+              <a
+                href="javascript:void(0)"
+                class="position-absolute full-box-link"
+              ></a>
+            </div>
+            <div class="lgoes-bx d-flex align-items-center position-relative">
+              <img src="/images/programa-emprende-pais/2-conozcanos/proyectos-en-alianza-logos/alianza_oxelerator.png" alt="" />
               <a
                 href="javascript:void(0)"
                 class="position-absolute full-box-link"
@@ -350,7 +371,7 @@
         </div>
       </div>
     </section>
-    -->
+  
   </main>
 </template>
 <script>
